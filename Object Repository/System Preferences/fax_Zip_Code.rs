@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>fax_Zip_Code</name>
+   <tag></tag>
+   <elementGuidId>56826115-6e4c-4e1f-ab9a-e8052e4c0dbe</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='text'])[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>vm.model.faxPrefix</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control ng-pristine ng-valid ng-not-empty k-valid ng-touched</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;configview&quot;)/div[@class=&quot;flx-aut flx-on flx-clmn ng-scope&quot;]/div[@class=&quot;flx-aut flx-on flx-clmn ng-scope&quot;]/div[@class=&quot;flx-aut flx-on flx-clmn mrg-fix-3 ng-scope&quot;]/div[@class=&quot;row no-gutter flx-aut flx-on flx-row&quot;]/ng-form[@class=&quot;flx-aut flx-on flx-clmn ng-pristine ng-valid&quot;]/div[@class=&quot;tab-content-inner flx-on flx-clmn flx-aut x-content-3 ovr-auto x-no-mrg-pad re-gutter pad-20 ng-scope&quot;]/ng-form[@class=&quot;flx-on flx-clmn flx-aut ng-pristine ng-valid ng-scope&quot;]/div[@class=&quot;flx-aut flx-on flx-row row setting-block&quot;]/div[@class=&quot;flx-on flx-clmn flx-non col-sm-7&quot;]/div[@class=&quot;row no-gutter form-group mrg-b-6&quot;]/div[@class=&quot;col-sm-7 col-lg-8&quot;]/input[@class=&quot;form-control ng-pristine ng-valid ng-not-empty k-valid ng-touched&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <value>(//input[@type='text'])[3]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//div[@id='configview']/div/div/div[3]/div/ng-form/div/ng-form/div/div/div[2]/div/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='קידומת'])[1]/following::input[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='הגדרות שליחת פקסים'])[1]/following::input[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='סיומת'])[1]/preceding::input[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='תצוגה מקדימה'])[1]/preceding::input[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//ng-form/div/div/div[2]/div/input</value>
+   </webElementXpaths>
+</WebElementEntity>
