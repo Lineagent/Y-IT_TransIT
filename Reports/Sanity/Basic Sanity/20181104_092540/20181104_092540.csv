@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Basic Sanity,Chrome 70.0.3538.77,,2018-11-04 09:25:43,2018-11-04 09:26:19,36.762s,FAILED
+,,,,,,
+Test Cases/Basic/Log In,Chrome 70.0.3538.77,,2018-11-04 09:25:43,2018-11-04 09:25:57,14.017s,PASSED
+logIn.c_logIn.logIn,Chrome 70.0.3538.77,,2018-11-04 09:25:44,2018-11-04 09:25:56,12.547s,PASSED
+closeBrowser,Chrome 70.0.3538.77,,2018-11-04 09:25:56,2018-11-04 09:25:57,0.755s,PASSED
+,,,,,,
+Test Cases/Basic/Config Change,Chrome 70.0.3538.77,,2018-11-04 09:25:57,2018-11-04 09:26:18,21.246s,FAILED
+Statement - randomNumber = java.lang.Math.round(java.lang.Math.random() * 1000).toString(),Chrome 70.0.3538.77,,2018-11-04 09:25:58,2018-11-04 09:25:58,0.018s,PASSED
+logIn.c_logIn.logIn,Chrome 70.0.3538.77,,2018-11-04 09:25:58,2018-11-04 09:26:07,9.317s,PASSED
+waitForElementPresent,Chrome 70.0.3538.77,,2018-11-04 09:26:07,2018-11-04 09:26:09,2.130s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-04 09:26:09,2018-11-04 09:26:10,1.022s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-04 09:26:10,2018-11-04 09:26:11,0.725s,PASSED
+Statement - Try,Chrome 70.0.3538.77,,2018-11-04 09:26:11,2018-11-04 09:26:11,0.211s,PASSED
+waitForElementClickable,Chrome 70.0.3538.77,,2018-11-04 09:26:11,2018-11-04 09:26:12,0.719s,PASSED
+setText,Chrome 70.0.3538.77,,2018-11-04 09:26:12,2018-11-04 09:26:12,0.171s,PASSED
+Statement - checkValue = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(System Preferences/fax_Zip_Code)),Chrome 70.0.3538.77,,2018-11-04 09:26:12,2018-11-04 09:26:12,0.109s,PASSED
+Statement - i = 0,Chrome 70.0.3538.77,,2018-11-04 09:26:12,2018-11-04 09:26:12,0.001s,PASSED
+Statement - While (checkValue && i < 5),Chrome 70.0.3538.77,,2018-11-04 09:26:12,2018-11-04 09:26:12,0.001s,PASSED
+setText,Chrome 70.0.3538.77,,2018-11-04 09:26:12,2018-11-04 09:26:12,0.159s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-04 09:26:12,2018-11-04 09:26:13,1.002s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-04 09:26:13,2018-11-04 09:26:13,0.158s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-04 09:26:13,2018-11-04 09:26:14,1.002s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-04 09:26:14,2018-11-04 09:26:15,0.222s,PASSED
+delay,Chrome 70.0.3538.77,,2018-11-04 09:26:15,2018-11-04 09:26:16,1.002s,PASSED
+click,Chrome 70.0.3538.77,,2018-11-04 09:26:16,2018-11-04 09:26:16,0.095s,PASSED
+Statement - Try,Chrome 70.0.3538.77,,2018-11-04 09:26:16,2018-11-04 09:26:16,0.784s,PASSED
+waitForElementClickable,Chrome 70.0.3538.77,,2018-11-04 09:26:16,2018-11-04 09:26:17,0.123s,PASSED
+verifyElementAttributeValue,Chrome 70.0.3538.77,,2018-11-04 09:26:17,2018-11-04 09:26:18,1.925s,FAILED

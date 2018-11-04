@@ -7,6 +7,16 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'http://local.yit.co.il'</initValue>
-      <name>local</name>
+      <name>site</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'admin'</initValue>
+      <name>userName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'9wwwy+yAouiJKpUPQ8CK+g=='</initValue>
+      <name>userPass</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

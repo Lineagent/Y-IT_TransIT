@@ -7,6 +7,16 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://aws_test.y-it.co.il'</initValue>
-      <name>aws</name>
+      <name>site</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'admin'</initValue>
+      <name>userName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'9wwwy+yAouiJKpUPQ8CK+g=='</initValue>
+      <name>userPass</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

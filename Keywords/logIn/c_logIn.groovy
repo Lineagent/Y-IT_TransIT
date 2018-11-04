@@ -18,26 +18,26 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable
 
 public class c_logIn {
-	
-	private String  site = 'https://aws_test.y-it.co.il/#/login'
-	
+
+	private String site = 'https://aws_test.y-it.co.il/#/login'
+	private String userName = 'admin'
+	private String userPass = '9wwwy+yAouiJKpUPQ8CK+g=='
+
 	@Keyword
-	def logIn(String site) {
-		
-		if (site) {
-			this.site = site
-		}
-		
+	def logIn(String site, String userName, String userPass) {
+
+		if (site) {this.site = site}
+		if (userName) {this.userName = userName}	
+		if (userPass) {this.userPass = userPass}
+
 		WebUI.openBrowser(this.site)
 
 		WebUI.maximizeWindow()
 
-		WebUI.setText(findTestObject('Y-IT Log In/input_ _userName'), 'admin')
+		WebUI.setText(findTestObject('Y-IT Log In/input_ _userName'), this.userName)
 
-		WebUI.setEncryptedText(findTestObject('Y-IT Log In/input_ _password'), '9wwwy+yAouiJKpUPQ8CK+g==')
+		WebUI.setEncryptedText(findTestObject('Y-IT Log In/input_ _password'), this.userPass)
 
 		WebUI.click(findTestObject('Y-IT Log In/input_  _submit'))
 	}
-	
-
 }
