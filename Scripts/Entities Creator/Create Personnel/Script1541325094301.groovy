@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 String nowStr = CustomKeywords.'newDate.c_nowStr.getNowStr'()
 
-CustomKeywords.'logIn.c_logIn.logIn'(GlobalVariable.site, GlobalVariable.userName, GlobalVariable.userPass)
+CustomKeywords.'logIn.LogIn.logIn'(GlobalVariable.site, GlobalVariable.userName, GlobalVariable.userPass)
 
 WebUI.waitForElementPresent(findTestObject('Nav Bar/catalogues'), 15, FailureHandling.CONTINUE_ON_FAILURE)
 

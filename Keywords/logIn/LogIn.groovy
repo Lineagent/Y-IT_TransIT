@@ -17,7 +17,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import internal.GlobalVariable
 
-public class c_logIn {
+public class LogIn {
 
 	private String site = 'https://aws_test.y-it.co.il/#/login'
 	private String userName = 'admin'

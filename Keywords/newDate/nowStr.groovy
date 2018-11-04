@@ -27,11 +27,11 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
 public class c_nowStr {
-	
+
 	DateFormat df = new SimpleDateFormat("yyyyMMddHHmmss")
 	Date now = Calendar.getInstance().getTime()
 	String nowStr = df.format(now)
-	
+
 	@Keyword
 	def public String getNowStr() {
 		return nowStr
