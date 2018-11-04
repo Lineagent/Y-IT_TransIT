@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Basic Sanity" time="50" tests="2" failures="0" errors="0">
+   <testsuite name="Basic Sanity" tests="2" failures="0" errors="0" time="50" timestamp="2018-11-04 13:28:07" hostname="leon.b - QA-PC.Y-it.Local" id="Test Suites/Sanity/Basic Sanity">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\leon.b\\Katalon Studio\\Y-IT_TransIT\\Reports\\Sanity\\Basic Sanity\\20181104_132805"/>
+         <property name="logFiles" value="C:\\Users\\leon.b\\Katalon Studio\\Y-IT_TransIT\\Reports\\Sanity\\Basic Sanity\\20181104_132805\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="leon.b - QA-PC.Y-it.Local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.4.14"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="192.168.1.145"/>
+         <property name="sessionId" value="f1f220d9e4faf2c5fae82e3d4707189c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Basic/Log In" classname="Test Cases/Basic/Log In" status="PASSED">
+         <system-out><![CDATA[2018-11-04 13:28:08 - [TEST_CASE][PASSED] - Test Cases/Basic/Log In: Test Cases/Basic/Log In
+
+2018-11-04 13:28:08 - [TEST_STEP][PASSED] - logIn.c_logIn.logIn: logIn.c_logIn.logIn is PASSED
+
+2018-11-04 13:28:18 - [MESSAGE][PASSED] - Browser is opened with url: 'https://aws_test.y-it.co.il'
+
+2018-11-04 13:28:19 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-04 13:28:19 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Y-IT Log In/input_ _userName'
+
+2018-11-04 13:28:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Y-IT Log In/input_ _password'
+
+2018-11-04 13:28:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Y-IT Log In/input_  _submit' is clicked on
+
+2018-11-04 13:28:19 - [MESSAGE][PASSED] - logIn.c_logIn.logIn is PASSED
+
+2018-11-04 13:28:19 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Nav Bar/catalogues' is present
+
+2018-11-04 13:28:22 - [MESSAGE][PASSED] - Object 'Object Repository/Nav Bar/catalogues' is present
+
+2018-11-04 13:28:22 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-04 13:28:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-04 13:28:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Nav Bar/catalogues' is clicked on
+
+2018-11-04 13:28:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav Bar/catalogues' is clicked on
+
+2018-11-04 13:28:23 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-04 13:28:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-04 13:28:24 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-04 13:28:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Basic/Config Change" classname="Test Cases/Basic/Config Change" status="PASSED">
+         <system-out><![CDATA[2018-11-04 13:28:25 - [TEST_CASE][PASSED] - Test Cases/Basic/Config Change: Test Cases/Basic/Config Change
+
+2018-11-04 13:28:25 - [TEST_STEP][PASSED] - Statement - randomNumber = java.lang.Math.round(java.lang.Math.random() * 1000).toString(): null
+
+2018-11-04 13:28:25 - [TEST_STEP][PASSED] - logIn.c_logIn.logIn: logIn.c_logIn.logIn is PASSED
+
+2018-11-04 13:28:40 - [MESSAGE][PASSED] - Browser is opened with url: 'https://aws_test.y-it.co.il'
+
+2018-11-04 13:28:41 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-04 13:28:41 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Y-IT Log In/input_ _userName'
+
+2018-11-04 13:28:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Y-IT Log In/input_ _password'
+
+2018-11-04 13:28:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Y-IT Log In/input_  _submit' is clicked on
+
+2018-11-04 13:28:42 - [MESSAGE][PASSED] - logIn.c_logIn.logIn is PASSED
+
+2018-11-04 13:28:42 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/Nav Bar/settings' is present
+
+2018-11-04 13:28:43 - [MESSAGE][PASSED] - Object 'Object Repository/Nav Bar/settings' is present
+
+2018-11-04 13:28:43 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-04 13:28:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-04 13:28:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Nav Bar/settings' is clicked on
+
+2018-11-04 13:28:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav Bar/settings' is clicked on
+
+2018-11-04 13:28:45 - [TEST_STEP][PASSED] - Statement - Try: Object: 'Object Repository/Nav Bar/Nav Bar Settings/system Preferences' is clicked on
+
+2018-11-04 13:28:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Nav Bar/Nav Bar Settings/system Preferences' is clicked on
+
+2018-11-04 13:28:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav Bar/Nav Bar Settings/system Preferences' is clicked on
+
+2018-11-04 13:28:45 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/System Preferences/System/General/fax_Zip_Code' is clickable
+
+2018-11-04 13:28:45 - [MESSAGE][PASSED] - Object 'Object Repository/System Preferences/System/General/fax_Zip_Code' is clickable
+
+2018-11-04 13:28:45 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/System Preferences/System/General/fax_Zip_Code'
+
+2018-11-04 13:28:46 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/System Preferences/System/General/fax_Zip_Code'
+
+2018-11-04 13:28:46 - [TEST_STEP][PASSED] - Statement - checkValue = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(System Preferences/System/General/fax_Zip_Code)): Text of object 'Object Repository/System Preferences/System/General/fax_Zip_Code' is: ''
+
+2018-11-04 13:28:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/System Preferences/System/General/fax_Zip_Code' is: ''
+
+2018-11-04 13:28:46 - [TEST_STEP][PASSED] - Statement - i = 0: null
+
+2018-11-04 13:28:46 - [TEST_STEP][PASSED] - Statement - While (checkValue && i < 5): null
+
+2018-11-04 13:28:46 - [TEST_STEP][PASSED] - setText: Text '899' is set on object 'Object Repository/System Preferences/System/General/fax_Zip_Code'
+
+2018-11-04 13:28:46 - [MESSAGE][PASSED] - Text '899' is set on object 'Object Repository/System Preferences/System/General/fax_Zip_Code'
+
+2018-11-04 13:28:46 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-04 13:28:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-04 13:28:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/System Preferences/System/General/settings Save' is clicked on
+
+2018-11-04 13:28:47 - [MESSAGE][PASSED] - Object: 'Object Repository/System Preferences/System/General/settings Save' is clicked on
+
+2018-11-04 13:28:47 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-04 13:28:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-04 13:28:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/System Preferences/System/General/settings Close' is clicked on
+
+2018-11-04 13:28:48 - [MESSAGE][PASSED] - Object: 'Object Repository/System Preferences/System/General/settings Close' is clicked on
+
+2018-11-04 13:28:48 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-04 13:28:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-04 13:28:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Nav Bar/settings' is clicked on
+
+2018-11-04 13:28:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav Bar/settings' is clicked on
+
+2018-11-04 13:28:49 - [TEST_STEP][PASSED] - Statement - Try: Object: 'Object Repository/Nav Bar/Nav Bar Settings/system Preferences' is clicked on
+
+2018-11-04 13:28:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Nav Bar/Nav Bar Settings/system Preferences' is clicked on
+
+2018-11-04 13:28:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav Bar/Nav Bar Settings/system Preferences' is clicked on
+
+2018-11-04 13:28:50 - [TEST_STEP][PASSED] - waitForElementClickable: Object 'Object Repository/System Preferences/System/General/fax_Zip_Code' is clickable
+
+2018-11-04 13:28:50 - [MESSAGE][PASSED] - Object 'Object Repository/System Preferences/System/General/fax_Zip_Code' is clickable
+
+2018-11-04 13:28:50 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-04 13:28:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-04 13:28:51 - [TEST_STEP][PASSED] - verifyElementAttributeValue: Object 'Object Repository/System Preferences/System/General/fax_Zip_Code' has attribute 'value' with value '899'
+
+2018-11-04 13:28:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '15'
+
+2018-11-04 13:28:51 - [MESSAGE][PASSED] - Object 'Object Repository/System Preferences/System/General/fax_Zip_Code' has attribute 'value' with value '899'
+
+2018-11-04 13:28:51 - [TEST_STEP][PASSED] - delay: Delayed 1 second(s)
+
+2018-11-04 13:28:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-11-04 13:28:52 - [TEST_STEP][PASSED] - executeJavaScript: Execute JavaScript 'alert(`Fax zip code containes: ` + arguments[0])' successfully
+
+2018-11-04 13:28:52 - [MESSAGE][PASSED] - Execute JavaScript 'alert(`Fax zip code containes: ` + arguments[0])' successfully
+
+2018-11-04 13:28:52 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-04 13:28:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-04 13:28:57 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-11-04 13:28:57 - [MESSAGE][PASSED] - Alert accepted
+
+2018-11-04 13:28:57 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-11-04 13:28:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-04 13:28:07 - [TEST_SUITE][PASSED] - Basic Sanity: Test Cases/Basic/Config Change]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

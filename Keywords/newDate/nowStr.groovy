@@ -1,4 +1,5 @@
-package logIn
+package newDate
+
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -17,33 +18,22 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import internal.GlobalVariable
 
-public class c_logIn {
+import java.util.Date
+import java.util.Locale
+import java.util.Calendar
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
-	private String site = 'https://aws_test.y-it.co.il/#/login'
-	private String userName = 'admin'
-	private String userPass = '9wwwy+yAouiJKpUPQ8CK+g=='
-
+public class c_nowStr {
+	
+	DateFormat df = new SimpleDateFormat("yyyyMMddHHmmss")
+	Date now = Calendar.getInstance().getTime()
+	String nowStr = df.format(now)
+	
 	@Keyword
-	def logIn(String site, String userName, String userPass) {
-
-		if (site) {
-			this.site = site
-		}
-		if (userName) {
-			this.userName = userName
-		}
-		if (userPass) {
-			this.userPass = userPass
-		}
-
-		WebUI.openBrowser(this.site)
-
-		WebUI.maximizeWindow()
-
-		WebUI.setText(findTestObject('Y-IT Log In/input_ _userName'), this.userName)
-
-		WebUI.setEncryptedText(findTestObject('Y-IT Log In/input_ _password'), this.userPass)
-
-		WebUI.click(findTestObject('Y-IT Log In/input_  _submit'))
+	def public String getNowStr() {
+		return nowStr
 	}
 }

@@ -24,58 +24,58 @@ WebUI.delay(1)
 WebUI.click(findTestObject('Nav Bar/settings'))
 
 try {
-    WebUI.click(findTestObject('Nav Bar Settings/system Preferences'))
+    WebUI.click(findTestObject('Nav Bar/Nav Bar Settings/system Preferences'))
 }
 catch (def e) {
     WebUI.click(findTestObject('Nav Bar/settings'))
 
-    WebUI.click(findTestObject('Nav Bar Settings/system Preferences'))
+    WebUI.click(findTestObject('Nav Bar/Nav Bar Settings/system Preferences'))
 } 
 
-WebUI.waitForElementClickable(findTestObject('System Preferences/fax_Zip_Code'), 5, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.waitForElementClickable(findTestObject('System Preferences/System/General/fax_Zip_Code'), 5, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('System Preferences/fax_Zip_Code'), '')
+WebUI.setText(findTestObject('System Preferences/System/General/fax_Zip_Code'), '')
 
-String checkValue = WebUI.getText(findTestObject('System Preferences/fax_Zip_Code'))
+String checkValue = WebUI.getText(findTestObject('System Preferences/System/General/fax_Zip_Code'))
 
 int i = 0
 
 while (checkValue && (i < 5)) {
-    WebUI.setText(findTestObject('System Preferences/fax_Zip_Code'), '')
+    WebUI.setText(findTestObject('System Preferences/System/General/fax_Zip_Code'), '')
 
-    checkValue = WebUI.getText(findTestObject('System Preferences/fax_Zip_Code'))
+    checkValue = WebUI.getText(findTestObject('System Preferences/System/General/fax_Zip_Code'))
 
     i++
 }
 
-WebUI.setText(findTestObject('System Preferences/fax_Zip_Code'), randomNumber)
+WebUI.setText(findTestObject('System Preferences/System/General/fax_Zip_Code'), randomNumber)
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('System Preferences/settings Save'))
+WebUI.click(findTestObject('System Preferences/System/General/settings Save'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('System Preferences/settings Close'))
+WebUI.click(findTestObject('System Preferences/System/General/settings Close'))
 
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Nav Bar/settings'))
 
 try {
-    WebUI.click(findTestObject('Nav Bar Settings/system Preferences'))
+    WebUI.click(findTestObject('Nav Bar/Nav Bar Settings/system Preferences'))
 }
 catch (def e) {
     WebUI.click(findTestObject('Nav Bar/settings'))
 
-    WebUI.click(findTestObject('Nav Bar Settings/system Preferences'))
+    WebUI.click(findTestObject('Nav Bar/Nav Bar Settings/system Preferences'))
 } 
 
-WebUI.waitForElementClickable(findTestObject('System Preferences/fax_Zip_Code'), 5, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.waitForElementClickable(findTestObject('System Preferences/System/General/fax_Zip_Code'), 5, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.delay(1)
 
-WebUI.verifyElementAttributeValue(findTestObject('System Preferences/fax_Zip_Code'), 'value', randomNumber, 0)
+WebUI.verifyElementAttributeValue(findTestObject('System Preferences/System/General/fax_Zip_Code'), 'value', randomNumber, 0)
 
 WebUI.delay(1)
 
