@@ -1,4 +1,5 @@
-package logIn
+package login
+
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -17,8 +18,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import internal.GlobalVariable
 
-public class LogIn {
-
+public class c_login {
+	
 	private String site = 'https://aws_test.y-it.co.il/#/login'
 	private String userName = 'admin'
 	private String userPass = '9wwwy+yAouiJKpUPQ8CK+g=='

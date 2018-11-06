@@ -1,4 +1,4 @@
-package newDate
+package address
 
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -18,22 +18,42 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
 import internal.GlobalVariable
 
-import java.util.Date
-import java.util.Locale
-import java.util.Calendar
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
-
-public class c_nowStr {
-
-	DateFormat df = new SimpleDateFormat("yyyyMMddHHmmss")
-	Date now = Calendar.getInstance().getTime()
-	String nowStr = df.format(now)
-
+public class c_address {
+	
+	private String city = "רחובות"
+	private String street = "יעקב הלל"
+	private String houseNum = "6"
+	private String apartmentNum = "5"
+	private String entrance = "1"
+	private String zipCode = "123"
+	
 	@Keyword
-	def public String getNowStr() {
-		return nowStr
+	public String getCity() {
+		return city;
+	}
+	
+	@Keyword
+	public String getStreet() {
+		return street;
+	}
+	
+	@Keyword
+	public String getHouseNum() {
+		return houseNum;
+	}
+	
+	@Keyword
+	public String getApartmentNum() {
+		return apartmentNum;
+	}
+	
+	@Keyword
+	public String getEntrance() {
+		return entrance;
+	}
+	
+	@Keyword
+	public String getZipCode() {
+		return zipCode;
 	}
 }

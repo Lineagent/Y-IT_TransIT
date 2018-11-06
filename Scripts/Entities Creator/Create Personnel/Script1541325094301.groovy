@@ -12,6 +12,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 String nowStr = CustomKeywords.'newDate.c_nowStr.getNowStr'()
 
@@ -41,4 +42,18 @@ WebUI.click(findTestObject('Indexes/Personnel Index/add Personnel'))
 WebUI.setText(findTestObject('Tickets/Personnel Ticket/Details/General/first Name'), nowStr)
 
 WebUI.setText(findTestObject('Tickets/Personnel Ticket/Details/General/last Name'), 'קטלון')
+
+WebUI.setText(findTestObject('Tickets/Personnel Ticket/Details/General/city'), '')
+
+WebUI.setText(findTestObject('Tickets/Personnel Ticket/Details/General/street'), '')
+
+WebUI.setText(findTestObject('Tickets/Personnel Ticket/Details/General/house Number'), '')
+
+WebUI.setText(findTestObject('Tickets/Personnel Ticket/Details/General/entrance'), '')
+
+WebUI.setText(findTestObject('Tickets/Personnel Ticket/Details/General/apartment Number'), '')
+
+WebUI.setText(findTestObject('Tickets/Personnel Ticket/Details/General/mailbox'), '')
+
+WebUI.setText(findTestObject('Tickets/Personnel Ticket/Details/General/zip Code'), '')
 

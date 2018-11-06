@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 String randomNumber = Math.round(Math.random() * 1000).toString()
 
-CustomKeywords.'logIn.LogIn.logIn'(GlobalVariable.site, GlobalVariable.userName, GlobalVariable.userPass)
+CustomKeywords.'logIn.c_LogIn.logIn'(GlobalVariable.site, GlobalVariable.userName, GlobalVariable.userPass)
 
 WebUI.waitForElementPresent(findTestObject('Nav Bar/settings'), 15, FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -52,11 +52,11 @@ WebUI.setText(findTestObject('System Preferences/System/General/fax_Zip_Code'), 
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('System Preferences/System/General/settings Save'))
+WebUI.click(findTestObject('System Preferences/settings Save'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('System Preferences/System/General/settings Close'))
+WebUI.click(findTestObject('System Preferences/settings Close'))
 
 WebUI.delay(1)
 
