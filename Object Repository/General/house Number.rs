@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>house Number</name>
+   <tag></tag>
+   <elementGuidId>cf309da3-668d-467f-ba05-29ab928babaf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='text'])[9]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>100</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control input-28 k-ltr text-right ng-pristine ng-valid ng-empty ng-touched</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-blur</name>
+      <type>Main</type>
+      <value>vm.findZipCode()</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>vm.model.person.address.buildingNumber</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;employeef3e8d643-4d9e-4bc7-3516-285d0627ebd9view&quot;)/div[@class=&quot;flx-aut flx-on flx-clmn ng-scope&quot;]/div[@class=&quot;flx-aut flx-on flx-clmn ng-scope&quot;]/div[@class=&quot;row x-no-mrg-pad x-margin01 flx-on flx-aut ng-scope&quot;]/ng-form[@class=&quot;col-xs-10 flx-on flx-clmn flx-aut x-no-pad-right x-no-pad-left ng-pristine ng-invalid ng-invalid-required ng-valid-email ng-valid-pattern&quot;]/div[@class=&quot;tab-content-inner flx-on flx-clmn flx-aut ng-scope&quot;]/ng-form[@class=&quot;flx-aut flx-on flx-clmn x-content-3 ovr-auto x-no-mrg-pad re-gutter pad-20 ng-pristine ng-scope ng-invalid ng-invalid-required ng-valid-email&quot;]/div[@class=&quot;flx-aut row&quot;]/div[@class=&quot;col-sm-6&quot;]/div[@class=&quot;row no-gutter&quot;]/div[@class=&quot;col-sm-3 col-lg-4 no-mrg-l pad-l-3&quot;]/input[@class=&quot;form-control input-28 k-ltr text-right ng-pristine ng-valid ng-empty ng-touched&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <value>(//input[@type='text'])[9]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//div[@id='employeef3e8d643-4d9e-4bc7-3516-285d0627ebd9view']/div/div/div[3]/ng-form/div/ng-form/div/div/div[9]/div/input</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('מס', &quot;'&quot;, ' בית')])[1]/following::input[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='רחוב'])[1]/following::input[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='כניסה'])[1]/preceding::input[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='דירה'])[1]/preceding::input[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//div[9]/div/input</value>
+   </webElementXpaths>
+</WebElementEntity>

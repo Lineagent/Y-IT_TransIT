@@ -14,7 +14,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-CustomKeywords.'logIn.c_LogIn.logIn'(GlobalVariable.site, GlobalVariable.userName, GlobalVariable.userPass)
+CustomKeywords.'login.c_login.logIn'(GlobalVariable.site, GlobalVariable.userName, GlobalVariable.userPass)
 
 WebUI.waitForElementPresent(findTestObject('Nav Bar/catalogues'), 15, FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -25,3 +25,4 @@ WebUI.click(findTestObject('Nav Bar/catalogues'))
 WebUI.delay(1)
 
 WebUI.closeBrowser()
+

@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//div[@id='employeef3e8d643-4d9e-4bc7-3516-285d0627ebd9view']/div/div/ul/li[5]/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[5]/div/div/div/ul/li[5]/a</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -45,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@id='employeef3e8d643-4d9e-4bc7-3516-285d0627ebd9view']/div/div/ul/li[5]/a</value>
+      <value>//div[5]/div/div/div/ul/li[5]/a</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Basic Sanity,,,2018-11-06 10:02:21,2018-11-06 10:02:23,2.059s,ERROR
+,,,,,,
+Test Cases/Basic/Log In,,,2018-11-06 10:02:22,2018-11-06 10:02:22,0.531s,ERROR
+logIn.c_LogIn.logIn,,,2018-11-06 10:02:22,2018-11-06 10:02:22,0.024s,ERROR
+,,,,,,
+Test Cases/Basic/Config Change,,,2018-11-06 10:02:22,2018-11-06 10:02:23,0.627s,ERROR
+Statement - randomNumber = java.lang.Math.round(java.lang.Math.random() * 1000).toString(),,,2018-11-06 10:02:23,2018-11-06 10:02:23,0.019s,PASSED
+logIn.c_LogIn.logIn,,,2018-11-06 10:02:23,2018-11-06 10:02:23,0.002s,ERROR

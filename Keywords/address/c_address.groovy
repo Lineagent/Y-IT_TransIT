@@ -25,6 +25,7 @@ public class c_address {
 	private String houseNum = "6"
 	private String apartmentNum = "5"
 	private String entrance = "1"
+	private String mailbox = "66776"
 	private String zipCode = "123"
 	
 	@Keyword
@@ -50,6 +51,11 @@ public class c_address {
 	@Keyword
 	public String getEntrance() {
 		return entrance;
+	}
+	
+	@Keyword
+	public String getMailbox() {
+		return mailbox;
 	}
 	
 	@Keyword

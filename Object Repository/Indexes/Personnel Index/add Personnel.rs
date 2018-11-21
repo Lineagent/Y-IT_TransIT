@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//div[@id='hrview']/ul/li[1]/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id='hrview']/ul/li[1]/a</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>

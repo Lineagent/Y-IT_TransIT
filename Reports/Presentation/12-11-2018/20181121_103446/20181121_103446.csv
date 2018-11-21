@@ -1,0 +1,115 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+12-11-2018,Chrome 70.0.3538.102,,2018-11-21 10:34:49,2018-11-21 10:36:56,2m - 7.925s,FAILED
+,,,,,,
+Test Cases/Basic/Log In,Chrome 70.0.3538.102,,2018-11-21 10:34:49,2018-11-21 10:35:10,20.707s,PASSED
+login.c_login.logIn,Chrome 70.0.3538.102,,2018-11-21 10:34:49,2018-11-21 10:35:03,13.943s,PASSED
+waitForElementPresent,Chrome 70.0.3538.102,,2018-11-21 10:35:03,2018-11-21 10:35:07,3.356s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-21 10:35:07,2018-11-21 10:35:08,1.020s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-21 10:35:08,2018-11-21 10:35:08,0.247s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-21 10:35:08,2018-11-21 10:35:09,1.002s,PASSED
+closeBrowser,Chrome 70.0.3538.102,,2018-11-21 10:35:09,2018-11-21 10:35:10,0.722s,PASSED
+,,,,,,
+Test Cases/Basic/Config Change,Chrome 70.0.3538.102,,2018-11-21 10:35:10,2018-11-21 10:35:47,36.981s,PASSED
+Statement - randomNumberInt = java.lang.Math.floor(java.lang.Math.random() * 999 - 100 + 1) + 100,Chrome 70.0.3538.102,,2018-11-21 10:35:10,2018-11-21 10:35:10,0.007s,PASSED
+Statement - randomNumber = randomNumberInt.toString(),Chrome 70.0.3538.102,,2018-11-21 10:35:10,2018-11-21 10:35:10,0.016s,PASSED
+login.c_login.logIn,Chrome 70.0.3538.102,,2018-11-21 10:35:10,2018-11-21 10:35:24,14.402s,PASSED
+waitForElementPresent,Chrome 70.0.3538.102,,2018-11-21 10:35:24,2018-11-21 10:35:29,4.262s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-21 10:35:29,2018-11-21 10:35:30,1.001s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-21 10:35:30,2018-11-21 10:35:30,0.217s,PASSED
+Statement - Try,Chrome 70.0.3538.102,,2018-11-21 10:35:30,2018-11-21 10:35:31,1.201s,PASSED
+Statement - Try,Chrome 70.0.3538.102,,2018-11-21 10:35:31,2018-11-21 10:35:32,1.114s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-21 10:35:32,2018-11-21 10:35:34,2.001s,PASSED
+Statement - checkValue = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getText(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(System Preferences/System/General/fax_Zip_Code)),Chrome 70.0.3538.102,,2018-11-21 10:35:34,2018-11-21 10:35:34,0.071s,PASSED
+Statement - i = 0,Chrome 70.0.3538.102,,2018-11-21 10:35:34,2018-11-21 10:35:34,0.000s,PASSED
+Statement - While (checkValue && i < 10),Chrome 70.0.3538.102,,2018-11-21 10:35:34,2018-11-21 10:35:34,0.000s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-21 10:35:34,2018-11-21 10:35:35,0.212s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-21 10:35:35,2018-11-21 10:35:36,1.008s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-21 10:35:36,2018-11-21 10:35:36,0.177s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-21 10:35:36,2018-11-21 10:35:37,1.002s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-21 10:35:37,2018-11-21 10:35:37,0.171s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-21 10:35:37,2018-11-21 10:35:38,1.001s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-21 10:35:38,2018-11-21 10:35:38,0.137s,PASSED
+Statement - Try,Chrome 70.0.3538.102,,2018-11-21 10:35:38,2018-11-21 10:35:39,0.752s,PASSED
+Statement - Try,Chrome 70.0.3538.102,,2018-11-21 10:35:39,2018-11-21 10:35:41,2.185s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-21 10:35:41,2018-11-21 10:35:46,5.000s,PASSED
+acceptAlert,Chrome 70.0.3538.102,,2018-11-21 10:35:46,2018-11-21 10:35:46,0.049s,PASSED
+closeBrowser,Chrome 70.0.3538.102,,2018-11-21 10:35:46,2018-11-21 10:35:47,0.716s,PASSED
+,,,,,,
+Test Cases/Entities Creator/Create Personnel,Chrome 70.0.3538.102,,2018-11-21 10:35:47,2018-11-21 10:36:39,52.225s,PASSED
+Statement - nowStr = CustomKeywords.newDate.c_nowStr.getNowStr(),Chrome 70.0.3538.102,,2018-11-21 10:35:47,2018-11-21 10:35:47,0.047s,PASSED
+Statement - city = CustomKeywords.address.c_address.getCity(),Chrome 70.0.3538.102,,2018-11-21 10:35:47,2018-11-21 10:35:47,0.000s,PASSED
+Statement - street = CustomKeywords.address.c_address.getStreet(),Chrome 70.0.3538.102,,2018-11-21 10:35:47,2018-11-21 10:35:47,0.016s,PASSED
+Statement - houseNum = CustomKeywords.address.c_address.getHouseNum(),Chrome 70.0.3538.102,,2018-11-21 10:35:47,2018-11-21 10:35:47,0.000s,PASSED
+Statement - apartmentNum = CustomKeywords.address.c_address.getApartmentNum(),Chrome 70.0.3538.102,,2018-11-21 10:35:47,2018-11-21 10:35:47,0.000s,PASSED
+Statement - entrance = CustomKeywords.address.c_address.getEntrance(),Chrome 70.0.3538.102,,2018-11-21 10:35:47,2018-11-21 10:35:47,0.000s,PASSED
+Statement - mailbox = CustomKeywords.address.c_address.getMailbox(),Chrome 70.0.3538.102,,2018-11-21 10:35:47,2018-11-21 10:35:47,0.000s,PASSED
+Statement - zipCode = CustomKeywords.address.c_address.getZipCode(),Chrome 70.0.3538.102,,2018-11-21 10:35:47,2018-11-21 10:35:47,0.000s,PASSED
+Statement - email = CustomKeywords.communication.c_communication.getEmail(),Chrome 70.0.3538.102,,2018-11-21 10:35:47,2018-11-21 10:35:47,0.016s,PASSED
+Statement - mobilePhone = CustomKeywords.communication.c_communication.getMobilePhone(),Chrome 70.0.3538.102,,2018-11-21 10:35:47,2018-11-21 10:35:47,0.000s,PASSED
+Statement - homePhone = CustomKeywords.communication.c_communication.getHomePhone(),Chrome 70.0.3538.102,,2018-11-21 10:35:47,2018-11-21 10:35:47,0.000s,PASSED
+Statement - officePhone = CustomKeywords.communication.c_communication.getOfficePhone(),Chrome 70.0.3538.102,,2018-11-21 10:35:47,2018-11-21 10:35:47,0.000s,PASSED
+Statement - phoneExten = CustomKeywords.communication.c_communication.getPhoneExten(),Chrome 70.0.3538.102,,2018-11-21 10:35:47,2018-11-21 10:35:47,0.000s,PASSED
+Statement - faxNum = CustomKeywords.communication.c_communication.getFaxNum(),Chrome 70.0.3538.102,,2018-11-21 10:35:47,2018-11-21 10:35:47,0.000s,PASSED
+login.c_login.logIn,Chrome 70.0.3538.102,,2018-11-21 10:35:47,2018-11-21 10:35:59,12.213s,PASSED
+waitForElementPresent,Chrome 70.0.3538.102,,2018-11-21 10:35:59,2018-11-21 10:36:03,3.842s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-21 10:36:03,2018-11-21 10:36:04,1.002s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-21 10:36:04,2018-11-21 10:36:05,0.366s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-21 10:36:05,2018-11-21 10:36:06,1.000s,PASSED
+Statement - Try,Chrome 70.0.3538.102,,2018-11-21 10:36:06,2018-11-21 10:36:06,0.590s,FAILED
+Statement - Catch (Exception e),Chrome 70.0.3538.102,,2018-11-21 10:36:06,2018-11-21 10:36:07,1.211s,PASSED
+Statement - Try,Chrome 70.0.3538.102,,2018-11-21 10:36:07,2018-11-21 10:36:09,2.151s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-21 10:36:09,2018-11-21 10:36:11,1.002s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-21 10:36:11,2018-11-21 10:36:12,1.485s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-21 10:36:12,2018-11-21 10:36:12,0.285s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-21 10:36:12,2018-11-21 10:36:13,0.349s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-21 10:36:13,2018-11-21 10:36:13,0.431s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-21 10:36:13,2018-11-21 10:36:13,0.437s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-21 10:36:13,2018-11-21 10:36:14,0.182s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-21 10:36:14,2018-11-21 10:36:14,0.169s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-21 10:36:14,2018-11-21 10:36:14,0.255s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-21 10:36:14,2018-11-21 10:36:14,0.200s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-21 10:36:14,2018-11-21 10:36:15,0.218s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-21 10:36:15,2018-11-21 10:36:15,0.531s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-21 10:36:15,2018-11-21 10:36:15,0.407s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-21 10:36:15,2018-11-21 10:36:16,0.154s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-21 10:36:16,2018-11-21 10:36:16,0.380s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-21 10:36:16,2018-11-21 10:36:16,0.374s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-21 10:36:16,2018-11-21 10:36:17,0.228s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-21 10:36:17,2018-11-21 10:36:17,0.338s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-21 10:36:17,2018-11-21 10:36:18,1.010s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-21 10:36:18,2018-11-21 10:36:18,0.132s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-21 10:36:18,2018-11-21 10:36:23,5.005s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-21 10:36:23,2018-11-21 10:36:23,0.226s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-21 10:36:23,2018-11-21 10:36:24,0.336s,PASSED
+Statement - Try,Chrome 70.0.3538.102,,2018-11-21 10:36:24,2018-11-21 10:36:24,0.119s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-21 10:36:24,2018-11-21 10:36:25,1.014s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-21 10:36:25,2018-11-21 10:36:25,0.140s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-21 10:36:25,2018-11-21 10:36:28,3.002s,PASSED
+setText,Chrome 70.0.3538.102,,2018-11-21 10:36:28,2018-11-21 10:36:31,3.131s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-21 10:36:31,2018-11-21 10:36:32,1.001s,PASSED
+doubleClick,Chrome 70.0.3538.102,,2018-11-21 10:36:32,2018-11-21 10:36:32,0.168s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-21 10:36:32,2018-11-21 10:36:33,1.001s,PASSED
+executeJavaScript,Chrome 70.0.3538.102,,2018-11-21 10:36:33,2018-11-21 10:36:33,0.041s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-21 10:36:33,2018-11-21 10:36:38,5.002s,PASSED
+acceptAlert,Chrome 70.0.3538.102,,2018-11-21 10:36:38,2018-11-21 10:36:38,0.018s,PASSED
+closeBrowser,Chrome 70.0.3538.102,,2018-11-21 10:36:38,2018-11-21 10:36:39,0.709s,PASSED
+,,,,,,
+Test Cases/Entities Creator/Create Personnel - fail,Chrome 70.0.3538.102,,2018-11-21 10:36:39,2018-11-21 10:36:56,16.739s,FAILED
+Statement - nowStr = CustomKeywords.newDate.c_nowStr.getNowStr(),Chrome 70.0.3538.102,,2018-11-21 10:36:39,2018-11-21 10:36:39,0.013s,PASSED
+Statement - city = CustomKeywords.address.c_address.getCity(),Chrome 70.0.3538.102,,2018-11-21 10:36:39,2018-11-21 10:36:39,0.000s,PASSED
+Statement - street = CustomKeywords.address.c_address.getStreet(),Chrome 70.0.3538.102,,2018-11-21 10:36:39,2018-11-21 10:36:39,0.001s,PASSED
+Statement - houseNum = CustomKeywords.address.c_address.getHouseNum(),Chrome 70.0.3538.102,,2018-11-21 10:36:39,2018-11-21 10:36:39,0.000s,PASSED
+Statement - apartmentNum = CustomKeywords.address.c_address.getApartmentNum(),Chrome 70.0.3538.102,,2018-11-21 10:36:39,2018-11-21 10:36:39,0.000s,PASSED
+Statement - entrance = CustomKeywords.address.c_address.getEntrance(),Chrome 70.0.3538.102,,2018-11-21 10:36:39,2018-11-21 10:36:39,0.000s,PASSED
+Statement - mailbox = CustomKeywords.address.c_address.getMailbox(),Chrome 70.0.3538.102,,2018-11-21 10:36:39,2018-11-21 10:36:39,0.000s,PASSED
+Statement - zipCode = CustomKeywords.address.c_address.getZipCode(),Chrome 70.0.3538.102,,2018-11-21 10:36:39,2018-11-21 10:36:39,0.000s,PASSED
+Statement - email = CustomKeywords.communication.c_communication.getEmail(),Chrome 70.0.3538.102,,2018-11-21 10:36:39,2018-11-21 10:36:39,0.000s,PASSED
+Statement - mobilePhone = CustomKeywords.communication.c_communication.getMobilePhone(),Chrome 70.0.3538.102,,2018-11-21 10:36:39,2018-11-21 10:36:39,0.000s,PASSED
+Statement - homePhone = CustomKeywords.communication.c_communication.getHomePhone(),Chrome 70.0.3538.102,,2018-11-21 10:36:39,2018-11-21 10:36:39,0.000s,PASSED
+Statement - officePhone = CustomKeywords.communication.c_communication.getOfficePhone(),Chrome 70.0.3538.102,,2018-11-21 10:36:39,2018-11-21 10:36:39,0.000s,PASSED
+Statement - phoneExten = CustomKeywords.communication.c_communication.getPhoneExten(),Chrome 70.0.3538.102,,2018-11-21 10:36:39,2018-11-21 10:36:39,0.000s,PASSED
+Statement - faxNum = CustomKeywords.communication.c_communication.getFaxNum(),Chrome 70.0.3538.102,,2018-11-21 10:36:39,2018-11-21 10:36:39,0.000s,PASSED
+login.c_login.logIn,Chrome 70.0.3538.102,,2018-11-21 10:36:39,2018-11-21 10:36:51,11.732s,PASSED
+waitForElementPresent,Chrome 70.0.3538.102,,2018-11-21 10:36:51,2018-11-21 10:36:54,2.885s,PASSED
+delay,Chrome 70.0.3538.102,,2018-11-21 10:36:54,2018-11-21 10:36:55,1.000s,PASSED
+click,Chrome 70.0.3538.102,,2018-11-21 10:36:55,2018-11-21 10:36:56,0.809s,FAILED

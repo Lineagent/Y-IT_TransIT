@@ -13,9 +13,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-String randomNumber = Math.round(Math.random() * 1000).toString()
+int randomNumberInt = Math.floor(Math.random() * (999 - 100 + 1)) + 100
 
-CustomKeywords.'logIn.c_LogIn.logIn'(GlobalVariable.site, GlobalVariable.userName, GlobalVariable.userPass)
+String randomNumber = randomNumberInt.toString()
+
+CustomKeywords.'login.c_login.logIn'(GlobalVariable.site, GlobalVariable.userName, GlobalVariable.userPass)
 
 WebUI.waitForElementPresent(findTestObject('Nav Bar/settings'), 15, FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -32,16 +34,30 @@ catch (def e) {
     WebUI.click(findTestObject('Nav Bar/Nav Bar Settings/system Preferences'))
 } 
 
-WebUI.waitForElementClickable(findTestObject('System Preferences/System/General/fax_Zip_Code'), 5, FailureHandling.CONTINUE_ON_FAILURE)
+try {
+	WebUI.waitForElementClickable(findTestObject('System Preferences/System/General/fax_Zip_Code'), 5, FailureHandling.CONTINUE_ON_FAILURE)
+	
+	WebUI.setText(findTestObject('System Preferences/System/General/fax_Zip_Code'), '')
+} catch (def e) {
+	WebUI.click(findTestObject('Nav Bar/settings'))
 
-WebUI.setText(findTestObject('System Preferences/System/General/fax_Zip_Code'), '')
+	WebUI.click(findTestObject('Nav Bar/Nav Bar Settings/system Preferences'))
+	
+	WebUI.waitForElementClickable(findTestObject('System Preferences/System/General/fax_Zip_Code'), 5, FailureHandling.CONTINUE_ON_FAILURE)
+	
+	WebUI.setText(findTestObject('System Preferences/System/General/fax_Zip_Code'), '')
+}
+
+WebUI.delay(2)
 
 String checkValue = WebUI.getText(findTestObject('System Preferences/System/General/fax_Zip_Code'))
 
 int i = 0
 
-while (checkValue && (i < 5)) {
+while (checkValue && (i < 10)) {
     WebUI.setText(findTestObject('System Preferences/System/General/fax_Zip_Code'), '')
+	
+	WebUI.delay(1)
 
     checkValue = WebUI.getText(findTestObject('System Preferences/System/General/fax_Zip_Code'))
 
@@ -71,16 +87,36 @@ catch (def e) {
     WebUI.click(findTestObject('Nav Bar/Nav Bar Settings/system Preferences'))
 } 
 
-WebUI.waitForElementClickable(findTestObject('System Preferences/System/General/fax_Zip_Code'), 5, FailureHandling.CONTINUE_ON_FAILURE)
+try {
+	WebUI.waitForElementClickable(findTestObject('System Preferences/System/General/fax_Zip_Code'), 5, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(1)
+	WebUI.delay(1)
 
-WebUI.verifyElementAttributeValue(findTestObject('System Preferences/System/General/fax_Zip_Code'), 'value', randomNumber, 
-    0)
+	if (WebUI.verifyElementAttributeValue(findTestObject('System Preferences/System/General/fax_Zip_Code'), 'value', randomNumber, 
+    0)) {
+	
+		WebUI.delay(1)
 
-WebUI.delay(1)
+		WebUI.executeJavaScript('alert(`Fax zip code containes: ` + arguments[0])', [randomNumber])
+	}
+} catch (def e) {
+	WebUI.click(findTestObject('Nav Bar/settings'))
 
-WebUI.executeJavaScript('alert(`Fax zip code containes: ` + arguments[0])', [randomNumber])
+	WebUI.click(findTestObject('Nav Bar/Nav Bar Settings/system Preferences'))
+
+	WebUI.waitForElementClickable(findTestObject('System Preferences/System/General/fax_Zip_Code'), 5, FailureHandling.CONTINUE_ON_FAILURE)
+
+	WebUI.delay(1)
+	
+	if (WebUI.verifyElementAttributeValue(findTestObject('System Preferences/System/General/fax_Zip_Code'), 'value', randomNumber, 
+    0)) {
+	
+		WebUI.delay(1)
+
+		WebUI.executeJavaScript('alert(`Fax zip code containes: ` + arguments[0])', [randomNumber])
+	}
+	
+}
 
 WebUI.delay(5)
 
