@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Driver Calc with Test User</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3b876a2c-0ba9-44c4-bda0-c656755a71e8</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.site</defaultValue>
+      <description></description>
+      <id>95acc41b-f0b2-467b-be78-d860cdc99c46</id>
+      <masked>false</masked>
+      <name>site</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.userName</defaultValue>
+      <description></description>
+      <id>f93d38fc-b7ff-4aa6-bc24-237335407610</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.userPass</defaultValue>
+      <description></description>
+      <id>a19fae4c-7c7f-43c8-87d6-9f9ccff1613c</id>
+      <masked>false</masked>
+      <name>userPass</name>
+   </variable>
+</TestCaseEntity>
