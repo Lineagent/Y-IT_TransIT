@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test User,Chrome 71.0.3578.98,Logs in with test User,2018-12-25 13:49:08,2018-12-25 13:50:01,52.353s,FAILED
+,,,,,,
+Test Cases/Pre-Salary/One Driver Calc,Chrome 71.0.3578.98,,2018-12-25 13:49:09,2018-12-25 13:49:36,27.250s,FAILED
+"login.c_login.logIn(site, userName, userPass)",Chrome 71.0.3578.98,,2018-12-25 13:49:09,2018-12-25 13:49:20,11.067s,PASSED
+delay(15),Chrome 71.0.3578.98,,2018-12-25 13:49:20,2018-12-25 13:49:35,15.023s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-25 13:49:35,2018-12-25 13:49:36,0.676s,PASSED
+acceptAlert(),Chrome 71.0.3578.98,,2018-12-25 13:49:36,2018-12-25 13:49:36,0.025s,FAILED
+,,,,,,
+Test Cases/Pre-Salary/One Driver Calc,Chrome 71.0.3578.98,,2018-12-25 13:49:36,2018-12-25 13:50:01,24.699s,FAILED
+"login.c_login.logIn(site, userName, userPass)",Chrome 71.0.3578.98,,2018-12-25 13:49:36,2018-12-25 13:49:45,8.925s,PASSED
+delay(15),Chrome 71.0.3578.98,,2018-12-25 13:49:45,2018-12-25 13:50:00,15.001s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-25 13:50:00,2018-12-25 13:50:01,0.746s,PASSED
+acceptAlert(),Chrome 71.0.3578.98,,2018-12-25 13:50:01,2018-12-25 13:50:01,0.004s,FAILED

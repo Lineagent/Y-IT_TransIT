@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+with Test User,Chrome 71.0.3578.98,Logs in with test User,2018-12-25 14:01:12,2018-12-25 14:02:04,52.163s,PASSED
+,,,,,,
+Test Cases/Pre-Salary/Driver Calc with Test User,Chrome 71.0.3578.98,,2018-12-25 14:01:12,2018-12-25 14:01:39,26.955s,PASSED
+"login.c_login.logIn(site, userName, userPass)",Chrome 71.0.3578.98,,2018-12-25 14:01:13,2018-12-25 14:01:23,10.807s,PASSED
+delay(15),Chrome 71.0.3578.98,,2018-12-25 14:01:23,2018-12-25 14:01:38,15.021s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-25 14:01:38,2018-12-25 14:01:39,0.676s,PASSED
+,,,,,,
+Test Cases/Pre-Salary/Driver Calc with Test User,Chrome 71.0.3578.98,,2018-12-25 14:01:39,2018-12-25 14:02:04,24.851s,PASSED
+"login.c_login.logIn(site, userName, userPass)",Chrome 71.0.3578.98,,2018-12-25 14:01:39,2018-12-25 14:01:48,9.096s,PASSED
+delay(15),Chrome 71.0.3578.98,,2018-12-25 14:01:48,2018-12-25 14:02:03,15.000s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-25 14:02:03,2018-12-25 14:02:04,0.734s,PASSED

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="with Test User" time="52" tests="2" failures="0" errors="0">
+   <testsuite name="with Test User" tests="2" failures="0" errors="0" time="52" timestamp="2018-12-25 14:01:12" hostname="leon.b - QA-PC.Y-it.Local" id="Test Suites/Pre-Salary/with Test User">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\leon.b\\Katalon Studio\\Y-IT_TransIT\\Reports\\Pre-Salary\\with Test User\\20181225_140109"/>
+         <property name="logFiles" value="C:\\Users\\leon.b\\Katalon Studio\\Y-IT_TransIT\\Reports\\Pre-Salary\\with Test User\\20181225_140109\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\leon.b\\Katalon Studio\\Y-IT_TransIT\\Reports\\Pre-Salary\\with Test User\\20181225_140109\\1545739283200.png, C:\\Users\\leon.b\\Katalon Studio\\Y-IT_TransIT\\Reports\\Pre-Salary\\with Test User\\20181225_140109\\1545739308024.png"/>
+         <property name="hostName" value="leon.b - QA-PC.Y-it.Local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.0.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.1.145"/>
+         <property name="sessionId" value="948a242e69a910564ba87719e735b552"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Pre-Salary/Driver Calc with Test User" classname="Test Cases/Pre-Salary/Driver Calc with Test User" status="PASSED">
+         <system-out><![CDATA[2018-12-25 14:01:12 - [TEST_CASE][PASSED] - Test Cases/Pre-Salary/Driver Calc with Test User: Test Cases/Pre-Salary/Driver Calc with Test User
+
+2018-12-25 14:01:13 - [TEST_STEP][PASSED] - login.c_login.logIn(site, userName, userPass): login.c_login.logIn is PASSED
+
+2018-12-25 14:01:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-25 14:01:13 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-25 14:01:21 - [MESSAGE][PASSED] - Browser is opened with url: 'thegged.y-it.co.il'
+
+2018-12-25 14:01:22 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-25 14:01:23 - [MESSAGE][PASSED] - Text 'yit.testings' is set on object 'Object Repository/Y-IT Log In/input_ _userName'
+
+2018-12-25 14:01:23 - [MESSAGE][FAILED] - Unable to set encrypted text for object 'Object Repository/Y-IT Log In/input_ _password' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)
+[[ATTACHMENT|C:\\Users\\leon.b\\Katalon Studio\\Y-IT_TransIT\\Reports\\Pre-Salary\\with Test User\\20181225_140109\\1545739283200.png]]
+
+2018-12-25 14:01:23 - [MESSAGE][PASSED] - Text 'TH2018th' is set on object 'Object Repository/Y-IT Log In/input_ _password'
+
+2018-12-25 14:01:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Y-IT Log In/input_  _submit' is clicked on
+
+2018-12-25 14:01:23 - [MESSAGE][PASSED] - login.c_login.logIn is PASSED
+
+2018-12-25 14:01:23 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2018-12-25 14:01:38 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-12-25 14:01:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-25 14:01:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pre-Salary/Driver Calc with Test User" classname="Test Cases/Pre-Salary/Driver Calc with Test User" status="PASSED">
+         <system-out><![CDATA[2018-12-25 14:01:39 - [TEST_CASE][PASSED] - Test Cases/Pre-Salary/Driver Calc with Test User: Test Cases/Pre-Salary/Driver Calc with Test User
+
+2018-12-25 14:01:39 - [TEST_STEP][PASSED] - login.c_login.logIn(site, userName, userPass): login.c_login.logIn is PASSED
+
+2018-12-25 14:01:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-25 14:01:46 - [MESSAGE][PASSED] - Browser is opened with url: 'mayatour.y-it.co.il'
+
+2018-12-25 14:01:47 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-25 14:01:48 - [MESSAGE][PASSED] - Text 'yit.testings' is set on object 'Object Repository/Y-IT Log In/input_ _userName'
+
+2018-12-25 14:01:48 - [MESSAGE][FAILED] - Unable to set encrypted text for object 'Object Repository/Y-IT Log In/input_ _password' (Root cause: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 8 when decrypting with padded cipher)
+[[ATTACHMENT|C:\\Users\\leon.b\\Katalon Studio\\Y-IT_TransIT\\Reports\\Pre-Salary\\with Test User\\20181225_140109\\1545739308024.png]]
+
+2018-12-25 14:01:48 - [MESSAGE][PASSED] - Text 'MT2018mt' is set on object 'Object Repository/Y-IT Log In/input_ _password'
+
+2018-12-25 14:01:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Y-IT Log In/input_  _submit' is clicked on
+
+2018-12-25 14:01:48 - [MESSAGE][PASSED] - login.c_login.logIn is PASSED
+
+2018-12-25 14:01:48 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2018-12-25 14:02:03 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-12-25 14:02:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-25 14:02:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-25 14:01:12 - [TEST_SUITE][PASSED] - with Test User: Test Cases/Pre-Salary/Driver Calc with Test User]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

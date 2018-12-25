@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+One Driver Calc Test,Chrome 71.0.3578.98,,2018-12-25 12:27:21,2018-12-25 12:28:58,1m - 37.049s,FAILED
+,,,,,,
+Test Cases/Basic/Log In - test,Chrome 71.0.3578.98,,2018-12-25 12:27:21,2018-12-25 12:28:09,47.998s,FAILED
+"login.c_login.logIn(site, userName, userPass)",Chrome 71.0.3578.98,,2018-12-25 12:27:21,2018-12-25 12:27:36,14.793s,PASSED
+"waitForElementPresent(findTestObject(""Nav Bar/catalogues""), 15, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2018-12-25 12:27:36,2018-12-25 12:27:52,15.758s,PASSED
+delay(1),Chrome 71.0.3578.98,,2018-12-25 12:27:52,2018-12-25 12:27:53,1.023s,PASSED
+"click(findTestObject(""Nav Bar/catalogues""))",Chrome 71.0.3578.98,,2018-12-25 12:27:53,2018-12-25 12:28:09,15.940s,FAILED
+,,,,,,
+Test Cases/Basic/Log In - test,Chrome 71.0.3578.98,,2018-12-25 12:28:09,2018-12-25 12:28:57,47.799s,FAILED
+"login.c_login.logIn(site, userName, userPass)",Chrome 71.0.3578.98,,2018-12-25 12:28:09,2018-12-25 12:28:24,14.511s,PASSED
+"waitForElementPresent(findTestObject(""Nav Bar/catalogues""), 15, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2018-12-25 12:28:24,2018-12-25 12:28:40,16.256s,PASSED
+delay(1),Chrome 71.0.3578.98,,2018-12-25 12:28:40,2018-12-25 12:28:41,1.002s,PASSED
+"click(findTestObject(""Nav Bar/catalogues""))",Chrome 71.0.3578.98,,2018-12-25 12:28:41,2018-12-25 12:28:57,15.957s,FAILED

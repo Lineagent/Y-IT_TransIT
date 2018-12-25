@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+One Driver Calc Test,Chrome 71.0.3578.98,,2018-12-25 12:23:50,2018-12-25 12:24:25,35.439s,FAILED
+,,,,,,
+Test Cases/Basic/Log In - test,Chrome 71.0.3578.98,,2018-12-25 12:23:50,2018-12-25 12:24:10,19.892s,FAILED
+"login.c_login.logIn(site, userName, userPass)",Chrome 71.0.3578.98,,2018-12-25 12:23:50,2018-12-25 12:24:10,19.425s,FAILED
+,,,,,,
+Test Cases/Basic/Log In - test,Chrome 71.0.3578.98,,2018-12-25 12:24:10,2018-12-25 12:24:24,14.419s,FAILED
+"login.c_login.logIn(site, userName, userPass)",Chrome 71.0.3578.98,,2018-12-25 12:24:10,2018-12-25 12:24:24,14.272s,FAILED
