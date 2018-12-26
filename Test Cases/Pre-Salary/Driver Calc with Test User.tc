@@ -26,4 +26,11 @@
       <masked>false</masked>
       <name>userPass</name>
    </variable>
+   <variable>
+      <defaultValue>GlobalVariable.driver_Id</defaultValue>
+      <description></description>
+      <id>274de70b-9a75-4b05-9ccc-570efac81eaf</id>
+      <masked>false</masked>
+      <name>driver_Id</name>
+   </variable>
 </TestCaseEntity>

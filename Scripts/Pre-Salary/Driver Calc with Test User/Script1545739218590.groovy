@@ -16,7 +16,67 @@ import internal.GlobalVariable as GlobalVariable
 
 CustomKeywords.'login.c_login.logIn'(site, userName, userPass)
 
-WebUI.delay(15)
+WebUI.delay(1)
+
+WebUI.waitForElementPresent(findTestObject('Pre-Salary/driversListDropdownOpen'), 15)
+
+WebUI.waitForElementNotPresent(findTestObject('Pre-Salary/isLoadingDropdown'), 15)
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Pre-Salary/driversListDropdownOpen'))
+
+WebUI.delay(1)
+
+try {
+    WebUI.setText(findTestObject('Pre-Salary/driversListDropdownSearchBox'), driver_Id)
+}
+catch (Exception err) {
+    WebUI.delay(5)
+
+    WebUI.setText(findTestObject('Pre-Salary/driversListDropdownSearchBox'), driver_Id)
+} 
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Pre-Salary/driversListDropdownSelectFirstDriver'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Pre-Salary/importButton'))
+
+WebUI.delay(1)
+
+try {
+    WebUI.waitForElementPresent(findTestObject('Pre-Salary/firstDriverInCalculationSummeryTable'), 20)
+
+    WebUI.doubleClick(findTestObject('Pre-Salary/firstDriverInCalculationSummeryTable'))
+}
+catch (Exception err) {
+    WebUI.waitForElementPresent(findTestObject('Pre-Salary/firstDriverInCalculationSummeryTable'), 20)
+
+    WebUI.waitForElementPresent(findTestObject('Pre-Salary/firstDriverInCalculationSummeryTable'), 20)
+
+    WebUI.verifyElementPresent(findTestObject('Pre-Salary/calculationSummeyTable'), 2)
+
+    WebUI.verifyElementPresent(findTestObject('Pre-Salary/firstDriverInCalculationSummeryTable'), 2)
+
+    WebUI.doubleClick(findTestObject('Pre-Salary/firstDriverInCalculationSummeryTable'))
+} 
+
+WebUI.waitForElementPresent(findTestObject('Pre-Salary/driversReportTable'), 20)
+
+WebUI.waitForElementPresent(findTestObject('Pre-Salary/driversReportTable'), 20)
+
+WebUI.verifyElementPresent(findTestObject('Pre-Salary/driversReportTable'), 2)
+
+WebUI.verifyElementPresent(findTestObject('Pre-Salary/driversCodeId_InDriversReportTableHeader'), 2)
+
+String driverCodeFromReport = WebUI.getText(findTestObject('Pre-Salary/driversCodeId_InDriversReportTableHeader'))
+
+if (driverCodeFromReport != driver_Id) {
+    throw new com.kms.katalon.core.exception.StepFailedException('Report driver\'s id doesn\'t match with with test\'s driver id.')
+}
 
 WebUI.closeBrowser()
 

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>THegged_tUser</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'thegged.y-it.co.il'</initValue>
+      <name>site</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'yit.testings'</initValue>
+      <name>userName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'h1HP6WXUfQhYIauW3hE0tg=='</initValue>
+      <name>userPass</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'295'</initValue>
+      <name>driver_Id</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

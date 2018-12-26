@@ -24,6 +24,15 @@
          </iterationEntity>
          <testDataId>Data Files/Prod Clients/Test Users</testDataId>
       </testDataLink>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>4f22b197-2a73-4938-bfbf-ba5b183317a4</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Drivers/Pre-Salary-Real-Drivers</testDataId>
+      </testDataLink>
       <variableLink>
          <testDataLinkId>67bd2b2b-a37c-4338-b6ba-d5702a706afe</testDataLinkId>
          <type>DATA_COLUMN</type>
@@ -41,6 +50,12 @@
          <type>DATA_COLUMN</type>
          <value>userPass</value>
          <variableId>a19fae4c-7c7f-43c8-87d6-9f9ccff1613c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4f22b197-2a73-4938-bfbf-ba5b183317a4</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>driver_Id</value>
+         <variableId>274de70b-9a75-4b05-9ccc-570efac81eaf</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
