@@ -3,7 +3,7 @@
    <description></description>
    <name>entrance</name>
    <tag></tag>
-   <elementGuidId>82002b9a-191b-4f11-9008-b296cc0abc0a</elementGuidId>
+   <elementGuidId>744e4f6d-c1f8-4f45-8e10-b0b76afb9773</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

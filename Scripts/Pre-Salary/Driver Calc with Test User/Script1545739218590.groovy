@@ -18,61 +18,88 @@ CustomKeywords.'login.c_login.logIn'(site, userName, userPass)
 
 WebUI.delay(1)
 
-WebUI.waitForElementPresent(findTestObject('Pre-Salary/driversListDropdownOpen'), 15)
+WebUI.waitForElementPresent(findTestObject('General/mainEmptyBackground'), 15)
 
-WebUI.waitForElementNotPresent(findTestObject('Pre-Salary/isLoadingDropdown'), 15)
+boolean isPreSalaryTabOpen = WebUI.waitForElementPresent(findTestObject('Pre-Salary/preSalaryTab'), 5)
+
+if (!(isPreSalaryTabOpen)) {
+    WebUI.waitForElementPresent(findTestObject('Nav Bar/funds'), 15)
+
+    WebUI.click(findTestObject('Nav Bar/funds'))
+
+    WebUI.delay(1)
+
+    try {
+        WebUI.waitForElementPresent(findTestObject('Nav Bar/Nav Bar Funds/preSalary'), 2)
+
+        WebUI.click(findTestObject('Nav Bar/Nav Bar Funds/preSalary'))
+    }
+    catch (Exception e) {
+        WebUI.click(findTestObject('Nav Bar/funds'))
+
+        WebUI.delay(1)
+
+        WebUI.waitForElementPresent(findTestObject('Nav Bar/Nav Bar Funds/preSalary'), 2)
+
+        WebUI.click(findTestObject('Nav Bar/Nav Bar Funds/preSalary'))
+    } 
+}
+
+WebUI.waitForElementPresent(findTestObject('Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen'), 15)
+
+WebUI.waitForElementNotPresent(findTestObject('Pre-Salary/Filters/Drivers Dropdown/isLoadingDropdown'), 15)
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Pre-Salary/driversListDropdownOpen'))
+WebUI.click(findTestObject('Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen'))
 
 WebUI.delay(1)
 
 try {
-    WebUI.setText(findTestObject('Pre-Salary/driversListDropdownSearchBox'), driver_Id)
+    WebUI.setText(findTestObject('Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSearchBox'), driver_Id)
 }
 catch (Exception err) {
     WebUI.delay(5)
 
-    WebUI.setText(findTestObject('Pre-Salary/driversListDropdownSearchBox'), driver_Id)
+    WebUI.setText(findTestObject('Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSearchBox'), driver_Id)
 } 
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Pre-Salary/driversListDropdownSelectFirstDriver'))
+WebUI.click(findTestObject('Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSelectFirstDriver'))
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Pre-Salary/importButton'))
+WebUI.click(findTestObject('Pre-Salary/Data Status/importButton'))
 
 WebUI.delay(1)
 
 try {
-    WebUI.waitForElementPresent(findTestObject('Pre-Salary/firstDriverInCalculationSummeryTable'), 20)
+    WebUI.waitForElementPresent(findTestObject('Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable'), 20)
 
-    WebUI.doubleClick(findTestObject('Pre-Salary/firstDriverInCalculationSummeryTable'))
+    WebUI.doubleClick(findTestObject('Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable'))
 }
 catch (Exception err) {
-    WebUI.waitForElementPresent(findTestObject('Pre-Salary/firstDriverInCalculationSummeryTable'), 20)
+    WebUI.waitForElementPresent(findTestObject('Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable'), 20)
 
-    WebUI.waitForElementPresent(findTestObject('Pre-Salary/firstDriverInCalculationSummeryTable'), 20)
+    WebUI.waitForElementPresent(findTestObject('Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable'), 20)
 
-    WebUI.verifyElementPresent(findTestObject('Pre-Salary/calculationSummeyTable'), 2)
+    WebUI.verifyElementPresent(findTestObject('Pre-Salary/Calculation Summary/calculationSummeyTable'), 2)
 
-    WebUI.verifyElementPresent(findTestObject('Pre-Salary/firstDriverInCalculationSummeryTable'), 2)
+    WebUI.verifyElementPresent(findTestObject('Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable'), 2)
 
-    WebUI.doubleClick(findTestObject('Pre-Salary/firstDriverInCalculationSummeryTable'))
+    WebUI.doubleClick(findTestObject('Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable'))
 } 
 
-WebUI.waitForElementPresent(findTestObject('Pre-Salary/driversReportTable'), 20)
+WebUI.waitForElementPresent(findTestObject('Pre-Salary/Employee Details/driversReportTable'), 20)
 
-WebUI.waitForElementPresent(findTestObject('Pre-Salary/driversReportTable'), 20)
+WebUI.waitForElementPresent(findTestObject('Pre-Salary/Employee Details/driversReportTable'), 20)
 
-WebUI.verifyElementPresent(findTestObject('Pre-Salary/driversReportTable'), 2)
+WebUI.verifyElementPresent(findTestObject('Pre-Salary/Employee Details/driversReportTable'), 2)
 
-WebUI.verifyElementPresent(findTestObject('Pre-Salary/driversCodeId_InDriversReportTableHeader'), 2)
+WebUI.verifyElementPresent(findTestObject('Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader'), 2)
 
-String driverCodeFromReport = WebUI.getText(findTestObject('Pre-Salary/driversCodeId_InDriversReportTableHeader'))
+String driverCodeFromReport = WebUI.getText(findTestObject('Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader'))
 
 if (driverCodeFromReport != driver_Id) {
     throw new com.kms.katalon.core.exception.StepFailedException('Report driver\'s id doesn\'t match with with test\'s driver id.')

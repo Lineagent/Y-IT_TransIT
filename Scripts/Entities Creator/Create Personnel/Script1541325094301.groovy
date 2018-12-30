@@ -92,39 +92,39 @@ catch (def e) {
 
 WebUI.delay(1)
 
-WebUI.setText(findTestObject('Object Repository/General/first Name'), nowStr)
+WebUI.setText(findTestObject('Tickets/Personnel Ticket/Details/General/first Name'), nowStr)
 
-WebUI.setText(findTestObject('Object Repository/General/last Name'), 'קטלון')
+WebUI.setText(findTestObject('Tickets/Personnel Ticket/Details/General/last Name'), 'קטלון')
 
-WebUI.setText(findTestObject('Object Repository/General/city'), city)
+WebUI.setText(findTestObject('Tickets/Personnel Ticket/Details/General/city'), city)
 
-WebUI.setText(findTestObject('Object Repository/General/street'), street)
+WebUI.setText(findTestObject('Tickets/Personnel Ticket/Details/General/street'), street)
 
-WebUI.setText(findTestObject('Object Repository/General/house Number'), houseNum)
+WebUI.setText(findTestObject('Tickets/Personnel Ticket/Details/General/house Number'), houseNum)
 
-WebUI.setText(findTestObject('Object Repository/General/entrance'), entrance)
+WebUI.setText(findTestObject('Tickets/Personnel Ticket/Details/General/entrance'), entrance)
 
-WebUI.setText(findTestObject('Object Repository/General/apartment Number'), apartmentNum)
+WebUI.setText(findTestObject('Tickets/Personnel Ticket/Details/General/apartment Number'), apartmentNum)
 
-WebUI.setText(findTestObject('Object Repository/General/mailbox'), mailbox)
+WebUI.setText(findTestObject('Tickets/Personnel Ticket/Details/General/mailbox'), mailbox)
 
-WebUI.setText(findTestObject('Object Repository/General/zip Code'), zipCode)
+WebUI.setText(findTestObject('Tickets/Personnel Ticket/Details/General/zip Code'), zipCode)
 
-WebUI.setText(findTestObject('Object Repository/General/remarks'), 'בדיקה')
+WebUI.setText(findTestObject('Tickets/Personnel Ticket/Details/General/remarks'), 'בדיקה')
 
-WebUI.setText(findTestObject('Object Repository/General/email'), email)
+WebUI.setText(findTestObject('Tickets/Personnel Ticket/Details/General/email'), email)
 
-WebUI.setText(findTestObject('Object Repository/General/mobile Phone'), mobilePhone)
+WebUI.setText(findTestObject('Tickets/Personnel Ticket/Details/General/mobile Phone'), mobilePhone)
 
-WebUI.click(findTestObject('Object Repository/General/interface Button'))
+WebUI.click(findTestObject('Tickets/Personnel Ticket/Details/General/interface Button'))
 
-WebUI.setText(findTestObject('Object Repository/General/home Phone'), homePhone)
+WebUI.setText(findTestObject('Tickets/Personnel Ticket/Details/General/home Phone'), homePhone)
 
-WebUI.setText(findTestObject('Object Repository/General/office Phone'), officePhone)
+WebUI.setText(findTestObject('Tickets/Personnel Ticket/Details/General/office Phone'), officePhone)
 
-WebUI.setText(findTestObject('Object Repository/General/phone Extention'), phoneExten)
+WebUI.setText(findTestObject('Tickets/Personnel Ticket/Details/General/phone Extention'), phoneExten)
 
-WebUI.setText(findTestObject('Object Repository/General/fax Number'), faxNum)
+WebUI.setText(findTestObject('Tickets/Personnel Ticket/Details/General/fax Number'), faxNum)
 
 WebUI.delay(1)
 

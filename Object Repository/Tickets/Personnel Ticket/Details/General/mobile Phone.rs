@@ -3,7 +3,7 @@
    <description></description>
    <name>mobile Phone</name>
    <tag></tag>
-   <elementGuidId>569fbf60-59ad-4cbb-b38c-7edbb1f5e813</elementGuidId>
+   <elementGuidId>05aadc9a-8c92-490e-800a-ab7f689b4890</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -52,7 +52,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//input[@type='email']</value>
+      <value>(//input[@type='text'])[15]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

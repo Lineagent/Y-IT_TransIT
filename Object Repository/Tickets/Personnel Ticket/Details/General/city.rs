@@ -3,12 +3,8 @@
    <description></description>
    <name>city</name>
    <tag></tag>
-   <elementGuidId>91ee1140-2dfb-42ac-ad31-f80e888d9dae</elementGuidId>
+   <elementGuidId>2c245580-2f05-4b3f-9cf2-3ea0d74f1cd1</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>(//input[@type='text'])[7]</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>(//input[@type='text'])[7]</value>

@@ -3,7 +3,7 @@
    <description></description>
    <name>code</name>
    <tag></tag>
-   <elementGuidId>85649437-7f66-41db-90be-2195345a9c88</elementGuidId>
+   <elementGuidId>bdcda8db-4847-43c8-9977-7ee6aa1dc502</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

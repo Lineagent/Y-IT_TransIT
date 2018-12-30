@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>driversReportTable</name>
+   <name>mainEmptyBackground</name>
    <tag></tag>
-   <elementGuidId>82921568-fa43-4473-a70b-3e9a9e586a46</elementGuidId>
+   <elementGuidId>3b8397cc-6296-48df-b205-c2ebcbaec0f1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>div[id=&quot;reportGrid&quot;] > div:nth-of-type(2) > table</value>
+         <value>#empty-cards-background</value>
       </entry>
       <entry>
          <key>BASIC</key>

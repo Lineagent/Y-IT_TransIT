@@ -3,7 +3,7 @@
    <description></description>
    <name>mailbox</name>
    <tag></tag>
-   <elementGuidId>767d2287-852a-4d2e-9690-281527422618</elementGuidId>
+   <elementGuidId>b3a5d4da-da85-46ec-9af8-2d5aae83acfe</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

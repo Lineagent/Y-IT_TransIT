@@ -1,0 +1,47 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+12-11-2018,null,,2018-12-30 12:19:18,2018-12-30 12:20:26,1m - 8.207s,FAILED
+,,,,,,
+Test Cases/Basic/Log In,null,,2018-12-30 12:19:18,2018-12-30 12:20:07,48.673s,FAILED
+"login.c_login.logIn(site, userName, userPass)",null,,2018-12-30 12:19:19,2018-12-30 12:19:34,15.560s,PASSED
+"waitForElementPresent(findTestObject(""Nav Bar/catalogues""), 15, CONTINUE_ON_FAILURE)",null,,2018-12-30 12:19:34,2018-12-30 12:19:50,15.768s,PASSED
+delay(1),null,,2018-12-30 12:19:50,2018-12-30 12:19:51,1.022s,PASSED
+"click(findTestObject(""Nav Bar/catalogues""))",null,,2018-12-30 12:19:51,2018-12-30 12:20:07,15.893s,FAILED
+,,,,,,
+Test Cases/Basic/Config Change,null,,2018-12-30 12:20:07,2018-12-30 12:20:10,3.325s,FAILED
+randomNumberInt = Math.floor(Math.random() * 999 - 100 + 1) + 100,null,,2018-12-30 12:20:07,2018-12-30 12:20:07,0.014s,PASSED
+randomNumber = randomNumberInt.toString(),null,,2018-12-30 12:20:07,2018-12-30 12:20:07,0.003s,PASSED
+"login.c_login.logIn(site, userName, userPass)",null,,2018-12-30 12:20:07,2018-12-30 12:20:10,2.952s,FAILED
+,,,,,,
+Test Cases/Entities Creator/Create Personnel,null,,2018-12-30 12:20:10,2018-12-30 12:20:19,8.348s,FAILED
+nowStr = newDate.c_nowStr.getNowStr(),null,,2018-12-30 12:20:11,2018-12-30 12:20:11,0.038s,PASSED
+city = address.c_address.getCity(),null,,2018-12-30 12:20:11,2018-12-30 12:20:11,0.006s,PASSED
+street = address.c_address.getStreet(),null,,2018-12-30 12:20:11,2018-12-30 12:20:11,0.001s,PASSED
+houseNum = address.c_address.getHouseNum(),null,,2018-12-30 12:20:11,2018-12-30 12:20:11,0.001s,PASSED
+apartmentNum = address.c_address.getApartmentNum(),null,,2018-12-30 12:20:11,2018-12-30 12:20:11,0.001s,PASSED
+entrance = address.c_address.getEntrance(),null,,2018-12-30 12:20:11,2018-12-30 12:20:11,0.002s,PASSED
+mailbox = address.c_address.getMailbox(),null,,2018-12-30 12:20:11,2018-12-30 12:20:11,0.001s,PASSED
+zipCode = address.c_address.getZipCode(),null,,2018-12-30 12:20:11,2018-12-30 12:20:11,0.003s,PASSED
+email = communication.c_communication.getEmail(),null,,2018-12-30 12:20:11,2018-12-30 12:20:11,0.006s,PASSED
+mobilePhone = communication.c_communication.getMobilePhone(),null,,2018-12-30 12:20:11,2018-12-30 12:20:11,0.001s,PASSED
+homePhone = communication.c_communication.getHomePhone(),null,,2018-12-30 12:20:11,2018-12-30 12:20:11,0.002s,PASSED
+officePhone = communication.c_communication.getOfficePhone(),null,,2018-12-30 12:20:11,2018-12-30 12:20:11,0.002s,PASSED
+phoneExten = communication.c_communication.getPhoneExten(),null,,2018-12-30 12:20:11,2018-12-30 12:20:11,0.001s,PASSED
+faxNum = communication.c_communication.getFaxNum(),null,,2018-12-30 12:20:11,2018-12-30 12:20:11,0.001s,PASSED
+"login.c_login.logIn(site, userName, userPass)",null,,2018-12-30 12:20:11,2018-12-30 12:20:19,7.948s,FAILED
+,,,,,,
+Test Cases/Entities Creator/Create Personnel - fail,null,,2018-12-30 12:20:19,2018-12-30 12:20:26,7.469s,FAILED
+nowStr = newDate.c_nowStr.getNowStr(),null,,2018-12-30 12:20:19,2018-12-30 12:20:19,0.003s,PASSED
+city = address.c_address.getCity(),null,,2018-12-30 12:20:19,2018-12-30 12:20:19,0.002s,PASSED
+street = address.c_address.getStreet(),null,,2018-12-30 12:20:19,2018-12-30 12:20:19,0.001s,PASSED
+houseNum = address.c_address.getHouseNum(),null,,2018-12-30 12:20:19,2018-12-30 12:20:19,0.001s,PASSED
+apartmentNum = address.c_address.getApartmentNum(),null,,2018-12-30 12:20:19,2018-12-30 12:20:19,0.001s,PASSED
+entrance = address.c_address.getEntrance(),null,,2018-12-30 12:20:19,2018-12-30 12:20:19,0.001s,PASSED
+mailbox = address.c_address.getMailbox(),null,,2018-12-30 12:20:19,2018-12-30 12:20:19,0.001s,PASSED
+zipCode = address.c_address.getZipCode(),null,,2018-12-30 12:20:19,2018-12-30 12:20:19,0.001s,PASSED
+email = communication.c_communication.getEmail(),null,,2018-12-30 12:20:19,2018-12-30 12:20:19,0.001s,PASSED
+mobilePhone = communication.c_communication.getMobilePhone(),null,,2018-12-30 12:20:19,2018-12-30 12:20:19,0.002s,PASSED
+homePhone = communication.c_communication.getHomePhone(),null,,2018-12-30 12:20:19,2018-12-30 12:20:19,0.001s,PASSED
+officePhone = communication.c_communication.getOfficePhone(),null,,2018-12-30 12:20:19,2018-12-30 12:20:19,0.002s,PASSED
+phoneExten = communication.c_communication.getPhoneExten(),null,,2018-12-30 12:20:19,2018-12-30 12:20:19,0.002s,PASSED
+faxNum = communication.c_communication.getFaxNum(),null,,2018-12-30 12:20:19,2018-12-30 12:20:19,0.002s,PASSED
+"login.c_login.logIn(site, userName, userPass)",null,,2018-12-30 12:20:19,2018-12-30 12:20:26,7.127s,FAILED

@@ -3,7 +3,7 @@
    <description></description>
    <name>street</name>
    <tag></tag>
-   <elementGuidId>e68b8459-2c7a-4553-b34b-2dd543adf9b5</elementGuidId>
+   <elementGuidId>2023b6e0-2421-4a4c-9c07-47184134cd66</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

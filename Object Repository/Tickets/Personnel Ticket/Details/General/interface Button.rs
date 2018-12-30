@@ -3,7 +3,7 @@
    <description></description>
    <name>interface Button</name>
    <tag></tag>
-   <elementGuidId>4e64b01a-b3b3-459e-855c-b3badff1258a</elementGuidId>
+   <elementGuidId>985214fe-8e1c-412d-b22d-aba1414236e7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
