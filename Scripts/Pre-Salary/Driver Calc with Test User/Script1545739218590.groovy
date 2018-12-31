@@ -13,8 +13,39 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import java.util.Date as Date
+import java.util.Locale as Locale
+import java.util.Calendar as Calendar
+import java.text.DateFormat as DateFormat
+import java.text.SimpleDateFormat as SimpleDateFormat
+import java.time.LocalDate as LocalDate
+import java.time.format.DateTimeFormatter as DateTimeFormatter
 
 CustomKeywords.'login.c_login.logIn'(site, userName, userPass)
+
+Date date = new Date()
+
+Calendar cal = Calendar.getInstance()
+
+cal.setTime(date)
+
+int month = cal.get(Calendar.MONTH) + 1
+
+int year = cal.get(Calendar.YEAR)
+
+String dayStr = '01'
+
+String monthStr = ''
+
+String yearStr = year.toString()
+
+if (month < 10) {
+    monthStr = ('0' + month.toString())
+} else {
+    monthStr = month.toString()
+}
+
+String fullDate = (dayStr + monthStr) + yearStr
 
 WebUI.delay(1)
 
@@ -45,7 +76,19 @@ if (!(isPreSalaryTabOpen)) {
     } 
 }
 
-WebUI.waitForElementPresent(findTestObject('Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen'), 15)
+WebUI.waitForElementPresent(findTestObject('Pre-Salary/Filters/Date Picker Start/datePickerInputField'), 15)
+
+WebUI.click(findTestObject('Pre-Salary/Filters/Date Picker Start/datePickerInputField'))
+
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('Pre-Salary/Filters/Date Picker Start/datePickerInputField'), '')
+
+WebUI.delay(1)
+
+WebUI.setText(findTestObject('Pre-Salary/Filters/Date Picker Start/datePickerInputField'), fullDate)
+
+WebUI.waitForElementPresent(findTestObject('Pre-Salary/Filters/Date Picker Start/datePickerInputField'), 15)
 
 WebUI.waitForElementNotPresent(findTestObject('Pre-Salary/Filters/Drivers Dropdown/isLoadingDropdown'), 15)
 
