@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
-   <description>Logs in with test User</description>
-   <name>with Test User</name>
+   <description></description>
+   <name>with real Users</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -9,50 +9,41 @@
    <pageLoadTimeout>15</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <testSuiteGuid>82fd7007-651a-4907-b819-ca2adc742443</testSuiteGuid>
+   <testSuiteGuid>b5596a2a-20a1-4162-a671-42d122d35891</testSuiteGuid>
    <testCaseLink>
-      <guid>de6ed3c3-2ffc-4e7b-9d91-88007a557279</guid>
+      <guid>74efe2a5-50bc-404d-843a-792476df082c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Pre-Salary/Driver Calc with Test User</testCaseId>
+      <testCaseId>Test Cases/Pre-Salary/One Driver Calc</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>67bd2b2b-a37c-4338-b6ba-d5702a706afe</id>
+         <id>e094a0c2-1e52-4e4f-ad14-20062589f3d9</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/Prod Clients/Test Users</testDataId>
-      </testDataLink>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>4f22b197-2a73-4938-bfbf-ba5b183317a4</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/Drivers/Pre-Salary-Real-Drivers</testDataId>
+         <testDataId>Data Files/preSalaryTests/oneDriverCalcTest</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>67bd2b2b-a37c-4338-b6ba-d5702a706afe</testDataLinkId>
+         <testDataLinkId>e094a0c2-1e52-4e4f-ad14-20062589f3d9</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>site</value>
          <variableId>95acc41b-f0b2-467b-be78-d860cdc99c46</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>67bd2b2b-a37c-4338-b6ba-d5702a706afe</testDataLinkId>
+         <testDataLinkId>e094a0c2-1e52-4e4f-ad14-20062589f3d9</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>userName</value>
          <variableId>f93d38fc-b7ff-4aa6-bc24-237335407610</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>67bd2b2b-a37c-4338-b6ba-d5702a706afe</testDataLinkId>
+         <testDataLinkId>e094a0c2-1e52-4e4f-ad14-20062589f3d9</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>userPass</value>
          <variableId>a19fae4c-7c7f-43c8-87d6-9f9ccff1613c</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId>4f22b197-2a73-4938-bfbf-ba5b183317a4</testDataLinkId>
+         <testDataLinkId>e094a0c2-1e52-4e4f-ad14-20062589f3d9</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>driver_Id</value>
          <variableId>274de70b-9a75-4b05-9ccc-570efac81eaf</variableId>

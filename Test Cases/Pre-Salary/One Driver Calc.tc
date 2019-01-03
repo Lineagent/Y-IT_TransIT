@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Driver Calc with Test User</name>
+   <name>One Driver Calc</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>3b876a2c-0ba9-44c4-bda0-c656755a71e8</testCaseGuid>

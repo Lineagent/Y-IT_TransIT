@@ -148,5 +148,19 @@ if (driverCodeFromReport != driver_Id) {
     throw new com.kms.katalon.core.exception.StepFailedException('Report driver\'s id doesn\'t match with with test\'s driver id.')
 }
 
+WebUI.waitForElementPresent(findTestObject('Pre-Salary/Employee Details/rightSideTable'), 10)
+
+WebUI.verifyElementPresent(findTestObject('Pre-Salary/Employee Details/rightSideTable'), 2)
+
+WebUI.waitForElementPresent(findTestObject('Pre-Salary/Employee Details/rightSideTableDriversId'), 10)
+
+WebUI.verifyElementPresent(findTestObject('Pre-Salary/Employee Details/rightSideTableDriversId'), 2)
+
+String driversCodeFromRightSideTable = WebUI.getText(findTestObject('Pre-Salary/Employee Details/rightSideTableDriversId'))
+
+if (driversCodeFromRightSideTable != driver_Id) {
+	throw new com.kms.katalon.core.exception.StepFailedException('Rught side table driver\'s id doesn\'t match with with test\'s driver id.')
+}
+
 WebUI.closeBrowser()
 
