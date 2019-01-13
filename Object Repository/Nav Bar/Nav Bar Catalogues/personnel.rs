@@ -6,11 +6,19 @@
    <elementGuidId>208cfe9a-720c-43d5-9ca9-de013ee4ab6f</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//div[2]/div/ul/li[1]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a[id=&quot;2645e49d-8577-40fd-9626-fb3d962af65d&quot;]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[2]/div/ul/li[1]/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

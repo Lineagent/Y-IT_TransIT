@@ -6,11 +6,19 @@
    <elementGuidId>6bb23bec-115c-4009-9371-fe7f59dbd139</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>/html[@class=&quot;k-webkit k-webkit70 ks-webkit537 ks-webkit ks-chrome70 ks-chrome ng-scope&quot;]/body[@class=&quot;k-rtl&quot;]/div[@class=&quot;container-fluid ng-scope&quot;]/div[@class=&quot;row x-content pad-t-36 ng-scope&quot;]/div[@class=&quot;col-xs-1 pull-right x-main-nav pad-t-36 ng-isolate-scope&quot;]/ul[@class=&quot;nav nav-tabs nav-stacked text-center&quot;]/li[8]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a[id=&quot;664373eb-d006-4f18-8f62-b6d6216bdc24&quot;]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='דוחות'])[1]/following::a[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

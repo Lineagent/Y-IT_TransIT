@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Repair Order</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>52af4289-f9dc-4c06-857d-39b7e87ab12b</testCaseGuid>
+   <variable>
+      <defaultValue>'aws_test.y-it.co.il'</defaultValue>
+      <description></description>
+      <id>de2bdbc6-0427-40ea-9409-29a5f01fd10c</id>
+      <masked>false</masked>
+      <name>site</name>
+   </variable>
+   <variable>
+      <defaultValue>'admin'</defaultValue>
+      <description></description>
+      <id>8b66aa0f-96b2-48d9-9ac8-76ab22a97628</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>'9wwwy+yAouiJKpUPQ8CK+g=='</defaultValue>
+      <description></description>
+      <id>5e18de02-28d6-40c7-84bd-ad420609cde9</id>
+      <masked>false</masked>
+      <name>userPass</name>
+   </variable>
+</TestCaseEntity>

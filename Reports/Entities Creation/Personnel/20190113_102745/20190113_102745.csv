@@ -1,0 +1,61 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Personnel,Chrome 71.0.3578.98,,2019-01-13 10:28:44,2019-01-13 10:29:31,46.275s,PASSED
+,,,,,,
+Test Cases/Entities Creator/Create Personnel,Chrome 71.0.3578.98,,2019-01-13 10:28:45,2019-01-13 10:29:31,45.978s,PASSED
+nowStr = newDate.c_nowStr.getNowStr(),Chrome 71.0.3578.98,,2019-01-13 10:28:45,2019-01-13 10:28:45,0.083s,PASSED
+city = address.c_address.getCity(),Chrome 71.0.3578.98,,2019-01-13 10:28:45,2019-01-13 10:28:45,0.021s,PASSED
+street = address.c_address.getStreet(),Chrome 71.0.3578.98,,2019-01-13 10:28:45,2019-01-13 10:28:45,0.002s,PASSED
+houseNum = address.c_address.getHouseNum(),Chrome 71.0.3578.98,,2019-01-13 10:28:45,2019-01-13 10:28:45,0.001s,PASSED
+apartmentNum = address.c_address.getApartmentNum(),Chrome 71.0.3578.98,,2019-01-13 10:28:45,2019-01-13 10:28:45,0.001s,PASSED
+entrance = address.c_address.getEntrance(),Chrome 71.0.3578.98,,2019-01-13 10:28:45,2019-01-13 10:28:45,0.001s,PASSED
+mailbox = address.c_address.getMailbox(),Chrome 71.0.3578.98,,2019-01-13 10:28:45,2019-01-13 10:28:45,0.003s,PASSED
+zipCode = address.c_address.getZipCode(),Chrome 71.0.3578.98,,2019-01-13 10:28:45,2019-01-13 10:28:45,0.005s,PASSED
+email = communication.c_communication.getEmail(),Chrome 71.0.3578.98,,2019-01-13 10:28:45,2019-01-13 10:28:45,0.049s,PASSED
+mobilePhone = communication.c_communication.getMobilePhone(),Chrome 71.0.3578.98,,2019-01-13 10:28:45,2019-01-13 10:28:45,0.002s,PASSED
+homePhone = communication.c_communication.getHomePhone(),Chrome 71.0.3578.98,,2019-01-13 10:28:45,2019-01-13 10:28:45,0.003s,PASSED
+officePhone = communication.c_communication.getOfficePhone(),Chrome 71.0.3578.98,,2019-01-13 10:28:45,2019-01-13 10:28:45,0.002s,PASSED
+phoneExten = communication.c_communication.getPhoneExten(),Chrome 71.0.3578.98,,2019-01-13 10:28:45,2019-01-13 10:28:45,0.003s,PASSED
+faxNum = communication.c_communication.getFaxNum(),Chrome 71.0.3578.98,,2019-01-13 10:28:45,2019-01-13 10:28:45,0.003s,PASSED
+"login.c_login.logIn(site, userName, userPass)",Chrome 71.0.3578.98,,2019-01-13 10:28:45,2019-01-13 10:28:56,10.241s,PASSED
+"waitForElementPresent(findTestObject(""Nav Bar/catalogues""), 15, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-13 10:28:56,2019-01-13 10:28:57,1.787s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-13 10:28:57,2019-01-13 10:28:58,1.022s,PASSED
+"click(findTestObject(""Nav Bar/catalogues""))",Chrome 71.0.3578.98,,2019-01-13 10:28:58,2019-01-13 10:28:59,0.225s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-13 10:28:59,2019-01-13 10:29:00,1.001s,PASSED
+try,Chrome 71.0.3578.98,,2019-01-13 10:29:00,2019-01-13 10:29:00,0.635s,FAILED
+catch (Exception e),Chrome 71.0.3578.98,,2019-01-13 10:29:00,2019-01-13 10:29:01,1.139s,PASSED
+try,Chrome 71.0.3578.98,,2019-01-13 10:29:01,2019-01-13 10:29:04,2.117s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-13 10:29:04,2019-01-13 10:29:05,1.001s,PASSED
+"setText(findTestObject(""Tickets/Personnel Ticket/Details/General/first Name""), nowStr)",Chrome 71.0.3578.98,,2019-01-13 10:29:05,2019-01-13 10:29:05,0.623s,PASSED
+"setText(findTestObject(""Tickets/Personnel Ticket/Details/General/last Name""), ""קטלון"")",Chrome 71.0.3578.98,,2019-01-13 10:29:05,2019-01-13 10:29:05,0.254s,PASSED
+"setText(findTestObject(""Tickets/Personnel Ticket/Details/General/city""), city)",Chrome 71.0.3578.98,,2019-01-13 10:29:05,2019-01-13 10:29:06,0.247s,PASSED
+"setText(findTestObject(""Tickets/Personnel Ticket/Details/General/street""), street)",Chrome 71.0.3578.98,,2019-01-13 10:29:06,2019-01-13 10:29:06,0.279s,PASSED
+"setText(findTestObject(""Tickets/Personnel Ticket/Details/General/house Number""), houseNum)",Chrome 71.0.3578.98,,2019-01-13 10:29:06,2019-01-13 10:29:06,0.187s,PASSED
+"setText(findTestObject(""Tickets/Personnel Ticket/Details/General/entrance""), entrance)",Chrome 71.0.3578.98,,2019-01-13 10:29:06,2019-01-13 10:29:06,0.153s,PASSED
+"setText(findTestObject(""Tickets/Personnel Ticket/Details/General/apartment Number""), apartmentNum)",Chrome 71.0.3578.98,,2019-01-13 10:29:06,2019-01-13 10:29:06,0.149s,PASSED
+"setText(findTestObject(""Tickets/Personnel Ticket/Details/General/mailbox""), mailbox)",Chrome 71.0.3578.98,,2019-01-13 10:29:06,2019-01-13 10:29:07,0.217s,PASSED
+"setText(findTestObject(""Tickets/Personnel Ticket/Details/General/zip Code""), zipCode)",Chrome 71.0.3578.98,,2019-01-13 10:29:07,2019-01-13 10:29:07,0.186s,PASSED
+"setText(findTestObject(""Tickets/Personnel Ticket/Details/General/remarks""), ""בדיקה"")",Chrome 71.0.3578.98,,2019-01-13 10:29:07,2019-01-13 10:29:07,0.170s,PASSED
+"setText(findTestObject(""Tickets/Personnel Ticket/Details/General/email""), email)",Chrome 71.0.3578.98,,2019-01-13 10:29:07,2019-01-13 10:29:08,0.476s,PASSED
+"setText(findTestObject(""Tickets/Personnel Ticket/Details/General/mobile Phone""), mobilePhone)",Chrome 71.0.3578.98,,2019-01-13 10:29:08,2019-01-13 10:29:08,0.335s,PASSED
+"click(findTestObject(""Tickets/Personnel Ticket/Details/General/interface Button""))",Chrome 71.0.3578.98,,2019-01-13 10:29:08,2019-01-13 10:29:08,0.117s,PASSED
+"setText(findTestObject(""Tickets/Personnel Ticket/Details/General/home Phone""), homePhone)",Chrome 71.0.3578.98,,2019-01-13 10:29:08,2019-01-13 10:29:08,0.319s,PASSED
+"setText(findTestObject(""Tickets/Personnel Ticket/Details/General/office Phone""), officePhone)",Chrome 71.0.3578.98,,2019-01-13 10:29:08,2019-01-13 10:29:09,0.280s,PASSED
+"setText(findTestObject(""Tickets/Personnel Ticket/Details/General/phone Extention""), phoneExten)",Chrome 71.0.3578.98,,2019-01-13 10:29:09,2019-01-13 10:29:09,0.232s,PASSED
+"setText(findTestObject(""Tickets/Personnel Ticket/Details/General/fax Number""), faxNum)",Chrome 71.0.3578.98,,2019-01-13 10:29:09,2019-01-13 10:29:09,0.298s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-13 10:29:09,2019-01-13 10:29:10,1.000s,PASSED
+"click(findTestObject(""Tickets/Personnel Ticket/personnel Save""))",Chrome 71.0.3578.98,,2019-01-13 10:29:10,2019-01-13 10:29:10,0.101s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-13 10:29:10,2019-01-13 10:29:15,5.001s,PASSED
+"click(findTestObject(""Tickets/Personnel Ticket/personnel Close""))",Chrome 71.0.3578.98,,2019-01-13 10:29:15,2019-01-13 10:29:15,0.195s,PASSED
+"click(findTestObject(""Nav Bar/catalogues""))",Chrome 71.0.3578.98,,2019-01-13 10:29:15,2019-01-13 10:29:16,0.427s,PASSED
+try,Chrome 71.0.3578.98,,2019-01-13 10:29:16,2019-01-13 10:29:16,0.097s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-13 10:29:16,2019-01-13 10:29:17,1.001s,PASSED
+"click(findTestObject(""Indexes/Personnel Index/refresh""))",Chrome 71.0.3578.98,,2019-01-13 10:29:17,2019-01-13 10:29:17,0.098s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-13 10:29:17,2019-01-13 10:29:20,3.001s,PASSED
+"setText(findTestObject(""Indexes/Personnel Index/fast Search""), nowStr)",Chrome 71.0.3578.98,,2019-01-13 10:29:20,2019-01-13 10:29:23,2.735s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-13 10:29:23,2019-01-13 10:29:24,1.003s,PASSED
+"doubleClick(findTestObject(""Indexes/Personnel Index/new Driver td""))",Chrome 71.0.3578.98,,2019-01-13 10:29:24,2019-01-13 10:29:24,0.174s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-13 10:29:24,2019-01-13 10:29:25,1.001s,PASSED
+"executeJavaScript(""alert(`Personnel created with: ` + arguments[0])"", [nowStr])",Chrome 71.0.3578.98,,2019-01-13 10:29:25,2019-01-13 10:29:25,0.029s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-13 10:29:25,2019-01-13 10:29:30,5.002s,PASSED
+acceptAlert(),Chrome 71.0.3578.98,,2019-01-13 10:29:30,2019-01-13 10:29:30,0.021s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-13 10:29:30,2019-01-13 10:29:31,0.697s,PASSED

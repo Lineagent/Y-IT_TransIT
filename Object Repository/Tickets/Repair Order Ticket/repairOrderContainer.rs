@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>repairOrderContainer</name>
+   <tag></tag>
+   <elementGuidId>b619e124-e4ef-430b-a17e-bd7c4a8f1d3f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div[id*=&quot;repairOrder&quot;]:not([id*=&quot;content&quot;]):not([id*=&quot;Ordersview&quot;])</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

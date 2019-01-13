@@ -46,6 +46,10 @@ CustomKeywords.'login.c_login.logIn'(GlobalVariable.site, GlobalVariable.userNam
 
 WebUI.waitForElementPresent(findTestObject('Nav Bar/catalogues'), 15, FailureHandling.CONTINUE_ON_FAILURE)
 
+WebUI.waitForElementPresent(findTestObject('General/mainEmptyBackground'), 15)
+
+WebUI.waitForElementNotPresent(findTestObject('General/loadingBar'), 15)
+
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Nav Bar/catalogues'))
@@ -53,19 +57,19 @@ WebUI.click(findTestObject('Nav Bar/catalogues'))
 WebUI.delay(1)
 
 try {
-    WebUI.click(findTestObject('Object Repository/Nav Bar Catalogues/personnel'))
+    WebUI.click(findTestObject('Nav Bar/Nav Bar Catalogues/personnel'))
 }
 catch (def e) {
     WebUI.click(findTestObject('Nav Bar/catalogues'))
 
     WebUI.delay(1)
 
-    WebUI.click(findTestObject('Object Repository/Nav Bar Catalogues/personnel'))
+    WebUI.click(findTestObject('Nav Bar/Nav Bar Catalogues/personnel'))
 } 
 
 try {
-	WebUI.delay(1)
-	
+    WebUI.delay(1)
+
     WebUI.waitForElementPresent(findTestObject('Indexes/Personnel Index/add Personnel'), 5, FailureHandling.CONTINUE_ON_FAILURE)
 
     WebUI.delay(1)
@@ -73,15 +77,15 @@ try {
     WebUI.click(findTestObject('Indexes/Personnel Index/add Personnel'))
 }
 catch (def e) {
-	WebUI.delay(1)
-	
-    WebUI.click(findTestObject('Nav Bar/catalogues'))
-	
-	WebUI.delay(1)
+    WebUI.delay(1)
 
-    WebUI.click(findTestObject('Object Repository/Nav Bar Catalogues/personnel'))
-	
-	WebUI.delay(1)
+    WebUI.click(findTestObject('Nav Bar/catalogues'))
+
+    WebUI.delay(1)
+
+    WebUI.click(findTestObject('Nav Bar/Nav Bar Catalogues/personnel'))
+
+    WebUI.delay(1)
 
     WebUI.waitForElementPresent(findTestObject('Indexes/Personnel Index/add Personnel'), 5, FailureHandling.CONTINUE_ON_FAILURE)
 
@@ -137,12 +141,12 @@ WebUI.click(findTestObject('Tickets/Personnel Ticket/personnel Close'))
 WebUI.click(findTestObject('Nav Bar/catalogues'))
 
 try {
-    WebUI.click(findTestObject('Object Repository/Nav Bar Catalogues/personnel'))
+    WebUI.click(findTestObject('Nav Bar/Nav Bar Catalogues/personnel'))
 }
 catch (def e) {
     WebUI.click(findTestObject('Nav Bar/catalogues'))
 
-    WebUI.click(findTestObject('Object Repository/Nav Bar Catalogues/personnel'))
+    WebUI.click(findTestObject('Nav Bar/Nav Bar Catalogues/personnel'))
 } 
 
 WebUI.delay(1)

@@ -94,7 +94,16 @@ WebUI.waitForElementNotPresent(findTestObject('Pre-Salary/Filters/Drivers Dropdo
 
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen'))
+try {
+    WebUI.click(findTestObject('Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen'))
+}
+catch (Exception err) {
+    WebUI.delay(1)
+
+    WebUI.waitForElementPresent(findTestObject('Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen'), 10)
+
+    WebUI.click(findTestObject('Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen'))
+} 
 
 WebUI.delay(1)
 
@@ -159,7 +168,7 @@ WebUI.verifyElementPresent(findTestObject('Pre-Salary/Employee Details/rightSide
 String driversCodeFromRightSideTable = WebUI.getText(findTestObject('Pre-Salary/Employee Details/rightSideTableDriversId'))
 
 if (driversCodeFromRightSideTable != driver_Id) {
-	throw new com.kms.katalon.core.exception.StepFailedException('Rught side table driver\'s id doesn\'t match with with test\'s driver id.')
+    throw new com.kms.katalon.core.exception.StepFailedException('Rught side table driver\'s id doesn\'t match with with test\'s driver id.')
 }
 
 WebUI.closeBrowser()

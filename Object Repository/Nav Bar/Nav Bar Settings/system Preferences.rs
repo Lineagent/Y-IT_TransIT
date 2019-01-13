@@ -6,11 +6,19 @@
    <elementGuidId>8a518b78-7494-4010-aeb1-0bc6823f4a70</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>/html[@class=&quot;k-webkit k-webkit70 ks-webkit537 ks-webkit ks-chrome70 ks-chrome ng-scope&quot;]/body[@class=&quot;k-rtl&quot;]/div[@class=&quot;container-fluid ng-scope&quot;]/div[@class=&quot;row x-content pad-t-36 ng-scope&quot;]/div[@class=&quot;col-xs-2 sub-block ng-isolate-scope&quot;]/div[@class=&quot;x-sub-menu fade-in-out ng-isolate-scope&quot;]/ul[@class=&quot;nav nav-tabs nav-stacked x-no-pad&quot;]/li[@class=&quot;animate-repeat notransition ng-scope&quot;][1]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a[id=&quot;bd50aad7-b082-4437-9daa-967140ca35cd&quot;]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='הגדרות'])[1]/following::a[3]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>CSS</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
