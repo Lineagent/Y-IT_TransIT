@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Personnel" time="80" tests="1" failures="0" errors="0">
+   <testsuite name="Personnel" tests="1" failures="0" errors="0" time="80" timestamp="2019-01-16 15:05:29" hostname="leon.b - QA-PC.Y-it.Local" id="Test Suites/Entities Creation/Personnel">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\leon.b\\Katalon Studio\\Y-IT_TransIT\\Reports\\Entities Creation\\Personnel\\20190116_150412"/>
+         <property name="logFiles" value="C:\\Users\\leon.b\\Katalon Studio\\Y-IT_TransIT\\Reports\\Entities Creation\\Personnel\\20190116_150412\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\leon.b\\Katalon Studio\\Y-IT_TransIT\\Reports\\Entities Creation\\Personnel\\20190116_150412\\1547643973028.png"/>
+         <property name="hostName" value="leon.b - QA-PC.Y-it.Local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.1.145"/>
+         <property name="sessionId" value="062528471d494497545490f365acf42f"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Entities Creator/Create Personnel" classname="Test Cases/Entities Creator/Create Personnel" status="PASSED">
+         <system-out><![CDATA[2019-01-16 15:05:29 - [TEST_CASE][PASSED] - Test Cases/Entities Creator/Create Personnel: Test Cases/Entities Creator/Create Personnel
+
+2019-01-16 15:05:29 - [TEST_STEP][PASSED] - nowStr = newDate.c_nowStr.getNowStr(): newDate.c_nowStr.getNowStr is PASSED
+
+2019-01-16 15:05:30 - [MESSAGE][PASSED] - newDate.c_nowStr.getNowStr is PASSED
+
+2019-01-16 15:05:30 - [TEST_STEP][PASSED] - city = address.c_address.getCity(): address.c_address.getCity is PASSED
+
+2019-01-16 15:05:30 - [MESSAGE][PASSED] - address.c_address.getCity is PASSED
+
+2019-01-16 15:05:30 - [TEST_STEP][PASSED] - street = address.c_address.getStreet(): address.c_address.getStreet is PASSED
+
+2019-01-16 15:05:30 - [MESSAGE][PASSED] - address.c_address.getStreet is PASSED
+
+2019-01-16 15:05:30 - [TEST_STEP][PASSED] - houseNum = address.c_address.getHouseNum(): address.c_address.getHouseNum is PASSED
+
+2019-01-16 15:05:30 - [MESSAGE][PASSED] - address.c_address.getHouseNum is PASSED
+
+2019-01-16 15:05:30 - [TEST_STEP][PASSED] - apartmentNum = address.c_address.getApartmentNum(): address.c_address.getApartmentNum is PASSED
+
+2019-01-16 15:05:30 - [MESSAGE][PASSED] - address.c_address.getApartmentNum is PASSED
+
+2019-01-16 15:05:30 - [TEST_STEP][PASSED] - entrance = address.c_address.getEntrance(): address.c_address.getEntrance is PASSED
+
+2019-01-16 15:05:30 - [MESSAGE][PASSED] - address.c_address.getEntrance is PASSED
+
+2019-01-16 15:05:30 - [TEST_STEP][PASSED] - mailbox = address.c_address.getMailbox(): address.c_address.getMailbox is PASSED
+
+2019-01-16 15:05:30 - [MESSAGE][PASSED] - address.c_address.getMailbox is PASSED
+
+2019-01-16 15:05:30 - [TEST_STEP][PASSED] - zipCode = address.c_address.getZipCode(): address.c_address.getZipCode is PASSED
+
+2019-01-16 15:05:30 - [MESSAGE][PASSED] - address.c_address.getZipCode is PASSED
+
+2019-01-16 15:05:30 - [TEST_STEP][PASSED] - email = communication.c_communication.getEmail(): communication.c_communication.getEmail is PASSED
+
+2019-01-16 15:05:30 - [MESSAGE][PASSED] - communication.c_communication.getEmail is PASSED
+
+2019-01-16 15:05:30 - [TEST_STEP][PASSED] - mobilePhone = communication.c_communication.getMobilePhone(): communication.c_communication.getMobilePhone is PASSED
+
+2019-01-16 15:05:30 - [MESSAGE][PASSED] - communication.c_communication.getMobilePhone is PASSED
+
+2019-01-16 15:05:30 - [TEST_STEP][PASSED] - homePhone = communication.c_communication.getHomePhone(): communication.c_communication.getHomePhone is PASSED
+
+2019-01-16 15:05:30 - [MESSAGE][PASSED] - communication.c_communication.getHomePhone is PASSED
+
+2019-01-16 15:05:30 - [TEST_STEP][PASSED] - officePhone = communication.c_communication.getOfficePhone(): communication.c_communication.getOfficePhone is PASSED
+
+2019-01-16 15:05:30 - [MESSAGE][PASSED] - communication.c_communication.getOfficePhone is PASSED
+
+2019-01-16 15:05:30 - [TEST_STEP][PASSED] - phoneExten = communication.c_communication.getPhoneExten(): communication.c_communication.getPhoneExten is PASSED
+
+2019-01-16 15:05:30 - [MESSAGE][PASSED] - communication.c_communication.getPhoneExten is PASSED
+
+2019-01-16 15:05:30 - [TEST_STEP][PASSED] - faxNum = communication.c_communication.getFaxNum(): communication.c_communication.getFaxNum is PASSED
+
+2019-01-16 15:05:30 - [MESSAGE][PASSED] - communication.c_communication.getFaxNum is PASSED
+
+2019-01-16 15:05:30 - [TEST_STEP][PASSED] - login.c_login.logIn(site, userName, userPass): login.c_login.logIn is PASSED
+
+2019-01-16 15:05:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-16 15:05:30 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-16 15:05:46 - [MESSAGE][PASSED] - Browser is opened with url: 'https://aws_test.y-it.co.il/#/login'
+
+2019-01-16 15:05:47 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-16 15:05:47 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Y-IT Log In/input_ _userName'
+
+2019-01-16 15:05:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Y-IT Log In/input_ _password'
+
+2019-01-16 15:05:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Y-IT Log In/input_  _submit' is clicked on
+
+2019-01-16 15:05:47 - [MESSAGE][PASSED] - login.c_login.logIn is PASSED
+
+2019-01-16 15:05:47 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Nav Bar/catalogues"), 15, CONTINUE_ON_FAILURE): Object 'Object Repository/Nav Bar/catalogues' is present
+
+2019-01-16 15:05:52 - [MESSAGE][PASSED] - Object 'Object Repository/Nav Bar/catalogues' is present
+
+2019-01-16 15:05:52 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("General/mainEmptyBackground"), 15): Object 'Object Repository/General/mainEmptyBackground' is present
+
+2019-01-16 15:05:52 - [MESSAGE][PASSED] - Object 'Object Repository/General/mainEmptyBackground' is present
+
+2019-01-16 15:05:52 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("General/loadingBar"), 15): Web element with id: 'Object Repository/General/loadingBar' located by 'By.cssSelector: div[class="bar"][style~="width:"]' is not present after '15' second(s)
+
+2019-01-16 15:05:55 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/General/loadingBar' located by 'By.cssSelector: div[class="bar"][style~="width:"]' is not present after '15' second(s)
+
+2019-01-16 15:05:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-16 15:05:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-16 15:05:56 - [TEST_STEP][PASSED] - click(findTestObject("Nav Bar/catalogues")): Object: 'Object Repository/Nav Bar/catalogues' is clicked on
+
+2019-01-16 15:05:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav Bar/catalogues' is clicked on
+
+2019-01-16 15:05:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-16 15:05:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-16 15:05:57 - [TEST_STEP][FAILED] - try: Unable to click on object 'Object Repository/Nav Bar/Nav Bar Catalogues/personnel' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Nav Bar/Nav Bar Catalogues/personnel' located by 'By.cssSelector: a[id="2645e49d-8577-40fd-9626-fb3d962af65d"]' not found)
+
+2019-01-16 15:05:57 - [TEST_STEP][FAILED] - click(findTestObject("Nav Bar/Nav Bar Catalogues/personnel")): Unable to click on object 'Object Repository/Nav Bar/Nav Bar Catalogues/personnel' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Nav Bar/Nav Bar Catalogues/personnel' located by 'By.cssSelector: a[id="2645e49d-8577-40fd-9626-fb3d962af65d"]' not found)
+
+2019-01-16 15:06:13 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: a[id="2645e49d-8577-40fd-9626-fb3d962af65d"]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-01-16 15:06:13 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Nav Bar/Nav Bar Catalogues/personnel' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Nav Bar/Nav Bar Catalogues/personnel' located by 'By.cssSelector: a[id="2645e49d-8577-40fd-9626-fb3d962af65d"]' not found)
+[[ATTACHMENT|C:\\Users\\leon.b\\Katalon Studio\\Y-IT_TransIT\\Reports\\Entities Creation\\Personnel\\20190116_150412\\1547643973028.png]]
+
+2019-01-16 15:06:13 - [TEST_STEP][PASSED] - catch (Exception e): Object: 'Object Repository/Nav Bar/Nav Bar Catalogues/personnel' is clicked on
+
+2019-01-16 15:06:13 - [TEST_STEP][PASSED] - click(findTestObject("Nav Bar/catalogues")): Object: 'Object Repository/Nav Bar/catalogues' is clicked on
+
+2019-01-16 15:06:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav Bar/catalogues' is clicked on
+
+2019-01-16 15:06:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-16 15:06:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-16 15:06:14 - [TEST_STEP][PASSED] - click(findTestObject("Nav Bar/Nav Bar Catalogues/personnel")): Object: 'Object Repository/Nav Bar/Nav Bar Catalogues/personnel' is clicked on
+
+2019-01-16 15:06:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav Bar/Nav Bar Catalogues/personnel' is clicked on
+
+2019-01-16 15:06:14 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/Indexes/Personnel Index/add Personnel' is clicked on
+
+2019-01-16 15:06:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-16 15:06:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-16 15:06:15 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Indexes/Personnel Index/add Personnel"), 5, CONTINUE_ON_FAILURE): Object 'Object Repository/Indexes/Personnel Index/add Personnel' is present
+
+2019-01-16 15:06:15 - [MESSAGE][PASSED] - Object 'Object Repository/Indexes/Personnel Index/add Personnel' is present
+
+2019-01-16 15:06:15 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-16 15:06:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-16 15:06:16 - [TEST_STEP][PASSED] - click(findTestObject("Indexes/Personnel Index/add Personnel")): Object: 'Object Repository/Indexes/Personnel Index/add Personnel' is clicked on
+
+2019-01-16 15:06:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Indexes/Personnel Index/add Personnel' is clicked on
+
+2019-01-16 15:06:16 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-16 15:06:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-16 15:06:17 - [TEST_STEP][PASSED] - setText(findTestObject("Tickets/Personnel Ticket/Details/General/first Name"), nowStr): Text '20190116150530' is set on object 'Object Repository/Tickets/Personnel Ticket/Details/General/first Name'
+
+2019-01-16 15:06:23 - [MESSAGE][PASSED] - Text '20190116150530' is set on object 'Object Repository/Tickets/Personnel Ticket/Details/General/first Name'
+
+2019-01-16 15:06:23 - [TEST_STEP][PASSED] - setText(findTestObject("Tickets/Personnel Ticket/Details/General/last Name"), "קטלון"): Text 'קטלון' is set on object 'Object Repository/Tickets/Personnel Ticket/Details/General/last Name'
+
+2019-01-16 15:06:23 - [MESSAGE][PASSED] - Text 'קטלון' is set on object 'Object Repository/Tickets/Personnel Ticket/Details/General/last Name'
+
+2019-01-16 15:06:23 - [TEST_STEP][PASSED] - setText(findTestObject("Tickets/Personnel Ticket/Details/General/city"), city): Text 'רחובות' is set on object 'Object Repository/Tickets/Personnel Ticket/Details/General/city'
+
+2019-01-16 15:06:24 - [MESSAGE][PASSED] - Text 'רחובות' is set on object 'Object Repository/Tickets/Personnel Ticket/Details/General/city'
+
+2019-01-16 15:06:24 - [TEST_STEP][PASSED] - setText(findTestObject("Tickets/Personnel Ticket/Details/General/street"), street): Text 'יעקב הלל' is set on object 'Object Repository/Tickets/Personnel Ticket/Details/General/street'
+
+2019-01-16 15:06:24 - [MESSAGE][PASSED] - Text 'יעקב הלל' is set on object 'Object Repository/Tickets/Personnel Ticket/Details/General/street'
+
+2019-01-16 15:06:24 - [TEST_STEP][PASSED] - setText(findTestObject("Tickets/Personnel Ticket/Details/General/house Number"), houseNum): Text '6' is set on object 'Object Repository/Tickets/Personnel Ticket/Details/General/house Number'
+
+2019-01-16 15:06:24 - [MESSAGE][PASSED] - Text '6' is set on object 'Object Repository/Tickets/Personnel Ticket/Details/General/house Number'
+
+2019-01-16 15:06:24 - [TEST_STEP][PASSED] - setText(findTestObject("Tickets/Personnel Ticket/Details/General/entrance"), entrance): Text '1' is set on object 'Object Repository/Tickets/Personnel Ticket/Details/General/entrance'
+
+2019-01-16 15:06:24 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Tickets/Personnel Ticket/Details/General/entrance'
+
+2019-01-16 15:06:24 - [TEST_STEP][PASSED] - setText(findTestObject("Tickets/Personnel Ticket/Details/General/apartment Number"), apartmentNum): Text '5' is set on object 'Object Repository/Tickets/Personnel Ticket/Details/General/apartment Number'
+
+2019-01-16 15:06:24 - [MESSAGE][PASSED] - Text '5' is set on object 'Object Repository/Tickets/Personnel Ticket/Details/General/apartment Number'
+
+2019-01-16 15:06:24 - [TEST_STEP][PASSED] - setText(findTestObject("Tickets/Personnel Ticket/Details/General/mailbox"), mailbox): Text '66776' is set on object 'Object Repository/Tickets/Personnel Ticket/Details/General/mailbox'
+
+2019-01-16 15:06:25 - [MESSAGE][PASSED] - Text '66776' is set on object 'Object Repository/Tickets/Personnel Ticket/Details/General/mailbox'
+
+2019-01-16 15:06:25 - [TEST_STEP][PASSED] - setText(findTestObject("Tickets/Personnel Ticket/Details/General/zip Code"), zipCode): Text '123' is set on object 'Object Repository/Tickets/Personnel Ticket/Details/General/zip Code'
+
+2019-01-16 15:06:25 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Tickets/Personnel Ticket/Details/General/zip Code'
+
+2019-01-16 15:06:25 - [TEST_STEP][PASSED] - setText(findTestObject("Tickets/Personnel Ticket/Details/General/remarks"), "בדיקה"): Text 'בדיקה' is set on object 'Object Repository/Tickets/Personnel Ticket/Details/General/remarks'
+
+2019-01-16 15:06:25 - [MESSAGE][PASSED] - Text 'בדיקה' is set on object 'Object Repository/Tickets/Personnel Ticket/Details/General/remarks'
+
+2019-01-16 15:06:25 - [TEST_STEP][PASSED] - setText(findTestObject("Tickets/Personnel Ticket/Details/General/email"), email): Text 'y-it@y-it.co.il' is set on object 'Object Repository/Tickets/Personnel Ticket/Details/General/email'
+
+2019-01-16 15:06:26 - [MESSAGE][PASSED] - Text 'y-it@y-it.co.il' is set on object 'Object Repository/Tickets/Personnel Ticket/Details/General/email'
+
+2019-01-16 15:06:26 - [TEST_STEP][PASSED] - setText(findTestObject("Tickets/Personnel Ticket/Details/General/mobile Phone"), mobilePhone): Text '057-7894567' is set on object 'Object Repository/Tickets/Personnel Ticket/Details/General/mobile Phone'
+
+2019-01-16 15:06:26 - [MESSAGE][PASSED] - Text '057-7894567' is set on object 'Object Repository/Tickets/Personnel Ticket/Details/General/mobile Phone'
+
+2019-01-16 15:06:26 - [TEST_STEP][PASSED] - click(findTestObject("Tickets/Personnel Ticket/Details/General/interface Button")): Object: 'Object Repository/Tickets/Personnel Ticket/Details/General/interface Button' is clicked on
+
+2019-01-16 15:06:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Tickets/Personnel Ticket/Details/General/interface Button' is clicked on
+
+2019-01-16 15:06:26 - [TEST_STEP][PASSED] - setText(findTestObject("Tickets/Personnel Ticket/Details/General/home Phone"), homePhone): Text '07-7894567' is set on object 'Object Repository/Tickets/Personnel Ticket/Details/General/home Phone'
+
+2019-01-16 15:06:26 - [MESSAGE][PASSED] - Text '07-7894567' is set on object 'Object Repository/Tickets/Personnel Ticket/Details/General/home Phone'
+
+2019-01-16 15:06:26 - [TEST_STEP][PASSED] - setText(findTestObject("Tickets/Personnel Ticket/Details/General/office Phone"), officePhone): Text '04-7894566' is set on object 'Object Repository/Tickets/Personnel Ticket/Details/General/office Phone'
+
+2019-01-16 15:06:27 - [MESSAGE][PASSED] - Text '04-7894566' is set on object 'Object Repository/Tickets/Personnel Ticket/Details/General/office Phone'
+
+2019-01-16 15:06:27 - [TEST_STEP][PASSED] - setText(findTestObject("Tickets/Personnel Ticket/Details/General/phone Extention"), phoneExten): Text '555' is set on object 'Object Repository/Tickets/Personnel Ticket/Details/General/phone Extention'
+
+2019-01-16 15:06:27 - [MESSAGE][PASSED] - Text '555' is set on object 'Object Repository/Tickets/Personnel Ticket/Details/General/phone Extention'
+
+2019-01-16 15:06:27 - [TEST_STEP][PASSED] - setText(findTestObject("Tickets/Personnel Ticket/Details/General/fax Number"), faxNum): Text '02-7894562' is set on object 'Object Repository/Tickets/Personnel Ticket/Details/General/fax Number'
+
+2019-01-16 15:06:27 - [MESSAGE][PASSED] - Text '02-7894562' is set on object 'Object Repository/Tickets/Personnel Ticket/Details/General/fax Number'
+
+2019-01-16 15:06:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-16 15:06:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-16 15:06:28 - [TEST_STEP][PASSED] - click(findTestObject("Tickets/Personnel Ticket/personnel Save")): Object: 'Object Repository/Tickets/Personnel Ticket/personnel Save' is clicked on
+
+2019-01-16 15:06:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Tickets/Personnel Ticket/personnel Save' is clicked on
+
+2019-01-16 15:06:28 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-16 15:06:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-16 15:06:33 - [TEST_STEP][PASSED] - click(findTestObject("Tickets/Personnel Ticket/personnel Close")): Object: 'Object Repository/Tickets/Personnel Ticket/personnel Close' is clicked on
+
+2019-01-16 15:06:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Tickets/Personnel Ticket/personnel Close' is clicked on
+
+2019-01-16 15:06:33 - [TEST_STEP][PASSED] - click(findTestObject("Nav Bar/catalogues")): Object: 'Object Repository/Nav Bar/catalogues' is clicked on
+
+2019-01-16 15:06:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav Bar/catalogues' is clicked on
+
+2019-01-16 15:06:34 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/Nav Bar/Nav Bar Catalogues/personnel' is clicked on
+
+2019-01-16 15:06:34 - [TEST_STEP][PASSED] - click(findTestObject("Nav Bar/Nav Bar Catalogues/personnel")): Object: 'Object Repository/Nav Bar/Nav Bar Catalogues/personnel' is clicked on
+
+2019-01-16 15:06:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav Bar/Nav Bar Catalogues/personnel' is clicked on
+
+2019-01-16 15:06:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-16 15:06:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-16 15:06:35 - [TEST_STEP][PASSED] - click(findTestObject("Indexes/Personnel Index/refresh")): Object: 'Object Repository/Indexes/Personnel Index/refresh' is clicked on
+
+2019-01-16 15:06:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Indexes/Personnel Index/refresh' is clicked on
+
+2019-01-16 15:06:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-16 15:06:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-16 15:06:38 - [TEST_STEP][PASSED] - setText(findTestObject("Indexes/Personnel Index/fast Search"), nowStr): Text '20190116150530' is set on object 'Object Repository/Indexes/Personnel Index/fast Search'
+
+2019-01-16 15:06:41 - [MESSAGE][PASSED] - Text '20190116150530' is set on object 'Object Repository/Indexes/Personnel Index/fast Search'
+
+2019-01-16 15:06:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-16 15:06:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-16 15:06:42 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Indexes/Personnel Index/new Driver td")): Object: 'Object Repository/Indexes/Personnel Index/new Driver td' is double clicked on
+
+2019-01-16 15:06:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Indexes/Personnel Index/new Driver td' is double clicked on
+
+2019-01-16 15:06:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-16 15:06:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-16 15:06:43 - [TEST_STEP][PASSED] - executeJavaScript("alert(`Personnel created with: ` + arguments[0])", [nowStr]): Execute JavaScript 'alert(`Personnel created with: ` + arguments[0])' successfully
+
+2019-01-16 15:06:43 - [MESSAGE][PASSED] - Execute JavaScript 'alert(`Personnel created with: ` + arguments[0])' successfully
+
+2019-01-16 15:06:43 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-16 15:06:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-16 15:06:48 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+2019-01-16 15:06:48 - [MESSAGE][PASSED] - Alert accepted
+
+2019-01-16 15:06:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-16 15:06:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-16 15:05:29 - [TEST_SUITE][PASSED] - Personnel: Test Cases/Entities Creator/Create Personnel]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
