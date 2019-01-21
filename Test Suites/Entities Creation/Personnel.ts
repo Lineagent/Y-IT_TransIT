@@ -14,6 +14,6 @@
       <guid>52ec9657-7a02-4810-88ae-42d50ea0bbda</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Entities Creator/Create Personnel</testCaseId>
+      <testCaseId>Test Cases/Personnel/Create Personnel</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

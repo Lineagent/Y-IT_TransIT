@@ -14,7 +14,7 @@
       <guid>b81c15fe-9fc7-4be6-aea6-27c890970358</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Sanity/Repair Order</testCaseId>
+      <testCaseId>Test Cases/Repair Order/Repair Order</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

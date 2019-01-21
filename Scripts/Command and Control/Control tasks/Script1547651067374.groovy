@@ -93,3 +93,67 @@ WebUI.verifyElementVisibleInViewport(findTestObject('Command and Control/Task Tr
 
 WebUI.waitForElementNotPresent(findTestObject('General/loadingBar'), 15)
 
+'check if task tracking is open'
+WebUI.waitForElementVisible(findTestObject('Command and Control/Task Tracking/taskTrackingView'), 15)
+
+WebUI.verifyElementVisibleInViewport(findTestObject('Command and Control/Task Tracking/taskTrackingView'), 5)
+
+'check if header exist'
+WebUI.waitForElementVisible(findTestObject('Command and Control/Task Tracking/header'), 15)
+
+WebUI.verifyElementVisibleInViewport(findTestObject('Command and Control/Task Tracking/header'), 5)
+
+'check if map exist'
+WebUI.waitForElementVisible(findTestObject('Command and Control/Task Tracking/map'), 15)
+
+WebUI.verifyElementVisibleInViewport(findTestObject('Command and Control/Task Tracking/map'), 5)
+
+'move to exeptions tab'
+WebUI.waitForElementVisible(findTestObject('Command and Control/Task Tracking/exeptionsTabHref'), 15)
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Command and Control/Task Tracking/exeptionsTabHref'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(1)
+
+'check if exeptions table exist'
+WebUI.waitForElementVisible(findTestObject('Command and Control/Task Tracking/exeptionsTable'), 15)
+
+WebUI.verifyElementVisibleInViewport(findTestObject('Command and Control/Task Tracking/exeptionsTable'), 5)
+
+'check if remarks exist'
+WebUI.waitForElementVisible(findTestObject('Command and Control/Task Tracking/remarks'), 15)
+
+WebUI.verifyElementVisibleInViewport(findTestObject('Command and Control/Task Tracking/remarks'), 5)
+
+'check if status check exist'
+WebUI.waitForElementVisible(findTestObject('Command and Control/Task Tracking/statusCheck'), 15)
+
+WebUI.verifyElementVisibleInViewport(findTestObject('Command and Control/Task Tracking/statusCheck'), 5)
+
+'move to stations tab'
+WebUI.waitForElementVisible(findTestObject('Command and Control/Task Tracking/stationsTabHref'), 15)
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Command and Control/Task Tracking/stationsTabHref'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(1)
+
+'check if status check exist'
+WebUI.waitForElementVisible(findTestObject('Command and Control/Task Tracking/stationsTable'), 15)
+
+WebUI.verifyElementVisibleInViewport(findTestObject('Command and Control/Task Tracking/stationsTable'), 5)
+
+'close task tracking'
+WebUI.waitForElementVisible(findTestObject('Command and Control/Task Tracking/close'), 15)
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Command and Control/Task Tracking/close'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(1)
+
+WebUI.closeBrowser()
+

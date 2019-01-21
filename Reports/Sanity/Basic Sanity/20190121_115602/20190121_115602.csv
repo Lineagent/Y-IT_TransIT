@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Basic Sanity,Chrome 71.0.3578.98,,2019-01-21 11:56:05,2019-01-21 11:57:31,1m - 25.625s,PASSED
+,,,,,,
+Test Cases/Login/Log In,Chrome 71.0.3578.98,,2019-01-21 11:56:05,2019-01-21 11:56:38,32.789s,PASSED
+"login.c_login.logIn(site, userName, userPass)",Chrome 71.0.3578.98,,2019-01-21 11:56:06,2019-01-21 11:56:31,24.740s,PASSED
+"waitForElementPresent(findTestObject(""Nav Bar/catalogues""), 15, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-21 11:56:31,2019-01-21 11:56:35,4.733s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-21 11:56:35,2019-01-21 11:56:36,1.019s,PASSED
+"click(findTestObject(""Nav Bar/catalogues""))",Chrome 71.0.3578.98,,2019-01-21 11:56:36,2019-01-21 11:56:36,0.155s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-21 11:56:36,2019-01-21 11:56:37,1.002s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-21 11:56:37,2019-01-21 11:56:38,0.644s,PASSED
+,,,,,,
+Test Cases/System Config/Config Change,Chrome 71.0.3578.98,,2019-01-21 11:56:38,2019-01-21 11:57:30,52.395s,PASSED
+randomNumberInt = Math.floor(Math.random() * 999 - 100 + 1) + 100,Chrome 71.0.3578.98,,2019-01-21 11:56:38,2019-01-21 11:56:38,0.034s,PASSED
+randomNumber = randomNumberInt.toString(),Chrome 71.0.3578.98,,2019-01-21 11:56:38,2019-01-21 11:56:38,0.002s,PASSED
+"login.c_login.logIn(site, userName, userPass)",Chrome 71.0.3578.98,,2019-01-21 11:56:38,2019-01-21 11:57:11,32.472s,PASSED
+"waitForElementPresent(findTestObject(""Nav Bar/settings""), 15, CONTINUE_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-21 11:57:11,2019-01-21 11:57:13,2.238s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-21 11:57:13,2019-01-21 11:57:14,1.001s,PASSED
+"click(findTestObject(""Nav Bar/settings""))",Chrome 71.0.3578.98,,2019-01-21 11:57:14,2019-01-21 11:57:14,0.130s,PASSED
+try,Chrome 71.0.3578.98,,2019-01-21 11:57:14,2019-01-21 11:57:14,0.187s,PASSED
+try,Chrome 71.0.3578.98,,2019-01-21 11:57:14,2019-01-21 11:57:16,1.337s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-21 11:57:16,2019-01-21 11:57:18,2.001s,PASSED
+"checkValue = getText(findTestObject(""System Preferences/System/General/fax_Zip_Code""))",Chrome 71.0.3578.98,,2019-01-21 11:57:18,2019-01-21 11:57:18,0.067s,PASSED
+i = 0,Chrome 71.0.3578.98,,2019-01-21 11:57:18,2019-01-21 11:57:18,0.000s,PASSED
+while (checkValue && i < 10),Chrome 71.0.3578.98,,2019-01-21 11:57:18,2019-01-21 11:57:18,0.001s,PASSED
+"setText(findTestObject(""System Preferences/System/General/fax_Zip_Code""), randomNumber)",Chrome 71.0.3578.98,,2019-01-21 11:57:18,2019-01-21 11:57:18,0.141s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-21 11:57:18,2019-01-21 11:57:19,1.002s,PASSED
+"click(findTestObject(""System Preferences/settings Save""))",Chrome 71.0.3578.98,,2019-01-21 11:57:19,2019-01-21 11:57:19,0.108s,PASSED
+delay(2),Chrome 71.0.3578.98,,2019-01-21 11:57:19,2019-01-21 11:57:21,2.001s,PASSED
+"click(findTestObject(""System Preferences/settings Close""))",Chrome 71.0.3578.98,,2019-01-21 11:57:21,2019-01-21 11:57:21,0.155s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-21 11:57:21,2019-01-21 11:57:22,1.001s,PASSED
+"click(findTestObject(""Nav Bar/settings""))",Chrome 71.0.3578.98,,2019-01-21 11:57:22,2019-01-21 11:57:22,0.065s,PASSED
+try,Chrome 71.0.3578.98,,2019-01-21 11:57:22,2019-01-21 11:57:23,0.145s,PASSED
+try,Chrome 71.0.3578.98,,2019-01-21 11:57:23,2019-01-21 11:57:25,2.340s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-21 11:57:25,2019-01-21 11:57:30,5.002s,PASSED
+acceptAlert(),Chrome 71.0.3578.98,,2019-01-21 11:57:30,2019-01-21 11:57:30,0.022s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-21 11:57:30,2019-01-21 11:57:30,0.624s,PASSED

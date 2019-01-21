@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Command and Control" time="67" tests="0" failures="1" errors="0">
+   <testsuite name="Command and Control" tests="0" failures="1" errors="0" time="67" timestamp="2019-01-21 12:09:52" hostname="leon.b - QA-PC.Y-it.Local" id="Test Suites/Production/Command and Control">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\leon.b\\Katalon Studio\\Y-IT_TransIT\\Reports\\Production\\Command and Control\\20190121_120950"/>
+         <property name="logFiles" value="C:\\Users\\leon.b\\Katalon Studio\\Y-IT_TransIT\\Reports\\Production\\Command and Control\\20190121_120950\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\leon.b\\Katalon Studio\\Y-IT_TransIT\\Reports\\Production\\Command and Control\\20190121_120950\\1548065458930.png"/>
+         <property name="hostName" value="leon.b - QA-PC.Y-it.Local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.1.145"/>
+         <property name="sessionId" value="9d2e76f37486377a2504d3fbffb19608"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Command and Control/Control tasks" classname="Test Cases/Command and Control/Control tasks" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Command and Control/Control tasks FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select all options (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.DeselectAllOptionKeyword.deselectAllOption(DeselectAllOptionKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.DeselectAllOptionKeyword.execute(DeselectAllOptionKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.deselectAllOption(WebUiBuiltInKeywords.groovy:1336)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$deselectAllOption$10.call(Unknown Source)
+	at Control tasks.run(Control tasks:152)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548065390183.run(TempTestSuite1548065390183.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-21 12:09:52 - [TEST_CASE][FAILED] - Test Cases/Command and Control/Control tasks: Test Cases/Command and Control/Control tasks FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select all options (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.DeselectAllOptionKeyword.deselectAllOption(DeselectAllOptionKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.DeselectAllOptionKeyword.execute(DeselectAllOptionKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.deselectAllOption(WebUiBuiltInKeywords.groovy:1336)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$deselectAllOption$10.call(Unknown Source)
+	at Control tasks.run(Control tasks:152)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548065390183.run(TempTestSuite1548065390183.groovy:36)
+
+
+2019-01-21 12:09:53 - [TEST_STEP][PASSED] - login.c_login.logIn(site, userName, userPass): login.c_login.logIn is PASSED
+
+2019-01-21 12:09:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-21 12:09:53 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-21 12:10:12 - [MESSAGE][PASSED] - Browser is opened with url: 'danbr7.y-it.co.il'
+
+2019-01-21 12:10:14 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-21 12:10:14 - [MESSAGE][PASSED] - Text 'shelly' is set on object 'Object Repository/Y-IT Log In/input_ _userName'
+
+2019-01-21 12:10:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Y-IT Log In/input_ _password'
+
+2019-01-21 12:10:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Y-IT Log In/input_  _submit' is clicked on
+
+2019-01-21 12:10:14 - [MESSAGE][PASSED] - login.c_login.logIn is PASSED
+
+2019-01-21 12:10:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-21 12:10:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-21 12:10:15 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("General/mainEmptyBackground"), 15): Object 'Object Repository/General/mainEmptyBackground' is present
+
+2019-01-21 12:10:16 - [MESSAGE][PASSED] - Object 'Object Repository/General/mainEmptyBackground' is present
+
+2019-01-21 12:10:16 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Nav Bar/commandAndControl"), 15): Object 'Object Repository/Nav Bar/commandAndControl' is present
+
+2019-01-21 12:10:17 - [MESSAGE][PASSED] - Object 'Object Repository/Nav Bar/commandAndControl' is present
+
+2019-01-21 12:10:17 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("General/loadingBar"), 15): Web element with id: 'Object Repository/General/loadingBar' located by 'By.cssSelector: div[class="bar"][style~="width:"]' is not present after '15' second(s)
+
+2019-01-21 12:10:25 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/General/loadingBar' located by 'By.cssSelector: div[class="bar"][style~="width:"]' is not present after '15' second(s)
+
+2019-01-21 12:10:25 - [TEST_STEP][PASSED] - isControldTasksOpen = waitForElementPresent(findTestObject("Command and Control/Tasks Control/taskControlView"), 15): Object 'Object Repository/Command and Control/Tasks Control/taskControlView' is not present after 15 second(s)
+
+2019-01-21 12:10:40 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: #taskControlview'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-01-21 12:10:40 - [MESSAGE][WARNING] - Object 'Object Repository/Command and Control/Tasks Control/taskControlView' is not present after 15 second(s)
+
+2019-01-21 12:10:40 - [TEST_STEP][PASSED] - if (!(isControldTasksOpen)): Object: 'Object Repository/Nav Bar/Nav Bar CnC/controlTasks' is clicked on
+
+2019-01-21 12:10:40 - [TEST_STEP][PASSED] - click(findTestObject("Nav Bar/commandAndControl")): Object: 'Object Repository/Nav Bar/commandAndControl' is clicked on
+
+2019-01-21 12:10:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav Bar/commandAndControl' is clicked on
+
+2019-01-21 12:10:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-21 12:10:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-21 12:10:41 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/Nav Bar/Nav Bar CnC/controlTasks' is clicked on
+
+2019-01-21 12:10:41 - [TEST_STEP][PASSED] - click(findTestObject("Nav Bar/Nav Bar CnC/controlTasks")): Object: 'Object Repository/Nav Bar/Nav Bar CnC/controlTasks' is clicked on
+
+2019-01-21 12:10:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav Bar/Nav Bar CnC/controlTasks' is clicked on
+
+2019-01-21 12:10:41 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Command and Control/Tasks Control/taskControlView"), 15): Object 'Object Repository/Command and Control/Tasks Control/taskControlView' is present
+
+2019-01-21 12:10:42 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Tasks Control/taskControlView' is present
+
+2019-01-21 12:10:42 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("General/loadingBar"), 15): Web element with id: 'Object Repository/General/loadingBar' located by 'By.cssSelector: div[class="bar"][style~="width:"]' is not present after '15' second(s)
+
+2019-01-21 12:10:42 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/General/loadingBar' located by 'By.cssSelector: div[class="bar"][style~="width:"]' is not present after '15' second(s)
+
+2019-01-21 12:10:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-21 12:10:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-21 12:10:43 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Tasks Control/dateField"), 15): Object 'Object Repository/Command and Control/Tasks Control/dateField' is visible
+
+2019-01-21 12:10:43 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Tasks Control/dateField' is visible
+
+2019-01-21 12:10:43 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Tasks Control/dateField"), 5): Object 'Object Repository/Command and Control/Tasks Control/dateField' is present and visible in viewport
+
+2019-01-21 12:10:43 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Tasks Control/dateField' is present and visible in viewport
+
+2019-01-21 12:10:43 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Tasks Control/footer"), 15): Object 'Object Repository/Command and Control/Tasks Control/footer' is visible
+
+2019-01-21 12:10:43 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Tasks Control/footer' is visible
+
+2019-01-21 12:10:43 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Tasks Control/footer"), 5): Object 'Object Repository/Command and Control/Tasks Control/footer' is present and visible in viewport
+
+2019-01-21 12:10:44 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Tasks Control/footer' is present and visible in viewport
+
+2019-01-21 12:10:44 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Tasks Control/mainTable"), 15): Object 'Object Repository/Command and Control/Tasks Control/mainTable' is visible
+
+2019-01-21 12:10:45 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Tasks Control/mainTable' is visible
+
+2019-01-21 12:10:45 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Tasks Control/mainTable"), 5): Object 'Object Repository/Command and Control/Tasks Control/mainTable' is present and visible in viewport
+
+2019-01-21 12:10:45 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Tasks Control/mainTable' is present and visible in viewport
+
+2019-01-21 12:10:45 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Tasks Control/tableFirstLine"), 15): Object 'Object Repository/Command and Control/Tasks Control/tableFirstLine' is visible
+
+2019-01-21 12:10:45 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Tasks Control/tableFirstLine' is visible
+
+2019-01-21 12:10:45 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Tasks Control/tableFirstLine"), 5): Object 'Object Repository/Command and Control/Tasks Control/tableFirstLine' is present and visible in viewport
+
+2019-01-21 12:10:45 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Tasks Control/tableFirstLine' is present and visible in viewport
+
+2019-01-21 12:10:45 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Tasks Control/upperLeftFirstLine"), 15): Object 'Object Repository/Command and Control/Tasks Control/upperLeftFirstLine' is visible
+
+2019-01-21 12:10:51 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Tasks Control/upperLeftFirstLine' is visible
+
+2019-01-21 12:10:51 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Tasks Control/upperLeftFirstLine"), 5): Object 'Object Repository/Command and Control/Tasks Control/upperLeftFirstLine' is present and visible in viewport
+
+2019-01-21 12:10:51 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Tasks Control/upperLeftFirstLine' is present and visible in viewport
+
+2019-01-21 12:10:51 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Command and Control/Tasks Control/tableFirstLine")): Object: 'Object Repository/Command and Control/Tasks Control/tableFirstLine' is double clicked on
+
+2019-01-21 12:10:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Command and Control/Tasks Control/tableFirstLine' is double clicked on
+
+2019-01-21 12:10:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-21 12:10:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-21 12:10:52 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("General/loadingBar"), 15): Web element with id: 'Object Repository/General/loadingBar' located by 'By.cssSelector: div[class="bar"][style~="width:"]' is not present after '15' second(s)
+
+2019-01-21 12:10:53 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/General/loadingBar' located by 'By.cssSelector: div[class="bar"][style~="width:"]' is not present after '15' second(s)
+
+2019-01-21 12:10:53 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Task Tracking/taskTrackingView"), 15): Object 'Object Repository/Command and Control/Task Tracking/taskTrackingView' is visible
+
+2019-01-21 12:10:53 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/taskTrackingView' is visible
+
+2019-01-21 12:10:53 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Task Tracking/taskTrackingView"), 5): Object 'Object Repository/Command and Control/Task Tracking/taskTrackingView' is present and visible in viewport
+
+2019-01-21 12:10:53 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/taskTrackingView' is present and visible in viewport
+
+2019-01-21 12:10:53 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("General/loadingBar"), 15): Web element with id: 'Object Repository/General/loadingBar' located by 'By.cssSelector: div[class="bar"][style~="width:"]' is not present after '15' second(s)
+
+2019-01-21 12:10:53 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/General/loadingBar' located by 'By.cssSelector: div[class="bar"][style~="width:"]' is not present after '15' second(s)
+
+2019-01-21 12:10:53 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Task Tracking/taskTrackingView"), 15): Object 'Object Repository/Command and Control/Task Tracking/taskTrackingView' is visible
+
+2019-01-21 12:10:53 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/taskTrackingView' is visible
+
+2019-01-21 12:10:53 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Task Tracking/taskTrackingView"), 5): Object 'Object Repository/Command and Control/Task Tracking/taskTrackingView' is present and visible in viewport
+
+2019-01-21 12:10:53 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/taskTrackingView' is present and visible in viewport
+
+2019-01-21 12:10:53 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Task Tracking/header"), 15): Object 'Object Repository/Command and Control/Task Tracking/header' is visible
+
+2019-01-21 12:10:53 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/header' is visible
+
+2019-01-21 12:10:53 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Task Tracking/header"), 5): Object 'Object Repository/Command and Control/Task Tracking/header' is present and visible in viewport
+
+2019-01-21 12:10:54 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/header' is present and visible in viewport
+
+2019-01-21 12:10:54 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Task Tracking/map"), 15): Object 'Object Repository/Command and Control/Task Tracking/map' is visible
+
+2019-01-21 12:10:54 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/map' is visible
+
+2019-01-21 12:10:54 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Task Tracking/map"), 5): Object 'Object Repository/Command and Control/Task Tracking/map' is present and visible in viewport
+
+2019-01-21 12:10:54 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/map' is present and visible in viewport
+
+2019-01-21 12:10:54 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Task Tracking/exeptionsTabHref"), 15): Object 'Object Repository/Command and Control/Task Tracking/exeptionsTabHref' is visible
+
+2019-01-21 12:10:54 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/exeptionsTabHref' is visible
+
+2019-01-21 12:10:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-21 12:10:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-21 12:10:55 - [TEST_STEP][PASSED] - click(findTestObject("Command and Control/Task Tracking/exeptionsTabHref"), STOP_ON_FAILURE): Object: 'Object Repository/Command and Control/Task Tracking/exeptionsTabHref' is clicked on
+
+2019-01-21 12:10:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Command and Control/Task Tracking/exeptionsTabHref' is clicked on
+
+2019-01-21 12:10:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-21 12:10:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-21 12:10:56 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Task Tracking/exeptionsTable"), 15): Object 'Object Repository/Command and Control/Task Tracking/exeptionsTable' is visible
+
+2019-01-21 12:10:56 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/exeptionsTable' is visible
+
+2019-01-21 12:10:56 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Task Tracking/exeptionsTable"), 5): Object 'Object Repository/Command and Control/Task Tracking/exeptionsTable' is present and visible in viewport
+
+2019-01-21 12:10:56 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/exeptionsTable' is present and visible in viewport
+
+2019-01-21 12:10:56 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Task Tracking/remarks"), 15): Object 'Object Repository/Command and Control/Task Tracking/remarks' is visible
+
+2019-01-21 12:10:56 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/remarks' is visible
+
+2019-01-21 12:10:56 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Task Tracking/remarks"), 5): Object 'Object Repository/Command and Control/Task Tracking/remarks' is present and visible in viewport
+
+2019-01-21 12:10:56 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/remarks' is present and visible in viewport
+
+2019-01-21 12:10:56 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Task Tracking/statusCheck"), 15): Object 'Object Repository/Command and Control/Task Tracking/statusCheck' is visible
+
+2019-01-21 12:10:56 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/statusCheck' is visible
+
+2019-01-21 12:10:56 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Task Tracking/statusCheck"), 5): Object 'Object Repository/Command and Control/Task Tracking/statusCheck' is present and visible in viewport
+
+2019-01-21 12:10:56 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/statusCheck' is present and visible in viewport
+
+2019-01-21 12:10:56 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Task Tracking/stationsTabHref"), 15): Object 'Object Repository/Command and Control/Task Tracking/stationsTabHref' is visible
+
+2019-01-21 12:10:56 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/stationsTabHref' is visible
+
+2019-01-21 12:10:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-21 12:10:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-21 12:10:57 - [TEST_STEP][PASSED] - click(findTestObject("Command and Control/Task Tracking/stationsTabHref"), STOP_ON_FAILURE): Object: 'Object Repository/Command and Control/Task Tracking/stationsTabHref' is clicked on
+
+2019-01-21 12:10:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Command and Control/Task Tracking/stationsTabHref' is clicked on
+
+2019-01-21 12:10:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-21 12:10:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-21 12:10:58 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Task Tracking/stationsTable"), 15): Object 'Object Repository/Command and Control/Task Tracking/stationsTable' is visible
+
+2019-01-21 12:10:58 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/stationsTable' is visible
+
+2019-01-21 12:10:58 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Task Tracking/stationsTable"), 5): Object 'Object Repository/Command and Control/Task Tracking/stationsTable' is present and visible in viewport
+
+2019-01-21 12:10:58 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/stationsTable' is present and visible in viewport
+
+2019-01-21 12:10:58 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Task Tracking/close"), 15): Object 'Object Repository/Command and Control/Task Tracking/close' is visible
+
+2019-01-21 12:10:58 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/close' is visible
+
+2019-01-21 12:10:58 - [TEST_STEP][FAILED] - deselectAllOption(findTestObject(null)): deselectAllOption(findTestObject(null)) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select all options (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.DeselectAllOptionKeyword.deselectAllOption(DeselectAllOptionKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.DeselectAllOptionKeyword.execute(DeselectAllOptionKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.deselectAllOption(WebUiBuiltInKeywords.groovy:1336)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$deselectAllOption$10.call(Unknown Source)
+	at Control tasks.run(Control tasks:152)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548065390183.run(TempTestSuite1548065390183.groovy:36)
+
+
+2019-01-21 12:10:58 - [MESSAGE][WARNING] - Test object id is null
+
+2019-01-21 12:10:58 - [MESSAGE][WARNING] - Test object with id 'Object Repository/' does not exist
+
+2019-01-21 12:10:59 - [MESSAGE][FAILED] - Unable to select all options (Root cause: java.lang.IllegalArgumentException: Object is null)
+[[ATTACHMENT|C:\\Users\\leon.b\\Katalon Studio\\Y-IT_TransIT\\Reports\\Production\\Command and Control\\20190121_120950\\1548065458930.png]]
+
+2019-01-21 12:10:59 - [MESSAGE][FAILED] - deselectAllOption(findTestObject(null)) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select all options (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.DeselectAllOptionKeyword.deselectAllOption(DeselectAllOptionKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.DeselectAllOptionKeyword.execute(DeselectAllOptionKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.deselectAllOption(WebUiBuiltInKeywords.groovy:1336)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$deselectAllOption$10.call(Unknown Source)
+	at Control tasks.run(Control tasks:152)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548065390183.run(TempTestSuite1548065390183.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-21 12:09:52 - [TEST_CASE][FAILED] - Test Cases/Command and Control/Control tasks: Test Cases/Command and Control/Control tasks FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select all options (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.DeselectAllOptionKeyword.deselectAllOption(DeselectAllOptionKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.DeselectAllOptionKeyword.execute(DeselectAllOptionKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.deselectAllOption(WebUiBuiltInKeywords.groovy:1336)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$deselectAllOption$10.call(Unknown Source)
+	at Control tasks.run(Control tasks:152)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548065390183.run(TempTestSuite1548065390183.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-21 12:09:52 - [TEST_SUITE][FAILED] - Command and Control: Test Cases/Command and Control/Control tasks FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select all options (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.DeselectAllOptionKeyword.deselectAllOption(DeselectAllOptionKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.DeselectAllOptionKeyword.execute(DeselectAllOptionKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.deselectAllOption(WebUiBuiltInKeywords.groovy:1336)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$deselectAllOption$10.call(Unknown Source)
+	at Control tasks.run(Control tasks:152)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548065390183.run(TempTestSuite1548065390183.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-01-21 12:09:52 - [TEST_SUITE][FAILED] - Command and Control: Test Cases/Command and Control/Control tasks FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to select all options (Root cause: java.lang.IllegalArgumentException: Object is null)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.DeselectAllOptionKeyword.deselectAllOption(DeselectAllOptionKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.DeselectAllOptionKeyword.execute(DeselectAllOptionKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.deselectAllOption(WebUiBuiltInKeywords.groovy:1336)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$deselectAllOption$10.call(Unknown Source)
+	at Control tasks.run(Control tasks:152)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548065390183.run(TempTestSuite1548065390183.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>
