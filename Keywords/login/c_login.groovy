@@ -42,13 +42,13 @@ public class c_login {
 		WebUI.maximizeWindow()
 
 		WebUI.setText(findTestObject('Y-IT Log In/input_ _userName'), this.userName)
-		
+
 		try {
 			WebUI.setEncryptedText(findTestObject('Y-IT Log In/input_ _password'), this.userPass)
 		} catch (err) {
 			WebUI.setText(findTestObject('Y-IT Log In/input_ _password'), this.userPass)
 		}
-		
+
 
 		WebUI.click(findTestObject('Y-IT Log In/input_  _submit'))
 	}

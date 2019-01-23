@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>kiosk sanity</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3b22e8b6-9b80-4bc2-ad66-527590261205</testCaseGuid>
+   <variable>
+      <defaultValue>'aws_test.kiosk.y-it.co.il'</defaultValue>
+      <description></description>
+      <id>654595a4-d732-4654-a164-6bfa812729e7</id>
+      <masked>false</masked>
+      <name>site</name>
+   </variable>
+   <variable>
+      <defaultValue>'9005'</defaultValue>
+      <description></description>
+      <id>ebb3f6be-2986-4428-8819-582d2996e51d</id>
+      <masked>false</masked>
+      <name>driverCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'306776063'</defaultValue>
+      <description></description>
+      <id>3a6a5972-bf66-4632-9272-198837193dbc</id>
+      <masked>false</masked>
+      <name>driverId</name>
+   </variable>
+   <variable>
+      <defaultValue>'aws_test.kiosk.y-it.co.il/loginByRfid'</defaultValue>
+      <description></description>
+      <id>cca8a190-771c-4e2c-a040-573a9bbf36c8</id>
+      <masked>false</masked>
+      <name>rfidSite</name>
+   </variable>
+   <variable>
+      <defaultValue>'5555'</defaultValue>
+      <description></description>
+      <id>ae707529-fbc6-4385-b992-27e693dc8c9d</id>
+      <masked>false</masked>
+      <name>rfidCode</name>
+   </variable>
+</TestCaseEntity>
