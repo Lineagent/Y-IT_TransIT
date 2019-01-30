@@ -1,0 +1,1007 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Kiosk Sanity Login Test" time="169" tests="0" failures="2" errors="0">
+   <testsuite name="Kiosk Sanity Login Test" tests="0" failures="2" errors="0" time="169" timestamp="2019-01-24 15:30:33" hostname="leon.b - QA-PC.Y-it.Local" id="Test Suites/Production/Kiosk Sanity Login Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\leon.b\\Katalon Studio\\Y-IT_TransIT\\Reports\\Production\\Kiosk Sanity Login Test\\20190124_153031"/>
+         <property name="logFiles" value="C:\\Users\\leon.b\\Katalon Studio\\Y-IT_TransIT\\Reports\\Production\\Kiosk Sanity Login Test\\20190124_153031\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\leon.b\\Katalon Studio\\Y-IT_TransIT\\Reports\\Production\\Kiosk Sanity Login Test\\20190124_153031\\1548336686809.png, C:\\Users\\leon.b\\Katalon Studio\\Y-IT_TransIT\\Reports\\Production\\Kiosk Sanity Login Test\\20190124_153031\\1548336687168.png, C:\\Users\\leon.b\\Katalon Studio\\Y-IT_TransIT\\Reports\\Production\\Kiosk Sanity Login Test\\20190124_153031\\1548336729515.png, C:\\Users\\leon.b\\Katalon Studio\\Y-IT_TransIT\\Reports\\Production\\Kiosk Sanity Login Test\\20190124_153031\\1548336729850.png, C:\\Users\\leon.b\\Katalon Studio\\Y-IT_TransIT\\Reports\\Production\\Kiosk Sanity Login Test\\20190124_153031\\1548336768581.png, C:\\Users\\leon.b\\Katalon Studio\\Y-IT_TransIT\\Reports\\Production\\Kiosk Sanity Login Test\\20190124_153031\\1548336768920.png, C:\\Users\\leon.b\\Katalon Studio\\Y-IT_TransIT\\Reports\\Production\\Kiosk Sanity Login Test\\20190124_153031\\1548336802072.png, C:\\Users\\leon.b\\Katalon Studio\\Y-IT_TransIT\\Reports\\Production\\Kiosk Sanity Login Test\\20190124_153031\\1548336802415.png"/>
+         <property name="hostName" value="leon.b - QA-PC.Y-it.Local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.1.145"/>
+         <property name="sessionId" value="0437c6fa363ce1a8a95af6062c55f09c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/kiosk/kiosk rfid" classname="Test Cases/kiosk/kiosk rfid" status="FAILED">
+         <failure type="FAILED" message="Test Cases/kiosk/kiosk rfid FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Kiosk/Lobby/workTicketButton' to be clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Kiosk/Lobby/workTicketButton' located by 'By.cssSelector: yit-lobby > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1).btn-lubby' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:548)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$5.call(Unknown Source)
+	at kiosk rfid.run(kiosk rfid:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548336631789.run(TempTestSuite1548336631789.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-24 15:30:34 - [TEST_CASE][FAILED] - Test Cases/kiosk/kiosk rfid: Test Cases/kiosk/kiosk rfid FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Kiosk/Lobby/workTicketButton' to be clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Kiosk/Lobby/workTicketButton' located by 'By.cssSelector: yit-lobby > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1).btn-lubby' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:548)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$5.call(Unknown Source)
+	at kiosk rfid.run(kiosk rfid:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548336631789.run(TempTestSuite1548336631789.groovy:36)
+
+
+2019-01-24 15:30:34 - [TEST_STEP][PASSED] - openBrowser(rfidSite): Browser is opened with url: 'eggedtaavura.kiosk.y-it.co.il/loginByRfid'
+
+2019-01-24 15:30:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-24 15:30:35 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-24 15:30:45 - [MESSAGE][PASSED] - Browser is opened with url: 'eggedtaavura.kiosk.y-it.co.il/loginByRfid'
+
+2019-01-24 15:30:45 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-24 15:30:47 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-24 15:30:47 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Kiosk/Login/Rfid/cardImage"), 30): Object 'Object Repository/Kiosk/Login/Rfid/cardImage' is visible
+
+2019-01-24 15:30:47 - [MESSAGE][PASSED] - Object 'Object Repository/Kiosk/Login/Rfid/cardImage' is visible
+
+2019-01-24 15:30:47 - [TEST_STEP][PASSED] - focus(findTestObject("Kiosk/Login/Rfid/cardImage")): Object: 'Object Repository/Kiosk/Login/Rfid/cardImage' is focused
+
+2019-01-24 15:30:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Kiosk/Login/Rfid/cardImage' is focused
+
+2019-01-24 15:30:47 - [TEST_STEP][PASSED] - f_logInwithRfid(): null
+
+2019-01-24 15:30:47 - [TEST_STEP][PASSED] - robot = new java.awt.Robot(): null
+
+2019-01-24 15:30:47 - [TEST_STEP][PASSED] - rfidCodeArray = toString().toCharArray(): null
+
+2019-01-24 15:30:47 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-24 15:30:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-24 15:30:52 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2019-01-24 15:30:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:30:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:30:53 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:30:53 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:30:53 - [TEST_STEP][PASSED] - case 0:: null
+
+2019-01-24 15:30:53 - [TEST_STEP][PASSED] - robot.keyPress(VK_0): null
+
+2019-01-24 15:30:53 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:30:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:30:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:30:54 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:30:54 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:30:54 - [TEST_STEP][PASSED] - case 2:: null
+
+2019-01-24 15:30:54 - [TEST_STEP][PASSED] - robot.keyPress(VK_2): null
+
+2019-01-24 15:30:54 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:30:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:30:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:30:55 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:30:55 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:30:55 - [TEST_STEP][PASSED] - case 6:: null
+
+2019-01-24 15:30:55 - [TEST_STEP][PASSED] - robot.keyPress(VK_6): null
+
+2019-01-24 15:30:55 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:30:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:30:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:30:56 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:30:56 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:30:56 - [TEST_STEP][PASSED] - case 0:: null
+
+2019-01-24 15:30:56 - [TEST_STEP][PASSED] - robot.keyPress(VK_0): null
+
+2019-01-24 15:30:56 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:30:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:30:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:30:57 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:30:57 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:30:57 - [TEST_STEP][PASSED] - case 0:: null
+
+2019-01-24 15:30:57 - [TEST_STEP][PASSED] - robot.keyPress(VK_0): null
+
+2019-01-24 15:30:57 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:30:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:30:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:30:58 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:30:58 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:30:58 - [TEST_STEP][PASSED] - case 0:: null
+
+2019-01-24 15:30:58 - [TEST_STEP][PASSED] - robot.keyPress(VK_0): null
+
+2019-01-24 15:30:58 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:30:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:30:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:30:59 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:30:59 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:30:59 - [TEST_STEP][PASSED] - case 2:: null
+
+2019-01-24 15:30:59 - [TEST_STEP][PASSED] - robot.keyPress(VK_2): null
+
+2019-01-24 15:30:59 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:30:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:31:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:31:00 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:31:00 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:31:00 - [TEST_STEP][PASSED] - case 2:: null
+
+2019-01-24 15:31:00 - [TEST_STEP][PASSED] - robot.keyPress(VK_2): null
+
+2019-01-24 15:31:00 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:31:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:31:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:31:01 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:31:01 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:31:01 - [TEST_STEP][PASSED] - case 4:: null
+
+2019-01-24 15:31:01 - [TEST_STEP][PASSED] - robot.keyPress(VK_4): null
+
+2019-01-24 15:31:01 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:31:01 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:31:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:31:02 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:31:02 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:31:02 - [TEST_STEP][PASSED] - case 0:: null
+
+2019-01-24 15:31:02 - [TEST_STEP][PASSED] - robot.keyPress(VK_0): null
+
+2019-01-24 15:31:02 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:31:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:31:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:31:03 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:31:03 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:31:03 - [TEST_STEP][PASSED] - case 0:: null
+
+2019-01-24 15:31:03 - [TEST_STEP][PASSED] - robot.keyPress(VK_0): null
+
+2019-01-24 15:31:03 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:31:03 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:31:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:31:04 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:31:04 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:31:04 - [TEST_STEP][PASSED] - case 1:: null
+
+2019-01-24 15:31:04 - [TEST_STEP][PASSED] - robot.keyPress(VK_1): null
+
+2019-01-24 15:31:04 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:31:04 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:31:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:31:05 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:31:05 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:31:05 - [TEST_STEP][PASSED] - case 2:: null
+
+2019-01-24 15:31:05 - [TEST_STEP][PASSED] - robot.keyPress(VK_2): null
+
+2019-01-24 15:31:05 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:31:05 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:31:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:31:06 - [TEST_STEP][PASSED] - robot.keyPress(VK_ENTER): null
+
+2019-01-24 15:31:06 - [TEST_STEP][FAILED] - try: Unable to verify if object 'Object Repository/Kiosk/Lobby/header' is visible in viewport (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Kiosk/Lobby/header' is not present)
+
+2019-01-24 15:31:06 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Kiosk/Lobby/header"), 15): Web element with id: 'Object Repository/Kiosk/Lobby/header' located by 'By.cssSelector: yit-header > div:nth-of-type(1) > div:nth-of-type(2)' not found
+
+2019-01-24 15:31:21 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: yit-header > div:nth-of-type(1) > div:nth-of-type(2)'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-01-24 15:31:21 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Kiosk/Lobby/header' located by 'By.cssSelector: yit-header > div:nth-of-type(1) > div:nth-of-type(2)' not found
+
+2019-01-24 15:31:21 - [TEST_STEP][FAILED] - verifyElementVisibleInViewport(findTestObject("Kiosk/Lobby/header"), 5): Unable to verify if object 'Object Repository/Kiosk/Lobby/header' is visible in viewport (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Kiosk/Lobby/header' is not present)
+
+2019-01-24 15:31:26 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: yit-header > div:nth-of-type(1) > div:nth-of-type(2)'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-01-24 15:31:27 - [MESSAGE][FAILED] - Object 'Object Repository/Kiosk/Lobby/header' is not present
+[[ATTACHMENT|C:\\Users\\leon.b\\Katalon Studio\\Y-IT_TransIT\\Reports\\Production\\Kiosk Sanity Login Test\\20190124_153031\\1548336686809.png]]
+
+2019-01-24 15:31:27 - [MESSAGE][FAILED] - Unable to verify if object 'Object Repository/Kiosk/Lobby/header' is visible in viewport (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Kiosk/Lobby/header' is not present)
+[[ATTACHMENT|C:\\Users\\leon.b\\Katalon Studio\\Y-IT_TransIT\\Reports\\Production\\Kiosk Sanity Login Test\\20190124_153031\\1548336687168.png]]
+
+2019-01-24 15:31:27 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-01-24 15:31:27 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2019-01-24 15:31:29 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-01-24 15:31:29 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Kiosk/Login/Rfid/cardImage"), 30): Object 'Object Repository/Kiosk/Login/Rfid/cardImage' is visible
+
+2019-01-24 15:31:30 - [MESSAGE][PASSED] - Object 'Object Repository/Kiosk/Login/Rfid/cardImage' is visible
+
+2019-01-24 15:31:30 - [TEST_STEP][PASSED] - f_logInwithRfid(): null
+
+2019-01-24 15:31:30 - [TEST_STEP][PASSED] - robot = new java.awt.Robot(): null
+
+2019-01-24 15:31:30 - [TEST_STEP][PASSED] - rfidCodeArray = toString().toCharArray(): null
+
+2019-01-24 15:31:30 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-24 15:31:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-24 15:31:35 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2019-01-24 15:31:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:31:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:31:36 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:31:36 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:31:36 - [TEST_STEP][PASSED] - case 0:: null
+
+2019-01-24 15:31:36 - [TEST_STEP][PASSED] - robot.keyPress(VK_0): null
+
+2019-01-24 15:31:36 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:31:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:31:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:31:37 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:31:37 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:31:37 - [TEST_STEP][PASSED] - case 2:: null
+
+2019-01-24 15:31:37 - [TEST_STEP][PASSED] - robot.keyPress(VK_2): null
+
+2019-01-24 15:31:37 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:31:37 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:31:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:31:38 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:31:38 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:31:38 - [TEST_STEP][PASSED] - case 6:: null
+
+2019-01-24 15:31:38 - [TEST_STEP][PASSED] - robot.keyPress(VK_6): null
+
+2019-01-24 15:31:38 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:31:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:31:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:31:39 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:31:39 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:31:39 - [TEST_STEP][PASSED] - case 0:: null
+
+2019-01-24 15:31:39 - [TEST_STEP][PASSED] - robot.keyPress(VK_0): null
+
+2019-01-24 15:31:39 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:31:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:31:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:31:40 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:31:40 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:31:40 - [TEST_STEP][PASSED] - case 0:: null
+
+2019-01-24 15:31:40 - [TEST_STEP][PASSED] - robot.keyPress(VK_0): null
+
+2019-01-24 15:31:40 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:31:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:31:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:31:41 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:31:41 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:31:41 - [TEST_STEP][PASSED] - case 0:: null
+
+2019-01-24 15:31:41 - [TEST_STEP][PASSED] - robot.keyPress(VK_0): null
+
+2019-01-24 15:31:41 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:31:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:31:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:31:42 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:31:42 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:31:42 - [TEST_STEP][PASSED] - case 2:: null
+
+2019-01-24 15:31:42 - [TEST_STEP][PASSED] - robot.keyPress(VK_2): null
+
+2019-01-24 15:31:42 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:31:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:31:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:31:43 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:31:43 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:31:43 - [TEST_STEP][PASSED] - case 2:: null
+
+2019-01-24 15:31:43 - [TEST_STEP][PASSED] - robot.keyPress(VK_2): null
+
+2019-01-24 15:31:43 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:31:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:31:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:31:44 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:31:44 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:31:44 - [TEST_STEP][PASSED] - case 4:: null
+
+2019-01-24 15:31:44 - [TEST_STEP][PASSED] - robot.keyPress(VK_4): null
+
+2019-01-24 15:31:44 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:31:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:31:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:31:45 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:31:45 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:31:45 - [TEST_STEP][PASSED] - case 0:: null
+
+2019-01-24 15:31:45 - [TEST_STEP][PASSED] - robot.keyPress(VK_0): null
+
+2019-01-24 15:31:45 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:31:45 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:31:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:31:46 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:31:46 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:31:46 - [TEST_STEP][PASSED] - case 0:: null
+
+2019-01-24 15:31:46 - [TEST_STEP][PASSED] - robot.keyPress(VK_0): null
+
+2019-01-24 15:31:46 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:31:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:31:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:31:47 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:31:47 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:31:47 - [TEST_STEP][PASSED] - case 1:: null
+
+2019-01-24 15:31:47 - [TEST_STEP][PASSED] - robot.keyPress(VK_1): null
+
+2019-01-24 15:31:47 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:31:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:31:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:31:48 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:31:48 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:31:48 - [TEST_STEP][PASSED] - case 2:: null
+
+2019-01-24 15:31:48 - [TEST_STEP][PASSED] - robot.keyPress(VK_2): null
+
+2019-01-24 15:31:48 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:31:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:31:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:31:49 - [TEST_STEP][PASSED] - robot.keyPress(VK_ENTER): null
+
+2019-01-24 15:31:49 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Kiosk/Lobby/workTicketButton"), 15): Web element with id: 'Object Repository/Kiosk/Lobby/workTicketButton' located by 'By.cssSelector: yit-lobby > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1).btn-lubby' not found
+
+2019-01-24 15:32:04 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: yit-lobby > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1).btn-lubby'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-01-24 15:32:04 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Kiosk/Lobby/workTicketButton' located by 'By.cssSelector: yit-lobby > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1).btn-lubby' not found
+
+2019-01-24 15:32:04 - [TEST_STEP][FAILED] - verifyElementClickable(findTestObject("Kiosk/Lobby/workTicketButton"), STOP_ON_FAILURE): verifyElementClickable(findTestObject("Kiosk/Lobby/workTicketButton"), STOP_ON_FAILURE) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Kiosk/Lobby/workTicketButton' to be clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Kiosk/Lobby/workTicketButton' located by 'By.cssSelector: yit-lobby > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1).btn-lubby' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:548)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$5.call(Unknown Source)
+	at kiosk rfid.run(kiosk rfid:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548336631789.run(TempTestSuite1548336631789.groovy:36)
+
+
+2019-01-24 15:32:09 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: yit-lobby > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1).btn-lubby'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-01-24 15:32:09 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Kiosk/Lobby/workTicketButton' located by 'By.cssSelector: yit-lobby > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1).btn-lubby' not found
+[[ATTACHMENT|C:\\Users\\leon.b\\Katalon Studio\\Y-IT_TransIT\\Reports\\Production\\Kiosk Sanity Login Test\\20190124_153031\\1548336729515.png]]
+
+2019-01-24 15:32:10 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Kiosk/Lobby/workTicketButton' to be clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Kiosk/Lobby/workTicketButton' located by 'By.cssSelector: yit-lobby > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1).btn-lubby' not found)
+[[ATTACHMENT|C:\\Users\\leon.b\\Katalon Studio\\Y-IT_TransIT\\Reports\\Production\\Kiosk Sanity Login Test\\20190124_153031\\1548336729850.png]]
+
+2019-01-24 15:32:10 - [MESSAGE][FAILED] - verifyElementClickable(findTestObject("Kiosk/Lobby/workTicketButton"), STOP_ON_FAILURE) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Kiosk/Lobby/workTicketButton' to be clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Kiosk/Lobby/workTicketButton' located by 'By.cssSelector: yit-lobby > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1).btn-lubby' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:548)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$5.call(Unknown Source)
+	at kiosk rfid.run(kiosk rfid:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548336631789.run(TempTestSuite1548336631789.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-24 15:30:34 - [TEST_CASE][FAILED] - Test Cases/kiosk/kiosk rfid: Test Cases/kiosk/kiosk rfid FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Kiosk/Lobby/workTicketButton' to be clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Kiosk/Lobby/workTicketButton' located by 'By.cssSelector: yit-lobby > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1).btn-lubby' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:548)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$5.call(Unknown Source)
+	at kiosk rfid.run(kiosk rfid:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548336631789.run(TempTestSuite1548336631789.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/kiosk/kiosk rfid" classname="Test Cases/kiosk/kiosk rfid" status="FAILED">
+         <failure type="FAILED" message="Test Cases/kiosk/kiosk rfid FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Kiosk/Lobby/workTicketButton' to be clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Kiosk/Lobby/workTicketButton' located by 'By.cssSelector: yit-lobby > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1).btn-lubby' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:548)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$5.call(Unknown Source)
+	at kiosk rfid.run(kiosk rfid:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548336631789.run(TempTestSuite1548336631789.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-24 15:32:10 - [TEST_CASE][FAILED] - Test Cases/kiosk/kiosk rfid: Test Cases/kiosk/kiosk rfid FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Kiosk/Lobby/workTicketButton' to be clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Kiosk/Lobby/workTicketButton' located by 'By.cssSelector: yit-lobby > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1).btn-lubby' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:548)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$5.call(Unknown Source)
+	at kiosk rfid.run(kiosk rfid:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548336631789.run(TempTestSuite1548336631789.groovy:36)
+
+
+2019-01-24 15:32:10 - [TEST_STEP][PASSED] - openBrowser(rfidSite): Browser is opened with url: 'danbr7.kiosk.y-it.co.il/loginByRfid'
+
+2019-01-24 15:32:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-24 15:32:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-24 15:32:16 - [MESSAGE][PASSED] - Browser is opened with url: 'danbr7.kiosk.y-it.co.il/loginByRfid'
+
+2019-01-24 15:32:16 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-24 15:32:18 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-24 15:32:18 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Kiosk/Login/Rfid/cardImage"), 30): Object 'Object Repository/Kiosk/Login/Rfid/cardImage' is visible
+
+2019-01-24 15:32:18 - [MESSAGE][PASSED] - Object 'Object Repository/Kiosk/Login/Rfid/cardImage' is visible
+
+2019-01-24 15:32:18 - [TEST_STEP][PASSED] - focus(findTestObject("Kiosk/Login/Rfid/cardImage")): Object: 'Object Repository/Kiosk/Login/Rfid/cardImage' is focused
+
+2019-01-24 15:32:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Kiosk/Login/Rfid/cardImage' is focused
+
+2019-01-24 15:32:18 - [TEST_STEP][PASSED] - f_logInwithRfid(): null
+
+2019-01-24 15:32:18 - [TEST_STEP][PASSED] - robot = new java.awt.Robot(): null
+
+2019-01-24 15:32:18 - [TEST_STEP][PASSED] - rfidCodeArray = toString().toCharArray(): null
+
+2019-01-24 15:32:18 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-24 15:32:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-24 15:32:23 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2019-01-24 15:32:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:32:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:32:24 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:32:24 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:32:24 - [TEST_STEP][PASSED] - case 4:: null
+
+2019-01-24 15:32:24 - [TEST_STEP][PASSED] - robot.keyPress(VK_4): null
+
+2019-01-24 15:32:24 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:32:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:32:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:32:25 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:32:25 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:32:25 - [TEST_STEP][PASSED] - case 0:: null
+
+2019-01-24 15:32:25 - [TEST_STEP][PASSED] - robot.keyPress(VK_0): null
+
+2019-01-24 15:32:25 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:32:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:32:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:32:26 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:32:26 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:32:26 - [TEST_STEP][PASSED] - case 5:: null
+
+2019-01-24 15:32:26 - [TEST_STEP][PASSED] - robot.keyPress(VK_5): null
+
+2019-01-24 15:32:26 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:32:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:32:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:32:27 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:32:27 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:32:27 - [TEST_STEP][PASSED] - case 4:: null
+
+2019-01-24 15:32:27 - [TEST_STEP][PASSED] - robot.keyPress(VK_4): null
+
+2019-01-24 15:32:27 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:32:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:32:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:32:28 - [TEST_STEP][PASSED] - robot.keyPress(VK_ENTER): null
+
+2019-01-24 15:32:28 - [TEST_STEP][FAILED] - try: Unable to verify if object 'Object Repository/Kiosk/Lobby/header' is visible in viewport (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Kiosk/Lobby/header' is not present)
+
+2019-01-24 15:32:28 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Kiosk/Lobby/header"), 15): Web element with id: 'Object Repository/Kiosk/Lobby/header' located by 'By.cssSelector: yit-header > div:nth-of-type(1) > div:nth-of-type(2)' not found
+
+2019-01-24 15:32:43 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: yit-header > div:nth-of-type(1) > div:nth-of-type(2)'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-01-24 15:32:43 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Kiosk/Lobby/header' located by 'By.cssSelector: yit-header > div:nth-of-type(1) > div:nth-of-type(2)' not found
+
+2019-01-24 15:32:43 - [TEST_STEP][FAILED] - verifyElementVisibleInViewport(findTestObject("Kiosk/Lobby/header"), 5): Unable to verify if object 'Object Repository/Kiosk/Lobby/header' is visible in viewport (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Kiosk/Lobby/header' is not present)
+
+2019-01-24 15:32:48 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: yit-header > div:nth-of-type(1) > div:nth-of-type(2)'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-01-24 15:32:48 - [MESSAGE][FAILED] - Object 'Object Repository/Kiosk/Lobby/header' is not present
+[[ATTACHMENT|C:\\Users\\leon.b\\Katalon Studio\\Y-IT_TransIT\\Reports\\Production\\Kiosk Sanity Login Test\\20190124_153031\\1548336768581.png]]
+
+2019-01-24 15:32:49 - [MESSAGE][FAILED] - Unable to verify if object 'Object Repository/Kiosk/Lobby/header' is visible in viewport (Root cause: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Kiosk/Lobby/header' is not present)
+[[ATTACHMENT|C:\\Users\\leon.b\\Katalon Studio\\Y-IT_TransIT\\Reports\\Production\\Kiosk Sanity Login Test\\20190124_153031\\1548336768920.png]]
+
+2019-01-24 15:32:49 - [TEST_STEP][PASSED] - catch (Exception e): null
+
+2019-01-24 15:32:49 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2019-01-24 15:32:51 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-01-24 15:32:51 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Kiosk/Login/Rfid/cardImage"), 30): Object 'Object Repository/Kiosk/Login/Rfid/cardImage' is visible
+
+2019-01-24 15:32:51 - [MESSAGE][PASSED] - Object 'Object Repository/Kiosk/Login/Rfid/cardImage' is visible
+
+2019-01-24 15:32:51 - [TEST_STEP][PASSED] - f_logInwithRfid(): null
+
+2019-01-24 15:32:51 - [TEST_STEP][PASSED] - robot = new java.awt.Robot(): null
+
+2019-01-24 15:32:51 - [TEST_STEP][PASSED] - rfidCodeArray = toString().toCharArray(): null
+
+2019-01-24 15:32:51 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-24 15:32:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-24 15:32:56 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2019-01-24 15:32:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:32:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:32:57 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:32:57 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:32:57 - [TEST_STEP][PASSED] - case 4:: null
+
+2019-01-24 15:32:57 - [TEST_STEP][PASSED] - robot.keyPress(VK_4): null
+
+2019-01-24 15:32:57 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:32:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:32:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:32:58 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:32:58 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:32:58 - [TEST_STEP][PASSED] - case 0:: null
+
+2019-01-24 15:32:58 - [TEST_STEP][PASSED] - robot.keyPress(VK_0): null
+
+2019-01-24 15:32:58 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:32:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:32:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:32:59 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:32:59 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:32:59 - [TEST_STEP][PASSED] - case 5:: null
+
+2019-01-24 15:32:59 - [TEST_STEP][PASSED] - robot.keyPress(VK_5): null
+
+2019-01-24 15:32:59 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:32:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:33:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:33:00 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:33:00 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:33:00 - [TEST_STEP][PASSED] - case 4:: null
+
+2019-01-24 15:33:00 - [TEST_STEP][PASSED] - robot.keyPress(VK_4): null
+
+2019-01-24 15:33:00 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:33:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:33:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:33:01 - [TEST_STEP][PASSED] - robot.keyPress(VK_ENTER): null
+
+2019-01-24 15:33:01 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Kiosk/Lobby/workTicketButton"), 15): Web element with id: 'Object Repository/Kiosk/Lobby/workTicketButton' located by 'By.cssSelector: yit-lobby > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1).btn-lubby' not found
+
+2019-01-24 15:33:16 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: yit-lobby > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1).btn-lubby'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-01-24 15:33:16 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/Kiosk/Lobby/workTicketButton' located by 'By.cssSelector: yit-lobby > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1).btn-lubby' not found
+
+2019-01-24 15:33:16 - [TEST_STEP][FAILED] - verifyElementClickable(findTestObject("Kiosk/Lobby/workTicketButton"), STOP_ON_FAILURE): verifyElementClickable(findTestObject("Kiosk/Lobby/workTicketButton"), STOP_ON_FAILURE) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Kiosk/Lobby/workTicketButton' to be clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Kiosk/Lobby/workTicketButton' located by 'By.cssSelector: yit-lobby > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1).btn-lubby' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:548)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$5.call(Unknown Source)
+	at kiosk rfid.run(kiosk rfid:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548336631789.run(TempTestSuite1548336631789.groovy:36)
+
+
+2019-01-24 15:33:22 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: yit-lobby > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1).btn-lubby'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-01-24 15:33:22 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Kiosk/Lobby/workTicketButton' located by 'By.cssSelector: yit-lobby > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1).btn-lubby' not found
+[[ATTACHMENT|C:\\Users\\leon.b\\Katalon Studio\\Y-IT_TransIT\\Reports\\Production\\Kiosk Sanity Login Test\\20190124_153031\\1548336802072.png]]
+
+2019-01-24 15:33:22 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Kiosk/Lobby/workTicketButton' to be clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Kiosk/Lobby/workTicketButton' located by 'By.cssSelector: yit-lobby > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1).btn-lubby' not found)
+[[ATTACHMENT|C:\\Users\\leon.b\\Katalon Studio\\Y-IT_TransIT\\Reports\\Production\\Kiosk Sanity Login Test\\20190124_153031\\1548336802415.png]]
+
+2019-01-24 15:33:22 - [MESSAGE][FAILED] - verifyElementClickable(findTestObject("Kiosk/Lobby/workTicketButton"), STOP_ON_FAILURE) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Kiosk/Lobby/workTicketButton' to be clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Kiosk/Lobby/workTicketButton' located by 'By.cssSelector: yit-lobby > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1).btn-lubby' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:548)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$5.call(Unknown Source)
+	at kiosk rfid.run(kiosk rfid:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548336631789.run(TempTestSuite1548336631789.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-24 15:32:10 - [TEST_CASE][FAILED] - Test Cases/kiosk/kiosk rfid: Test Cases/kiosk/kiosk rfid FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Kiosk/Lobby/workTicketButton' to be clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Kiosk/Lobby/workTicketButton' located by 'By.cssSelector: yit-lobby > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1).btn-lubby' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:548)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$5.call(Unknown Source)
+	at kiosk rfid.run(kiosk rfid:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548336631789.run(TempTestSuite1548336631789.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-24 15:30:33 - [TEST_SUITE][FAILED] - Kiosk Sanity Login Test: Test Cases/kiosk/kiosk rfid FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Kiosk/Lobby/workTicketButton' to be clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Kiosk/Lobby/workTicketButton' located by 'By.cssSelector: yit-lobby > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1).btn-lubby' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:548)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$5.call(Unknown Source)
+	at kiosk rfid.run(kiosk rfid:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548336631789.run(TempTestSuite1548336631789.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-01-24 15:30:33 - [TEST_SUITE][FAILED] - Kiosk Sanity Login Test: Test Cases/kiosk/kiosk rfid FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Kiosk/Lobby/workTicketButton' to be clickable (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Kiosk/Lobby/workTicketButton' located by 'By.cssSelector: yit-lobby > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1).btn-lubby' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.verifyElementClickable(VerifyElementClickableKeyword.groovy:96)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementClickableKeyword.execute(VerifyElementClickableKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementClickable(WebUiBuiltInKeywords.groovy:548)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementClickable$5.call(Unknown Source)
+	at kiosk rfid.run(kiosk rfid:48)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548336631789.run(TempTestSuite1548336631789.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Working Ticket Sanity</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>97ce8622-6af0-46f1-9bad-27b025db9f93</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.site</defaultValue>
+      <description></description>
+      <id>863615e0-6258-4dc9-92d3-300483c101b5</id>
+      <masked>false</masked>
+      <name>site</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.userName</defaultValue>
+      <description></description>
+      <id>4fae4da6-36e0-4e02-92de-9fd826841675</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.userPass</defaultValue>
+      <description></description>
+      <id>31bef2b3-475e-4cae-ab3b-c64a28ae9813</id>
+      <masked>false</masked>
+      <name>userPass</name>
+   </variable>
+</TestCaseEntity>

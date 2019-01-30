@@ -1,0 +1,120 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Kiosk Sanity Login Test,Chrome 71.0.3578.98,,2019-01-24 15:25:25,2019-01-24 15:27:42,2m - 16.693s,FAILED
+,,,,,,
+Test Cases/kiosk/kiosk sanity,Chrome 71.0.3578.98,,2019-01-24 15:25:26,2019-01-24 15:25:45,19.104s,PASSED
+openBrowser(site),Chrome 71.0.3578.98,log in with code and id,2019-01-24 15:25:26,2019-01-24 15:25:34,7.962s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-24 15:25:34,2019-01-24 15:25:35,1.138s,PASSED
+"waitForElementVisible(findTestObject(""Kiosk/Login/Code Plus Id/driverCodeInput""), 15)",Chrome 71.0.3578.98,,2019-01-24 15:25:35,2019-01-24 15:25:35,0.071s,PASSED
+"waitForElementVisible(findTestObject(""Kiosk/Login/Code Plus Id/driverIdInput""), 15)",Chrome 71.0.3578.98,,2019-01-24 15:25:35,2019-01-24 15:25:35,0.043s,PASSED
+"waitForElementVisible(findTestObject(""Kiosk/Login/Code Plus Id/enterButton""), 15)",Chrome 71.0.3578.98,,2019-01-24 15:25:35,2019-01-24 15:25:35,0.048s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-24 15:25:35,2019-01-24 15:25:36,1.042s,PASSED
+"setText(findTestObject(""Kiosk/Login/Code Plus Id/driverCodeInput""), driverCode)",Chrome 71.0.3578.98,,2019-01-24 15:25:36,2019-01-24 15:25:36,0.121s,PASSED
+"setText(findTestObject(""Kiosk/Login/Code Plus Id/driverIdInput""), driverId)",Chrome 71.0.3578.98,,2019-01-24 15:25:36,2019-01-24 15:25:37,0.115s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-24 15:25:37,2019-01-24 15:25:38,1.002s,PASSED
+"click(findTestObject(""Kiosk/Login/Code Plus Id/enterButton""))",Chrome 71.0.3578.98,,2019-01-24 15:25:38,2019-01-24 15:25:38,0.092s,PASSED
+"waitForElementVisible(findTestObject(""Kiosk/Lobby/header""), 15)",Chrome 71.0.3578.98,check if header exist,2019-01-24 15:25:38,2019-01-24 15:25:39,1.571s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Kiosk/Lobby/header""), 5)",Chrome 71.0.3578.98,,2019-01-24 15:25:39,2019-01-24 15:25:39,0.075s,PASSED
+"waitForElementVisible(findTestObject(""Kiosk/Lobby/workTicketButton""), 15)",Chrome 71.0.3578.98,check if work ticket button exist,2019-01-24 15:25:39,2019-01-24 15:25:39,0.039s,PASSED
+"verifyElementClickable(findTestObject(""Kiosk/Lobby/workTicketButton""), STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-24 15:25:39,2019-01-24 15:25:39,0.040s,PASSED
+delay(1),Chrome 71.0.3578.98,navigate to work ticket,2019-01-24 15:25:39,2019-01-24 15:25:40,1.002s,PASSED
+"click(findTestObject(""Kiosk/Lobby/workTicketButton""))",Chrome 71.0.3578.98,,2019-01-24 15:25:40,2019-01-24 15:25:41,0.185s,PASSED
+"waitForElementVisible(findTestObject(""Kiosk/Work Ticket/statusDropdown""), 15)",Chrome 71.0.3578.98,check if status dropdown exist,2019-01-24 15:25:41,2019-01-24 15:25:41,0.043s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Kiosk/Work Ticket/statusDropdown""), 5)",Chrome 71.0.3578.98,,2019-01-24 15:25:41,2019-01-24 15:25:41,0.055s,PASSED
+"waitForElementVisible(findTestObject(""Kiosk/Work Ticket/datesTableFirstRow""), 15)",Chrome 71.0.3578.98,check if dates table exist,2019-01-24 15:25:41,2019-01-24 15:25:42,1.646s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Kiosk/Work Ticket/datesTableFirstRow""), 5)",Chrome 71.0.3578.98,,2019-01-24 15:25:42,2019-01-24 15:25:42,0.054s,PASSED
+"waitForElementVisible(findTestObject(""Kiosk/Work Ticket/mainTableFirstRow""), 15)",Chrome 71.0.3578.98,check if main table exist,2019-01-24 15:25:42,2019-01-24 15:25:42,0.040s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Kiosk/Work Ticket/mainTableFirstRow""), 5)",Chrome 71.0.3578.98,,2019-01-24 15:25:42,2019-01-24 15:25:43,0.090s,PASSED
+"waitForElementVisible(findTestObject(""Kiosk/Work Ticket/back button""), 15)",Chrome 71.0.3578.98,check if back button exist,2019-01-24 15:25:43,2019-01-24 15:25:43,0.036s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Kiosk/Work Ticket/back button""), 5)",Chrome 71.0.3578.98,,2019-01-24 15:25:43,2019-01-24 15:25:43,0.055s,PASSED
+delay(1),Chrome 71.0.3578.98,navigate to lobby,2019-01-24 15:25:43,2019-01-24 15:25:44,1.000s,PASSED
+"click(findTestObject(""Kiosk/Work Ticket/back button""))",Chrome 71.0.3578.98,,2019-01-24 15:25:44,2019-01-24 15:25:44,0.136s,PASSED
+"waitForElementVisible(findTestObject(""Kiosk/Lobby/header""), 15)",Chrome 71.0.3578.98,check if header exist,2019-01-24 15:25:44,2019-01-24 15:25:44,0.025s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Kiosk/Lobby/header""), 5)",Chrome 71.0.3578.98,,2019-01-24 15:25:44,2019-01-24 15:25:44,0.048s,PASSED
+"waitForElementVisible(findTestObject(""Kiosk/Lobby/workTicketButton""), 15)",Chrome 71.0.3578.98,check if work ticket button exist,2019-01-24 15:25:44,2019-01-24 15:25:44,0.032s,PASSED
+"verifyElementClickable(findTestObject(""Kiosk/Lobby/workTicketButton""), STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-24 15:25:44,2019-01-24 15:25:44,0.026s,PASSED
+"waitForElementVisible(findTestObject(""Kiosk/Lobby/logoutButton""), 15)",Chrome 71.0.3578.98,check if logout button exist,2019-01-24 15:25:44,2019-01-24 15:25:44,0.036s,PASSED
+"verifyElementClickable(findTestObject(""Kiosk/Lobby/logoutButton""), STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-24 15:25:44,2019-01-24 15:25:44,0.026s,PASSED
+"click(findTestObject(""Kiosk/Lobby/logoutButton""))",Chrome 71.0.3578.98,logout,2019-01-24 15:25:44,2019-01-24 15:25:44,0.075s,PASSED
+"waitForElementVisible(findTestObject(""Kiosk/Login/Code Plus Id/enterButton""), 15)",Chrome 71.0.3578.98,,2019-01-24 15:25:44,2019-01-24 15:25:44,0.030s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-24 15:25:44,2019-01-24 15:25:45,0.610s,PASSED
+,,,,,,
+Test Cases/kiosk/kiosk sanity,Chrome 71.0.3578.98,,2019-01-24 15:25:45,2019-01-24 15:26:00,15.499s,PASSED
+openBrowser(site),Chrome 71.0.3578.98,log in with code and id,2019-01-24 15:25:45,2019-01-24 15:25:51,6.347s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-24 15:25:51,2019-01-24 15:25:52,1.120s,PASSED
+"waitForElementVisible(findTestObject(""Kiosk/Login/Code Plus Id/driverCodeInput""), 15)",Chrome 71.0.3578.98,,2019-01-24 15:25:52,2019-01-24 15:25:52,0.041s,PASSED
+"waitForElementVisible(findTestObject(""Kiosk/Login/Code Plus Id/driverIdInput""), 15)",Chrome 71.0.3578.98,,2019-01-24 15:25:52,2019-01-24 15:25:52,0.045s,PASSED
+"waitForElementVisible(findTestObject(""Kiosk/Login/Code Plus Id/enterButton""), 15)",Chrome 71.0.3578.98,,2019-01-24 15:25:52,2019-01-24 15:25:52,0.043s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-24 15:25:52,2019-01-24 15:25:53,1.000s,PASSED
+"setText(findTestObject(""Kiosk/Login/Code Plus Id/driverCodeInput""), driverCode)",Chrome 71.0.3578.98,,2019-01-24 15:25:53,2019-01-24 15:25:53,0.096s,PASSED
+"setText(findTestObject(""Kiosk/Login/Code Plus Id/driverIdInput""), driverId)",Chrome 71.0.3578.98,,2019-01-24 15:25:53,2019-01-24 15:25:53,0.111s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-24 15:25:53,2019-01-24 15:25:55,1.001s,PASSED
+"click(findTestObject(""Kiosk/Login/Code Plus Id/enterButton""))",Chrome 71.0.3578.98,,2019-01-24 15:25:55,2019-01-24 15:25:55,0.072s,PASSED
+"waitForElementVisible(findTestObject(""Kiosk/Lobby/header""), 15)",Chrome 71.0.3578.98,check if header exist,2019-01-24 15:25:55,2019-01-24 15:25:56,1.062s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Kiosk/Lobby/header""), 5)",Chrome 71.0.3578.98,,2019-01-24 15:25:56,2019-01-24 15:25:56,0.059s,PASSED
+"waitForElementVisible(findTestObject(""Kiosk/Lobby/workTicketButton""), 15)",Chrome 71.0.3578.98,check if work ticket button exist,2019-01-24 15:25:56,2019-01-24 15:25:56,0.035s,PASSED
+"verifyElementClickable(findTestObject(""Kiosk/Lobby/workTicketButton""), STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-24 15:25:56,2019-01-24 15:25:56,0.025s,PASSED
+delay(1),Chrome 71.0.3578.98,navigate to work ticket,2019-01-24 15:25:56,2019-01-24 15:25:57,1.001s,PASSED
+"click(findTestObject(""Kiosk/Lobby/workTicketButton""))",Chrome 71.0.3578.98,,2019-01-24 15:25:57,2019-01-24 15:25:57,0.171s,PASSED
+"waitForElementVisible(findTestObject(""Kiosk/Work Ticket/statusDropdown""), 15)",Chrome 71.0.3578.98,check if status dropdown exist,2019-01-24 15:25:57,2019-01-24 15:25:57,0.048s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Kiosk/Work Ticket/statusDropdown""), 5)",Chrome 71.0.3578.98,,2019-01-24 15:25:57,2019-01-24 15:25:57,0.052s,PASSED
+"waitForElementVisible(findTestObject(""Kiosk/Work Ticket/datesTableFirstRow""), 15)",Chrome 71.0.3578.98,check if dates table exist,2019-01-24 15:25:57,2019-01-24 15:25:58,0.813s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Kiosk/Work Ticket/datesTableFirstRow""), 5)",Chrome 71.0.3578.98,,2019-01-24 15:25:58,2019-01-24 15:25:58,0.053s,PASSED
+"waitForElementVisible(findTestObject(""Kiosk/Work Ticket/mainTableFirstRow""), 15)",Chrome 71.0.3578.98,check if main table exist,2019-01-24 15:25:58,2019-01-24 15:25:58,0.037s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Kiosk/Work Ticket/mainTableFirstRow""), 5)",Chrome 71.0.3578.98,,2019-01-24 15:25:58,2019-01-24 15:25:58,0.050s,PASSED
+"waitForElementVisible(findTestObject(""Kiosk/Work Ticket/back button""), 15)",Chrome 71.0.3578.98,check if back button exist,2019-01-24 15:25:58,2019-01-24 15:25:58,0.043s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Kiosk/Work Ticket/back button""), 5)",Chrome 71.0.3578.98,,2019-01-24 15:25:58,2019-01-24 15:25:58,0.176s,PASSED
+delay(1),Chrome 71.0.3578.98,navigate to lobby,2019-01-24 15:25:58,2019-01-24 15:25:59,1.001s,PASSED
+"click(findTestObject(""Kiosk/Work Ticket/back button""))",Chrome 71.0.3578.98,,2019-01-24 15:25:59,2019-01-24 15:25:59,0.100s,PASSED
+"waitForElementVisible(findTestObject(""Kiosk/Lobby/header""), 15)",Chrome 71.0.3578.98,check if header exist,2019-01-24 15:25:59,2019-01-24 15:25:59,0.023s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Kiosk/Lobby/header""), 5)",Chrome 71.0.3578.98,,2019-01-24 15:25:59,2019-01-24 15:25:59,0.049s,PASSED
+"waitForElementVisible(findTestObject(""Kiosk/Lobby/workTicketButton""), 15)",Chrome 71.0.3578.98,check if work ticket button exist,2019-01-24 15:25:59,2019-01-24 15:25:59,0.028s,PASSED
+"verifyElementClickable(findTestObject(""Kiosk/Lobby/workTicketButton""), STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-24 15:25:59,2019-01-24 15:25:59,0.025s,PASSED
+"waitForElementVisible(findTestObject(""Kiosk/Lobby/logoutButton""), 15)",Chrome 71.0.3578.98,check if logout button exist,2019-01-24 15:25:59,2019-01-24 15:25:59,0.036s,PASSED
+"verifyElementClickable(findTestObject(""Kiosk/Lobby/logoutButton""), STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-24 15:25:59,2019-01-24 15:25:59,0.024s,PASSED
+"click(findTestObject(""Kiosk/Lobby/logoutButton""))",Chrome 71.0.3578.98,logout,2019-01-24 15:25:59,2019-01-24 15:26:00,0.070s,PASSED
+"waitForElementVisible(findTestObject(""Kiosk/Login/Code Plus Id/enterButton""), 15)",Chrome 71.0.3578.98,,2019-01-24 15:26:00,2019-01-24 15:26:00,0.031s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-24 15:26:00,2019-01-24 15:26:00,0.586s,PASSED
+,,,,,,
+Test Cases/kiosk/kiosk rfid,Chrome 71.0.3578.98,,2019-01-24 15:26:00,2019-01-24 15:26:29,28.895s,PASSED
+openBrowser(rfidSite),Chrome 71.0.3578.98,log in with rfid,2019-01-24 15:26:00,2019-01-24 15:26:07,6.800s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-24 15:26:07,2019-01-24 15:26:08,1.117s,PASSED
+"waitForElementVisible(findTestObject(""Kiosk/Login/Rfid/cardImage""), 30)",Chrome 71.0.3578.98,check if rfid landingpage is ready,2019-01-24 15:26:08,2019-01-24 15:26:08,0.037s,PASSED
+"focus(findTestObject(""Kiosk/Login/Rfid/cardImage""))",Chrome 71.0.3578.98,,2019-01-24 15:26:08,2019-01-24 15:26:09,0.071s,PASSED
+f_logInwithRfid(),Chrome 71.0.3578.98,,2019-01-24 15:26:09,2019-01-24 15:26:09,0.000s,PASSED
+robot = new java.awt.Robot(),Chrome 71.0.3578.98,,2019-01-24 15:26:09,2019-01-24 15:26:09,0.003s,PASSED
+rfidCodeArray = toString().toCharArray(),Chrome 71.0.3578.98,,2019-01-24 15:26:09,2019-01-24 15:26:09,0.002s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-24 15:26:09,2019-01-24 15:26:14,5.001s,PASSED
+"for ([i = 0, i < length, (i++)])",Chrome 71.0.3578.98,,2019-01-24 15:26:14,2019-01-24 15:26:27,13.083s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-24 15:26:27,2019-01-24 15:26:28,1.002s,PASSED
+robot.keyPress(VK_ENTER),Chrome 71.0.3578.98,,2019-01-24 15:26:28,2019-01-24 15:26:28,0.001s,PASSED
+try,Chrome 71.0.3578.98,,2019-01-24 15:26:28,2019-01-24 15:26:28,0.625s,PASSED
+"waitForElementVisible(findTestObject(""Kiosk/Lobby/workTicketButton""), 15)",Chrome 71.0.3578.98,check if work ticket button exist,2019-01-24 15:26:28,2019-01-24 15:26:28,0.037s,PASSED
+"verifyElementClickable(findTestObject(""Kiosk/Lobby/workTicketButton""), STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-24 15:26:28,2019-01-24 15:26:28,0.025s,PASSED
+"waitForElementVisible(findTestObject(""Kiosk/Lobby/logoutButton""), 15)",Chrome 71.0.3578.98,check if logout button exist,2019-01-24 15:26:28,2019-01-24 15:26:28,0.037s,PASSED
+"verifyElementClickable(findTestObject(""Kiosk/Lobby/logoutButton""), STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-24 15:26:28,2019-01-24 15:26:28,0.025s,PASSED
+"click(findTestObject(""Kiosk/Lobby/logoutButton""))",Chrome 71.0.3578.98,logout,2019-01-24 15:26:28,2019-01-24 15:26:28,0.069s,PASSED
+"waitForElementVisible(findTestObject(""Kiosk/Login/Rfid/cardImage""), 30)",Chrome 71.0.3578.98,check if rfid landingpage is ready,2019-01-24 15:26:28,2019-01-24 15:26:28,0.038s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-24 15:26:28,2019-01-24 15:26:29,0.613s,PASSED
+,,,,,,
+Test Cases/kiosk/kiosk rfid,Chrome 71.0.3578.98,,2019-01-24 15:26:29,2019-01-24 15:27:41,1m - 12.299s,FAILED
+openBrowser(rfidSite),Chrome 71.0.3578.98,log in with rfid,2019-01-24 15:26:29,2019-01-24 15:26:35,6.146s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-24 15:26:35,2019-01-24 15:26:36,1.115s,PASSED
+"waitForElementVisible(findTestObject(""Kiosk/Login/Rfid/cardImage""), 30)",Chrome 71.0.3578.98,check if rfid landingpage is ready,2019-01-24 15:26:36,2019-01-24 15:26:36,0.040s,PASSED
+"focus(findTestObject(""Kiosk/Login/Rfid/cardImage""))",Chrome 71.0.3578.98,,2019-01-24 15:26:36,2019-01-24 15:26:36,0.049s,PASSED
+f_logInwithRfid(),Chrome 71.0.3578.98,,2019-01-24 15:26:36,2019-01-24 15:26:36,0.000s,PASSED
+robot = new java.awt.Robot(),Chrome 71.0.3578.98,,2019-01-24 15:26:36,2019-01-24 15:26:36,0.000s,PASSED
+rfidCodeArray = toString().toCharArray(),Chrome 71.0.3578.98,,2019-01-24 15:26:36,2019-01-24 15:26:36,0.001s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-24 15:26:36,2019-01-24 15:26:41,5.001s,PASSED
+"for ([i = 0, i < length, (i++)])",Chrome 71.0.3578.98,,2019-01-24 15:26:41,2019-01-24 15:26:45,4.016s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-24 15:26:45,2019-01-24 15:26:46,1.001s,PASSED
+robot.keyPress(VK_ENTER),Chrome 71.0.3578.98,,2019-01-24 15:26:46,2019-01-24 15:26:46,0.001s,PASSED
+try,Chrome 71.0.3578.98,,2019-01-24 15:26:46,2019-01-24 15:27:08,21.115s,FAILED
+catch (Exception e),Chrome 71.0.3578.98,,2019-01-24 15:27:08,2019-01-24 15:27:10,2.556s,PASSED
+robot = new java.awt.Robot(),Chrome 71.0.3578.98,,2019-01-24 15:27:10,2019-01-24 15:27:10,0.000s,PASSED
+rfidCodeArray = toString().toCharArray(),Chrome 71.0.3578.98,,2019-01-24 15:27:10,2019-01-24 15:27:10,0.000s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-24 15:27:10,2019-01-24 15:27:15,5.001s,PASSED
+"for ([i = 0, i < length, (i++)])",Chrome 71.0.3578.98,,2019-01-24 15:27:15,2019-01-24 15:27:19,4.016s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-24 15:27:19,2019-01-24 15:27:20,1.001s,PASSED
+robot.keyPress(VK_ENTER),Chrome 71.0.3578.98,,2019-01-24 15:27:20,2019-01-24 15:27:20,0.001s,PASSED
+"waitForElementVisible(findTestObject(""Kiosk/Lobby/workTicketButton""), 15)",Chrome 71.0.3578.98,check if work ticket button exist,2019-01-24 15:27:20,2019-01-24 15:27:35,15.293s,PASSED
+"verifyElementClickable(findTestObject(""Kiosk/Lobby/workTicketButton""), STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-24 15:27:35,2019-01-24 15:27:41,5.925s,FAILED

@@ -153,7 +153,7 @@ WebUI.verifyElementPresent(findTestObject('Pre-Salary/Employee Details/driversCo
 
 String driverCodeFromReport = WebUI.getText(findTestObject('Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader'))
 
-if (driverCodeFromReport != driver_Id) {
+if (driverCodeFromReport != driver_Id && !(driverCodeFromReport.contains(driver_Id))) {
     throw new com.kms.katalon.core.exception.StepFailedException('Report driver\'s id doesn\'t match with with test\'s driver id.')
 }
 

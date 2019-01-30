@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Kiosk Sanity Login Test,Chrome 71.0.3578.98,,2019-01-23 17:22:44,2019-01-23 17:23:25,41.081s,FAILED
+,,,,,,
+Test Cases/kiosk/kiosk sanity,Chrome 71.0.3578.98,,2019-01-23 17:22:44,2019-01-23 17:23:24,40.107s,FAILED
+openBrowser(site),Chrome 71.0.3578.98,log in with code and id,2019-01-23 17:22:45,2019-01-23 17:22:58,12.906s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-23 17:22:58,2019-01-23 17:22:59,1.173s,PASSED
+"waitForElementVisible(findTestObject(""Kiosk/Login/Code Plus Id/driverCodeInput""), 15)",Chrome 71.0.3578.98,,2019-01-23 17:22:59,2019-01-23 17:22:59,0.103s,PASSED
+"waitForElementVisible(findTestObject(""Kiosk/Login/Code Plus Id/driverIdInput""), 15)",Chrome 71.0.3578.98,,2019-01-23 17:22:59,2019-01-23 17:22:59,0.093s,PASSED
+"waitForElementVisible(findTestObject(""Kiosk/Login/Code Plus Id/enterButton""), 15)",Chrome 71.0.3578.98,,2019-01-23 17:22:59,2019-01-23 17:22:59,0.071s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-23 17:22:59,2019-01-23 17:23:00,1.021s,PASSED
+"setText(findTestObject(""Kiosk/Login/Code Plus Id/driverCodeInput""), driverCode)",Chrome 71.0.3578.98,,2019-01-23 17:23:00,2019-01-23 17:23:00,0.128s,PASSED
+"setText(findTestObject(""Kiosk/Login/Code Plus Id/driverIdInput""), driverId)",Chrome 71.0.3578.98,,2019-01-23 17:23:00,2019-01-23 17:23:00,0.093s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-23 17:23:00,2019-01-23 17:23:01,1.003s,PASSED
+"click(findTestObject(""Kiosk/Login/Code Plus Id/enterButton""))",Chrome 71.0.3578.98,,2019-01-23 17:23:01,2019-01-23 17:23:01,0.095s,PASSED
+"waitForElementVisible(findTestObject(""Kiosk/Lobby/header""), 15)",Chrome 71.0.3578.98,check if header exist,2019-01-23 17:23:01,2019-01-23 17:23:24,22.766s,FAILED

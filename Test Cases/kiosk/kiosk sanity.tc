@@ -26,18 +26,4 @@
       <masked>false</masked>
       <name>driverId</name>
    </variable>
-   <variable>
-      <defaultValue>'aws_test.kiosk.y-it.co.il/loginByRfid'</defaultValue>
-      <description></description>
-      <id>cca8a190-771c-4e2c-a040-573a9bbf36c8</id>
-      <masked>false</masked>
-      <name>rfidSite</name>
-   </variable>
-   <variable>
-      <defaultValue>'5555'</defaultValue>
-      <description></description>
-      <id>ae707529-fbc6-4385-b992-27e693dc8c9d</id>
-      <masked>false</masked>
-      <name>rfidCode</name>
-   </variable>
 </TestCaseEntity>

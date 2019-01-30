@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Kiosk Sanity Login Test" time="96" tests="2" failures="0" errors="0">
+   <testsuite name="Kiosk Sanity Login Test" tests="2" failures="0" errors="0" time="96" timestamp="2019-01-24 15:42:51" hostname="leon.b - QA-PC.Y-it.Local" id="Test Suites/Production/Kiosk Sanity Login Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\leon.b\\Katalon Studio\\Y-IT_TransIT\\Reports\\Production\\Kiosk Sanity Login Test\\20190124_154249"/>
+         <property name="logFiles" value="C:\\Users\\leon.b\\Katalon Studio\\Y-IT_TransIT\\Reports\\Production\\Kiosk Sanity Login Test\\20190124_154249\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="leon.b - QA-PC.Y-it.Local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.1.145"/>
+         <property name="sessionId" value="d8fa1084ef195f80e900f0aa82ebf423"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/kiosk/kiosk rfid" classname="Test Cases/kiosk/kiosk rfid" status="PASSED">
+         <system-out><![CDATA[2019-01-24 15:42:52 - [TEST_CASE][PASSED] - Test Cases/kiosk/kiosk rfid: Test Cases/kiosk/kiosk rfid
+
+2019-01-24 15:42:52 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-01-24 15:43:02 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-01-24 15:43:02 - [TEST_STEP][PASSED] - openBrowser(rfidSite): Browser is opened with url: 'eggedtaavura.kiosk.y-it.co.il/loginByRfid'
+
+2019-01-24 15:43:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-24 15:43:03 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-24 15:43:10 - [MESSAGE][PASSED] - Browser is opened with url: 'eggedtaavura.kiosk.y-it.co.il/loginByRfid'
+
+2019-01-24 15:43:10 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Kiosk/Login/Rfid/cardImage"), 30): Object 'Object Repository/Kiosk/Login/Rfid/cardImage' is visible
+
+2019-01-24 15:43:10 - [MESSAGE][PASSED] - Object 'Object Repository/Kiosk/Login/Rfid/cardImage' is visible
+
+2019-01-24 15:43:10 - [TEST_STEP][PASSED] - focus(findTestObject("Kiosk/Login/Rfid/cardImage")): Object: 'Object Repository/Kiosk/Login/Rfid/cardImage' is focused
+
+2019-01-24 15:43:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Kiosk/Login/Rfid/cardImage' is focused
+
+2019-01-24 15:43:10 - [TEST_STEP][PASSED] - f_logInwithRfid(): null
+
+2019-01-24 15:43:10 - [TEST_STEP][PASSED] - robot = new java.awt.Robot(): null
+
+2019-01-24 15:43:10 - [TEST_STEP][PASSED] - rfidCodeArray = toString().toCharArray(): null
+
+2019-01-24 15:43:10 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-24 15:43:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-24 15:43:15 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2019-01-24 15:43:15 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:43:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:43:16 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:43:16 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:43:16 - [TEST_STEP][PASSED] - case 0:: null
+
+2019-01-24 15:43:16 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:43:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:43:17 - [TEST_STEP][PASSED] - robot.keyPress(VK_0): null
+
+2019-01-24 15:43:17 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:43:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:43:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:43:18 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:43:18 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:43:18 - [TEST_STEP][PASSED] - case 2:: null
+
+2019-01-24 15:43:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:43:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:43:19 - [TEST_STEP][PASSED] - robot.keyPress(VK_2): null
+
+2019-01-24 15:43:19 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:43:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:43:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:43:20 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:43:20 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:43:20 - [TEST_STEP][PASSED] - case 6:: null
+
+2019-01-24 15:43:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:43:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:43:21 - [TEST_STEP][PASSED] - robot.keyPress(VK_6): null
+
+2019-01-24 15:43:21 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:43:21 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:43:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:43:22 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:43:22 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:43:22 - [TEST_STEP][PASSED] - case 0:: null
+
+2019-01-24 15:43:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:43:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:43:23 - [TEST_STEP][PASSED] - robot.keyPress(VK_0): null
+
+2019-01-24 15:43:23 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:43:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:43:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:43:24 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:43:24 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:43:24 - [TEST_STEP][PASSED] - case 0:: null
+
+2019-01-24 15:43:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:43:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:43:25 - [TEST_STEP][PASSED] - robot.keyPress(VK_0): null
+
+2019-01-24 15:43:25 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:43:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:43:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:43:26 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:43:26 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:43:26 - [TEST_STEP][PASSED] - case 0:: null
+
+2019-01-24 15:43:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:43:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:43:27 - [TEST_STEP][PASSED] - robot.keyPress(VK_0): null
+
+2019-01-24 15:43:27 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:43:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:43:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:43:28 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:43:28 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:43:28 - [TEST_STEP][PASSED] - case 2:: null
+
+2019-01-24 15:43:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:43:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:43:29 - [TEST_STEP][PASSED] - robot.keyPress(VK_2): null
+
+2019-01-24 15:43:29 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:43:29 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:43:30 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:43:30 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:43:30 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:43:30 - [TEST_STEP][PASSED] - case 2:: null
+
+2019-01-24 15:43:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:43:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:43:31 - [TEST_STEP][PASSED] - robot.keyPress(VK_2): null
+
+2019-01-24 15:43:31 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:43:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:43:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:43:32 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:43:32 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:43:32 - [TEST_STEP][PASSED] - case 4:: null
+
+2019-01-24 15:43:32 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:43:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:43:33 - [TEST_STEP][PASSED] - robot.keyPress(VK_4): null
+
+2019-01-24 15:43:33 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:43:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:43:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:43:34 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:43:34 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:43:34 - [TEST_STEP][PASSED] - case 0:: null
+
+2019-01-24 15:43:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:43:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:43:35 - [TEST_STEP][PASSED] - robot.keyPress(VK_0): null
+
+2019-01-24 15:43:35 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:43:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:43:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:43:36 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:43:36 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:43:36 - [TEST_STEP][PASSED] - case 0:: null
+
+2019-01-24 15:43:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:43:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:43:37 - [TEST_STEP][PASSED] - robot.keyPress(VK_0): null
+
+2019-01-24 15:43:37 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:43:37 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:43:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:43:38 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:43:38 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:43:38 - [TEST_STEP][PASSED] - case 1:: null
+
+2019-01-24 15:43:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:43:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:43:39 - [TEST_STEP][PASSED] - robot.keyPress(VK_1): null
+
+2019-01-24 15:43:39 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:43:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:43:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:43:40 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:43:40 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:43:40 - [TEST_STEP][PASSED] - case 2:: null
+
+2019-01-24 15:43:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:43:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:43:41 - [TEST_STEP][PASSED] - robot.keyPress(VK_2): null
+
+2019-01-24 15:43:41 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:43:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:43:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:43:42 - [TEST_STEP][PASSED] - robot.keyPress(VK_ENTER): null
+
+2019-01-24 15:43:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:43:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:43:43 - [TEST_STEP][PASSED] - try: Object 'Object Repository/Kiosk/Lobby/header' is present and visible in viewport
+
+2019-01-24 15:43:43 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Kiosk/Lobby/header"), 15): Object 'Object Repository/Kiosk/Lobby/header' is visible
+
+2019-01-24 15:43:43 - [MESSAGE][PASSED] - Object 'Object Repository/Kiosk/Lobby/header' is visible
+
+2019-01-24 15:43:43 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Kiosk/Lobby/header"), 5): Object 'Object Repository/Kiosk/Lobby/header' is present and visible in viewport
+
+2019-01-24 15:43:43 - [MESSAGE][PASSED] - Object 'Object Repository/Kiosk/Lobby/header' is present and visible in viewport
+
+2019-01-24 15:43:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-24 15:43:44 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-24 15:43:44 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Kiosk/Lobby/workTicketButton"), 15): Object 'Object Repository/Kiosk/Lobby/workTicketButton' is visible
+
+2019-01-24 15:43:44 - [MESSAGE][PASSED] - Object 'Object Repository/Kiosk/Lobby/workTicketButton' is visible
+
+2019-01-24 15:43:44 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Kiosk/Lobby/workTicketButton"), STOP_ON_FAILURE): Object 'Object Repository/Kiosk/Lobby/workTicketButton' is clickable
+
+2019-01-24 15:43:44 - [MESSAGE][PASSED] - Object 'Object Repository/Kiosk/Lobby/workTicketButton' is clickable
+
+2019-01-24 15:43:44 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Kiosk/Lobby/logoutButton"), 15): Object 'Object Repository/Kiosk/Lobby/logoutButton' is visible
+
+2019-01-24 15:43:44 - [MESSAGE][PASSED] - Object 'Object Repository/Kiosk/Lobby/logoutButton' is visible
+
+2019-01-24 15:43:44 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Kiosk/Lobby/logoutButton"), STOP_ON_FAILURE): Object 'Object Repository/Kiosk/Lobby/logoutButton' is clickable
+
+2019-01-24 15:43:44 - [MESSAGE][PASSED] - Object 'Object Repository/Kiosk/Lobby/logoutButton' is clickable
+
+2019-01-24 15:43:44 - [TEST_STEP][PASSED] - click(findTestObject("Kiosk/Lobby/logoutButton")): Object: 'Object Repository/Kiosk/Lobby/logoutButton' is clicked on
+
+2019-01-24 15:43:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Kiosk/Lobby/logoutButton' is clicked on
+
+2019-01-24 15:43:44 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Kiosk/Login/Rfid/cardImage"), 30): Object 'Object Repository/Kiosk/Login/Rfid/cardImage' is visible
+
+2019-01-24 15:43:44 - [MESSAGE][PASSED] - Object 'Object Repository/Kiosk/Login/Rfid/cardImage' is visible
+
+2019-01-24 15:43:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-24 15:43:45 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/kiosk/kiosk rfid" classname="Test Cases/kiosk/kiosk rfid" status="PASSED">
+         <system-out><![CDATA[2019-01-24 15:43:45 - [TEST_CASE][PASSED] - Test Cases/kiosk/kiosk rfid: Test Cases/kiosk/kiosk rfid
+
+2019-01-24 15:43:45 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-01-24 15:43:55 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-01-24 15:43:55 - [TEST_STEP][PASSED] - openBrowser(rfidSite): Browser is opened with url: 'danbr7.kiosk.y-it.co.il/loginByRfid'
+
+2019-01-24 15:43:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-24 15:44:01 - [MESSAGE][PASSED] - Browser is opened with url: 'danbr7.kiosk.y-it.co.il/loginByRfid'
+
+2019-01-24 15:44:01 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Kiosk/Login/Rfid/cardImage"), 30): Object 'Object Repository/Kiosk/Login/Rfid/cardImage' is visible
+
+2019-01-24 15:44:01 - [MESSAGE][PASSED] - Object 'Object Repository/Kiosk/Login/Rfid/cardImage' is visible
+
+2019-01-24 15:44:01 - [TEST_STEP][PASSED] - focus(findTestObject("Kiosk/Login/Rfid/cardImage")): Object: 'Object Repository/Kiosk/Login/Rfid/cardImage' is focused
+
+2019-01-24 15:44:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Kiosk/Login/Rfid/cardImage' is focused
+
+2019-01-24 15:44:01 - [TEST_STEP][PASSED] - f_logInwithRfid(): null
+
+2019-01-24 15:44:01 - [TEST_STEP][PASSED] - robot = new java.awt.Robot(): null
+
+2019-01-24 15:44:01 - [TEST_STEP][PASSED] - rfidCodeArray = toString().toCharArray(): null
+
+2019-01-24 15:44:01 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-24 15:44:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-24 15:44:06 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2019-01-24 15:44:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:44:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:44:07 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:44:07 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:44:07 - [TEST_STEP][PASSED] - case 4:: null
+
+2019-01-24 15:44:07 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:44:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:44:08 - [TEST_STEP][PASSED] - robot.keyPress(VK_4): null
+
+2019-01-24 15:44:08 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:44:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:44:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:44:09 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:44:09 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:44:09 - [TEST_STEP][PASSED] - case 0:: null
+
+2019-01-24 15:44:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:44:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:44:10 - [TEST_STEP][PASSED] - robot.keyPress(VK_0): null
+
+2019-01-24 15:44:10 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:44:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:44:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:44:11 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:44:11 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:44:11 - [TEST_STEP][PASSED] - case 5:: null
+
+2019-01-24 15:44:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:44:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:44:12 - [TEST_STEP][PASSED] - robot.keyPress(VK_5): null
+
+2019-01-24 15:44:12 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:44:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:44:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:44:13 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 15:44:13 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 15:44:13 - [TEST_STEP][PASSED] - case 4:: null
+
+2019-01-24 15:44:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:44:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:44:14 - [TEST_STEP][PASSED] - robot.keyPress(VK_4): null
+
+2019-01-24 15:44:14 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 15:44:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:44:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:44:15 - [TEST_STEP][PASSED] - robot.keyPress(VK_ENTER): null
+
+2019-01-24 15:44:15 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 15:44:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 15:44:16 - [TEST_STEP][PASSED] - try: Object 'Object Repository/Kiosk/Lobby/header' is present and visible in viewport
+
+2019-01-24 15:44:16 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Kiosk/Lobby/header"), 15): Object 'Object Repository/Kiosk/Lobby/header' is visible
+
+2019-01-24 15:44:26 - [MESSAGE][PASSED] - Object 'Object Repository/Kiosk/Lobby/header' is visible
+
+2019-01-24 15:44:26 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Kiosk/Lobby/header"), 5): Object 'Object Repository/Kiosk/Lobby/header' is present and visible in viewport
+
+2019-01-24 15:44:26 - [MESSAGE][PASSED] - Object 'Object Repository/Kiosk/Lobby/header' is present and visible in viewport
+
+2019-01-24 15:44:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-24 15:44:27 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-24 15:44:27 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Kiosk/Lobby/workTicketButton"), 15): Object 'Object Repository/Kiosk/Lobby/workTicketButton' is visible
+
+2019-01-24 15:44:27 - [MESSAGE][PASSED] - Object 'Object Repository/Kiosk/Lobby/workTicketButton' is visible
+
+2019-01-24 15:44:27 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Kiosk/Lobby/workTicketButton"), STOP_ON_FAILURE): Object 'Object Repository/Kiosk/Lobby/workTicketButton' is clickable
+
+2019-01-24 15:44:27 - [MESSAGE][PASSED] - Object 'Object Repository/Kiosk/Lobby/workTicketButton' is clickable
+
+2019-01-24 15:44:27 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Kiosk/Lobby/logoutButton"), 15): Object 'Object Repository/Kiosk/Lobby/logoutButton' is visible
+
+2019-01-24 15:44:27 - [MESSAGE][PASSED] - Object 'Object Repository/Kiosk/Lobby/logoutButton' is visible
+
+2019-01-24 15:44:27 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Kiosk/Lobby/logoutButton"), STOP_ON_FAILURE): Object 'Object Repository/Kiosk/Lobby/logoutButton' is clickable
+
+2019-01-24 15:44:27 - [MESSAGE][PASSED] - Object 'Object Repository/Kiosk/Lobby/logoutButton' is clickable
+
+2019-01-24 15:44:27 - [TEST_STEP][PASSED] - click(findTestObject("Kiosk/Lobby/logoutButton")): Object: 'Object Repository/Kiosk/Lobby/logoutButton' is clicked on
+
+2019-01-24 15:44:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Kiosk/Lobby/logoutButton' is clicked on
+
+2019-01-24 15:44:27 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Kiosk/Login/Rfid/cardImage"), 30): Object 'Object Repository/Kiosk/Login/Rfid/cardImage' is visible
+
+2019-01-24 15:44:28 - [MESSAGE][PASSED] - Object 'Object Repository/Kiosk/Login/Rfid/cardImage' is visible
+
+2019-01-24 15:44:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-24 15:44:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-24 15:42:51 - [TEST_SUITE][PASSED] - Kiosk Sanity Login Test: Test Cases/kiosk/kiosk rfid]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

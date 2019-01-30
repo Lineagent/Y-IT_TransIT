@@ -1,0 +1,48 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Kiosk Sanity Login Test,Chrome 71.0.3578.98,,2019-01-24 15:36:30,2019-01-24 15:38:36,2m - 6.013s,FAILED
+,,,,,,
+Test Cases/kiosk/kiosk rfid,Chrome 71.0.3578.98,,2019-01-24 15:36:30,2019-01-24 15:37:07,37.253s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-24 15:36:30,2019-01-24 15:36:35,5.062s,PASSED
+openBrowser(rfidSite),Chrome 71.0.3578.98,log in with rfid,2019-01-24 15:36:35,2019-01-24 15:36:45,9.242s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-24 15:36:45,2019-01-24 15:36:46,1.135s,PASSED
+"waitForElementVisible(findTestObject(""Kiosk/Login/Rfid/cardImage""), 30)",Chrome 71.0.3578.98,check if rfid landingpage is ready,2019-01-24 15:36:46,2019-01-24 15:36:46,0.090s,PASSED
+"focus(findTestObject(""Kiosk/Login/Rfid/cardImage""))",Chrome 71.0.3578.98,,2019-01-24 15:36:46,2019-01-24 15:36:46,0.068s,PASSED
+f_logInwithRfid(),Chrome 71.0.3578.98,,2019-01-24 15:36:46,2019-01-24 15:36:46,0.001s,PASSED
+robot = new java.awt.Robot(),Chrome 71.0.3578.98,,2019-01-24 15:36:46,2019-01-24 15:36:46,0.004s,PASSED
+rfidCodeArray = toString().toCharArray(),Chrome 71.0.3578.98,,2019-01-24 15:36:46,2019-01-24 15:36:46,0.002s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-24 15:36:46,2019-01-24 15:36:51,5.002s,PASSED
+"for ([i = 0, i < length, (i++)])",Chrome 71.0.3578.98,,2019-01-24 15:36:51,2019-01-24 15:37:04,13.121s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-24 15:37:04,2019-01-24 15:37:05,1.002s,PASSED
+robot.keyPress(VK_ENTER),Chrome 71.0.3578.98,,2019-01-24 15:37:05,2019-01-24 15:37:05,0.002s,PASSED
+try,Chrome 71.0.3578.98,,2019-01-24 15:37:05,2019-01-24 15:37:06,1.145s,PASSED
+"waitForElementVisible(findTestObject(""Kiosk/Lobby/workTicketButton""), 15)",Chrome 71.0.3578.98,check if work ticket button exist,2019-01-24 15:37:06,2019-01-24 15:37:06,0.038s,PASSED
+"verifyElementClickable(findTestObject(""Kiosk/Lobby/workTicketButton""), STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-24 15:37:06,2019-01-24 15:37:06,0.039s,PASSED
+"waitForElementVisible(findTestObject(""Kiosk/Lobby/logoutButton""), 15)",Chrome 71.0.3578.98,check if logout button exist,2019-01-24 15:37:06,2019-01-24 15:37:06,0.036s,PASSED
+"verifyElementClickable(findTestObject(""Kiosk/Lobby/logoutButton""), STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-24 15:37:06,2019-01-24 15:37:06,0.026s,PASSED
+"click(findTestObject(""Kiosk/Lobby/logoutButton""))",Chrome 71.0.3578.98,logout,2019-01-24 15:37:06,2019-01-24 15:37:06,0.076s,PASSED
+"waitForElementVisible(findTestObject(""Kiosk/Login/Rfid/cardImage""), 30)",Chrome 71.0.3578.98,check if rfid landingpage is ready,2019-01-24 15:37:06,2019-01-24 15:37:07,0.030s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-24 15:37:07,2019-01-24 15:37:07,0.598s,PASSED
+,,,,,,
+Test Cases/kiosk/kiosk rfid,Chrome 71.0.3578.98,,2019-01-24 15:37:07,2019-01-24 15:38:35,1m - 27.873s,FAILED
+delay(5),Chrome 71.0.3578.98,,2019-01-24 15:37:07,2019-01-24 15:37:12,5.000s,PASSED
+openBrowser(rfidSite),Chrome 71.0.3578.98,log in with rfid,2019-01-24 15:37:12,2019-01-24 15:37:19,6.639s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-24 15:37:19,2019-01-24 15:37:20,1.126s,PASSED
+"waitForElementVisible(findTestObject(""Kiosk/Login/Rfid/cardImage""), 30)",Chrome 71.0.3578.98,check if rfid landingpage is ready,2019-01-24 15:37:20,2019-01-24 15:37:20,0.042s,PASSED
+"focus(findTestObject(""Kiosk/Login/Rfid/cardImage""))",Chrome 71.0.3578.98,,2019-01-24 15:37:20,2019-01-24 15:37:20,0.056s,PASSED
+f_logInwithRfid(),Chrome 71.0.3578.98,,2019-01-24 15:37:20,2019-01-24 15:37:20,0.000s,PASSED
+robot = new java.awt.Robot(),Chrome 71.0.3578.98,,2019-01-24 15:37:20,2019-01-24 15:37:20,0.001s,PASSED
+rfidCodeArray = toString().toCharArray(),Chrome 71.0.3578.98,,2019-01-24 15:37:20,2019-01-24 15:37:20,0.000s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-24 15:37:20,2019-01-24 15:37:25,5.002s,PASSED
+"for ([i = 0, i < length, (i++)])",Chrome 71.0.3578.98,,2019-01-24 15:37:25,2019-01-24 15:37:29,4.022s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-24 15:37:29,2019-01-24 15:37:30,1.001s,PASSED
+robot.keyPress(VK_ENTER),Chrome 71.0.3578.98,,2019-01-24 15:37:30,2019-01-24 15:37:30,0.001s,PASSED
+try,Chrome 71.0.3578.98,,2019-01-24 15:37:30,2019-01-24 15:37:51,21.114s,FAILED
+catch (Exception e),Chrome 71.0.3578.98,,2019-01-24 15:37:51,2019-01-24 15:37:54,2.542s,PASSED
+robot = new java.awt.Robot(),Chrome 71.0.3578.98,,2019-01-24 15:37:54,2019-01-24 15:37:54,0.000s,PASSED
+rfidCodeArray = toString().toCharArray(),Chrome 71.0.3578.98,,2019-01-24 15:37:54,2019-01-24 15:37:54,0.000s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-24 15:37:54,2019-01-24 15:37:59,5.001s,PASSED
+"for ([i = 0, i < length, (i++)])",Chrome 71.0.3578.98,,2019-01-24 15:37:59,2019-01-24 15:38:03,4.016s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-24 15:38:03,2019-01-24 15:38:04,1.000s,PASSED
+robot.keyPress(VK_ENTER),Chrome 71.0.3578.98,,2019-01-24 15:38:04,2019-01-24 15:38:04,0.001s,PASSED
+"waitForElementVisible(findTestObject(""Kiosk/Lobby/workTicketButton""), 15)",Chrome 71.0.3578.98,check if work ticket button exist,2019-01-24 15:38:04,2019-01-24 15:38:19,15.298s,PASSED
+"verifyElementClickable(findTestObject(""Kiosk/Lobby/workTicketButton""), STOP_ON_FAILURE)",Chrome 71.0.3578.98,,2019-01-24 15:38:19,2019-01-24 15:38:35,15.971s,FAILED

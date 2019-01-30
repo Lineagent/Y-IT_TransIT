@@ -13,8 +13,6 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import java.awt.Robot as Robot
-import java.awt.event.KeyEvent as KeyEvent
 
 'log in with code and id'
 WebUI.openBrowser(site)
@@ -98,108 +96,4 @@ WebUI.click(findTestObject('Kiosk/Lobby/logoutButton'))
 WebUI.waitForElementVisible(findTestObject('Kiosk/Login/Code Plus Id/enterButton'), 15)
 
 WebUI.closeBrowser()
-
-'log in with rfid'
-WebUI.openBrowser(rfidSite)
-
-WebUI.maximizeWindow()
-
-'check if rfid landingpage is ready'
-WebUI.waitForElementVisible(findTestObject('Kiosk/Login/Rfid/cardImage'), 30)
-
-f_logInwithRfid()
-
-try {
-    'check if header exist'
-    WebUI.waitForElementVisible(findTestObject('Kiosk/Lobby/header'), 15)
-
-    WebUI.verifyElementVisibleInViewport(findTestObject('Kiosk/Lobby/header'), 5)
-}
-catch (def e) {
-    WebUI.refresh()
-
-    'check if rfid landingpage is ready'
-    WebUI.waitForElementVisible(findTestObject('Kiosk/Login/Rfid/cardImage'), 30)
-
-    f_logInwithRfid()
-} 
-
-'check if work ticket button exist'
-WebUI.waitForElementVisible(findTestObject('Kiosk/Lobby/workTicketButton'), 15)
-
-WebUI.verifyElementClickable(findTestObject('Kiosk/Lobby/workTicketButton'), FailureHandling.STOP_ON_FAILURE)
-
-'check if logout button exist'
-WebUI.waitForElementVisible(findTestObject('Kiosk/Lobby/logoutButton'), 15)
-
-WebUI.verifyElementClickable(findTestObject('Kiosk/Lobby/logoutButton'), FailureHandling.STOP_ON_FAILURE)
-
-'logout'
-WebUI.click(findTestObject('Kiosk/Lobby/logoutButton'))
-
-'check if rfid landingpage is ready'
-WebUI.waitForElementVisible(findTestObject('Kiosk/Login/Rfid/cardImage'), 30)
-
-WebUI.closeBrowser()
-
-def f_logInwithRfid() {
-    Robot robot = new Robot()
-
-    char[] rfidCodeArray = rfidCode.toString().toCharArray()
-
-    WebUI.delay(5)
-
-    for (int i = 0; i < rfidCodeArray.length; i++) {
-        WebUI.delay(1)
-
-        int n = Integer.parseInt(rfidCodeArray[i].toString())
-
-        switch (n) {
-            case 1:
-                robot.keyPress(KeyEvent.VK_1)
-
-                break
-            case 2:
-                robot.keyPress(KeyEvent.VK_2)
-
-                break
-            case 3:
-                robot.keyPress(KeyEvent.VK_3)
-
-                break
-            case 4:
-                robot.keyPress(KeyEvent.VK_4)
-
-                break
-            case 5:
-                robot.keyPress(KeyEvent.VK_5)
-
-                break
-            case 6:
-                robot.keyPress(KeyEvent.VK_6)
-
-                break
-            case 7:
-                robot.keyPress(KeyEvent.VK_7)
-
-                break
-            case 8:
-                robot.keyPress(KeyEvent.VK_8)
-
-                break
-            case 9:
-                robot.keyPress(KeyEvent.VK_9)
-
-                break
-            case 0:
-                robot.keyPress(KeyEvent.VK_0)
-
-                break
-        }
-    }
-    
-    WebUI.delay(1)
-
-    robot.keyPress(KeyEvent.VK_ENTER)
-}
 

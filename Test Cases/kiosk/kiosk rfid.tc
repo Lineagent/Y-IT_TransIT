@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>kiosk rfid</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1fca32ea-6942-4189-b339-2c0c8bea8fb6</testCaseGuid>
+   <variable>
+      <defaultValue>'aws_test.kiosk.y-it.co.il/loginByRfid'</defaultValue>
+      <description></description>
+      <id>21193b50-a679-4602-a658-5bb9dc02f2b2</id>
+      <masked>false</masked>
+      <name>rfidSite</name>
+   </variable>
+   <variable>
+      <defaultValue>'5555'</defaultValue>
+      <description></description>
+      <id>e528c342-a059-4028-83bb-2ae596595c9a</id>
+      <masked>false</masked>
+      <name>rfidCode</name>
+   </variable>
+</TestCaseEntity>

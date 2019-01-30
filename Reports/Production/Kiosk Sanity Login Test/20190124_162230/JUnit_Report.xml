@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Kiosk Sanity Login Test" time="68" tests="0" failures="1" errors="1">
+   <testsuite name="Kiosk Sanity Login Test" tests="0" failures="1" errors="1" time="68" timestamp="2019-01-24 16:22:32" hostname="leon.b - QA-PC.Y-it.Local" id="Test Suites/Production/Kiosk Sanity Login Test">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\leon.b\\Katalon Studio\\Y-IT_TransIT\\Reports\\Production\\Kiosk Sanity Login Test\\20190124_162230"/>
+         <property name="logFiles" value="C:\\Users\\leon.b\\Katalon Studio\\Y-IT_TransIT\\Reports\\Production\\Kiosk Sanity Login Test\\20190124_162230\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="leon.b - QA-PC.Y-it.Local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.1.145"/>
+         <property name="sessionId" value="3228731a84eaa4d0c56fb808e7f3bf02"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/kiosk/kiosk rfid" classname="Test Cases/kiosk/kiosk rfid" status="ERROR">
+         <error type="ERROR" message="Test Cases/kiosk/kiosk rfid FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid key code
+	at java_awt_Robot$keyPress.call(Unknown Source)
+	at kiosk rfid.f_logInwithRfid(kiosk rfid:151)
+	at kiosk rfid.run(kiosk rfid:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548339750063.run(TempTestSuite1548339750063.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-24 16:22:32 - [TEST_CASE][ERROR] - Test Cases/kiosk/kiosk rfid: Test Cases/kiosk/kiosk rfid FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid key code
+	at java_awt_Robot$keyPress.call(Unknown Source)
+	at kiosk rfid.f_logInwithRfid(kiosk rfid:151)
+	at kiosk rfid.run(kiosk rfid:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548339750063.run(TempTestSuite1548339750063.groovy:36)
+
+
+2019-01-24 16:22:32 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-01-24 16:22:42 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-01-24 16:22:42 - [TEST_STEP][PASSED] - openBrowser(rfidSite): Browser is opened with url: 'eggedtaavura.kiosk.y-it.co.il/loginByRfid'
+
+2019-01-24 16:22:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-24 16:22:43 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-24 16:22:50 - [MESSAGE][PASSED] - Browser is opened with url: 'eggedtaavura.kiosk.y-it.co.il/loginByRfid'
+
+2019-01-24 16:22:50 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Kiosk/Login/Rfid/cardImage"), 30): Object 'Object Repository/Kiosk/Login/Rfid/cardImage' is visible
+
+2019-01-24 16:22:50 - [MESSAGE][PASSED] - Object 'Object Repository/Kiosk/Login/Rfid/cardImage' is visible
+
+2019-01-24 16:22:50 - [TEST_STEP][PASSED] - focus(findTestObject("Kiosk/Login/Rfid/cardImage")): Object: 'Object Repository/Kiosk/Login/Rfid/cardImage' is focused
+
+2019-01-24 16:22:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Kiosk/Login/Rfid/cardImage' is focused
+
+2019-01-24 16:22:50 - [TEST_STEP][PASSED] - f_logInwithRfid(): null
+
+2019-01-24 16:22:50 - [TEST_STEP][PASSED] - robot = new java.awt.Robot(): null
+
+2019-01-24 16:22:50 - [TEST_STEP][PASSED] - rfidCodeArray = toString().toCharArray(): null
+
+2019-01-24 16:22:50 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-24 16:22:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-24 16:22:55 - [TEST_STEP][PASSED] - for ([i = 0, i < length, (i++)]): null
+
+2019-01-24 16:22:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 16:22:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 16:22:56 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 16:22:56 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 16:22:56 - [TEST_STEP][PASSED] - case 0:: null
+
+2019-01-24 16:22:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 16:22:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 16:22:57 - [TEST_STEP][PASSED] - robot.keyPress(VK_0): null
+
+2019-01-24 16:22:57 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 16:22:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 16:22:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 16:22:58 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 16:22:58 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 16:22:58 - [TEST_STEP][PASSED] - case 2:: null
+
+2019-01-24 16:22:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 16:22:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 16:22:59 - [TEST_STEP][PASSED] - robot.keyPress(VK_2): null
+
+2019-01-24 16:22:59 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 16:22:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 16:23:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 16:23:00 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 16:23:00 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 16:23:00 - [TEST_STEP][PASSED] - case 6:: null
+
+2019-01-24 16:23:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 16:23:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 16:23:01 - [TEST_STEP][PASSED] - robot.keyPress(VK_6): null
+
+2019-01-24 16:23:01 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 16:23:01 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 16:23:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 16:23:02 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 16:23:02 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 16:23:02 - [TEST_STEP][PASSED] - case 0:: null
+
+2019-01-24 16:23:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 16:23:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 16:23:03 - [TEST_STEP][PASSED] - robot.keyPress(VK_0): null
+
+2019-01-24 16:23:03 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 16:23:03 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 16:23:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 16:23:04 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 16:23:04 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 16:23:04 - [TEST_STEP][PASSED] - case 0:: null
+
+2019-01-24 16:23:04 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 16:23:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 16:23:05 - [TEST_STEP][PASSED] - robot.keyPress(VK_0): null
+
+2019-01-24 16:23:05 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 16:23:05 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 16:23:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 16:23:06 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 16:23:06 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 16:23:06 - [TEST_STEP][PASSED] - case 0:: null
+
+2019-01-24 16:23:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 16:23:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 16:23:07 - [TEST_STEP][PASSED] - robot.keyPress(VK_0): null
+
+2019-01-24 16:23:07 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 16:23:07 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 16:23:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 16:23:08 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 16:23:08 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 16:23:08 - [TEST_STEP][PASSED] - case 2:: null
+
+2019-01-24 16:23:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 16:23:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 16:23:09 - [TEST_STEP][PASSED] - robot.keyPress(VK_2): null
+
+2019-01-24 16:23:09 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 16:23:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 16:23:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 16:23:10 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 16:23:10 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 16:23:10 - [TEST_STEP][PASSED] - case 2:: null
+
+2019-01-24 16:23:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 16:23:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 16:23:11 - [TEST_STEP][PASSED] - robot.keyPress(VK_2): null
+
+2019-01-24 16:23:11 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 16:23:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 16:23:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 16:23:12 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 16:23:12 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 16:23:12 - [TEST_STEP][PASSED] - case 4:: null
+
+2019-01-24 16:23:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 16:23:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 16:23:13 - [TEST_STEP][PASSED] - robot.keyPress(VK_4): null
+
+2019-01-24 16:23:13 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 16:23:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 16:23:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 16:23:14 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 16:23:14 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 16:23:14 - [TEST_STEP][PASSED] - case 0:: null
+
+2019-01-24 16:23:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 16:23:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 16:23:15 - [TEST_STEP][PASSED] - robot.keyPress(VK_0): null
+
+2019-01-24 16:23:15 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 16:23:15 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 16:23:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 16:23:16 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 16:23:16 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 16:23:16 - [TEST_STEP][PASSED] - case 0:: null
+
+2019-01-24 16:23:16 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 16:23:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 16:23:17 - [TEST_STEP][PASSED] - robot.keyPress(VK_0): null
+
+2019-01-24 16:23:17 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 16:23:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 16:23:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 16:23:18 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 16:23:18 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 16:23:18 - [TEST_STEP][PASSED] - case 1:: null
+
+2019-01-24 16:23:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 16:23:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 16:23:19 - [TEST_STEP][PASSED] - robot.keyPress(VK_1): null
+
+2019-01-24 16:23:19 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 16:23:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 16:23:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 16:23:20 - [TEST_STEP][PASSED] - n = Integer.parseInt(rfidCodeArray[i].toString()): null
+
+2019-01-24 16:23:20 - [TEST_STEP][PASSED] - switch (n): null
+
+2019-01-24 16:23:20 - [TEST_STEP][PASSED] - case 2:: null
+
+2019-01-24 16:23:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 16:23:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 16:23:21 - [TEST_STEP][PASSED] - robot.keyPress(VK_2): null
+
+2019-01-24 16:23:21 - [TEST_STEP][PASSED] - break: null
+
+2019-01-24 16:23:21 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 16:23:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 16:23:22 - [TEST_STEP][PASSED] - robot.keyPress(VK_ENTER): null
+
+2019-01-24 16:23:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 16:23:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 16:23:23 - [TEST_STEP][PASSED] - robot.keyPress(VK_ENTER): null
+
+2019-01-24 16:23:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 16:23:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 16:23:24 - [TEST_STEP][PASSED] - robot.keyPress(VK_ENTER): null
+
+2019-01-24 16:23:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 16:23:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 16:23:25 - [TEST_STEP][PASSED] - robot.keyPress(VK_ENTER): null
+
+2019-01-24 16:23:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-01-24 16:23:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-01-24 16:23:26 - [TEST_STEP][ERROR] - robot.keyPress(VK_ACCEPT): robot.keyPress(VK_ACCEPT) FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid key code
+	at java_awt_Robot$keyPress.call(Unknown Source)
+	at kiosk rfid.f_logInwithRfid(kiosk rfid:151)
+	at kiosk rfid.run(kiosk rfid:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548339750063.run(TempTestSuite1548339750063.groovy:36)
+
+
+2019-01-24 16:23:26 - [MESSAGE][ERROR] - robot.keyPress(VK_ACCEPT) FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid key code
+	at java_awt_Robot$keyPress.call(Unknown Source)
+	at kiosk rfid.f_logInwithRfid(kiosk rfid:151)
+	at kiosk rfid.run(kiosk rfid:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548339750063.run(TempTestSuite1548339750063.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-24 16:22:32 - [TEST_CASE][ERROR] - Test Cases/kiosk/kiosk rfid: Test Cases/kiosk/kiosk rfid FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid key code
+	at java_awt_Robot$keyPress.call(Unknown Source)
+	at kiosk rfid.f_logInwithRfid(kiosk rfid:151)
+	at kiosk rfid.run(kiosk rfid:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548339750063.run(TempTestSuite1548339750063.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/kiosk/kiosk rfid" classname="Test Cases/kiosk/kiosk rfid" status="FAILED">
+         <failure type="FAILED" message="Test Cases/kiosk/kiosk rfid FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'danbr7.kiosk.y-it.co.il/loginByRfid' (Root cause: org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'QA-PC', ip: '192.168.1.145', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\leon.b\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64174}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 3228731a84eaa4d0c56fb808e7f3bf02)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at kiosk rfid.run(kiosk rfid:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548339750063.run(TempTestSuite1548339750063.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-24 16:23:26 - [TEST_CASE][FAILED] - Test Cases/kiosk/kiosk rfid: Test Cases/kiosk/kiosk rfid FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'danbr7.kiosk.y-it.co.il/loginByRfid' (Root cause: org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'QA-PC', ip: '192.168.1.145', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\leon.b\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64174}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 3228731a84eaa4d0c56fb808e7f3bf02)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at kiosk rfid.run(kiosk rfid:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548339750063.run(TempTestSuite1548339750063.groovy:36)
+
+
+2019-01-24 16:23:26 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-01-24 16:23:36 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-01-24 16:23:36 - [TEST_STEP][FAILED] - openBrowser(rfidSite): openBrowser(rfidSite) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'danbr7.kiosk.y-it.co.il/loginByRfid' (Root cause: org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'QA-PC', ip: '192.168.1.145', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\leon.b\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64174}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 3228731a84eaa4d0c56fb808e7f3bf02)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at kiosk rfid.run(kiosk rfid:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548339750063.run(TempTestSuite1548339750063.groovy:36)
+
+
+2019-01-24 16:23:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-24 16:23:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-24 16:23:39 - [MESSAGE][FAILED] - Unable to open browser with url: 'danbr7.kiosk.y-it.co.il/loginByRfid' (Root cause: org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'QA-PC', ip: '192.168.1.145', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\leon.b\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64174}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 3228731a84eaa4d0c56fb808e7f3bf02)
+
+2019-01-24 16:23:39 - [MESSAGE][FAILED] - openBrowser(rfidSite) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'danbr7.kiosk.y-it.co.il/loginByRfid' (Root cause: org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'QA-PC', ip: '192.168.1.145', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\leon.b\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64174}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 3228731a84eaa4d0c56fb808e7f3bf02)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at kiosk rfid.run(kiosk rfid:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548339750063.run(TempTestSuite1548339750063.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-01-24 16:23:26 - [TEST_CASE][FAILED] - Test Cases/kiosk/kiosk rfid: Test Cases/kiosk/kiosk rfid FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'danbr7.kiosk.y-it.co.il/loginByRfid' (Root cause: org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=71.0.3578.98)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 10.0.17134 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'QA-PC', ip: '192.168.1.145', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\leon.b\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64174}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 3228731a84eaa4d0c56fb808e7f3bf02)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at kiosk rfid.run(kiosk rfid:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548339750063.run(TempTestSuite1548339750063.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-24 16:22:32 - [TEST_SUITE][ERROR] - Kiosk Sanity Login Test: Test Cases/kiosk/kiosk rfid FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid key code
+	at java_awt_Robot$keyPress.call(Unknown Source)
+	at kiosk rfid.f_logInwithRfid(kiosk rfid:151)
+	at kiosk rfid.run(kiosk rfid:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548339750063.run(TempTestSuite1548339750063.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-01-24 16:22:32 - [TEST_SUITE][ERROR] - Kiosk Sanity Login Test: Test Cases/kiosk/kiosk rfid FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid key code
+	at java_awt_Robot$keyPress.call(Unknown Source)
+	at kiosk rfid.f_logInwithRfid(kiosk rfid:151)
+	at kiosk rfid.run(kiosk rfid:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1548339750063.run(TempTestSuite1548339750063.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

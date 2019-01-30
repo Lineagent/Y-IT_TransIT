@@ -1,0 +1,500 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Pre Salary,Chrome 71.0.3578.98,,2019-01-30 13:34:52,2019-01-30 13:43:39,8m - 47.047s,FAILED
+,,,,,,
+Test Cases/Pre-Salary/One Driver Calc,Chrome 71.0.3578.98,,2019-01-30 13:34:52,2019-01-30 13:35:38,46.116s,PASSED
+"login.c_login.logIn(site, userName, userPass)",Chrome 71.0.3578.98,,2019-01-30 13:34:53,2019-01-30 13:35:03,9.565s,PASSED
+date = new java.util.Date(),Chrome 71.0.3578.98,,2019-01-30 13:35:03,2019-01-30 13:35:03,0.006s,PASSED
+cal = Calendar.getInstance(),Chrome 71.0.3578.98,,2019-01-30 13:35:03,2019-01-30 13:35:03,0.006s,PASSED
+cal.setTime(date),Chrome 71.0.3578.98,,2019-01-30 13:35:03,2019-01-30 13:35:03,0.008s,PASSED
+month = cal.get(MONTH) + 1,Chrome 71.0.3578.98,,2019-01-30 13:35:03,2019-01-30 13:35:03,0.001s,PASSED
+year = cal.get(YEAR),Chrome 71.0.3578.98,,2019-01-30 13:35:03,2019-01-30 13:35:03,0.000s,PASSED
+"dayStr = ""01""",Chrome 71.0.3578.98,,2019-01-30 13:35:03,2019-01-30 13:35:03,0.000s,PASSED
+"monthStr = """"",Chrome 71.0.3578.98,,2019-01-30 13:35:03,2019-01-30 13:35:03,0.001s,PASSED
+yearStr = year.toString(),Chrome 71.0.3578.98,,2019-01-30 13:35:03,2019-01-30 13:35:03,0.002s,PASSED
+if (month < 10),Chrome 71.0.3578.98,,2019-01-30 13:35:03,2019-01-30 13:35:03,0.003s,PASSED
+fullDate = dayStr + monthStr + yearStr,Chrome 71.0.3578.98,,2019-01-30 13:35:03,2019-01-30 13:35:03,0.000s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:35:03,2019-01-30 13:35:04,1.025s,PASSED
+"waitForElementPresent(findTestObject(""General/mainEmptyBackground""), 15)",Chrome 71.0.3578.98,,2019-01-30 13:35:04,2019-01-30 13:35:04,0.067s,PASSED
+"isPreSalaryTabOpen = waitForElementPresent(findTestObject(""Pre-Salary/preSalaryTab""), 5)",Chrome 71.0.3578.98,,2019-01-30 13:35:04,2019-01-30 13:35:10,6.121s,PASSED
+if (!(isPreSalaryTabOpen)),Chrome 71.0.3578.98,,2019-01-30 13:35:10,2019-01-30 13:35:11,1.267s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""), 15)",Chrome 71.0.3578.98,,2019-01-30 13:35:11,2019-01-30 13:35:12,0.563s,PASSED
+"click(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""))",Chrome 71.0.3578.98,,2019-01-30 13:35:12,2019-01-30 13:35:12,0.196s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:35:12,2019-01-30 13:35:13,1.002s,PASSED
+"setText(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""), """")",Chrome 71.0.3578.98,,2019-01-30 13:35:13,2019-01-30 13:35:13,0.102s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:35:13,2019-01-30 13:35:14,1.001s,PASSED
+"setText(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""), fullDate)",Chrome 71.0.3578.98,,2019-01-30 13:35:14,2019-01-30 13:35:15,0.678s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""), 15)",Chrome 71.0.3578.98,,2019-01-30 13:35:15,2019-01-30 13:35:15,0.021s,PASSED
+"waitForElementNotPresent(findTestObject(""Pre-Salary/Filters/Drivers Dropdown/isLoadingDropdown""), 15)",Chrome 71.0.3578.98,,2019-01-30 13:35:15,2019-01-30 13:35:15,0.081s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:35:15,2019-01-30 13:35:16,1.002s,PASSED
+try,Chrome 71.0.3578.98,,2019-01-30 13:35:16,2019-01-30 13:35:16,0.202s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:35:16,2019-01-30 13:35:17,1.001s,PASSED
+try,Chrome 71.0.3578.98,,2019-01-30 13:35:17,2019-01-30 13:35:17,0.138s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:35:17,2019-01-30 13:35:18,1.000s,PASSED
+"click(findTestObject(""Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSelectFirstDriver""))",Chrome 71.0.3578.98,,2019-01-30 13:35:18,2019-01-30 13:35:18,0.114s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:35:18,2019-01-30 13:35:19,1.001s,PASSED
+"click(findTestObject(""Pre-Salary/Data Status/importButton""))",Chrome 71.0.3578.98,,2019-01-30 13:35:19,2019-01-30 13:35:20,0.389s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:35:20,2019-01-30 13:35:21,1.002s,PASSED
+try,Chrome 71.0.3578.98,,2019-01-30 13:35:21,2019-01-30 13:35:34,13.380s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Employee Details/driversReportTable""), 20)",Chrome 71.0.3578.98,,2019-01-30 13:35:34,2019-01-30 13:35:36,1.734s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Employee Details/driversReportTable""), 20)",Chrome 71.0.3578.98,,2019-01-30 13:35:36,2019-01-30 13:35:36,0.024s,PASSED
+"verifyElementPresent(findTestObject(""Pre-Salary/Employee Details/driversReportTable""), 2)",Chrome 71.0.3578.98,,2019-01-30 13:35:36,2019-01-30 13:35:36,0.024s,PASSED
+"verifyElementPresent(findTestObject(""Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader""), 2)",Chrome 71.0.3578.98,,2019-01-30 13:35:36,2019-01-30 13:35:36,0.040s,PASSED
+"driverCodeFromReport = getText(findTestObject(""Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader""))",Chrome 71.0.3578.98,,2019-01-30 13:35:36,2019-01-30 13:35:36,0.104s,PASSED
+if (driverCodeFromReport != driver_Id && !(driverCodeFromReport.contains(driver_Id))),Chrome 71.0.3578.98,,2019-01-30 13:35:36,2019-01-30 13:35:36,0.000s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Employee Details/rightSideTable""), 10)",Chrome 71.0.3578.98,,2019-01-30 13:35:36,2019-01-30 13:35:36,0.046s,PASSED
+"verifyElementPresent(findTestObject(""Pre-Salary/Employee Details/rightSideTable""), 2)",Chrome 71.0.3578.98,,2019-01-30 13:35:36,2019-01-30 13:35:36,0.023s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Employee Details/rightSideTableDriversId""), 10)",Chrome 71.0.3578.98,,2019-01-30 13:35:36,2019-01-30 13:35:38,1.753s,PASSED
+"verifyElementPresent(findTestObject(""Pre-Salary/Employee Details/rightSideTableDriversId""), 2)",Chrome 71.0.3578.98,,2019-01-30 13:35:38,2019-01-30 13:35:38,0.014s,PASSED
+"driversCodeFromRightSideTable = getText(findTestObject(""Pre-Salary/Employee Details/rightSideTableDriversId""))",Chrome 71.0.3578.98,,2019-01-30 13:35:38,2019-01-30 13:35:38,0.044s,PASSED
+if (driversCodeFromRightSideTable != driver_Id),Chrome 71.0.3578.98,,2019-01-30 13:35:38,2019-01-30 13:35:38,0.001s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-30 13:35:38,2019-01-30 13:35:38,0.651s,PASSED
+,,,,,,
+Test Cases/Pre-Salary/One Driver Calc,Chrome 71.0.3578.98,,2019-01-30 13:35:38,2019-01-30 13:36:22,43.098s,PASSED
+"login.c_login.logIn(site, userName, userPass)",Chrome 71.0.3578.98,,2019-01-30 13:35:39,2019-01-30 13:35:48,9.189s,PASSED
+date = new java.util.Date(),Chrome 71.0.3578.98,,2019-01-30 13:35:48,2019-01-30 13:35:48,0.001s,PASSED
+cal = Calendar.getInstance(),Chrome 71.0.3578.98,,2019-01-30 13:35:48,2019-01-30 13:35:48,0.000s,PASSED
+cal.setTime(date),Chrome 71.0.3578.98,,2019-01-30 13:35:48,2019-01-30 13:35:48,0.001s,PASSED
+month = cal.get(MONTH) + 1,Chrome 71.0.3578.98,,2019-01-30 13:35:48,2019-01-30 13:35:48,0.000s,PASSED
+year = cal.get(YEAR),Chrome 71.0.3578.98,,2019-01-30 13:35:48,2019-01-30 13:35:48,0.000s,PASSED
+"dayStr = ""01""",Chrome 71.0.3578.98,,2019-01-30 13:35:48,2019-01-30 13:35:48,0.001s,PASSED
+"monthStr = """"",Chrome 71.0.3578.98,,2019-01-30 13:35:48,2019-01-30 13:35:48,0.000s,PASSED
+yearStr = year.toString(),Chrome 71.0.3578.98,,2019-01-30 13:35:48,2019-01-30 13:35:48,0.001s,PASSED
+if (month < 10),Chrome 71.0.3578.98,,2019-01-30 13:35:48,2019-01-30 13:35:48,0.000s,PASSED
+fullDate = dayStr + monthStr + yearStr,Chrome 71.0.3578.98,,2019-01-30 13:35:48,2019-01-30 13:35:48,0.001s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:35:48,2019-01-30 13:35:49,1.002s,PASSED
+"waitForElementPresent(findTestObject(""General/mainEmptyBackground""), 15)",Chrome 71.0.3578.98,,2019-01-30 13:35:49,2019-01-30 13:35:49,0.533s,PASSED
+"isPreSalaryTabOpen = waitForElementPresent(findTestObject(""Pre-Salary/preSalaryTab""), 5)",Chrome 71.0.3578.98,,2019-01-30 13:35:49,2019-01-30 13:35:55,5.750s,PASSED
+if (!(isPreSalaryTabOpen)),Chrome 71.0.3578.98,,2019-01-30 13:35:55,2019-01-30 13:35:56,1.287s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""), 15)",Chrome 71.0.3578.98,,2019-01-30 13:35:56,2019-01-30 13:35:57,0.681s,PASSED
+"click(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""))",Chrome 71.0.3578.98,,2019-01-30 13:35:57,2019-01-30 13:35:57,0.116s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:35:57,2019-01-30 13:35:58,1.002s,PASSED
+"setText(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""), """")",Chrome 71.0.3578.98,,2019-01-30 13:35:58,2019-01-30 13:35:58,0.099s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:35:58,2019-01-30 13:35:59,1.001s,PASSED
+"setText(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""), fullDate)",Chrome 71.0.3578.98,,2019-01-30 13:35:59,2019-01-30 13:35:59,0.248s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""), 15)",Chrome 71.0.3578.98,,2019-01-30 13:35:59,2019-01-30 13:35:59,0.014s,PASSED
+"waitForElementNotPresent(findTestObject(""Pre-Salary/Filters/Drivers Dropdown/isLoadingDropdown""), 15)",Chrome 71.0.3578.98,,2019-01-30 13:35:59,2019-01-30 13:35:59,0.022s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:35:59,2019-01-30 13:36:00,1.001s,PASSED
+try,Chrome 71.0.3578.98,,2019-01-30 13:36:00,2019-01-30 13:36:01,0.179s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:36:01,2019-01-30 13:36:02,1.001s,PASSED
+try,Chrome 71.0.3578.98,,2019-01-30 13:36:02,2019-01-30 13:36:02,0.154s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:36:02,2019-01-30 13:36:03,1.001s,PASSED
+"click(findTestObject(""Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSelectFirstDriver""))",Chrome 71.0.3578.98,,2019-01-30 13:36:03,2019-01-30 13:36:03,0.110s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:36:03,2019-01-30 13:36:04,1.001s,PASSED
+"click(findTestObject(""Pre-Salary/Data Status/importButton""))",Chrome 71.0.3578.98,,2019-01-30 13:36:04,2019-01-30 13:36:04,0.346s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:36:04,2019-01-30 13:36:05,1.000s,PASSED
+try,Chrome 71.0.3578.98,,2019-01-30 13:36:05,2019-01-30 13:36:18,12.928s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Employee Details/driversReportTable""), 20)",Chrome 71.0.3578.98,,2019-01-30 13:36:18,2019-01-30 13:36:19,0.928s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Employee Details/driversReportTable""), 20)",Chrome 71.0.3578.98,,2019-01-30 13:36:19,2019-01-30 13:36:20,0.966s,PASSED
+"verifyElementPresent(findTestObject(""Pre-Salary/Employee Details/driversReportTable""), 2)",Chrome 71.0.3578.98,,2019-01-30 13:36:20,2019-01-30 13:36:20,0.016s,PASSED
+"verifyElementPresent(findTestObject(""Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader""), 2)",Chrome 71.0.3578.98,,2019-01-30 13:36:20,2019-01-30 13:36:20,0.025s,PASSED
+"driverCodeFromReport = getText(findTestObject(""Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader""))",Chrome 71.0.3578.98,,2019-01-30 13:36:20,2019-01-30 13:36:20,0.048s,PASSED
+if (driverCodeFromReport != driver_Id && !(driverCodeFromReport.contains(driver_Id))),Chrome 71.0.3578.98,,2019-01-30 13:36:20,2019-01-30 13:36:20,0.001s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Employee Details/rightSideTable""), 10)",Chrome 71.0.3578.98,,2019-01-30 13:36:20,2019-01-30 13:36:20,0.050s,PASSED
+"verifyElementPresent(findTestObject(""Pre-Salary/Employee Details/rightSideTable""), 2)",Chrome 71.0.3578.98,,2019-01-30 13:36:20,2019-01-30 13:36:20,0.048s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Employee Details/rightSideTableDriversId""), 10)",Chrome 71.0.3578.98,,2019-01-30 13:36:20,2019-01-30 13:36:21,0.517s,PASSED
+"verifyElementPresent(findTestObject(""Pre-Salary/Employee Details/rightSideTableDriversId""), 2)",Chrome 71.0.3578.98,,2019-01-30 13:36:21,2019-01-30 13:36:21,0.030s,PASSED
+"driversCodeFromRightSideTable = getText(findTestObject(""Pre-Salary/Employee Details/rightSideTableDriversId""))",Chrome 71.0.3578.98,,2019-01-30 13:36:21,2019-01-30 13:36:21,0.038s,PASSED
+if (driversCodeFromRightSideTable != driver_Id),Chrome 71.0.3578.98,,2019-01-30 13:36:21,2019-01-30 13:36:21,0.001s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-30 13:36:21,2019-01-30 13:36:22,0.639s,PASSED
+,,,,,,
+Test Cases/Pre-Salary/One Driver Calc,Chrome 71.0.3578.98,,2019-01-30 13:36:22,2019-01-30 13:37:25,1m - 3.540s,PASSED
+"login.c_login.logIn(site, userName, userPass)",Chrome 71.0.3578.98,,2019-01-30 13:36:22,2019-01-30 13:36:31,9.166s,PASSED
+date = new java.util.Date(),Chrome 71.0.3578.98,,2019-01-30 13:36:31,2019-01-30 13:36:31,0.000s,PASSED
+cal = Calendar.getInstance(),Chrome 71.0.3578.98,,2019-01-30 13:36:31,2019-01-30 13:36:31,0.001s,PASSED
+cal.setTime(date),Chrome 71.0.3578.98,,2019-01-30 13:36:31,2019-01-30 13:36:31,0.000s,PASSED
+month = cal.get(MONTH) + 1,Chrome 71.0.3578.98,,2019-01-30 13:36:31,2019-01-30 13:36:31,0.000s,PASSED
+year = cal.get(YEAR),Chrome 71.0.3578.98,,2019-01-30 13:36:31,2019-01-30 13:36:31,0.000s,PASSED
+"dayStr = ""01""",Chrome 71.0.3578.98,,2019-01-30 13:36:31,2019-01-30 13:36:31,0.000s,PASSED
+"monthStr = """"",Chrome 71.0.3578.98,,2019-01-30 13:36:31,2019-01-30 13:36:31,0.000s,PASSED
+yearStr = year.toString(),Chrome 71.0.3578.98,,2019-01-30 13:36:31,2019-01-30 13:36:31,0.000s,PASSED
+if (month < 10),Chrome 71.0.3578.98,,2019-01-30 13:36:31,2019-01-30 13:36:31,0.001s,PASSED
+fullDate = dayStr + monthStr + yearStr,Chrome 71.0.3578.98,,2019-01-30 13:36:31,2019-01-30 13:36:31,0.000s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:36:31,2019-01-30 13:36:32,1.002s,PASSED
+"waitForElementPresent(findTestObject(""General/mainEmptyBackground""), 15)",Chrome 71.0.3578.98,,2019-01-30 13:36:32,2019-01-30 13:36:32,0.530s,PASSED
+"isPreSalaryTabOpen = waitForElementPresent(findTestObject(""Pre-Salary/preSalaryTab""), 5)",Chrome 71.0.3578.98,,2019-01-30 13:36:32,2019-01-30 13:36:33,0.529s,PASSED
+if (!(isPreSalaryTabOpen)),Chrome 71.0.3578.98,,2019-01-30 13:36:33,2019-01-30 13:36:33,0.000s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""), 15)",Chrome 71.0.3578.98,,2019-01-30 13:36:33,2019-01-30 13:36:33,0.571s,PASSED
+"click(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""))",Chrome 71.0.3578.98,,2019-01-30 13:36:33,2019-01-30 13:36:33,0.095s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:36:33,2019-01-30 13:36:34,1.002s,PASSED
+"setText(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""), """")",Chrome 71.0.3578.98,,2019-01-30 13:36:34,2019-01-30 13:36:35,0.094s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:36:35,2019-01-30 13:36:36,1.002s,PASSED
+"setText(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""), fullDate)",Chrome 71.0.3578.98,,2019-01-30 13:36:36,2019-01-30 13:36:36,0.180s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""), 15)",Chrome 71.0.3578.98,,2019-01-30 13:36:36,2019-01-30 13:36:36,0.013s,PASSED
+"waitForElementNotPresent(findTestObject(""Pre-Salary/Filters/Drivers Dropdown/isLoadingDropdown""), 15)",Chrome 71.0.3578.98,,2019-01-30 13:36:36,2019-01-30 13:36:36,0.020s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:36:36,2019-01-30 13:36:37,1.002s,PASSED
+try,Chrome 71.0.3578.98,,2019-01-30 13:36:37,2019-01-30 13:36:37,0.222s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:36:37,2019-01-30 13:36:38,1.002s,PASSED
+try,Chrome 71.0.3578.98,,2019-01-30 13:36:38,2019-01-30 13:36:38,0.123s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:36:38,2019-01-30 13:36:39,1.001s,PASSED
+"click(findTestObject(""Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSelectFirstDriver""))",Chrome 71.0.3578.98,,2019-01-30 13:36:39,2019-01-30 13:36:39,0.106s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:36:39,2019-01-30 13:36:40,1.001s,PASSED
+"click(findTestObject(""Pre-Salary/Data Status/importButton""))",Chrome 71.0.3578.98,,2019-01-30 13:36:40,2019-01-30 13:36:41,0.329s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:36:41,2019-01-30 13:36:42,1.001s,PASSED
+try,Chrome 71.0.3578.98,,2019-01-30 13:36:42,2019-01-30 13:37:18,36.174s,FAILED
+catch (Exception err),Chrome 71.0.3578.98,,2019-01-30 13:37:18,2019-01-30 13:37:22,3.955s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Employee Details/driversReportTable""), 20)",Chrome 71.0.3578.98,,2019-01-30 13:37:22,2019-01-30 13:37:23,1.776s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Employee Details/driversReportTable""), 20)",Chrome 71.0.3578.98,,2019-01-30 13:37:23,2019-01-30 13:37:23,0.013s,PASSED
+"verifyElementPresent(findTestObject(""Pre-Salary/Employee Details/driversReportTable""), 2)",Chrome 71.0.3578.98,,2019-01-30 13:37:23,2019-01-30 13:37:23,0.013s,PASSED
+"verifyElementPresent(findTestObject(""Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader""), 2)",Chrome 71.0.3578.98,,2019-01-30 13:37:23,2019-01-30 13:37:23,0.024s,PASSED
+"driverCodeFromReport = getText(findTestObject(""Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader""))",Chrome 71.0.3578.98,,2019-01-30 13:37:23,2019-01-30 13:37:24,0.047s,PASSED
+if (driverCodeFromReport != driver_Id && !(driverCodeFromReport.contains(driver_Id))),Chrome 71.0.3578.98,,2019-01-30 13:37:24,2019-01-30 13:37:24,0.000s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Employee Details/rightSideTable""), 10)",Chrome 71.0.3578.98,,2019-01-30 13:37:24,2019-01-30 13:37:24,0.021s,PASSED
+"verifyElementPresent(findTestObject(""Pre-Salary/Employee Details/rightSideTable""), 2)",Chrome 71.0.3578.98,,2019-01-30 13:37:24,2019-01-30 13:37:24,0.014s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Employee Details/rightSideTableDriversId""), 10)",Chrome 71.0.3578.98,,2019-01-30 13:37:24,2019-01-30 13:37:24,0.786s,PASSED
+"verifyElementPresent(findTestObject(""Pre-Salary/Employee Details/rightSideTableDriversId""), 2)",Chrome 71.0.3578.98,,2019-01-30 13:37:24,2019-01-30 13:37:24,0.015s,PASSED
+"driversCodeFromRightSideTable = getText(findTestObject(""Pre-Salary/Employee Details/rightSideTableDriversId""))",Chrome 71.0.3578.98,,2019-01-30 13:37:24,2019-01-30 13:37:24,0.039s,PASSED
+if (driversCodeFromRightSideTable != driver_Id),Chrome 71.0.3578.98,,2019-01-30 13:37:24,2019-01-30 13:37:24,0.000s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-30 13:37:24,2019-01-30 13:37:25,0.625s,PASSED
+,,,,,,
+Test Cases/Pre-Salary/One Driver Calc,Chrome 71.0.3578.98,,2019-01-30 13:37:25,2019-01-30 13:37:45,19.788s,FAILED
+"login.c_login.logIn(site, userName, userPass)",Chrome 71.0.3578.98,,2019-01-30 13:37:25,2019-01-30 13:37:37,11.575s,PASSED
+date = new java.util.Date(),Chrome 71.0.3578.98,,2019-01-30 13:37:37,2019-01-30 13:37:37,0.000s,PASSED
+cal = Calendar.getInstance(),Chrome 71.0.3578.98,,2019-01-30 13:37:37,2019-01-30 13:37:37,0.001s,PASSED
+cal.setTime(date),Chrome 71.0.3578.98,,2019-01-30 13:37:37,2019-01-30 13:37:37,0.000s,PASSED
+month = cal.get(MONTH) + 1,Chrome 71.0.3578.98,,2019-01-30 13:37:37,2019-01-30 13:37:37,0.000s,PASSED
+year = cal.get(YEAR),Chrome 71.0.3578.98,,2019-01-30 13:37:37,2019-01-30 13:37:37,0.001s,PASSED
+"dayStr = ""01""",Chrome 71.0.3578.98,,2019-01-30 13:37:37,2019-01-30 13:37:37,0.000s,PASSED
+"monthStr = """"",Chrome 71.0.3578.98,,2019-01-30 13:37:37,2019-01-30 13:37:37,0.000s,PASSED
+yearStr = year.toString(),Chrome 71.0.3578.98,,2019-01-30 13:37:37,2019-01-30 13:37:37,0.000s,PASSED
+if (month < 10),Chrome 71.0.3578.98,,2019-01-30 13:37:37,2019-01-30 13:37:37,0.000s,PASSED
+fullDate = dayStr + monthStr + yearStr,Chrome 71.0.3578.98,,2019-01-30 13:37:37,2019-01-30 13:37:37,0.000s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:37:37,2019-01-30 13:37:38,1.001s,PASSED
+"waitForElementPresent(findTestObject(""General/mainEmptyBackground""), 15)",Chrome 71.0.3578.98,,2019-01-30 13:37:38,2019-01-30 13:37:38,0.532s,PASSED
+"isPreSalaryTabOpen = waitForElementPresent(findTestObject(""Pre-Salary/preSalaryTab""), 5)",Chrome 71.0.3578.98,,2019-01-30 13:37:38,2019-01-30 13:37:39,0.533s,PASSED
+if (!(isPreSalaryTabOpen)),Chrome 71.0.3578.98,,2019-01-30 13:37:39,2019-01-30 13:37:39,0.000s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""), 15)",Chrome 71.0.3578.98,,2019-01-30 13:37:39,2019-01-30 13:37:39,0.618s,PASSED
+"click(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""))",Chrome 71.0.3578.98,,2019-01-30 13:37:39,2019-01-30 13:37:40,0.173s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:37:40,2019-01-30 13:37:41,1.000s,PASSED
+"setText(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""), """")",Chrome 71.0.3578.98,,2019-01-30 13:37:41,2019-01-30 13:37:41,0.115s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:37:41,2019-01-30 13:37:42,1.000s,PASSED
+"setText(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""), fullDate)",Chrome 71.0.3578.98,,2019-01-30 13:37:42,2019-01-30 13:37:42,0.186s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""), 15)",Chrome 71.0.3578.98,,2019-01-30 13:37:42,2019-01-30 13:37:42,0.012s,PASSED
+"waitForElementNotPresent(findTestObject(""Pre-Salary/Filters/Drivers Dropdown/isLoadingDropdown""), 15)",Chrome 71.0.3578.98,,2019-01-30 13:37:42,2019-01-30 13:37:42,0.022s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:37:42,2019-01-30 13:37:43,1.000s,PASSED
+try,Chrome 71.0.3578.98,,2019-01-30 13:37:43,2019-01-30 13:37:43,0.521s,FAILED
+catch (Exception err),Chrome 71.0.3578.98,,2019-01-30 13:37:43,2019-01-30 13:37:45,1.455s,FAILED
+,,,,,,
+Test Cases/Pre-Salary/One Driver Calc,Chrome 71.0.3578.98,,2019-01-30 13:37:45,2019-01-30 13:38:59,1m - 14.504s,PASSED
+"login.c_login.logIn(site, userName, userPass)",Chrome 71.0.3578.98,,2019-01-30 13:37:45,2019-01-30 13:37:54,8.856s,PASSED
+date = new java.util.Date(),Chrome 71.0.3578.98,,2019-01-30 13:37:54,2019-01-30 13:37:54,0.000s,PASSED
+cal = Calendar.getInstance(),Chrome 71.0.3578.98,,2019-01-30 13:37:54,2019-01-30 13:37:54,0.000s,PASSED
+cal.setTime(date),Chrome 71.0.3578.98,,2019-01-30 13:37:54,2019-01-30 13:37:54,0.000s,PASSED
+month = cal.get(MONTH) + 1,Chrome 71.0.3578.98,,2019-01-30 13:37:54,2019-01-30 13:37:54,0.000s,PASSED
+year = cal.get(YEAR),Chrome 71.0.3578.98,,2019-01-30 13:37:54,2019-01-30 13:37:54,0.000s,PASSED
+"dayStr = ""01""",Chrome 71.0.3578.98,,2019-01-30 13:37:54,2019-01-30 13:37:54,0.000s,PASSED
+"monthStr = """"",Chrome 71.0.3578.98,,2019-01-30 13:37:54,2019-01-30 13:37:54,0.000s,PASSED
+yearStr = year.toString(),Chrome 71.0.3578.98,,2019-01-30 13:37:54,2019-01-30 13:37:54,0.000s,PASSED
+if (month < 10),Chrome 71.0.3578.98,,2019-01-30 13:37:54,2019-01-30 13:37:54,0.001s,PASSED
+fullDate = dayStr + monthStr + yearStr,Chrome 71.0.3578.98,,2019-01-30 13:37:54,2019-01-30 13:37:54,0.000s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:37:54,2019-01-30 13:37:55,1.002s,PASSED
+"waitForElementPresent(findTestObject(""General/mainEmptyBackground""), 15)",Chrome 71.0.3578.98,,2019-01-30 13:37:55,2019-01-30 13:37:55,0.529s,PASSED
+"isPreSalaryTabOpen = waitForElementPresent(findTestObject(""Pre-Salary/preSalaryTab""), 5)",Chrome 71.0.3578.98,,2019-01-30 13:37:55,2019-01-30 13:37:56,0.531s,PASSED
+if (!(isPreSalaryTabOpen)),Chrome 71.0.3578.98,,2019-01-30 13:37:56,2019-01-30 13:37:56,0.000s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""), 15)",Chrome 71.0.3578.98,,2019-01-30 13:37:56,2019-01-30 13:37:56,0.557s,PASSED
+"click(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""))",Chrome 71.0.3578.98,,2019-01-30 13:37:56,2019-01-30 13:37:56,0.100s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:37:56,2019-01-30 13:37:57,1.000s,PASSED
+"setText(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""), """")",Chrome 71.0.3578.98,,2019-01-30 13:37:57,2019-01-30 13:37:58,0.380s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:37:58,2019-01-30 13:37:59,1.000s,PASSED
+"setText(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""), fullDate)",Chrome 71.0.3578.98,,2019-01-30 13:37:59,2019-01-30 13:37:59,0.173s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""), 15)",Chrome 71.0.3578.98,,2019-01-30 13:37:59,2019-01-30 13:37:59,0.017s,PASSED
+"waitForElementNotPresent(findTestObject(""Pre-Salary/Filters/Drivers Dropdown/isLoadingDropdown""), 15)",Chrome 71.0.3578.98,,2019-01-30 13:37:59,2019-01-30 13:37:59,0.020s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:37:59,2019-01-30 13:38:00,1.001s,PASSED
+try,Chrome 71.0.3578.98,,2019-01-30 13:38:00,2019-01-30 13:38:00,0.189s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:38:00,2019-01-30 13:38:01,1.002s,PASSED
+try,Chrome 71.0.3578.98,,2019-01-30 13:38:01,2019-01-30 13:38:01,0.117s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:38:01,2019-01-30 13:38:02,1.000s,PASSED
+"click(findTestObject(""Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSelectFirstDriver""))",Chrome 71.0.3578.98,,2019-01-30 13:38:02,2019-01-30 13:38:02,0.096s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:38:02,2019-01-30 13:38:03,1.001s,PASSED
+"click(findTestObject(""Pre-Salary/Data Status/importButton""))",Chrome 71.0.3578.98,,2019-01-30 13:38:03,2019-01-30 13:38:04,0.302s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:38:04,2019-01-30 13:38:05,1.001s,PASSED
+try,Chrome 71.0.3578.98,,2019-01-30 13:38:05,2019-01-30 13:38:41,36.113s,FAILED
+catch (Exception err),Chrome 71.0.3578.98,,2019-01-30 13:38:41,2019-01-30 13:38:55,13.802s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Employee Details/driversReportTable""), 20)",Chrome 71.0.3578.98,,2019-01-30 13:38:55,2019-01-30 13:38:57,2.756s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Employee Details/driversReportTable""), 20)",Chrome 71.0.3578.98,,2019-01-30 13:38:57,2019-01-30 13:38:59,1.116s,PASSED
+"verifyElementPresent(findTestObject(""Pre-Salary/Employee Details/driversReportTable""), 2)",Chrome 71.0.3578.98,,2019-01-30 13:38:59,2019-01-30 13:38:59,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader""), 2)",Chrome 71.0.3578.98,,2019-01-30 13:38:59,2019-01-30 13:38:59,0.043s,PASSED
+"driverCodeFromReport = getText(findTestObject(""Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader""))",Chrome 71.0.3578.98,,2019-01-30 13:38:59,2019-01-30 13:38:59,0.036s,PASSED
+if (driverCodeFromReport != driver_Id && !(driverCodeFromReport.contains(driver_Id))),Chrome 71.0.3578.98,,2019-01-30 13:38:59,2019-01-30 13:38:59,0.001s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Employee Details/rightSideTable""), 10)",Chrome 71.0.3578.98,,2019-01-30 13:38:59,2019-01-30 13:38:59,0.027s,PASSED
+"verifyElementPresent(findTestObject(""Pre-Salary/Employee Details/rightSideTable""), 2)",Chrome 71.0.3578.98,,2019-01-30 13:38:59,2019-01-30 13:38:59,0.013s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Employee Details/rightSideTableDriversId""), 10)",Chrome 71.0.3578.98,,2019-01-30 13:38:59,2019-01-30 13:38:59,0.022s,PASSED
+"verifyElementPresent(findTestObject(""Pre-Salary/Employee Details/rightSideTableDriversId""), 2)",Chrome 71.0.3578.98,,2019-01-30 13:38:59,2019-01-30 13:38:59,0.016s,PASSED
+"driversCodeFromRightSideTable = getText(findTestObject(""Pre-Salary/Employee Details/rightSideTableDriversId""))",Chrome 71.0.3578.98,,2019-01-30 13:38:59,2019-01-30 13:38:59,0.038s,PASSED
+if (driversCodeFromRightSideTable != driver_Id),Chrome 71.0.3578.98,,2019-01-30 13:38:59,2019-01-30 13:38:59,0.000s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-30 13:38:59,2019-01-30 13:38:59,0.605s,PASSED
+,,,,,,
+Test Cases/Pre-Salary/One Driver Calc,Chrome 71.0.3578.98,,2019-01-30 13:38:59,2019-01-30 13:39:43,43.240s,PASSED
+"login.c_login.logIn(site, userName, userPass)",Chrome 71.0.3578.98,,2019-01-30 13:38:59,2019-01-30 13:39:10,10.880s,PASSED
+date = new java.util.Date(),Chrome 71.0.3578.98,,2019-01-30 13:39:10,2019-01-30 13:39:10,0.000s,PASSED
+cal = Calendar.getInstance(),Chrome 71.0.3578.98,,2019-01-30 13:39:10,2019-01-30 13:39:10,0.000s,PASSED
+cal.setTime(date),Chrome 71.0.3578.98,,2019-01-30 13:39:10,2019-01-30 13:39:10,0.000s,PASSED
+month = cal.get(MONTH) + 1,Chrome 71.0.3578.98,,2019-01-30 13:39:10,2019-01-30 13:39:10,0.000s,PASSED
+year = cal.get(YEAR),Chrome 71.0.3578.98,,2019-01-30 13:39:10,2019-01-30 13:39:10,0.000s,PASSED
+"dayStr = ""01""",Chrome 71.0.3578.98,,2019-01-30 13:39:10,2019-01-30 13:39:10,0.001s,PASSED
+"monthStr = """"",Chrome 71.0.3578.98,,2019-01-30 13:39:10,2019-01-30 13:39:10,0.000s,PASSED
+yearStr = year.toString(),Chrome 71.0.3578.98,,2019-01-30 13:39:10,2019-01-30 13:39:10,0.000s,PASSED
+if (month < 10),Chrome 71.0.3578.98,,2019-01-30 13:39:10,2019-01-30 13:39:10,0.001s,PASSED
+fullDate = dayStr + monthStr + yearStr,Chrome 71.0.3578.98,,2019-01-30 13:39:10,2019-01-30 13:39:10,0.000s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:39:10,2019-01-30 13:39:11,1.001s,PASSED
+"waitForElementPresent(findTestObject(""General/mainEmptyBackground""), 15)",Chrome 71.0.3578.98,,2019-01-30 13:39:11,2019-01-30 13:39:12,0.532s,PASSED
+"isPreSalaryTabOpen = waitForElementPresent(findTestObject(""Pre-Salary/preSalaryTab""), 5)",Chrome 71.0.3578.98,,2019-01-30 13:39:12,2019-01-30 13:39:17,5.116s,PASSED
+if (!(isPreSalaryTabOpen)),Chrome 71.0.3578.98,,2019-01-30 13:39:17,2019-01-30 13:39:18,1.240s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""), 15)",Chrome 71.0.3578.98,,2019-01-30 13:39:18,2019-01-30 13:39:19,0.566s,PASSED
+"click(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""))",Chrome 71.0.3578.98,,2019-01-30 13:39:19,2019-01-30 13:39:19,0.262s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:39:19,2019-01-30 13:39:20,1.000s,PASSED
+"setText(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""), """")",Chrome 71.0.3578.98,,2019-01-30 13:39:20,2019-01-30 13:39:20,0.102s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:39:20,2019-01-30 13:39:21,1.001s,PASSED
+"setText(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""), fullDate)",Chrome 71.0.3578.98,,2019-01-30 13:39:21,2019-01-30 13:39:21,0.187s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""), 15)",Chrome 71.0.3578.98,,2019-01-30 13:39:21,2019-01-30 13:39:21,0.012s,PASSED
+"waitForElementNotPresent(findTestObject(""Pre-Salary/Filters/Drivers Dropdown/isLoadingDropdown""), 15)",Chrome 71.0.3578.98,,2019-01-30 13:39:21,2019-01-30 13:39:21,0.021s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:39:21,2019-01-30 13:39:22,1.001s,PASSED
+try,Chrome 71.0.3578.98,,2019-01-30 13:39:22,2019-01-30 13:39:22,0.191s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:39:22,2019-01-30 13:39:23,1.000s,PASSED
+try,Chrome 71.0.3578.98,,2019-01-30 13:39:23,2019-01-30 13:39:24,0.131s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:39:24,2019-01-30 13:39:25,1.001s,PASSED
+"click(findTestObject(""Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSelectFirstDriver""))",Chrome 71.0.3578.98,,2019-01-30 13:39:25,2019-01-30 13:39:25,0.109s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:39:25,2019-01-30 13:39:26,1.002s,PASSED
+"click(findTestObject(""Pre-Salary/Data Status/importButton""))",Chrome 71.0.3578.98,,2019-01-30 13:39:26,2019-01-30 13:39:26,0.230s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:39:26,2019-01-30 13:39:27,1.000s,PASSED
+try,Chrome 71.0.3578.98,,2019-01-30 13:39:27,2019-01-30 13:39:40,12.701s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Employee Details/driversReportTable""), 20)",Chrome 71.0.3578.98,,2019-01-30 13:39:40,2019-01-30 13:39:42,2.126s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Employee Details/driversReportTable""), 20)",Chrome 71.0.3578.98,,2019-01-30 13:39:42,2019-01-30 13:39:42,0.025s,PASSED
+"verifyElementPresent(findTestObject(""Pre-Salary/Employee Details/driversReportTable""), 2)",Chrome 71.0.3578.98,,2019-01-30 13:39:42,2019-01-30 13:39:42,0.015s,PASSED
+"verifyElementPresent(findTestObject(""Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader""), 2)",Chrome 71.0.3578.98,,2019-01-30 13:39:42,2019-01-30 13:39:42,0.034s,PASSED
+"driverCodeFromReport = getText(findTestObject(""Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader""))",Chrome 71.0.3578.98,,2019-01-30 13:39:42,2019-01-30 13:39:42,0.045s,PASSED
+if (driverCodeFromReport != driver_Id && !(driverCodeFromReport.contains(driver_Id))),Chrome 71.0.3578.98,,2019-01-30 13:39:42,2019-01-30 13:39:42,0.000s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Employee Details/rightSideTable""), 10)",Chrome 71.0.3578.98,,2019-01-30 13:39:42,2019-01-30 13:39:42,0.021s,PASSED
+"verifyElementPresent(findTestObject(""Pre-Salary/Employee Details/rightSideTable""), 2)",Chrome 71.0.3578.98,,2019-01-30 13:39:42,2019-01-30 13:39:42,0.013s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Employee Details/rightSideTableDriversId""), 10)",Chrome 71.0.3578.98,,2019-01-30 13:39:42,2019-01-30 13:39:42,0.017s,PASSED
+"verifyElementPresent(findTestObject(""Pre-Salary/Employee Details/rightSideTableDriversId""), 2)",Chrome 71.0.3578.98,,2019-01-30 13:39:42,2019-01-30 13:39:42,0.013s,PASSED
+"driversCodeFromRightSideTable = getText(findTestObject(""Pre-Salary/Employee Details/rightSideTableDriversId""))",Chrome 71.0.3578.98,,2019-01-30 13:39:42,2019-01-30 13:39:42,0.032s,PASSED
+if (driversCodeFromRightSideTable != driver_Id),Chrome 71.0.3578.98,,2019-01-30 13:39:42,2019-01-30 13:39:42,0.000s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-30 13:39:42,2019-01-30 13:39:43,0.591s,PASSED
+,,,,,,
+Test Cases/Pre-Salary/One Driver Calc,Chrome 71.0.3578.98,,2019-01-30 13:39:43,2019-01-30 13:40:20,37.655s,PASSED
+"login.c_login.logIn(site, userName, userPass)",Chrome 71.0.3578.98,,2019-01-30 13:39:43,2019-01-30 13:39:56,12.981s,PASSED
+date = new java.util.Date(),Chrome 71.0.3578.98,,2019-01-30 13:39:56,2019-01-30 13:39:56,0.000s,PASSED
+cal = Calendar.getInstance(),Chrome 71.0.3578.98,,2019-01-30 13:39:56,2019-01-30 13:39:56,0.000s,PASSED
+cal.setTime(date),Chrome 71.0.3578.98,,2019-01-30 13:39:56,2019-01-30 13:39:56,0.000s,PASSED
+month = cal.get(MONTH) + 1,Chrome 71.0.3578.98,,2019-01-30 13:39:56,2019-01-30 13:39:56,0.000s,PASSED
+year = cal.get(YEAR),Chrome 71.0.3578.98,,2019-01-30 13:39:56,2019-01-30 13:39:56,0.000s,PASSED
+"dayStr = ""01""",Chrome 71.0.3578.98,,2019-01-30 13:39:56,2019-01-30 13:39:56,0.000s,PASSED
+"monthStr = """"",Chrome 71.0.3578.98,,2019-01-30 13:39:56,2019-01-30 13:39:56,0.001s,PASSED
+yearStr = year.toString(),Chrome 71.0.3578.98,,2019-01-30 13:39:56,2019-01-30 13:39:56,0.000s,PASSED
+if (month < 10),Chrome 71.0.3578.98,,2019-01-30 13:39:56,2019-01-30 13:39:56,0.000s,PASSED
+fullDate = dayStr + monthStr + yearStr,Chrome 71.0.3578.98,,2019-01-30 13:39:56,2019-01-30 13:39:56,0.000s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:39:56,2019-01-30 13:39:57,1.000s,PASSED
+"waitForElementPresent(findTestObject(""General/mainEmptyBackground""), 15)",Chrome 71.0.3578.98,,2019-01-30 13:39:57,2019-01-30 13:39:57,0.531s,PASSED
+"isPreSalaryTabOpen = waitForElementPresent(findTestObject(""Pre-Salary/preSalaryTab""), 5)",Chrome 71.0.3578.98,,2019-01-30 13:39:57,2019-01-30 13:39:57,0.021s,PASSED
+if (!(isPreSalaryTabOpen)),Chrome 71.0.3578.98,,2019-01-30 13:39:57,2019-01-30 13:39:57,0.000s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""), 15)",Chrome 71.0.3578.98,,2019-01-30 13:39:57,2019-01-30 13:39:58,0.801s,PASSED
+"click(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""))",Chrome 71.0.3578.98,,2019-01-30 13:39:58,2019-01-30 13:39:58,0.235s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:39:58,2019-01-30 13:39:59,1.002s,PASSED
+"setText(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""), """")",Chrome 71.0.3578.98,,2019-01-30 13:39:59,2019-01-30 13:39:59,0.200s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:39:59,2019-01-30 13:40:00,1.001s,PASSED
+"setText(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""), fullDate)",Chrome 71.0.3578.98,,2019-01-30 13:40:00,2019-01-30 13:40:01,0.169s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""), 15)",Chrome 71.0.3578.98,,2019-01-30 13:40:01,2019-01-30 13:40:01,0.013s,PASSED
+"waitForElementNotPresent(findTestObject(""Pre-Salary/Filters/Drivers Dropdown/isLoadingDropdown""), 15)",Chrome 71.0.3578.98,,2019-01-30 13:40:01,2019-01-30 13:40:01,0.020s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:40:01,2019-01-30 13:40:02,1.001s,PASSED
+try,Chrome 71.0.3578.98,,2019-01-30 13:40:02,2019-01-30 13:40:02,0.192s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:40:02,2019-01-30 13:40:03,1.001s,PASSED
+try,Chrome 71.0.3578.98,,2019-01-30 13:40:03,2019-01-30 13:40:03,0.135s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:40:03,2019-01-30 13:40:04,1.001s,PASSED
+"click(findTestObject(""Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSelectFirstDriver""))",Chrome 71.0.3578.98,,2019-01-30 13:40:04,2019-01-30 13:40:04,0.091s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:40:04,2019-01-30 13:40:05,1.002s,PASSED
+"click(findTestObject(""Pre-Salary/Data Status/importButton""))",Chrome 71.0.3578.98,,2019-01-30 13:40:05,2019-01-30 13:40:05,0.231s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:40:05,2019-01-30 13:40:06,1.000s,PASSED
+try,Chrome 71.0.3578.98,,2019-01-30 13:40:06,2019-01-30 13:40:15,9.125s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Employee Details/driversReportTable""), 20)",Chrome 71.0.3578.98,,2019-01-30 13:40:15,2019-01-30 13:40:16,1.110s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Employee Details/driversReportTable""), 20)",Chrome 71.0.3578.98,,2019-01-30 13:40:16,2019-01-30 13:40:16,0.013s,PASSED
+"verifyElementPresent(findTestObject(""Pre-Salary/Employee Details/driversReportTable""), 2)",Chrome 71.0.3578.98,,2019-01-30 13:40:16,2019-01-30 13:40:17,0.862s,PASSED
+"verifyElementPresent(findTestObject(""Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader""), 2)",Chrome 71.0.3578.98,,2019-01-30 13:40:17,2019-01-30 13:40:17,0.021s,PASSED
+"driverCodeFromReport = getText(findTestObject(""Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader""))",Chrome 71.0.3578.98,,2019-01-30 13:40:17,2019-01-30 13:40:17,0.040s,PASSED
+if (driverCodeFromReport != driver_Id && !(driverCodeFromReport.contains(driver_Id))),Chrome 71.0.3578.98,,2019-01-30 13:40:17,2019-01-30 13:40:17,0.000s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Employee Details/rightSideTable""), 10)",Chrome 71.0.3578.98,,2019-01-30 13:40:17,2019-01-30 13:40:17,0.022s,PASSED
+"verifyElementPresent(findTestObject(""Pre-Salary/Employee Details/rightSideTable""), 2)",Chrome 71.0.3578.98,,2019-01-30 13:40:17,2019-01-30 13:40:17,0.012s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Employee Details/rightSideTableDriversId""), 10)",Chrome 71.0.3578.98,,2019-01-30 13:40:17,2019-01-30 13:40:20,2.115s,PASSED
+"verifyElementPresent(findTestObject(""Pre-Salary/Employee Details/rightSideTableDriversId""), 2)",Chrome 71.0.3578.98,,2019-01-30 13:40:20,2019-01-30 13:40:20,0.013s,PASSED
+"driversCodeFromRightSideTable = getText(findTestObject(""Pre-Salary/Employee Details/rightSideTableDriversId""))",Chrome 71.0.3578.98,,2019-01-30 13:40:20,2019-01-30 13:40:20,0.044s,PASSED
+if (driversCodeFromRightSideTable != driver_Id),Chrome 71.0.3578.98,,2019-01-30 13:40:20,2019-01-30 13:40:20,0.000s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-30 13:40:20,2019-01-30 13:40:20,0.622s,PASSED
+,,,,,,
+Test Cases/Pre-Salary/One Driver Calc,Chrome 71.0.3578.98,,2019-01-30 13:40:20,2019-01-30 13:42:00,1m - 39.879s,FAILED
+"login.c_login.logIn(site, userName, userPass)",Chrome 71.0.3578.98,,2019-01-30 13:40:20,2019-01-30 13:40:30,9.493s,PASSED
+date = new java.util.Date(),Chrome 71.0.3578.98,,2019-01-30 13:40:30,2019-01-30 13:40:30,0.000s,PASSED
+cal = Calendar.getInstance(),Chrome 71.0.3578.98,,2019-01-30 13:40:30,2019-01-30 13:40:30,0.001s,PASSED
+cal.setTime(date),Chrome 71.0.3578.98,,2019-01-30 13:40:30,2019-01-30 13:40:30,0.000s,PASSED
+month = cal.get(MONTH) + 1,Chrome 71.0.3578.98,,2019-01-30 13:40:30,2019-01-30 13:40:30,0.000s,PASSED
+year = cal.get(YEAR),Chrome 71.0.3578.98,,2019-01-30 13:40:30,2019-01-30 13:40:30,0.000s,PASSED
+"dayStr = ""01""",Chrome 71.0.3578.98,,2019-01-30 13:40:30,2019-01-30 13:40:30,0.001s,PASSED
+"monthStr = """"",Chrome 71.0.3578.98,,2019-01-30 13:40:30,2019-01-30 13:40:30,0.000s,PASSED
+yearStr = year.toString(),Chrome 71.0.3578.98,,2019-01-30 13:40:30,2019-01-30 13:40:30,0.000s,PASSED
+if (month < 10),Chrome 71.0.3578.98,,2019-01-30 13:40:30,2019-01-30 13:40:30,0.001s,PASSED
+fullDate = dayStr + monthStr + yearStr,Chrome 71.0.3578.98,,2019-01-30 13:40:30,2019-01-30 13:40:30,0.000s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:40:30,2019-01-30 13:40:31,1.000s,PASSED
+"waitForElementPresent(findTestObject(""General/mainEmptyBackground""), 15)",Chrome 71.0.3578.98,,2019-01-30 13:40:31,2019-01-30 13:40:31,0.648s,PASSED
+"isPreSalaryTabOpen = waitForElementPresent(findTestObject(""Pre-Salary/preSalaryTab""), 5)",Chrome 71.0.3578.98,,2019-01-30 13:40:31,2019-01-30 13:40:31,0.020s,PASSED
+if (!(isPreSalaryTabOpen)),Chrome 71.0.3578.98,,2019-01-30 13:40:31,2019-01-30 13:40:31,0.000s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""), 15)",Chrome 71.0.3578.98,,2019-01-30 13:40:31,2019-01-30 13:40:32,0.607s,PASSED
+"click(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""))",Chrome 71.0.3578.98,,2019-01-30 13:40:32,2019-01-30 13:40:32,0.196s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:40:32,2019-01-30 13:40:33,1.001s,PASSED
+"setText(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""), """")",Chrome 71.0.3578.98,,2019-01-30 13:40:33,2019-01-30 13:40:33,0.181s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:40:33,2019-01-30 13:40:34,1.000s,PASSED
+"setText(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""), fullDate)",Chrome 71.0.3578.98,,2019-01-30 13:40:34,2019-01-30 13:40:35,0.274s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""), 15)",Chrome 71.0.3578.98,,2019-01-30 13:40:35,2019-01-30 13:40:35,0.013s,PASSED
+"waitForElementNotPresent(findTestObject(""Pre-Salary/Filters/Drivers Dropdown/isLoadingDropdown""), 15)",Chrome 71.0.3578.98,,2019-01-30 13:40:35,2019-01-30 13:40:35,0.021s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:40:35,2019-01-30 13:40:36,1.000s,PASSED
+try,Chrome 71.0.3578.98,,2019-01-30 13:40:36,2019-01-30 13:40:36,0.223s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:40:36,2019-01-30 13:40:37,1.001s,PASSED
+try,Chrome 71.0.3578.98,,2019-01-30 13:40:37,2019-01-30 13:40:37,0.116s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:40:37,2019-01-30 13:40:38,1.000s,PASSED
+"click(findTestObject(""Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSelectFirstDriver""))",Chrome 71.0.3578.98,,2019-01-30 13:40:38,2019-01-30 13:40:38,0.108s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:40:38,2019-01-30 13:40:39,1.001s,PASSED
+"click(findTestObject(""Pre-Salary/Data Status/importButton""))",Chrome 71.0.3578.98,,2019-01-30 13:40:39,2019-01-30 13:40:39,0.246s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:40:39,2019-01-30 13:40:40,1.002s,PASSED
+try,Chrome 71.0.3578.98,,2019-01-30 13:40:40,2019-01-30 13:41:17,36.104s,FAILED
+catch (Exception err),Chrome 71.0.3578.98,,2019-01-30 13:41:17,2019-01-30 13:42:00,43.601s,FAILED
+,,,,,,
+Test Cases/Pre-Salary/One Driver Calc,Chrome 71.0.3578.98,,2019-01-30 13:42:00,2019-01-30 13:42:35,34.761s,PASSED
+"login.c_login.logIn(site, userName, userPass)",Chrome 71.0.3578.98,,2019-01-30 13:42:00,2019-01-30 13:42:10,9.814s,PASSED
+date = new java.util.Date(),Chrome 71.0.3578.98,,2019-01-30 13:42:10,2019-01-30 13:42:10,0.000s,PASSED
+cal = Calendar.getInstance(),Chrome 71.0.3578.98,,2019-01-30 13:42:10,2019-01-30 13:42:10,0.000s,PASSED
+cal.setTime(date),Chrome 71.0.3578.98,,2019-01-30 13:42:10,2019-01-30 13:42:10,0.001s,PASSED
+month = cal.get(MONTH) + 1,Chrome 71.0.3578.98,,2019-01-30 13:42:10,2019-01-30 13:42:10,0.000s,PASSED
+year = cal.get(YEAR),Chrome 71.0.3578.98,,2019-01-30 13:42:10,2019-01-30 13:42:10,0.000s,PASSED
+"dayStr = ""01""",Chrome 71.0.3578.98,,2019-01-30 13:42:10,2019-01-30 13:42:10,0.000s,PASSED
+"monthStr = """"",Chrome 71.0.3578.98,,2019-01-30 13:42:10,2019-01-30 13:42:10,0.000s,PASSED
+yearStr = year.toString(),Chrome 71.0.3578.98,,2019-01-30 13:42:10,2019-01-30 13:42:10,0.000s,PASSED
+if (month < 10),Chrome 71.0.3578.98,,2019-01-30 13:42:10,2019-01-30 13:42:10,0.000s,PASSED
+fullDate = dayStr + monthStr + yearStr,Chrome 71.0.3578.98,,2019-01-30 13:42:10,2019-01-30 13:42:10,0.000s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:42:10,2019-01-30 13:42:11,1.000s,PASSED
+"waitForElementPresent(findTestObject(""General/mainEmptyBackground""), 15)",Chrome 71.0.3578.98,,2019-01-30 13:42:11,2019-01-30 13:42:12,0.641s,PASSED
+"isPreSalaryTabOpen = waitForElementPresent(findTestObject(""Pre-Salary/preSalaryTab""), 5)",Chrome 71.0.3578.98,,2019-01-30 13:42:12,2019-01-30 13:42:12,0.048s,PASSED
+if (!(isPreSalaryTabOpen)),Chrome 71.0.3578.98,,2019-01-30 13:42:12,2019-01-30 13:42:12,0.000s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""), 15)",Chrome 71.0.3578.98,,2019-01-30 13:42:12,2019-01-30 13:42:12,0.616s,PASSED
+"click(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""))",Chrome 71.0.3578.98,,2019-01-30 13:42:12,2019-01-30 13:42:12,0.198s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:42:12,2019-01-30 13:42:13,1.001s,PASSED
+"setText(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""), """")",Chrome 71.0.3578.98,,2019-01-30 13:42:13,2019-01-30 13:42:14,0.250s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:42:14,2019-01-30 13:42:15,1.001s,PASSED
+"setText(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""), fullDate)",Chrome 71.0.3578.98,,2019-01-30 13:42:15,2019-01-30 13:42:15,0.178s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""), 15)",Chrome 71.0.3578.98,,2019-01-30 13:42:15,2019-01-30 13:42:15,0.013s,PASSED
+"waitForElementNotPresent(findTestObject(""Pre-Salary/Filters/Drivers Dropdown/isLoadingDropdown""), 15)",Chrome 71.0.3578.98,,2019-01-30 13:42:15,2019-01-30 13:42:15,0.020s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:42:15,2019-01-30 13:42:16,1.000s,PASSED
+try,Chrome 71.0.3578.98,,2019-01-30 13:42:16,2019-01-30 13:42:16,0.192s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:42:16,2019-01-30 13:42:17,1.001s,PASSED
+try,Chrome 71.0.3578.98,,2019-01-30 13:42:17,2019-01-30 13:42:17,0.115s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:42:17,2019-01-30 13:42:18,1.001s,PASSED
+"click(findTestObject(""Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSelectFirstDriver""))",Chrome 71.0.3578.98,,2019-01-30 13:42:18,2019-01-30 13:42:18,0.096s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:42:18,2019-01-30 13:42:19,1.000s,PASSED
+"click(findTestObject(""Pre-Salary/Data Status/importButton""))",Chrome 71.0.3578.98,,2019-01-30 13:42:19,2019-01-30 13:42:20,0.242s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:42:20,2019-01-30 13:42:21,1.002s,PASSED
+try,Chrome 71.0.3578.98,,2019-01-30 13:42:21,2019-01-30 13:42:32,11.683s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Employee Details/driversReportTable""), 20)",Chrome 71.0.3578.98,,2019-01-30 13:42:32,2019-01-30 13:42:33,0.819s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Employee Details/driversReportTable""), 20)",Chrome 71.0.3578.98,,2019-01-30 13:42:33,2019-01-30 13:42:34,1.039s,PASSED
+"verifyElementPresent(findTestObject(""Pre-Salary/Employee Details/driversReportTable""), 2)",Chrome 71.0.3578.98,,2019-01-30 13:42:34,2019-01-30 13:42:34,0.023s,PASSED
+"verifyElementPresent(findTestObject(""Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader""), 2)",Chrome 71.0.3578.98,,2019-01-30 13:42:34,2019-01-30 13:42:34,0.021s,PASSED
+"driverCodeFromReport = getText(findTestObject(""Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader""))",Chrome 71.0.3578.98,,2019-01-30 13:42:34,2019-01-30 13:42:34,0.037s,PASSED
+if (driverCodeFromReport != driver_Id && !(driverCodeFromReport.contains(driver_Id))),Chrome 71.0.3578.98,,2019-01-30 13:42:34,2019-01-30 13:42:34,0.000s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Employee Details/rightSideTable""), 10)",Chrome 71.0.3578.98,,2019-01-30 13:42:34,2019-01-30 13:42:34,0.020s,PASSED
+"verifyElementPresent(findTestObject(""Pre-Salary/Employee Details/rightSideTable""), 2)",Chrome 71.0.3578.98,,2019-01-30 13:42:34,2019-01-30 13:42:34,0.012s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Employee Details/rightSideTableDriversId""), 10)",Chrome 71.0.3578.98,,2019-01-30 13:42:34,2019-01-30 13:42:34,0.018s,PASSED
+"verifyElementPresent(findTestObject(""Pre-Salary/Employee Details/rightSideTableDriversId""), 2)",Chrome 71.0.3578.98,,2019-01-30 13:42:34,2019-01-30 13:42:34,0.012s,PASSED
+"driversCodeFromRightSideTable = getText(findTestObject(""Pre-Salary/Employee Details/rightSideTableDriversId""))",Chrome 71.0.3578.98,,2019-01-30 13:42:34,2019-01-30 13:42:34,0.032s,PASSED
+if (driversCodeFromRightSideTable != driver_Id),Chrome 71.0.3578.98,,2019-01-30 13:42:34,2019-01-30 13:42:34,0.000s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-30 13:42:34,2019-01-30 13:42:35,0.595s,PASSED
+,,,,,,
+Test Cases/Pre-Salary/One Driver Calc,Chrome 71.0.3578.98,,2019-01-30 13:42:35,2019-01-30 13:43:05,30.544s,PASSED
+"login.c_login.logIn(site, userName, userPass)",Chrome 71.0.3578.98,,2019-01-30 13:42:35,2019-01-30 13:42:43,8.151s,PASSED
+date = new java.util.Date(),Chrome 71.0.3578.98,,2019-01-30 13:42:43,2019-01-30 13:42:43,0.000s,PASSED
+cal = Calendar.getInstance(),Chrome 71.0.3578.98,,2019-01-30 13:42:43,2019-01-30 13:42:43,0.000s,PASSED
+cal.setTime(date),Chrome 71.0.3578.98,,2019-01-30 13:42:43,2019-01-30 13:42:43,0.000s,PASSED
+month = cal.get(MONTH) + 1,Chrome 71.0.3578.98,,2019-01-30 13:42:43,2019-01-30 13:42:43,0.000s,PASSED
+year = cal.get(YEAR),Chrome 71.0.3578.98,,2019-01-30 13:42:43,2019-01-30 13:42:43,0.000s,PASSED
+"dayStr = ""01""",Chrome 71.0.3578.98,,2019-01-30 13:42:43,2019-01-30 13:42:43,0.000s,PASSED
+"monthStr = """"",Chrome 71.0.3578.98,,2019-01-30 13:42:43,2019-01-30 13:42:43,0.000s,PASSED
+yearStr = year.toString(),Chrome 71.0.3578.98,,2019-01-30 13:42:43,2019-01-30 13:42:43,0.001s,PASSED
+if (month < 10),Chrome 71.0.3578.98,,2019-01-30 13:42:43,2019-01-30 13:42:43,0.000s,PASSED
+fullDate = dayStr + monthStr + yearStr,Chrome 71.0.3578.98,,2019-01-30 13:42:43,2019-01-30 13:42:43,0.000s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:42:43,2019-01-30 13:42:44,1.001s,PASSED
+"waitForElementPresent(findTestObject(""General/mainEmptyBackground""), 15)",Chrome 71.0.3578.98,,2019-01-30 13:42:44,2019-01-30 13:42:45,0.546s,PASSED
+"isPreSalaryTabOpen = waitForElementPresent(findTestObject(""Pre-Salary/preSalaryTab""), 5)",Chrome 71.0.3578.98,,2019-01-30 13:42:45,2019-01-30 13:42:45,0.527s,PASSED
+if (!(isPreSalaryTabOpen)),Chrome 71.0.3578.98,,2019-01-30 13:42:45,2019-01-30 13:42:45,0.000s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""), 15)",Chrome 71.0.3578.98,,2019-01-30 13:42:45,2019-01-30 13:42:46,0.807s,PASSED
+"click(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""))",Chrome 71.0.3578.98,,2019-01-30 13:42:46,2019-01-30 13:42:46,0.120s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:42:46,2019-01-30 13:42:47,1.000s,PASSED
+"setText(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""), """")",Chrome 71.0.3578.98,,2019-01-30 13:42:47,2019-01-30 13:42:47,0.093s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:42:47,2019-01-30 13:42:48,1.001s,PASSED
+"setText(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""), fullDate)",Chrome 71.0.3578.98,,2019-01-30 13:42:48,2019-01-30 13:42:48,0.169s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""), 15)",Chrome 71.0.3578.98,,2019-01-30 13:42:48,2019-01-30 13:42:48,0.011s,PASSED
+"waitForElementNotPresent(findTestObject(""Pre-Salary/Filters/Drivers Dropdown/isLoadingDropdown""), 15)",Chrome 71.0.3578.98,,2019-01-30 13:42:48,2019-01-30 13:42:48,0.022s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:42:48,2019-01-30 13:42:49,1.000s,PASSED
+try,Chrome 71.0.3578.98,,2019-01-30 13:42:49,2019-01-30 13:42:50,0.189s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:42:50,2019-01-30 13:42:51,1.001s,PASSED
+try,Chrome 71.0.3578.98,,2019-01-30 13:42:51,2019-01-30 13:42:51,0.131s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:42:51,2019-01-30 13:42:52,1.000s,PASSED
+"click(findTestObject(""Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSelectFirstDriver""))",Chrome 71.0.3578.98,,2019-01-30 13:42:52,2019-01-30 13:42:52,0.090s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:42:52,2019-01-30 13:42:53,1.000s,PASSED
+"click(findTestObject(""Pre-Salary/Data Status/importButton""))",Chrome 71.0.3578.98,,2019-01-30 13:42:53,2019-01-30 13:42:53,0.204s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:42:53,2019-01-30 13:42:54,1.001s,PASSED
+try,Chrome 71.0.3578.98,,2019-01-30 13:42:54,2019-01-30 13:43:03,8.824s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Employee Details/driversReportTable""), 20)",Chrome 71.0.3578.98,,2019-01-30 13:43:03,2019-01-30 13:43:05,1.855s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Employee Details/driversReportTable""), 20)",Chrome 71.0.3578.98,,2019-01-30 13:43:05,2019-01-30 13:43:05,0.011s,PASSED
+"verifyElementPresent(findTestObject(""Pre-Salary/Employee Details/driversReportTable""), 2)",Chrome 71.0.3578.98,,2019-01-30 13:43:05,2019-01-30 13:43:05,0.019s,PASSED
+"verifyElementPresent(findTestObject(""Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader""), 2)",Chrome 71.0.3578.98,,2019-01-30 13:43:05,2019-01-30 13:43:05,0.024s,PASSED
+"driverCodeFromReport = getText(findTestObject(""Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader""))",Chrome 71.0.3578.98,,2019-01-30 13:43:05,2019-01-30 13:43:05,0.038s,PASSED
+if (driverCodeFromReport != driver_Id && !(driverCodeFromReport.contains(driver_Id))),Chrome 71.0.3578.98,,2019-01-30 13:43:05,2019-01-30 13:43:05,0.000s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Employee Details/rightSideTable""), 10)",Chrome 71.0.3578.98,,2019-01-30 13:43:05,2019-01-30 13:43:05,0.020s,PASSED
+"verifyElementPresent(findTestObject(""Pre-Salary/Employee Details/rightSideTable""), 2)",Chrome 71.0.3578.98,,2019-01-30 13:43:05,2019-01-30 13:43:05,0.012s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Employee Details/rightSideTableDriversId""), 10)",Chrome 71.0.3578.98,,2019-01-30 13:43:05,2019-01-30 13:43:05,0.018s,PASSED
+"verifyElementPresent(findTestObject(""Pre-Salary/Employee Details/rightSideTableDriversId""), 2)",Chrome 71.0.3578.98,,2019-01-30 13:43:05,2019-01-30 13:43:05,0.013s,PASSED
+"driversCodeFromRightSideTable = getText(findTestObject(""Pre-Salary/Employee Details/rightSideTableDriversId""))",Chrome 71.0.3578.98,,2019-01-30 13:43:05,2019-01-30 13:43:05,0.032s,PASSED
+if (driversCodeFromRightSideTable != driver_Id),Chrome 71.0.3578.98,,2019-01-30 13:43:05,2019-01-30 13:43:05,0.000s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-30 13:43:05,2019-01-30 13:43:05,0.595s,PASSED
+,,,,,,
+Test Cases/Pre-Salary/One Driver Calc,Chrome 71.0.3578.98,,2019-01-30 13:43:05,2019-01-30 13:43:39,33.597s,PASSED
+"login.c_login.logIn(site, userName, userPass)",Chrome 71.0.3578.98,,2019-01-30 13:43:05,2019-01-30 13:43:14,8.549s,PASSED
+date = new java.util.Date(),Chrome 71.0.3578.98,,2019-01-30 13:43:14,2019-01-30 13:43:14,0.000s,PASSED
+cal = Calendar.getInstance(),Chrome 71.0.3578.98,,2019-01-30 13:43:14,2019-01-30 13:43:14,0.000s,PASSED
+cal.setTime(date),Chrome 71.0.3578.98,,2019-01-30 13:43:14,2019-01-30 13:43:14,0.001s,PASSED
+month = cal.get(MONTH) + 1,Chrome 71.0.3578.98,,2019-01-30 13:43:14,2019-01-30 13:43:14,0.000s,PASSED
+year = cal.get(YEAR),Chrome 71.0.3578.98,,2019-01-30 13:43:14,2019-01-30 13:43:14,0.000s,PASSED
+"dayStr = ""01""",Chrome 71.0.3578.98,,2019-01-30 13:43:14,2019-01-30 13:43:14,0.000s,PASSED
+"monthStr = """"",Chrome 71.0.3578.98,,2019-01-30 13:43:14,2019-01-30 13:43:14,0.000s,PASSED
+yearStr = year.toString(),Chrome 71.0.3578.98,,2019-01-30 13:43:14,2019-01-30 13:43:14,0.000s,PASSED
+if (month < 10),Chrome 71.0.3578.98,,2019-01-30 13:43:14,2019-01-30 13:43:14,0.000s,PASSED
+fullDate = dayStr + monthStr + yearStr,Chrome 71.0.3578.98,,2019-01-30 13:43:14,2019-01-30 13:43:14,0.000s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:43:14,2019-01-30 13:43:15,1.002s,PASSED
+"waitForElementPresent(findTestObject(""General/mainEmptyBackground""), 15)",Chrome 71.0.3578.98,,2019-01-30 13:43:15,2019-01-30 13:43:16,0.528s,PASSED
+"isPreSalaryTabOpen = waitForElementPresent(findTestObject(""Pre-Salary/preSalaryTab""), 5)",Chrome 71.0.3578.98,,2019-01-30 13:43:16,2019-01-30 13:43:16,0.532s,PASSED
+if (!(isPreSalaryTabOpen)),Chrome 71.0.3578.98,,2019-01-30 13:43:16,2019-01-30 13:43:16,0.000s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""), 15)",Chrome 71.0.3578.98,,2019-01-30 13:43:16,2019-01-30 13:43:17,0.538s,PASSED
+"click(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""))",Chrome 71.0.3578.98,,2019-01-30 13:43:17,2019-01-30 13:43:17,0.121s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:43:17,2019-01-30 13:43:18,1.001s,PASSED
+"setText(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""), """")",Chrome 71.0.3578.98,,2019-01-30 13:43:18,2019-01-30 13:43:18,0.092s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:43:18,2019-01-30 13:43:19,1.000s,PASSED
+"setText(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""), fullDate)",Chrome 71.0.3578.98,,2019-01-30 13:43:19,2019-01-30 13:43:19,0.175s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Filters/Date Picker Start/datePickerInputField""), 15)",Chrome 71.0.3578.98,,2019-01-30 13:43:19,2019-01-30 13:43:19,0.011s,PASSED
+"waitForElementNotPresent(findTestObject(""Pre-Salary/Filters/Drivers Dropdown/isLoadingDropdown""), 15)",Chrome 71.0.3578.98,,2019-01-30 13:43:19,2019-01-30 13:43:19,0.020s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:43:19,2019-01-30 13:43:20,1.001s,PASSED
+try,Chrome 71.0.3578.98,,2019-01-30 13:43:20,2019-01-30 13:43:20,0.180s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:43:20,2019-01-30 13:43:21,1.000s,PASSED
+try,Chrome 71.0.3578.98,,2019-01-30 13:43:21,2019-01-30 13:43:21,0.116s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:43:21,2019-01-30 13:43:22,1.001s,PASSED
+"click(findTestObject(""Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSelectFirstDriver""))",Chrome 71.0.3578.98,,2019-01-30 13:43:22,2019-01-30 13:43:22,0.091s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:43:22,2019-01-30 13:43:23,1.001s,PASSED
+"click(findTestObject(""Pre-Salary/Data Status/importButton""))",Chrome 71.0.3578.98,,2019-01-30 13:43:23,2019-01-30 13:43:24,0.149s,PASSED
+delay(1),Chrome 71.0.3578.98,,2019-01-30 13:43:24,2019-01-30 13:43:25,1.001s,PASSED
+try,Chrome 71.0.3578.98,,2019-01-30 13:43:25,2019-01-30 13:43:36,11.898s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Employee Details/driversReportTable""), 20)",Chrome 71.0.3578.98,,2019-01-30 13:43:36,2019-01-30 13:43:37,0.818s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Employee Details/driversReportTable""), 20)",Chrome 71.0.3578.98,,2019-01-30 13:43:37,2019-01-30 13:43:38,0.727s,PASSED
+"verifyElementPresent(findTestObject(""Pre-Salary/Employee Details/driversReportTable""), 2)",Chrome 71.0.3578.98,,2019-01-30 13:43:38,2019-01-30 13:43:38,0.272s,PASSED
+"verifyElementPresent(findTestObject(""Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader""), 2)",Chrome 71.0.3578.98,,2019-01-30 13:43:38,2019-01-30 13:43:38,0.020s,PASSED
+"driverCodeFromReport = getText(findTestObject(""Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader""))",Chrome 71.0.3578.98,,2019-01-30 13:43:38,2019-01-30 13:43:38,0.031s,PASSED
+if (driverCodeFromReport != driver_Id && !(driverCodeFromReport.contains(driver_Id))),Chrome 71.0.3578.98,,2019-01-30 13:43:38,2019-01-30 13:43:38,0.000s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Employee Details/rightSideTable""), 10)",Chrome 71.0.3578.98,,2019-01-30 13:43:38,2019-01-30 13:43:38,0.018s,PASSED
+"verifyElementPresent(findTestObject(""Pre-Salary/Employee Details/rightSideTable""), 2)",Chrome 71.0.3578.98,,2019-01-30 13:43:38,2019-01-30 13:43:38,0.011s,PASSED
+"waitForElementPresent(findTestObject(""Pre-Salary/Employee Details/rightSideTableDriversId""), 10)",Chrome 71.0.3578.98,,2019-01-30 13:43:38,2019-01-30 13:43:38,0.023s,PASSED
+"verifyElementPresent(findTestObject(""Pre-Salary/Employee Details/rightSideTableDriversId""), 2)",Chrome 71.0.3578.98,,2019-01-30 13:43:38,2019-01-30 13:43:38,0.011s,PASSED
+"driversCodeFromRightSideTable = getText(findTestObject(""Pre-Salary/Employee Details/rightSideTableDriversId""))",Chrome 71.0.3578.98,,2019-01-30 13:43:38,2019-01-30 13:43:38,0.031s,PASSED
+if (driversCodeFromRightSideTable != driver_Id),Chrome 71.0.3578.98,,2019-01-30 13:43:38,2019-01-30 13:43:38,0.001s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-30 13:43:38,2019-01-30 13:43:39,0.602s,PASSED
