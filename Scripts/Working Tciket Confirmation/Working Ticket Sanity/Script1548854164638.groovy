@@ -89,10 +89,12 @@ int validCount = 0
 int validCountMax = 3
 
 TestObject driversTableRow = new TestObject('Empty')
+
 TestObject datesTableRow = new TestObject('Empty')
+
 TestObject specificDateTableRow = new TestObject('Empty')
 
-while (validCount < validCountMax && i < 20) {
+while ((validCount < validCountMax) && (i < 20)) {
     j = 0
 
     driversTableRow = new TestObject('driversTableRow' + i)
@@ -104,80 +106,82 @@ while (validCount < validCountMax && i < 20) {
     WebUI.scrollToElement(driversTableRow, 1)
 
     WebUI.click(driversTableRow)
-	
-	while (validCount < validCountMax && j < 20) {
-		
-		ij = 0
-		
-		datesTableRow = new TestObject('datesTableRow' + j)
-		
-		datesTableRow.addProperty('xpath', ConditionType.EQUALS, f_dates(j))
-		
-		WebUI.delay(1)
-		
-		try {
-			
-			WebUI.scrollToElement(datesTableRow, 1)
-			
-			WebUI.click(datesTableRow)
-			
-			while (validCount < validCountMax && ij < 3) {
-				
-				specificDateTableRow = new TestObject('specificDateRow' + ij)
-				
-				specificDateTableRow.addProperty('xpath', ConditionType.EQUALS, f_specidicDate(ij))
-				
-				try {
-					
-					boolean elemPresent = WebUI.waitForElementVisible(specificDateTableRow, 1)
-					
-					if (elemPresent) {
-						
-						WebUI.verifyElementVisibleInViewport(specificDateTableRow, 1)
-						
-					} else {
-					
-						break
-						
-					}
-					
-					ij++
-					
-					if (ij == 3) validCount++
-					
-				} catch (e) {
-				
-					break
-				}
-			}
-			
-		} catch (e) {
-			
-			break
-			
-		} finally {
-		
-			j++
-		}
-	}
 
+    while ((validCount < validCountMax) && (j < 20)) {
+        ij = 0
+
+        datesTableRow = new TestObject('datesTableRow' + j)
+
+        datesTableRow.addProperty('xpath', ConditionType.EQUALS, f_dates(j))
+
+        WebUI.delay(1)
+
+        try {
+            WebUI.scrollToElement(datesTableRow, 1)
+
+            WebUI.click(datesTableRow)
+
+            while ((validCount < validCountMax) && (ij < 3)) {
+                specificDateTableRow = new TestObject('specificDateRow' + ij)
+
+                specificDateTableRow.addProperty('xpath', ConditionType.EQUALS, f_specidicDate(ij))
+
+                try {
+                    boolean elemPresent = WebUI.waitForElementVisible(specificDateTableRow, 1)
+
+                    if (elemPresent) {
+                        WebUI.verifyElementVisibleInViewport(specificDateTableRow, 1)
+
+                        ij++
+
+                        if (ij == 3) {
+                            validCount++
+
+                            break
+                        }
+                    } else {
+                        break
+                    }
+                }
+                catch (def e) {
+                    break
+                } 
+            }
+        }
+        catch (def e) {
+            break
+        } 
+        finally { 
+            if (ij == 3) {
+                break
+            }
+            
+            j++
+        }
+    }
+    
     i++
-
 }
+
+if (validCount < 3) {
+    throw new com.kms.katalon.core.exception.StepFailedException('Data in one of the tables might be misssing.')
+}
+
+WebUI.click(findTestObject('Driver Ticket Confirmation/driversTcicketConfirmation_Close'))
+
+WebUI.closeBrowser()
 
 String f_driver(int rowNum) {
-    return ".//*[@id='managementKioskview']//div[2]//div[1]//div[2]//div[1]//div[2]//div[1]//table//tr[" + (rowNum + 
-    1) + "]"
+    return ('.//*[@id=\'managementKioskview\']//div[2]//div[1]//div[2]//div[1]//div[2]//div[1]//table//tr[' + (rowNum + 
+    1)) + ']'
 }
 
-
 String f_dates(int rowNum) {
-	return ".//*[@id='managementKioskview']//div[2]//div[1]//div[4]//div[1]//div[2]//table//tr[" + (rowNum +
-	1) + "]"
+    return ('.//*[@id=\'managementKioskview\']//div[2]//div[1]//div[4]//div[1]//div[2]//table//tr[' + (rowNum + 1)) + ']'
 }
 
 String f_specidicDate(int rowNum) {
-	return ".//*[@id='managementKioskview']/div[1]/div[2]/div[2]/div[1]/div[3]/div[1]/div[2]//table//tr[" + (rowNum +
-	1) + "]"
+    return ('.//*[@id=\'managementKioskview\']/div[1]/div[2]/div[2]/div[1]/div[3]/div[1]/div[2]//table//tr[' + (rowNum + 
+    1)) + ']'
 }
 
