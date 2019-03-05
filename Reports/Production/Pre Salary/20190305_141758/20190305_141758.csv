@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Pre Salary,Chrome 72.0.3626.119,,2019-03-05 14:18:00,2019-03-05 14:18:07,6.064s,FAILED
+,,,,,,
+Test Cases/Pre-Salary/One Driver Calc,Chrome 72.0.3626.119,,2019-03-05 14:18:01,2019-03-05 14:18:06,5.081s,FAILED
+"login.c_login.logIn(site, userName, userPass)",Chrome 72.0.3626.119,,2019-03-05 14:18:02,2019-03-05 14:18:06,4.156s,FAILED

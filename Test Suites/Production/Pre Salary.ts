@@ -16,11 +16,11 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Pre-Salary/One Driver Calc</testCaseId>
       <testDataLink>
-         <combinationType>ONE</combinationType>
+         <combinationType>MANY</combinationType>
          <id>e094a0c2-1e52-4e4f-ad14-20062589f3d9</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
-            <value></value>
+            <value>2</value>
          </iterationEntity>
          <testDataId>Data Files/preSalaryTests/oneDriverCalcTest</testDataId>
       </testDataLink>

@@ -167,8 +167,8 @@ WebUI.verifyElementPresent(findTestObject('Pre-Salary/Employee Details/rightSide
 
 String driversCodeFromRightSideTable = WebUI.getText(findTestObject('Pre-Salary/Employee Details/rightSideTableDriversId'))
 
-if (driversCodeFromRightSideTable != driver_Id) {
-    throw new com.kms.katalon.core.exception.StepFailedException('Rught side table driver\'s id doesn\'t match with with test\'s driver id.')
+if (!(driversCodeFromRightSideTable.contains(driver_Id))) {
+    throw new com.kms.katalon.core.exception.StepFailedException('Right side table driver\'s id doesn\'t match with with test\'s driver id.')
 }
 
 WebUI.closeBrowser()
