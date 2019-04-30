@@ -1,0 +1,2440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Pre Salary" time="444" tests="9" failures="3" errors="0">
+   <testsuite name="Pre Salary" tests="9" failures="3" errors="0" time="444" timestamp="2019-04-17 15:54:38" hostname="leon.b - Leon-PC.Y-it.Local" id="Test Suites/Production/Pre Salary">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\leon.b\\git\\Y-IT_TransIT\\Reports\\Production\\Pre Salary\\20190417_155434"/>
+         <property name="logFiles" value="C:\\Users\\leon.b\\git\\Y-IT_TransIT\\Reports\\Production\\Pre Salary\\20190417_155434\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\leon.b\\git\\Y-IT_TransIT\\Reports\\Production\\Pre Salary\\20190417_155434\\1555505797301.png, C:\\Users\\leon.b\\git\\Y-IT_TransIT\\Reports\\Production\\Pre Salary\\20190417_155434\\1555505817783.png, C:\\Users\\leon.b\\git\\Y-IT_TransIT\\Reports\\Production\\Pre Salary\\20190417_155434\\1555505967230.png, C:\\Users\\leon.b\\git\\Y-IT_TransIT\\Reports\\Production\\Pre Salary\\20190417_155434\\1555505968839.png"/>
+         <property name="hostName" value="leon.b - Leon-PC.Y-it.Local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.10"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="192.168.1.145"/>
+         <property name="sessionId" value="eeed92fc94fa0cbda1926c72e20abaa9"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Pre-Salary/One Driver Calc" classname="Test Cases/Pre-Salary/One Driver Calc" status="PASSED">
+         <system-out><![CDATA[2019-04-17 15:54:39 - [TEST_CASE][PASSED] - Test Cases/Pre-Salary/One Driver Calc: Test Cases/Pre-Salary/One Driver Calc
+
+2019-04-17 15:54:40 - [TEST_STEP][PASSED] - login.c_login.logIn(site, userName, userPass): login.c_login.logIn is PASSED
+
+2019-04-17 15:54:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-17 15:54:40 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-17 15:54:52 - [MESSAGE][PASSED] - Browser is opened with url: 'thegged.y-it.co.il'
+
+2019-04-17 15:54:53 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-17 15:54:53 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Y-IT Log In/input_ _userName'
+
+2019-04-17 15:54:53 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Y-IT Log In/input_ _password'
+
+2019-04-17 15:54:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Y-IT Log In/input_  _submit' is clicked on
+
+2019-04-17 15:54:54 - [MESSAGE][PASSED] - login.c_login.logIn is PASSED
+
+2019-04-17 15:54:54 - [TEST_STEP][PASSED] - date = new java.util.Date(): null
+
+2019-04-17 15:54:54 - [TEST_STEP][PASSED] - cal = Calendar.getInstance(): null
+
+2019-04-17 15:54:54 - [TEST_STEP][PASSED] - cal.setTime(date): null
+
+2019-04-17 15:54:54 - [TEST_STEP][PASSED] - month = cal.get(MONTH) + 1: null
+
+2019-04-17 15:54:54 - [TEST_STEP][PASSED] - year = cal.get(YEAR): null
+
+2019-04-17 15:54:54 - [TEST_STEP][PASSED] - dayStr = "01": null
+
+2019-04-17 15:54:54 - [TEST_STEP][PASSED] - monthStr = "": null
+
+2019-04-17 15:54:54 - [TEST_STEP][PASSED] - yearStr = year.toString(): null
+
+2019-04-17 15:54:54 - [TEST_STEP][PASSED] - if (month < 10): null
+
+2019-04-17 15:54:54 - [TEST_STEP][PASSED] - monthStr = "0" + month.toString(): null
+
+2019-04-17 15:54:54 - [TEST_STEP][PASSED] - fullDate = dayStr + monthStr + yearStr: null
+
+2019-04-17 15:54:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:54:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:54:55 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("General/mainEmptyBackground"), 15): Object 'Object Repository/General/mainEmptyBackground' is present
+
+2019-04-17 15:54:55 - [MESSAGE][PASSED] - Object 'Object Repository/General/mainEmptyBackground' is present
+
+2019-04-17 15:54:55 - [TEST_STEP][PASSED] - isPreSalaryTabOpen = waitForElementPresent(findTestObject("Pre-Salary/preSalaryTab"), 5): Object 'Object Repository/Pre-Salary/preSalaryTab' is not present after 5 second(s)
+
+2019-04-17 15:55:00 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: #preSalaryview'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-17 15:55:00 - [MESSAGE][WARNING] - Object 'Object Repository/Pre-Salary/preSalaryTab' is not present after 5 second(s)
+
+2019-04-17 15:55:00 - [TEST_STEP][PASSED] - if (!(isPreSalaryTabOpen)): Object: 'Object Repository/Nav Bar/Nav Bar Funds/preSalary' is clicked on
+
+2019-04-17 15:55:00 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Nav Bar/funds"), 15): Object 'Object Repository/Nav Bar/funds' is present
+
+2019-04-17 15:55:00 - [MESSAGE][PASSED] - Object 'Object Repository/Nav Bar/funds' is present
+
+2019-04-17 15:55:00 - [TEST_STEP][PASSED] - click(findTestObject("Nav Bar/funds")): Object: 'Object Repository/Nav Bar/funds' is clicked on
+
+2019-04-17 15:55:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav Bar/funds' is clicked on
+
+2019-04-17 15:55:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:55:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:55:01 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/Nav Bar/Nav Bar Funds/preSalary' is clicked on
+
+2019-04-17 15:55:01 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Nav Bar/Nav Bar Funds/preSalary"), 2): Object 'Object Repository/Nav Bar/Nav Bar Funds/preSalary' is present
+
+2019-04-17 15:55:01 - [MESSAGE][PASSED] - Object 'Object Repository/Nav Bar/Nav Bar Funds/preSalary' is present
+
+2019-04-17 15:55:01 - [TEST_STEP][PASSED] - click(findTestObject("Nav Bar/Nav Bar Funds/preSalary")): Object: 'Object Repository/Nav Bar/Nav Bar Funds/preSalary' is clicked on
+
+2019-04-17 15:55:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav Bar/Nav Bar Funds/preSalary' is clicked on
+
+2019-04-17 15:55:02 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField"), 15): Object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is present
+
+2019-04-17 15:55:02 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is present
+
+2019-04-17 15:55:02 - [TEST_STEP][PASSED] - click(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField")): Object: 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is clicked on
+
+2019-04-17 15:55:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is clicked on
+
+2019-04-17 15:55:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:55:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:55:03 - [TEST_STEP][PASSED] - setText(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField"), ""): Text '' is set on object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField'
+
+2019-04-17 15:55:04 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField'
+
+2019-04-17 15:55:04 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:55:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:55:05 - [TEST_STEP][PASSED] - setText(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField"), fullDate): Text '01042019' is set on object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField'
+
+2019-04-17 15:55:05 - [MESSAGE][PASSED] - Text '01042019' is set on object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField'
+
+2019-04-17 15:55:05 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField"), 15): Object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is present
+
+2019-04-17 15:55:05 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is present
+
+2019-04-17 15:55:05 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("Pre-Salary/Filters/Drivers Dropdown/isLoadingDropdown"), 15): Web element with id: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/isLoadingDropdown' located by 'By.cssSelector: div[id="preSalaryview"] > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(2) > span:nth-of-type(1)[class="k-icon k-i-arrow-60-down k-i-loading"]' is not present after '15' second(s)
+
+2019-04-17 15:55:06 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/isLoadingDropdown' located by 'By.cssSelector: div[id="preSalaryview"] > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(2) > span:nth-of-type(1)[class="k-icon k-i-arrow-60-down k-i-loading"]' is not present after '15' second(s)
+
+2019-04-17 15:55:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:55:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:55:07 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen' is clicked on
+
+2019-04-17 15:55:07 - [TEST_STEP][PASSED] - click(findTestObject("Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen")): Object: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen' is clicked on
+
+2019-04-17 15:55:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen' is clicked on
+
+2019-04-17 15:55:07 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:55:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:55:08 - [TEST_STEP][PASSED] - try: Text '856' is set on object 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSearchBox'
+
+2019-04-17 15:55:08 - [TEST_STEP][PASSED] - setText(findTestObject("Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSearchBox"), driver_Id): Text '856' is set on object 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSearchBox'
+
+2019-04-17 15:55:08 - [MESSAGE][PASSED] - Text '856' is set on object 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSearchBox'
+
+2019-04-17 15:55:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:55:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:55:09 - [TEST_STEP][PASSED] - click(findTestObject("Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSelectFirstDriver")): Object: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSelectFirstDriver' is clicked on
+
+2019-04-17 15:55:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSelectFirstDriver' is clicked on
+
+2019-04-17 15:55:09 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:55:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:55:10 - [TEST_STEP][PASSED] - click(findTestObject("Pre-Salary/Data Status/importButton")): Object: 'Object Repository/Pre-Salary/Data Status/importButton' is clicked on
+
+2019-04-17 15:55:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-Salary/Data Status/importButton' is clicked on
+
+2019-04-17 15:55:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:55:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:55:12 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable' is double clicked on
+
+2019-04-17 15:55:12 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable"), 20): Object 'Object Repository/Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable' is present
+
+2019-04-17 15:55:27 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable' is present
+
+2019-04-17 15:55:27 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable")): Object: 'Object Repository/Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable' is double clicked on
+
+2019-04-17 15:55:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable' is double clicked on
+
+2019-04-17 15:55:27 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Employee Details/driversReportTable"), 20): Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 15:55:28 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 15:55:28 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Employee Details/driversReportTable"), 20): Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 15:55:29 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 15:55:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Pre-Salary/Employee Details/driversReportTable"), 2): Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 15:55:29 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 15:55:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader"), 2): Object 'Object Repository/Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader' is present
+
+2019-04-17 15:55:29 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader' is present
+
+2019-04-17 15:55:29 - [TEST_STEP][PASSED] - driverCodeFromReport = getText(findTestObject("Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader")): Text of object 'Object Repository/Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader' is: '856'
+
+2019-04-17 15:55:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader' is: '856'
+
+2019-04-17 15:55:29 - [TEST_STEP][PASSED] - if (driverCodeFromReport != driver_Id && !(driverCodeFromReport.contains(driver_Id))): null
+
+2019-04-17 15:55:29 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Employee Details/rightSideTable"), 10): Object 'Object Repository/Pre-Salary/Employee Details/rightSideTable' is present
+
+2019-04-17 15:55:29 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/rightSideTable' is present
+
+2019-04-17 15:55:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Pre-Salary/Employee Details/rightSideTable"), 2): Object 'Object Repository/Pre-Salary/Employee Details/rightSideTable' is present
+
+2019-04-17 15:55:29 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/rightSideTable' is present
+
+2019-04-17 15:55:29 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Employee Details/rightSideTableDriversId"), 10): Object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is present
+
+2019-04-17 15:55:30 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is present
+
+2019-04-17 15:55:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Pre-Salary/Employee Details/rightSideTableDriversId"), 2): Object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is present
+
+2019-04-17 15:55:30 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is present
+
+2019-04-17 15:55:30 - [TEST_STEP][PASSED] - driversCodeFromRightSideTable = getText(findTestObject("Pre-Salary/Employee Details/rightSideTableDriversId")): Text of object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is: '856'
+
+2019-04-17 15:55:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is: '856'
+
+2019-04-17 15:55:30 - [TEST_STEP][PASSED] - if (!(driversCodeFromRightSideTable.contains(driver_Id))): null
+
+2019-04-17 15:55:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-17 15:55:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pre-Salary/One Driver Calc" classname="Test Cases/Pre-Salary/One Driver Calc" status="PASSED">
+         <system-out><![CDATA[2019-04-17 15:55:31 - [TEST_CASE][PASSED] - Test Cases/Pre-Salary/One Driver Calc: Test Cases/Pre-Salary/One Driver Calc
+
+2019-04-17 15:55:31 - [TEST_STEP][PASSED] - login.c_login.logIn(site, userName, userPass): login.c_login.logIn is PASSED
+
+2019-04-17 15:55:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-17 15:55:43 - [MESSAGE][PASSED] - Browser is opened with url: 'mayatour.y-it.co.il'
+
+2019-04-17 15:55:44 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-17 15:55:44 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Y-IT Log In/input_ _userName'
+
+2019-04-17 15:55:44 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Y-IT Log In/input_ _password'
+
+2019-04-17 15:55:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Y-IT Log In/input_  _submit' is clicked on
+
+2019-04-17 15:55:45 - [MESSAGE][PASSED] - login.c_login.logIn is PASSED
+
+2019-04-17 15:55:45 - [TEST_STEP][PASSED] - date = new java.util.Date(): null
+
+2019-04-17 15:55:45 - [TEST_STEP][PASSED] - cal = Calendar.getInstance(): null
+
+2019-04-17 15:55:45 - [TEST_STEP][PASSED] - cal.setTime(date): null
+
+2019-04-17 15:55:45 - [TEST_STEP][PASSED] - month = cal.get(MONTH) + 1: null
+
+2019-04-17 15:55:45 - [TEST_STEP][PASSED] - year = cal.get(YEAR): null
+
+2019-04-17 15:55:45 - [TEST_STEP][PASSED] - dayStr = "01": null
+
+2019-04-17 15:55:45 - [TEST_STEP][PASSED] - monthStr = "": null
+
+2019-04-17 15:55:45 - [TEST_STEP][PASSED] - yearStr = year.toString(): null
+
+2019-04-17 15:55:45 - [TEST_STEP][PASSED] - if (month < 10): null
+
+2019-04-17 15:55:45 - [TEST_STEP][PASSED] - monthStr = "0" + month.toString(): null
+
+2019-04-17 15:55:45 - [TEST_STEP][PASSED] - fullDate = dayStr + monthStr + yearStr: null
+
+2019-04-17 15:55:45 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:55:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:55:46 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("General/mainEmptyBackground"), 15): Object 'Object Repository/General/mainEmptyBackground' is present
+
+2019-04-17 15:55:46 - [MESSAGE][PASSED] - Object 'Object Repository/General/mainEmptyBackground' is present
+
+2019-04-17 15:55:46 - [TEST_STEP][PASSED] - isPreSalaryTabOpen = waitForElementPresent(findTestObject("Pre-Salary/preSalaryTab"), 5): Object 'Object Repository/Pre-Salary/preSalaryTab' is not present after 5 second(s)
+
+2019-04-17 15:55:52 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: #preSalaryview'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-17 15:55:52 - [MESSAGE][WARNING] - Object 'Object Repository/Pre-Salary/preSalaryTab' is not present after 5 second(s)
+
+2019-04-17 15:55:52 - [TEST_STEP][PASSED] - if (!(isPreSalaryTabOpen)): Object: 'Object Repository/Nav Bar/Nav Bar Funds/preSalary' is clicked on
+
+2019-04-17 15:55:52 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Nav Bar/funds"), 15): Object 'Object Repository/Nav Bar/funds' is present
+
+2019-04-17 15:55:52 - [MESSAGE][PASSED] - Object 'Object Repository/Nav Bar/funds' is present
+
+2019-04-17 15:55:52 - [TEST_STEP][PASSED] - click(findTestObject("Nav Bar/funds")): Object: 'Object Repository/Nav Bar/funds' is clicked on
+
+2019-04-17 15:55:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav Bar/funds' is clicked on
+
+2019-04-17 15:55:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:55:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:55:53 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/Nav Bar/Nav Bar Funds/preSalary' is clicked on
+
+2019-04-17 15:55:53 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Nav Bar/Nav Bar Funds/preSalary"), 2): Object 'Object Repository/Nav Bar/Nav Bar Funds/preSalary' is present
+
+2019-04-17 15:55:53 - [MESSAGE][PASSED] - Object 'Object Repository/Nav Bar/Nav Bar Funds/preSalary' is present
+
+2019-04-17 15:55:53 - [TEST_STEP][PASSED] - click(findTestObject("Nav Bar/Nav Bar Funds/preSalary")): Object: 'Object Repository/Nav Bar/Nav Bar Funds/preSalary' is clicked on
+
+2019-04-17 15:55:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav Bar/Nav Bar Funds/preSalary' is clicked on
+
+2019-04-17 15:55:53 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField"), 15): Object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is present
+
+2019-04-17 15:55:54 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is present
+
+2019-04-17 15:55:54 - [TEST_STEP][PASSED] - click(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField")): Object: 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is clicked on
+
+2019-04-17 15:55:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is clicked on
+
+2019-04-17 15:55:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:55:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:55:55 - [TEST_STEP][PASSED] - setText(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField"), ""): Text '' is set on object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField'
+
+2019-04-17 15:55:55 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField'
+
+2019-04-17 15:55:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:55:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:55:56 - [TEST_STEP][PASSED] - setText(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField"), fullDate): Text '01042019' is set on object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField'
+
+2019-04-17 15:55:57 - [MESSAGE][PASSED] - Text '01042019' is set on object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField'
+
+2019-04-17 15:55:57 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField"), 15): Object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is present
+
+2019-04-17 15:55:57 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is present
+
+2019-04-17 15:55:57 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("Pre-Salary/Filters/Drivers Dropdown/isLoadingDropdown"), 15): Web element with id: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/isLoadingDropdown' located by 'By.cssSelector: div[id="preSalaryview"] > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(2) > span:nth-of-type(1)[class="k-icon k-i-arrow-60-down k-i-loading"]' is not present after '15' second(s)
+
+2019-04-17 15:55:57 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/isLoadingDropdown' located by 'By.cssSelector: div[id="preSalaryview"] > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(2) > span:nth-of-type(1)[class="k-icon k-i-arrow-60-down k-i-loading"]' is not present after '15' second(s)
+
+2019-04-17 15:55:57 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:55:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:55:58 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen' is clicked on
+
+2019-04-17 15:55:58 - [TEST_STEP][PASSED] - click(findTestObject("Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen")): Object: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen' is clicked on
+
+2019-04-17 15:55:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen' is clicked on
+
+2019-04-17 15:55:58 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:55:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:55:59 - [TEST_STEP][PASSED] - try: Text '3391' is set on object 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSearchBox'
+
+2019-04-17 15:55:59 - [TEST_STEP][PASSED] - setText(findTestObject("Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSearchBox"), driver_Id): Text '3391' is set on object 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSearchBox'
+
+2019-04-17 15:55:59 - [MESSAGE][PASSED] - Text '3391' is set on object 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSearchBox'
+
+2019-04-17 15:55:59 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:56:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:56:00 - [TEST_STEP][PASSED] - click(findTestObject("Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSelectFirstDriver")): Object: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSelectFirstDriver' is clicked on
+
+2019-04-17 15:56:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSelectFirstDriver' is clicked on
+
+2019-04-17 15:56:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:56:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:56:01 - [TEST_STEP][PASSED] - click(findTestObject("Pre-Salary/Data Status/importButton")): Object: 'Object Repository/Pre-Salary/Data Status/importButton' is clicked on
+
+2019-04-17 15:56:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-Salary/Data Status/importButton' is clicked on
+
+2019-04-17 15:56:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:56:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:56:03 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable' is double clicked on
+
+2019-04-17 15:56:03 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable"), 20): Object 'Object Repository/Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable' is present
+
+2019-04-17 15:56:14 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable' is present
+
+2019-04-17 15:56:14 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable")): Object: 'Object Repository/Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable' is double clicked on
+
+2019-04-17 15:56:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable' is double clicked on
+
+2019-04-17 15:56:14 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Employee Details/driversReportTable"), 20): Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 15:56:16 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 15:56:16 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Employee Details/driversReportTable"), 20): Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 15:56:16 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 15:56:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Pre-Salary/Employee Details/driversReportTable"), 2): Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 15:56:16 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 15:56:16 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader"), 2): Object 'Object Repository/Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader' is present
+
+2019-04-17 15:56:16 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader' is present
+
+2019-04-17 15:56:16 - [TEST_STEP][PASSED] - driverCodeFromReport = getText(findTestObject("Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader")): Text of object 'Object Repository/Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader' is: '3391, 023539414'
+
+2019-04-17 15:56:16 - [MESSAGE][PASSED] - Text of object 'Object Repository/Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader' is: '3391, 023539414'
+
+2019-04-17 15:56:16 - [TEST_STEP][PASSED] - if (driverCodeFromReport != driver_Id && !(driverCodeFromReport.contains(driver_Id))): null
+
+2019-04-17 15:56:16 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Employee Details/rightSideTable"), 10): Object 'Object Repository/Pre-Salary/Employee Details/rightSideTable' is present
+
+2019-04-17 15:56:17 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/rightSideTable' is present
+
+2019-04-17 15:56:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Pre-Salary/Employee Details/rightSideTable"), 2): Object 'Object Repository/Pre-Salary/Employee Details/rightSideTable' is present
+
+2019-04-17 15:56:17 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/rightSideTable' is present
+
+2019-04-17 15:56:17 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Employee Details/rightSideTableDriversId"), 10): Object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is present
+
+2019-04-17 15:56:17 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is present
+
+2019-04-17 15:56:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Pre-Salary/Employee Details/rightSideTableDriversId"), 2): Object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is present
+
+2019-04-17 15:56:17 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is present
+
+2019-04-17 15:56:17 - [TEST_STEP][PASSED] - driversCodeFromRightSideTable = getText(findTestObject("Pre-Salary/Employee Details/rightSideTableDriversId")): Text of object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is: '3391'
+
+2019-04-17 15:56:17 - [MESSAGE][PASSED] - Text of object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is: '3391'
+
+2019-04-17 15:56:17 - [TEST_STEP][PASSED] - if (!(driversCodeFromRightSideTable.contains(driver_Id))): null
+
+2019-04-17 15:56:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-17 15:56:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pre-Salary/One Driver Calc" classname="Test Cases/Pre-Salary/One Driver Calc" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Pre-Salary/One Driver Calc FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'admin' of object 'Object Repository/Y-IT Log In/input_ _userName'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at login.c_login.logIn(c_login.groovy:44)
+	at login.c_login.invokeMethod(c_login.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at One Driver Calc.run(One Driver Calc:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555505674855.run(TempTestSuite1555505674855.groovy:35)
+"/>
+         <system-out><![CDATA[2019-04-17 15:56:17 - [TEST_CASE][FAILED] - Test Cases/Pre-Salary/One Driver Calc: Test Cases/Pre-Salary/One Driver Calc FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'admin' of object 'Object Repository/Y-IT Log In/input_ _userName'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at login.c_login.logIn(c_login.groovy:44)
+	at login.c_login.invokeMethod(c_login.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at One Driver Calc.run(One Driver Calc:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555505674855.run(TempTestSuite1555505674855.groovy:35)
+
+
+2019-04-17 15:56:17 - [TEST_STEP][FAILED] - login.c_login.logIn(site, userName, userPass): login.c_login.logIn(site, userName, userPass) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'admin' of object 'Object Repository/Y-IT Log In/input_ _userName'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at login.c_login.logIn(c_login.groovy:44)
+	at login.c_login.invokeMethod(c_login.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at One Driver Calc.run(One Driver Calc:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555505674855.run(TempTestSuite1555505674855.groovy:35)
+
+
+2019-04-17 15:56:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-17 15:56:20 - [MESSAGE][PASSED] - Browser is opened with url: 'eggedtaavura.y-it.co.il'
+
+2019-04-17 15:56:21 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-17 15:56:37 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id = 'userName']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-17 15:56:37 - [MESSAGE][FAILED] - Unable to set text 'admin' of object 'Object Repository/Y-IT Log In/input_ _userName'
+[[ATTACHMENT|C:\\Users\\leon.b\\git\\Y-IT_TransIT\\Reports\\Production\\Pre Salary\\20190417_155434\\1555505797301.png]]
+
+2019-04-17 15:56:37 - [MESSAGE][FAILED] - Unable to set text 'admin' of object 'Object Repository/Y-IT Log In/input_ _userName'
+
+2019-04-17 15:56:37 - [MESSAGE][FAILED] - login.c_login.logIn(site, userName, userPass) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'admin' of object 'Object Repository/Y-IT Log In/input_ _userName'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at login.c_login.logIn(c_login.groovy:44)
+	at login.c_login.invokeMethod(c_login.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at One Driver Calc.run(One Driver Calc:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555505674855.run(TempTestSuite1555505674855.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-04-17 15:56:17 - [TEST_CASE][FAILED] - Test Cases/Pre-Salary/One Driver Calc: Test Cases/Pre-Salary/One Driver Calc FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'admin' of object 'Object Repository/Y-IT Log In/input_ _userName'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at login.c_login.logIn(c_login.groovy:44)
+	at login.c_login.invokeMethod(c_login.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at One Driver Calc.run(One Driver Calc:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555505674855.run(TempTestSuite1555505674855.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pre-Salary/One Driver Calc" classname="Test Cases/Pre-Salary/One Driver Calc" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Pre-Salary/One Driver Calc FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'shelly' of object 'Object Repository/Y-IT Log In/input_ _userName'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at login.c_login.logIn(c_login.groovy:44)
+	at login.c_login.invokeMethod(c_login.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at One Driver Calc.run(One Driver Calc:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555505674855.run(TempTestSuite1555505674855.groovy:35)
+"/>
+         <system-out><![CDATA[2019-04-17 15:56:37 - [TEST_CASE][FAILED] - Test Cases/Pre-Salary/One Driver Calc: Test Cases/Pre-Salary/One Driver Calc FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'shelly' of object 'Object Repository/Y-IT Log In/input_ _userName'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at login.c_login.logIn(c_login.groovy:44)
+	at login.c_login.invokeMethod(c_login.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at One Driver Calc.run(One Driver Calc:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555505674855.run(TempTestSuite1555505674855.groovy:35)
+
+
+2019-04-17 15:56:37 - [TEST_STEP][FAILED] - login.c_login.logIn(site, userName, userPass): login.c_login.logIn(site, userName, userPass) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'shelly' of object 'Object Repository/Y-IT Log In/input_ _userName'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at login.c_login.logIn(c_login.groovy:44)
+	at login.c_login.invokeMethod(c_login.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at One Driver Calc.run(One Driver Calc:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555505674855.run(TempTestSuite1555505674855.groovy:35)
+
+
+2019-04-17 15:56:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-17 15:56:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-17 15:56:41 - [MESSAGE][PASSED] - Browser is opened with url: 'danbr7.y-it.co.il'
+
+2019-04-17 15:56:42 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-17 15:56:57 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id = 'userName']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-17 15:56:58 - [MESSAGE][FAILED] - Unable to set text 'shelly' of object 'Object Repository/Y-IT Log In/input_ _userName'
+[[ATTACHMENT|C:\\Users\\leon.b\\git\\Y-IT_TransIT\\Reports\\Production\\Pre Salary\\20190417_155434\\1555505817783.png]]
+
+2019-04-17 15:56:58 - [MESSAGE][FAILED] - Unable to set text 'shelly' of object 'Object Repository/Y-IT Log In/input_ _userName'
+
+2019-04-17 15:56:58 - [MESSAGE][FAILED] - login.c_login.logIn(site, userName, userPass) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'shelly' of object 'Object Repository/Y-IT Log In/input_ _userName'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at login.c_login.logIn(c_login.groovy:44)
+	at login.c_login.invokeMethod(c_login.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at One Driver Calc.run(One Driver Calc:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555505674855.run(TempTestSuite1555505674855.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-04-17 15:56:37 - [TEST_CASE][FAILED] - Test Cases/Pre-Salary/One Driver Calc: Test Cases/Pre-Salary/One Driver Calc FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'shelly' of object 'Object Repository/Y-IT Log In/input_ _userName'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at login.c_login.logIn(c_login.groovy:44)
+	at login.c_login.invokeMethod(c_login.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at One Driver Calc.run(One Driver Calc:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555505674855.run(TempTestSuite1555505674855.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pre-Salary/One Driver Calc" classname="Test Cases/Pre-Salary/One Driver Calc" status="PASSED">
+         <system-out><![CDATA[2019-04-17 15:56:58 - [TEST_CASE][PASSED] - Test Cases/Pre-Salary/One Driver Calc: Test Cases/Pre-Salary/One Driver Calc
+
+2019-04-17 15:56:58 - [TEST_STEP][PASSED] - login.c_login.logIn(site, userName, userPass): login.c_login.logIn is PASSED
+
+2019-04-17 15:56:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-17 15:56:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-17 15:57:11 - [MESSAGE][PASSED] - Browser is opened with url: 'superbus.y-it.co.il'
+
+2019-04-17 15:57:12 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-17 15:57:12 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Y-IT Log In/input_ _userName'
+
+2019-04-17 15:57:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Y-IT Log In/input_ _password'
+
+2019-04-17 15:57:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Y-IT Log In/input_  _submit' is clicked on
+
+2019-04-17 15:57:12 - [MESSAGE][PASSED] - login.c_login.logIn is PASSED
+
+2019-04-17 15:57:12 - [TEST_STEP][PASSED] - date = new java.util.Date(): null
+
+2019-04-17 15:57:12 - [TEST_STEP][PASSED] - cal = Calendar.getInstance(): null
+
+2019-04-17 15:57:12 - [TEST_STEP][PASSED] - cal.setTime(date): null
+
+2019-04-17 15:57:12 - [TEST_STEP][PASSED] - month = cal.get(MONTH) + 1: null
+
+2019-04-17 15:57:12 - [TEST_STEP][PASSED] - year = cal.get(YEAR): null
+
+2019-04-17 15:57:12 - [TEST_STEP][PASSED] - dayStr = "01": null
+
+2019-04-17 15:57:12 - [TEST_STEP][PASSED] - monthStr = "": null
+
+2019-04-17 15:57:12 - [TEST_STEP][PASSED] - yearStr = year.toString(): null
+
+2019-04-17 15:57:12 - [TEST_STEP][PASSED] - if (month < 10): null
+
+2019-04-17 15:57:12 - [TEST_STEP][PASSED] - monthStr = "0" + month.toString(): null
+
+2019-04-17 15:57:12 - [TEST_STEP][PASSED] - fullDate = dayStr + monthStr + yearStr: null
+
+2019-04-17 15:57:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:57:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:57:13 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("General/mainEmptyBackground"), 15): Object 'Object Repository/General/mainEmptyBackground' is present
+
+2019-04-17 15:57:14 - [MESSAGE][PASSED] - Object 'Object Repository/General/mainEmptyBackground' is present
+
+2019-04-17 15:57:14 - [TEST_STEP][PASSED] - isPreSalaryTabOpen = waitForElementPresent(findTestObject("Pre-Salary/preSalaryTab"), 5): Object 'Object Repository/Pre-Salary/preSalaryTab' is present
+
+2019-04-17 15:57:14 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/preSalaryTab' is present
+
+2019-04-17 15:57:14 - [TEST_STEP][PASSED] - if (!(isPreSalaryTabOpen)): null
+
+2019-04-17 15:57:14 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField"), 15): Object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is present
+
+2019-04-17 15:57:15 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is present
+
+2019-04-17 15:57:15 - [TEST_STEP][PASSED] - click(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField")): Object: 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is clicked on
+
+2019-04-17 15:57:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is clicked on
+
+2019-04-17 15:57:15 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:57:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:57:16 - [TEST_STEP][PASSED] - setText(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField"), ""): Text '' is set on object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField'
+
+2019-04-17 15:57:16 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField'
+
+2019-04-17 15:57:16 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:57:17 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:57:17 - [TEST_STEP][PASSED] - setText(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField"), fullDate): Text '01042019' is set on object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField'
+
+2019-04-17 15:57:17 - [MESSAGE][PASSED] - Text '01042019' is set on object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField'
+
+2019-04-17 15:57:17 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField"), 15): Object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is present
+
+2019-04-17 15:57:17 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is present
+
+2019-04-17 15:57:17 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("Pre-Salary/Filters/Drivers Dropdown/isLoadingDropdown"), 15): Web element with id: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/isLoadingDropdown' located by 'By.cssSelector: div[id="preSalaryview"] > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(2) > span:nth-of-type(1)[class="k-icon k-i-arrow-60-down k-i-loading"]' is not present after '15' second(s)
+
+2019-04-17 15:57:17 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/isLoadingDropdown' located by 'By.cssSelector: div[id="preSalaryview"] > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(2) > span:nth-of-type(1)[class="k-icon k-i-arrow-60-down k-i-loading"]' is not present after '15' second(s)
+
+2019-04-17 15:57:17 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:57:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:57:18 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen' is clicked on
+
+2019-04-17 15:57:18 - [TEST_STEP][PASSED] - click(findTestObject("Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen")): Object: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen' is clicked on
+
+2019-04-17 15:57:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen' is clicked on
+
+2019-04-17 15:57:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:57:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:57:20 - [TEST_STEP][PASSED] - try: Text '464' is set on object 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSearchBox'
+
+2019-04-17 15:57:20 - [TEST_STEP][PASSED] - setText(findTestObject("Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSearchBox"), driver_Id): Text '464' is set on object 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSearchBox'
+
+2019-04-17 15:57:20 - [MESSAGE][PASSED] - Text '464' is set on object 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSearchBox'
+
+2019-04-17 15:57:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:57:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:57:21 - [TEST_STEP][PASSED] - click(findTestObject("Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSelectFirstDriver")): Object: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSelectFirstDriver' is clicked on
+
+2019-04-17 15:57:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSelectFirstDriver' is clicked on
+
+2019-04-17 15:57:21 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:57:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:57:22 - [TEST_STEP][PASSED] - click(findTestObject("Pre-Salary/Data Status/importButton")): Object: 'Object Repository/Pre-Salary/Data Status/importButton' is clicked on
+
+2019-04-17 15:57:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-Salary/Data Status/importButton' is clicked on
+
+2019-04-17 15:57:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:57:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:57:23 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable' is double clicked on
+
+2019-04-17 15:57:23 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable"), 20): Object 'Object Repository/Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable' is present
+
+2019-04-17 15:57:38 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable' is present
+
+2019-04-17 15:57:38 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable")): Object: 'Object Repository/Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable' is double clicked on
+
+2019-04-17 15:57:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable' is double clicked on
+
+2019-04-17 15:57:38 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Employee Details/driversReportTable"), 20): Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 15:57:40 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 15:57:40 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Employee Details/driversReportTable"), 20): Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 15:57:40 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 15:57:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Pre-Salary/Employee Details/driversReportTable"), 2): Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 15:57:40 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 15:57:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader"), 2): Object 'Object Repository/Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader' is present
+
+2019-04-17 15:57:40 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader' is present
+
+2019-04-17 15:57:40 - [TEST_STEP][PASSED] - driverCodeFromReport = getText(findTestObject("Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader")): Text of object 'Object Repository/Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader' is: '464'
+
+2019-04-17 15:57:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader' is: '464'
+
+2019-04-17 15:57:40 - [TEST_STEP][PASSED] - if (driverCodeFromReport != driver_Id && !(driverCodeFromReport.contains(driver_Id))): null
+
+2019-04-17 15:57:40 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Employee Details/rightSideTable"), 10): Object 'Object Repository/Pre-Salary/Employee Details/rightSideTable' is present
+
+2019-04-17 15:57:40 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/rightSideTable' is present
+
+2019-04-17 15:57:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Pre-Salary/Employee Details/rightSideTable"), 2): Object 'Object Repository/Pre-Salary/Employee Details/rightSideTable' is present
+
+2019-04-17 15:57:40 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/rightSideTable' is present
+
+2019-04-17 15:57:40 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Employee Details/rightSideTableDriversId"), 10): Object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is present
+
+2019-04-17 15:57:40 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is present
+
+2019-04-17 15:57:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Pre-Salary/Employee Details/rightSideTableDriversId"), 2): Object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is present
+
+2019-04-17 15:57:40 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is present
+
+2019-04-17 15:57:40 - [TEST_STEP][PASSED] - driversCodeFromRightSideTable = getText(findTestObject("Pre-Salary/Employee Details/rightSideTableDriversId")): Text of object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is: '464'
+
+2019-04-17 15:57:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is: '464'
+
+2019-04-17 15:57:40 - [TEST_STEP][PASSED] - if (!(driversCodeFromRightSideTable.contains(driver_Id))): null
+
+2019-04-17 15:57:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-17 15:57:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pre-Salary/One Driver Calc" classname="Test Cases/Pre-Salary/One Driver Calc" status="PASSED">
+         <system-out><![CDATA[2019-04-17 15:57:41 - [TEST_CASE][PASSED] - Test Cases/Pre-Salary/One Driver Calc: Test Cases/Pre-Salary/One Driver Calc
+
+2019-04-17 15:57:41 - [TEST_STEP][PASSED] - login.c_login.logIn(site, userName, userPass): login.c_login.logIn is PASSED
+
+2019-04-17 15:57:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-17 15:57:52 - [MESSAGE][PASSED] - Browser is opened with url: 'rongal.y-it.co.il'
+
+2019-04-17 15:57:53 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-17 15:57:54 - [MESSAGE][PASSED] - Text 'ronen' is set on object 'Object Repository/Y-IT Log In/input_ _userName'
+
+2019-04-17 15:57:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Y-IT Log In/input_ _password'
+
+2019-04-17 15:57:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Y-IT Log In/input_  _submit' is clicked on
+
+2019-04-17 15:57:54 - [MESSAGE][PASSED] - login.c_login.logIn is PASSED
+
+2019-04-17 15:57:54 - [TEST_STEP][PASSED] - date = new java.util.Date(): null
+
+2019-04-17 15:57:54 - [TEST_STEP][PASSED] - cal = Calendar.getInstance(): null
+
+2019-04-17 15:57:54 - [TEST_STEP][PASSED] - cal.setTime(date): null
+
+2019-04-17 15:57:54 - [TEST_STEP][PASSED] - month = cal.get(MONTH) + 1: null
+
+2019-04-17 15:57:54 - [TEST_STEP][PASSED] - year = cal.get(YEAR): null
+
+2019-04-17 15:57:54 - [TEST_STEP][PASSED] - dayStr = "01": null
+
+2019-04-17 15:57:54 - [TEST_STEP][PASSED] - monthStr = "": null
+
+2019-04-17 15:57:54 - [TEST_STEP][PASSED] - yearStr = year.toString(): null
+
+2019-04-17 15:57:54 - [TEST_STEP][PASSED] - if (month < 10): null
+
+2019-04-17 15:57:54 - [TEST_STEP][PASSED] - monthStr = "0" + month.toString(): null
+
+2019-04-17 15:57:54 - [TEST_STEP][PASSED] - fullDate = dayStr + monthStr + yearStr: null
+
+2019-04-17 15:57:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:57:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:57:55 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("General/mainEmptyBackground"), 15): Object 'Object Repository/General/mainEmptyBackground' is present
+
+2019-04-17 15:57:55 - [MESSAGE][PASSED] - Object 'Object Repository/General/mainEmptyBackground' is present
+
+2019-04-17 15:57:55 - [TEST_STEP][PASSED] - isPreSalaryTabOpen = waitForElementPresent(findTestObject("Pre-Salary/preSalaryTab"), 5): Object 'Object Repository/Pre-Salary/preSalaryTab' is not present after 5 second(s)
+
+2019-04-17 15:58:00 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: #preSalaryview'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-17 15:58:00 - [MESSAGE][WARNING] - Object 'Object Repository/Pre-Salary/preSalaryTab' is not present after 5 second(s)
+
+2019-04-17 15:58:00 - [TEST_STEP][PASSED] - if (!(isPreSalaryTabOpen)): Object: 'Object Repository/Nav Bar/Nav Bar Funds/preSalary' is clicked on
+
+2019-04-17 15:58:00 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Nav Bar/funds"), 15): Object 'Object Repository/Nav Bar/funds' is present
+
+2019-04-17 15:58:00 - [MESSAGE][PASSED] - Object 'Object Repository/Nav Bar/funds' is present
+
+2019-04-17 15:58:00 - [TEST_STEP][PASSED] - click(findTestObject("Nav Bar/funds")): Object: 'Object Repository/Nav Bar/funds' is clicked on
+
+2019-04-17 15:58:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav Bar/funds' is clicked on
+
+2019-04-17 15:58:00 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:58:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:58:01 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/Nav Bar/Nav Bar Funds/preSalary' is clicked on
+
+2019-04-17 15:58:01 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Nav Bar/Nav Bar Funds/preSalary"), 2): Object 'Object Repository/Nav Bar/Nav Bar Funds/preSalary' is present
+
+2019-04-17 15:58:01 - [MESSAGE][PASSED] - Object 'Object Repository/Nav Bar/Nav Bar Funds/preSalary' is present
+
+2019-04-17 15:58:01 - [TEST_STEP][PASSED] - click(findTestObject("Nav Bar/Nav Bar Funds/preSalary")): Object: 'Object Repository/Nav Bar/Nav Bar Funds/preSalary' is clicked on
+
+2019-04-17 15:58:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav Bar/Nav Bar Funds/preSalary' is clicked on
+
+2019-04-17 15:58:01 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField"), 15): Object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is present
+
+2019-04-17 15:58:02 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is present
+
+2019-04-17 15:58:02 - [TEST_STEP][PASSED] - click(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField")): Object: 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is clicked on
+
+2019-04-17 15:58:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is clicked on
+
+2019-04-17 15:58:02 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:58:03 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:58:03 - [TEST_STEP][PASSED] - setText(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField"), ""): Text '' is set on object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField'
+
+2019-04-17 15:58:04 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField'
+
+2019-04-17 15:58:04 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:58:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:58:05 - [TEST_STEP][PASSED] - setText(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField"), fullDate): Text '01042019' is set on object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField'
+
+2019-04-17 15:58:05 - [MESSAGE][PASSED] - Text '01042019' is set on object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField'
+
+2019-04-17 15:58:05 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField"), 15): Object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is present
+
+2019-04-17 15:58:05 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is present
+
+2019-04-17 15:58:05 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("Pre-Salary/Filters/Drivers Dropdown/isLoadingDropdown"), 15): Web element with id: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/isLoadingDropdown' located by 'By.cssSelector: div[id="preSalaryview"] > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(2) > span:nth-of-type(1)[class="k-icon k-i-arrow-60-down k-i-loading"]' is not present after '15' second(s)
+
+2019-04-17 15:58:05 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/isLoadingDropdown' located by 'By.cssSelector: div[id="preSalaryview"] > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(2) > span:nth-of-type(1)[class="k-icon k-i-arrow-60-down k-i-loading"]' is not present after '15' second(s)
+
+2019-04-17 15:58:05 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:58:06 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:58:06 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen' is clicked on
+
+2019-04-17 15:58:06 - [TEST_STEP][PASSED] - click(findTestObject("Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen")): Object: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen' is clicked on
+
+2019-04-17 15:58:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen' is clicked on
+
+2019-04-17 15:58:06 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:58:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:58:07 - [TEST_STEP][PASSED] - try: Text '1542' is set on object 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSearchBox'
+
+2019-04-17 15:58:07 - [TEST_STEP][PASSED] - setText(findTestObject("Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSearchBox"), driver_Id): Text '1542' is set on object 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSearchBox'
+
+2019-04-17 15:58:07 - [MESSAGE][PASSED] - Text '1542' is set on object 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSearchBox'
+
+2019-04-17 15:58:07 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:58:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:58:08 - [TEST_STEP][PASSED] - click(findTestObject("Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSelectFirstDriver")): Object: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSelectFirstDriver' is clicked on
+
+2019-04-17 15:58:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSelectFirstDriver' is clicked on
+
+2019-04-17 15:58:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:58:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:58:09 - [TEST_STEP][PASSED] - click(findTestObject("Pre-Salary/Data Status/importButton")): Object: 'Object Repository/Pre-Salary/Data Status/importButton' is clicked on
+
+2019-04-17 15:58:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-Salary/Data Status/importButton' is clicked on
+
+2019-04-17 15:58:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:58:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:58:11 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable' is double clicked on
+
+2019-04-17 15:58:11 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable"), 20): Object 'Object Repository/Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable' is present
+
+2019-04-17 15:58:24 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable' is present
+
+2019-04-17 15:58:24 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable")): Object: 'Object Repository/Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable' is double clicked on
+
+2019-04-17 15:58:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable' is double clicked on
+
+2019-04-17 15:58:24 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Employee Details/driversReportTable"), 20): Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 15:58:26 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 15:58:26 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Employee Details/driversReportTable"), 20): Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 15:58:27 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 15:58:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Pre-Salary/Employee Details/driversReportTable"), 2): Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 15:58:27 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 15:58:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader"), 2): Object 'Object Repository/Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader' is present
+
+2019-04-17 15:58:27 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader' is present
+
+2019-04-17 15:58:27 - [TEST_STEP][PASSED] - driverCodeFromReport = getText(findTestObject("Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader")): Text of object 'Object Repository/Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader' is: '1542'
+
+2019-04-17 15:58:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader' is: '1542'
+
+2019-04-17 15:58:27 - [TEST_STEP][PASSED] - if (driverCodeFromReport != driver_Id && !(driverCodeFromReport.contains(driver_Id))): null
+
+2019-04-17 15:58:27 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Employee Details/rightSideTable"), 10): Object 'Object Repository/Pre-Salary/Employee Details/rightSideTable' is present
+
+2019-04-17 15:58:27 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/rightSideTable' is present
+
+2019-04-17 15:58:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Pre-Salary/Employee Details/rightSideTable"), 2): Object 'Object Repository/Pre-Salary/Employee Details/rightSideTable' is present
+
+2019-04-17 15:58:27 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/rightSideTable' is present
+
+2019-04-17 15:58:27 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Employee Details/rightSideTableDriversId"), 10): Object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is present
+
+2019-04-17 15:58:27 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is present
+
+2019-04-17 15:58:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Pre-Salary/Employee Details/rightSideTableDriversId"), 2): Object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is present
+
+2019-04-17 15:58:27 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is present
+
+2019-04-17 15:58:27 - [TEST_STEP][PASSED] - driversCodeFromRightSideTable = getText(findTestObject("Pre-Salary/Employee Details/rightSideTableDriversId")): Text of object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is: '1542'
+
+2019-04-17 15:58:27 - [MESSAGE][PASSED] - Text of object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is: '1542'
+
+2019-04-17 15:58:27 - [TEST_STEP][PASSED] - if (!(driversCodeFromRightSideTable.contains(driver_Id))): null
+
+2019-04-17 15:58:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-17 15:58:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pre-Salary/One Driver Calc" classname="Test Cases/Pre-Salary/One Driver Calc" status="PASSED">
+         <system-out><![CDATA[2019-04-17 15:58:27 - [TEST_CASE][PASSED] - Test Cases/Pre-Salary/One Driver Calc: Test Cases/Pre-Salary/One Driver Calc
+
+2019-04-17 15:58:27 - [TEST_STEP][PASSED] - login.c_login.logIn(site, userName, userPass): login.c_login.logIn is PASSED
+
+2019-04-17 15:58:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-17 15:58:38 - [MESSAGE][PASSED] - Browser is opened with url: 'eggedh.y-it.co.il'
+
+2019-04-17 15:58:39 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-17 15:58:40 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Y-IT Log In/input_ _userName'
+
+2019-04-17 15:58:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Y-IT Log In/input_ _password'
+
+2019-04-17 15:58:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Y-IT Log In/input_  _submit' is clicked on
+
+2019-04-17 15:58:40 - [MESSAGE][PASSED] - login.c_login.logIn is PASSED
+
+2019-04-17 15:58:40 - [TEST_STEP][PASSED] - date = new java.util.Date(): null
+
+2019-04-17 15:58:40 - [TEST_STEP][PASSED] - cal = Calendar.getInstance(): null
+
+2019-04-17 15:58:40 - [TEST_STEP][PASSED] - cal.setTime(date): null
+
+2019-04-17 15:58:40 - [TEST_STEP][PASSED] - month = cal.get(MONTH) + 1: null
+
+2019-04-17 15:58:40 - [TEST_STEP][PASSED] - year = cal.get(YEAR): null
+
+2019-04-17 15:58:40 - [TEST_STEP][PASSED] - dayStr = "01": null
+
+2019-04-17 15:58:40 - [TEST_STEP][PASSED] - monthStr = "": null
+
+2019-04-17 15:58:40 - [TEST_STEP][PASSED] - yearStr = year.toString(): null
+
+2019-04-17 15:58:40 - [TEST_STEP][PASSED] - if (month < 10): null
+
+2019-04-17 15:58:40 - [TEST_STEP][PASSED] - monthStr = "0" + month.toString(): null
+
+2019-04-17 15:58:40 - [TEST_STEP][PASSED] - fullDate = dayStr + monthStr + yearStr: null
+
+2019-04-17 15:58:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:58:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:58:41 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("General/mainEmptyBackground"), 15): Object 'Object Repository/General/mainEmptyBackground' is present
+
+2019-04-17 15:58:41 - [MESSAGE][PASSED] - Object 'Object Repository/General/mainEmptyBackground' is present
+
+2019-04-17 15:58:41 - [TEST_STEP][PASSED] - isPreSalaryTabOpen = waitForElementPresent(findTestObject("Pre-Salary/preSalaryTab"), 5): Object 'Object Repository/Pre-Salary/preSalaryTab' is present
+
+2019-04-17 15:58:42 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/preSalaryTab' is present
+
+2019-04-17 15:58:42 - [TEST_STEP][PASSED] - if (!(isPreSalaryTabOpen)): null
+
+2019-04-17 15:58:42 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField"), 15): Object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is present
+
+2019-04-17 15:58:43 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is present
+
+2019-04-17 15:58:43 - [TEST_STEP][PASSED] - click(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField")): Object: 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is clicked on
+
+2019-04-17 15:58:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is clicked on
+
+2019-04-17 15:58:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:58:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:58:44 - [TEST_STEP][PASSED] - setText(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField"), ""): Text '' is set on object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField'
+
+2019-04-17 15:58:44 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField'
+
+2019-04-17 15:58:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:58:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:58:45 - [TEST_STEP][PASSED] - setText(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField"), fullDate): Text '01042019' is set on object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField'
+
+2019-04-17 15:58:45 - [MESSAGE][PASSED] - Text '01042019' is set on object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField'
+
+2019-04-17 15:58:45 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField"), 15): Object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is present
+
+2019-04-17 15:58:45 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is present
+
+2019-04-17 15:58:45 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("Pre-Salary/Filters/Drivers Dropdown/isLoadingDropdown"), 15): Web element with id: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/isLoadingDropdown' located by 'By.cssSelector: div[id="preSalaryview"] > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(2) > span:nth-of-type(1)[class="k-icon k-i-arrow-60-down k-i-loading"]' is not present after '15' second(s)
+
+2019-04-17 15:58:45 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/isLoadingDropdown' located by 'By.cssSelector: div[id="preSalaryview"] > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(2) > span:nth-of-type(1)[class="k-icon k-i-arrow-60-down k-i-loading"]' is not present after '15' second(s)
+
+2019-04-17 15:58:45 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:58:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:58:46 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen' is clicked on
+
+2019-04-17 15:58:46 - [TEST_STEP][PASSED] - click(findTestObject("Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen")): Object: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen' is clicked on
+
+2019-04-17 15:58:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen' is clicked on
+
+2019-04-17 15:58:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:58:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:58:48 - [TEST_STEP][PASSED] - try: Text '10193' is set on object 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSearchBox'
+
+2019-04-17 15:58:48 - [TEST_STEP][PASSED] - setText(findTestObject("Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSearchBox"), driver_Id): Text '10193' is set on object 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSearchBox'
+
+2019-04-17 15:58:48 - [MESSAGE][PASSED] - Text '10193' is set on object 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSearchBox'
+
+2019-04-17 15:58:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:58:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:58:49 - [TEST_STEP][PASSED] - click(findTestObject("Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSelectFirstDriver")): Object: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSelectFirstDriver' is clicked on
+
+2019-04-17 15:58:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSelectFirstDriver' is clicked on
+
+2019-04-17 15:58:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:58:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:58:50 - [TEST_STEP][PASSED] - click(findTestObject("Pre-Salary/Data Status/importButton")): Object: 'Object Repository/Pre-Salary/Data Status/importButton' is clicked on
+
+2019-04-17 15:58:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-Salary/Data Status/importButton' is clicked on
+
+2019-04-17 15:58:50 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:58:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:58:51 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable' is double clicked on
+
+2019-04-17 15:58:51 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable"), 20): Object 'Object Repository/Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable' is present
+
+2019-04-17 15:59:00 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable' is present
+
+2019-04-17 15:59:00 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable")): Object: 'Object Repository/Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable' is double clicked on
+
+2019-04-17 15:59:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable' is double clicked on
+
+2019-04-17 15:59:01 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Employee Details/driversReportTable"), 20): Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 15:59:03 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 15:59:03 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Employee Details/driversReportTable"), 20): Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 15:59:03 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 15:59:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Pre-Salary/Employee Details/driversReportTable"), 2): Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 15:59:03 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 15:59:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader"), 2): Object 'Object Repository/Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader' is present
+
+2019-04-17 15:59:03 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader' is present
+
+2019-04-17 15:59:03 - [TEST_STEP][PASSED] - driverCodeFromReport = getText(findTestObject("Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader")): Text of object 'Object Repository/Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader' is: '10193'
+
+2019-04-17 15:59:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader' is: '10193'
+
+2019-04-17 15:59:03 - [TEST_STEP][PASSED] - if (driverCodeFromReport != driver_Id && !(driverCodeFromReport.contains(driver_Id))): null
+
+2019-04-17 15:59:03 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Employee Details/rightSideTable"), 10): Object 'Object Repository/Pre-Salary/Employee Details/rightSideTable' is present
+
+2019-04-17 15:59:03 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/rightSideTable' is present
+
+2019-04-17 15:59:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Pre-Salary/Employee Details/rightSideTable"), 2): Object 'Object Repository/Pre-Salary/Employee Details/rightSideTable' is present
+
+2019-04-17 15:59:03 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/rightSideTable' is present
+
+2019-04-17 15:59:03 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Employee Details/rightSideTableDriversId"), 10): Object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is present
+
+2019-04-17 15:59:03 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is present
+
+2019-04-17 15:59:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Pre-Salary/Employee Details/rightSideTableDriversId"), 2): Object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is present
+
+2019-04-17 15:59:03 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is present
+
+2019-04-17 15:59:03 - [TEST_STEP][PASSED] - driversCodeFromRightSideTable = getText(findTestObject("Pre-Salary/Employee Details/rightSideTableDriversId")): Text of object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is: '10193'
+
+2019-04-17 15:59:03 - [MESSAGE][PASSED] - Text of object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is: '10193'
+
+2019-04-17 15:59:03 - [TEST_STEP][PASSED] - if (!(driversCodeFromRightSideTable.contains(driver_Id))): null
+
+2019-04-17 15:59:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-17 15:59:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pre-Salary/One Driver Calc" classname="Test Cases/Pre-Salary/One Driver Calc" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Pre-Salary/One Driver Calc FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at One Driver Calc.run(One Driver Calc:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555505674855.run(TempTestSuite1555505674855.groovy:35)
+"/>
+         <system-out><![CDATA[2019-04-17 15:59:04 - [TEST_CASE][FAILED] - Test Cases/Pre-Salary/One Driver Calc: Test Cases/Pre-Salary/One Driver Calc FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at One Driver Calc.run(One Driver Calc:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555505674855.run(TempTestSuite1555505674855.groovy:35)
+
+
+2019-04-17 15:59:04 - [TEST_STEP][PASSED] - login.c_login.logIn(site, userName, userPass): login.c_login.logIn is PASSED
+
+2019-04-17 15:59:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-17 15:59:17 - [MESSAGE][PASSED] - Browser is opened with url: 'yulzari.y-it.co.il'
+
+2019-04-17 15:59:18 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-17 15:59:18 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Y-IT Log In/input_ _userName'
+
+2019-04-17 15:59:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Y-IT Log In/input_ _password'
+
+2019-04-17 15:59:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Y-IT Log In/input_  _submit' is clicked on
+
+2019-04-17 15:59:18 - [MESSAGE][PASSED] - login.c_login.logIn is PASSED
+
+2019-04-17 15:59:18 - [TEST_STEP][PASSED] - date = new java.util.Date(): null
+
+2019-04-17 15:59:18 - [TEST_STEP][PASSED] - cal = Calendar.getInstance(): null
+
+2019-04-17 15:59:18 - [TEST_STEP][PASSED] - cal.setTime(date): null
+
+2019-04-17 15:59:18 - [TEST_STEP][PASSED] - month = cal.get(MONTH) + 1: null
+
+2019-04-17 15:59:18 - [TEST_STEP][PASSED] - year = cal.get(YEAR): null
+
+2019-04-17 15:59:18 - [TEST_STEP][PASSED] - dayStr = "01": null
+
+2019-04-17 15:59:18 - [TEST_STEP][PASSED] - monthStr = "": null
+
+2019-04-17 15:59:18 - [TEST_STEP][PASSED] - yearStr = year.toString(): null
+
+2019-04-17 15:59:18 - [TEST_STEP][PASSED] - if (month < 10): null
+
+2019-04-17 15:59:18 - [TEST_STEP][PASSED] - monthStr = "0" + month.toString(): null
+
+2019-04-17 15:59:18 - [TEST_STEP][PASSED] - fullDate = dayStr + monthStr + yearStr: null
+
+2019-04-17 15:59:18 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:59:19 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:59:19 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("General/mainEmptyBackground"), 15): Object 'Object Repository/General/mainEmptyBackground' is present
+
+2019-04-17 15:59:20 - [MESSAGE][PASSED] - Object 'Object Repository/General/mainEmptyBackground' is present
+
+2019-04-17 15:59:20 - [TEST_STEP][PASSED] - isPreSalaryTabOpen = waitForElementPresent(findTestObject("Pre-Salary/preSalaryTab"), 5): Object 'Object Repository/Pre-Salary/preSalaryTab' is present
+
+2019-04-17 15:59:20 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/preSalaryTab' is present
+
+2019-04-17 15:59:20 - [TEST_STEP][PASSED] - if (!(isPreSalaryTabOpen)): null
+
+2019-04-17 15:59:20 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField"), 15): Object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is present
+
+2019-04-17 15:59:23 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is present
+
+2019-04-17 15:59:23 - [TEST_STEP][PASSED] - click(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField")): Object: 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is clicked on
+
+2019-04-17 15:59:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is clicked on
+
+2019-04-17 15:59:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:59:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:59:24 - [TEST_STEP][PASSED] - setText(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField"), ""): Text '' is set on object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField'
+
+2019-04-17 15:59:24 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField'
+
+2019-04-17 15:59:24 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:59:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:59:25 - [TEST_STEP][PASSED] - setText(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField"), fullDate): Text '01042019' is set on object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField'
+
+2019-04-17 15:59:26 - [MESSAGE][PASSED] - Text '01042019' is set on object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField'
+
+2019-04-17 15:59:26 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField"), 15): Object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is present
+
+2019-04-17 15:59:26 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is present
+
+2019-04-17 15:59:26 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("Pre-Salary/Filters/Drivers Dropdown/isLoadingDropdown"), 15): Web element with id: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/isLoadingDropdown' located by 'By.cssSelector: div[id="preSalaryview"] > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(2) > span:nth-of-type(1)[class="k-icon k-i-arrow-60-down k-i-loading"]' is not present after '15' second(s)
+
+2019-04-17 15:59:26 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/isLoadingDropdown' located by 'By.cssSelector: div[id="preSalaryview"] > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(2) > span:nth-of-type(1)[class="k-icon k-i-arrow-60-down k-i-loading"]' is not present after '15' second(s)
+
+2019-04-17 15:59:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:59:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:59:27 - [TEST_STEP][FAILED] - try: Unable to click on object 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen'
+
+2019-04-17 15:59:27 - [TEST_STEP][FAILED] - click(findTestObject("Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen")): Unable to click on object 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen'
+
+2019-04-17 15:59:27 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen'
+[[ATTACHMENT|C:\\Users\\leon.b\\git\\Y-IT_TransIT\\Reports\\Production\\Pre Salary\\20190417_155434\\1555505967230.png]]
+
+2019-04-17 15:59:27 - [TEST_STEP][FAILED] - catch (Exception err): catch (Exception err) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at One Driver Calc.run(One Driver Calc:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555505674855.run(TempTestSuite1555505674855.groovy:35)
+
+
+2019-04-17 15:59:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:59:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:59:28 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen"), 10): Object 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen' is present
+
+2019-04-17 15:59:28 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen' is present
+
+2019-04-17 15:59:28 - [TEST_STEP][FAILED] - click(findTestObject("Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen")): catch (Exception err) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at One Driver Calc.run(One Driver Calc:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555505674855.run(TempTestSuite1555505674855.groovy:35)
+
+
+2019-04-17 15:59:29 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen'
+[[ATTACHMENT|C:\\Users\\leon.b\\git\\Y-IT_TransIT\\Reports\\Production\\Pre Salary\\20190417_155434\\1555505968839.png]]
+
+2019-04-17 15:59:29 - [MESSAGE][FAILED] - catch (Exception err) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at One Driver Calc.run(One Driver Calc:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555505674855.run(TempTestSuite1555505674855.groovy:35)]]></system-out>
+         <system-err><![CDATA[2019-04-17 15:59:04 - [TEST_CASE][FAILED] - Test Cases/Pre-Salary/One Driver Calc: Test Cases/Pre-Salary/One Driver Calc FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at One Driver Calc.run(One Driver Calc:105)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555505674855.run(TempTestSuite1555505674855.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pre-Salary/One Driver Calc" classname="Test Cases/Pre-Salary/One Driver Calc" status="PASSED">
+         <system-out><![CDATA[2019-04-17 15:59:29 - [TEST_CASE][PASSED] - Test Cases/Pre-Salary/One Driver Calc: Test Cases/Pre-Salary/One Driver Calc
+
+2019-04-17 15:59:29 - [TEST_STEP][PASSED] - login.c_login.logIn(site, userName, userPass): login.c_login.logIn is PASSED
+
+2019-04-17 15:59:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-17 15:59:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-17 15:59:41 - [MESSAGE][PASSED] - Browser is opened with url: 'monisitton.y-it.co.il'
+
+2019-04-17 15:59:42 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-17 15:59:42 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Y-IT Log In/input_ _userName'
+
+2019-04-17 15:59:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Y-IT Log In/input_ _password'
+
+2019-04-17 15:59:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Y-IT Log In/input_  _submit' is clicked on
+
+2019-04-17 15:59:42 - [MESSAGE][PASSED] - login.c_login.logIn is PASSED
+
+2019-04-17 15:59:42 - [TEST_STEP][PASSED] - date = new java.util.Date(): null
+
+2019-04-17 15:59:42 - [TEST_STEP][PASSED] - cal = Calendar.getInstance(): null
+
+2019-04-17 15:59:42 - [TEST_STEP][PASSED] - cal.setTime(date): null
+
+2019-04-17 15:59:42 - [TEST_STEP][PASSED] - month = cal.get(MONTH) + 1: null
+
+2019-04-17 15:59:42 - [TEST_STEP][PASSED] - year = cal.get(YEAR): null
+
+2019-04-17 15:59:42 - [TEST_STEP][PASSED] - dayStr = "01": null
+
+2019-04-17 15:59:42 - [TEST_STEP][PASSED] - monthStr = "": null
+
+2019-04-17 15:59:42 - [TEST_STEP][PASSED] - yearStr = year.toString(): null
+
+2019-04-17 15:59:42 - [TEST_STEP][PASSED] - if (month < 10): null
+
+2019-04-17 15:59:42 - [TEST_STEP][PASSED] - monthStr = "0" + month.toString(): null
+
+2019-04-17 15:59:42 - [TEST_STEP][PASSED] - fullDate = dayStr + monthStr + yearStr: null
+
+2019-04-17 15:59:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:59:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:59:43 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("General/mainEmptyBackground"), 15): Object 'Object Repository/General/mainEmptyBackground' is present
+
+2019-04-17 15:59:44 - [MESSAGE][PASSED] - Object 'Object Repository/General/mainEmptyBackground' is present
+
+2019-04-17 15:59:44 - [TEST_STEP][PASSED] - isPreSalaryTabOpen = waitForElementPresent(findTestObject("Pre-Salary/preSalaryTab"), 5): Object 'Object Repository/Pre-Salary/preSalaryTab' is present
+
+2019-04-17 15:59:45 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/preSalaryTab' is present
+
+2019-04-17 15:59:45 - [TEST_STEP][PASSED] - if (!(isPreSalaryTabOpen)): null
+
+2019-04-17 15:59:45 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField"), 15): Object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is present
+
+2019-04-17 15:59:45 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is present
+
+2019-04-17 15:59:45 - [TEST_STEP][PASSED] - click(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField")): Object: 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is clicked on
+
+2019-04-17 15:59:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is clicked on
+
+2019-04-17 15:59:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:59:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:59:47 - [TEST_STEP][PASSED] - setText(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField"), ""): Text '' is set on object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField'
+
+2019-04-17 15:59:47 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField'
+
+2019-04-17 15:59:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:59:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:59:48 - [TEST_STEP][PASSED] - setText(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField"), fullDate): Text '01042019' is set on object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField'
+
+2019-04-17 15:59:48 - [MESSAGE][PASSED] - Text '01042019' is set on object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField'
+
+2019-04-17 15:59:48 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField"), 15): Object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is present
+
+2019-04-17 15:59:48 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is present
+
+2019-04-17 15:59:48 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("Pre-Salary/Filters/Drivers Dropdown/isLoadingDropdown"), 15): Web element with id: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/isLoadingDropdown' located by 'By.cssSelector: div[id="preSalaryview"] > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(2) > span:nth-of-type(1)[class="k-icon k-i-arrow-60-down k-i-loading"]' is not present after '15' second(s)
+
+2019-04-17 15:59:48 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/isLoadingDropdown' located by 'By.cssSelector: div[id="preSalaryview"] > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(2) > span:nth-of-type(1)[class="k-icon k-i-arrow-60-down k-i-loading"]' is not present after '15' second(s)
+
+2019-04-17 15:59:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:59:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:59:49 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen' is clicked on
+
+2019-04-17 15:59:49 - [TEST_STEP][PASSED] - click(findTestObject("Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen")): Object: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen' is clicked on
+
+2019-04-17 15:59:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen' is clicked on
+
+2019-04-17 15:59:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:59:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:59:50 - [TEST_STEP][PASSED] - try: Text '1821' is set on object 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSearchBox'
+
+2019-04-17 15:59:50 - [TEST_STEP][PASSED] - setText(findTestObject("Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSearchBox"), driver_Id): Text '1821' is set on object 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSearchBox'
+
+2019-04-17 15:59:50 - [MESSAGE][PASSED] - Text '1821' is set on object 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSearchBox'
+
+2019-04-17 15:59:50 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:59:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:59:51 - [TEST_STEP][PASSED] - click(findTestObject("Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSelectFirstDriver")): Object: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSelectFirstDriver' is clicked on
+
+2019-04-17 15:59:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSelectFirstDriver' is clicked on
+
+2019-04-17 15:59:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:59:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:59:53 - [TEST_STEP][PASSED] - click(findTestObject("Pre-Salary/Data Status/importButton")): Object: 'Object Repository/Pre-Salary/Data Status/importButton' is clicked on
+
+2019-04-17 15:59:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-Salary/Data Status/importButton' is clicked on
+
+2019-04-17 15:59:53 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 15:59:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 15:59:54 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable' is double clicked on
+
+2019-04-17 15:59:54 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable"), 20): Object 'Object Repository/Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable' is present
+
+2019-04-17 16:00:10 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable' is present
+
+2019-04-17 16:00:10 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable")): Object: 'Object Repository/Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable' is double clicked on
+
+2019-04-17 16:00:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable' is double clicked on
+
+2019-04-17 16:00:10 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Employee Details/driversReportTable"), 20): Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 16:00:13 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 16:00:13 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Employee Details/driversReportTable"), 20): Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 16:00:13 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 16:00:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Pre-Salary/Employee Details/driversReportTable"), 2): Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 16:00:13 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 16:00:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader"), 2): Object 'Object Repository/Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader' is present
+
+2019-04-17 16:00:14 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader' is present
+
+2019-04-17 16:00:14 - [TEST_STEP][PASSED] - driverCodeFromReport = getText(findTestObject("Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader")): Text of object 'Object Repository/Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader' is: '1821'
+
+2019-04-17 16:00:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader' is: '1821'
+
+2019-04-17 16:00:14 - [TEST_STEP][PASSED] - if (driverCodeFromReport != driver_Id && !(driverCodeFromReport.contains(driver_Id))): null
+
+2019-04-17 16:00:14 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Employee Details/rightSideTable"), 10): Object 'Object Repository/Pre-Salary/Employee Details/rightSideTable' is present
+
+2019-04-17 16:00:14 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/rightSideTable' is present
+
+2019-04-17 16:00:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Pre-Salary/Employee Details/rightSideTable"), 2): Object 'Object Repository/Pre-Salary/Employee Details/rightSideTable' is present
+
+2019-04-17 16:00:14 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/rightSideTable' is present
+
+2019-04-17 16:00:14 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Employee Details/rightSideTableDriversId"), 10): Object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is present
+
+2019-04-17 16:00:14 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is present
+
+2019-04-17 16:00:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Pre-Salary/Employee Details/rightSideTableDriversId"), 2): Object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is present
+
+2019-04-17 16:00:14 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is present
+
+2019-04-17 16:00:14 - [TEST_STEP][PASSED] - driversCodeFromRightSideTable = getText(findTestObject("Pre-Salary/Employee Details/rightSideTableDriversId")): Text of object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is: '1821'
+
+2019-04-17 16:00:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is: '1821'
+
+2019-04-17 16:00:14 - [TEST_STEP][PASSED] - if (!(driversCodeFromRightSideTable.contains(driver_Id))): null
+
+2019-04-17 16:00:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-17 16:00:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pre-Salary/One Driver Calc" classname="Test Cases/Pre-Salary/One Driver Calc" status="PASSED">
+         <system-out><![CDATA[2019-04-17 16:00:15 - [TEST_CASE][PASSED] - Test Cases/Pre-Salary/One Driver Calc: Test Cases/Pre-Salary/One Driver Calc
+
+2019-04-17 16:00:15 - [TEST_STEP][PASSED] - login.c_login.logIn(site, userName, userPass): login.c_login.logIn is PASSED
+
+2019-04-17 16:00:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-17 16:00:27 - [MESSAGE][PASSED] - Browser is opened with url: 'shasha.y-it.co.il'
+
+2019-04-17 16:00:28 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-17 16:00:28 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Y-IT Log In/input_ _userName'
+
+2019-04-17 16:00:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Y-IT Log In/input_ _password'
+
+2019-04-17 16:00:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Y-IT Log In/input_  _submit' is clicked on
+
+2019-04-17 16:00:28 - [MESSAGE][PASSED] - login.c_login.logIn is PASSED
+
+2019-04-17 16:00:28 - [TEST_STEP][PASSED] - date = new java.util.Date(): null
+
+2019-04-17 16:00:28 - [TEST_STEP][PASSED] - cal = Calendar.getInstance(): null
+
+2019-04-17 16:00:28 - [TEST_STEP][PASSED] - cal.setTime(date): null
+
+2019-04-17 16:00:28 - [TEST_STEP][PASSED] - month = cal.get(MONTH) + 1: null
+
+2019-04-17 16:00:28 - [TEST_STEP][PASSED] - year = cal.get(YEAR): null
+
+2019-04-17 16:00:28 - [TEST_STEP][PASSED] - dayStr = "01": null
+
+2019-04-17 16:00:28 - [TEST_STEP][PASSED] - monthStr = "": null
+
+2019-04-17 16:00:28 - [TEST_STEP][PASSED] - yearStr = year.toString(): null
+
+2019-04-17 16:00:28 - [TEST_STEP][PASSED] - if (month < 10): null
+
+2019-04-17 16:00:28 - [TEST_STEP][PASSED] - monthStr = "0" + month.toString(): null
+
+2019-04-17 16:00:28 - [TEST_STEP][PASSED] - fullDate = dayStr + monthStr + yearStr: null
+
+2019-04-17 16:00:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 16:00:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 16:00:29 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("General/mainEmptyBackground"), 15): Object 'Object Repository/General/mainEmptyBackground' is present
+
+2019-04-17 16:00:31 - [MESSAGE][PASSED] - Object 'Object Repository/General/mainEmptyBackground' is present
+
+2019-04-17 16:00:31 - [TEST_STEP][PASSED] - isPreSalaryTabOpen = waitForElementPresent(findTestObject("Pre-Salary/preSalaryTab"), 5): Object 'Object Repository/Pre-Salary/preSalaryTab' is present
+
+2019-04-17 16:00:32 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/preSalaryTab' is present
+
+2019-04-17 16:00:32 - [TEST_STEP][PASSED] - if (!(isPreSalaryTabOpen)): null
+
+2019-04-17 16:00:32 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField"), 15): Object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is present
+
+2019-04-17 16:00:32 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is present
+
+2019-04-17 16:00:32 - [TEST_STEP][PASSED] - click(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField")): Object: 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is clicked on
+
+2019-04-17 16:00:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is clicked on
+
+2019-04-17 16:00:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 16:00:34 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 16:00:34 - [TEST_STEP][PASSED] - setText(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField"), ""): Text '' is set on object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField'
+
+2019-04-17 16:00:34 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField'
+
+2019-04-17 16:00:34 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 16:00:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 16:00:35 - [TEST_STEP][PASSED] - setText(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField"), fullDate): Text '01042019' is set on object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField'
+
+2019-04-17 16:00:35 - [MESSAGE][PASSED] - Text '01042019' is set on object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField'
+
+2019-04-17 16:00:35 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField"), 15): Object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is present
+
+2019-04-17 16:00:35 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is present
+
+2019-04-17 16:00:35 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("Pre-Salary/Filters/Drivers Dropdown/isLoadingDropdown"), 15): Web element with id: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/isLoadingDropdown' located by 'By.cssSelector: div[id="preSalaryview"] > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(2) > span:nth-of-type(1)[class="k-icon k-i-arrow-60-down k-i-loading"]' is not present after '15' second(s)
+
+2019-04-17 16:00:35 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/isLoadingDropdown' located by 'By.cssSelector: div[id="preSalaryview"] > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(2) > span:nth-of-type(1)[class="k-icon k-i-arrow-60-down k-i-loading"]' is not present after '15' second(s)
+
+2019-04-17 16:00:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 16:00:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 16:00:36 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen' is clicked on
+
+2019-04-17 16:00:36 - [TEST_STEP][PASSED] - click(findTestObject("Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen")): Object: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen' is clicked on
+
+2019-04-17 16:00:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen' is clicked on
+
+2019-04-17 16:00:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 16:00:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 16:00:37 - [TEST_STEP][PASSED] - try: Text '1031' is set on object 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSearchBox'
+
+2019-04-17 16:00:37 - [TEST_STEP][PASSED] - setText(findTestObject("Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSearchBox"), driver_Id): Text '1031' is set on object 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSearchBox'
+
+2019-04-17 16:00:38 - [MESSAGE][PASSED] - Text '1031' is set on object 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSearchBox'
+
+2019-04-17 16:00:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 16:00:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 16:00:39 - [TEST_STEP][PASSED] - click(findTestObject("Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSelectFirstDriver")): Object: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSelectFirstDriver' is clicked on
+
+2019-04-17 16:00:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSelectFirstDriver' is clicked on
+
+2019-04-17 16:00:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 16:00:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 16:00:40 - [TEST_STEP][PASSED] - click(findTestObject("Pre-Salary/Data Status/importButton")): Object: 'Object Repository/Pre-Salary/Data Status/importButton' is clicked on
+
+2019-04-17 16:00:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-Salary/Data Status/importButton' is clicked on
+
+2019-04-17 16:00:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 16:00:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 16:00:41 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable' is double clicked on
+
+2019-04-17 16:00:41 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable"), 20): Object 'Object Repository/Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable' is present
+
+2019-04-17 16:00:45 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable' is present
+
+2019-04-17 16:00:45 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable")): Object: 'Object Repository/Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable' is double clicked on
+
+2019-04-17 16:00:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable' is double clicked on
+
+2019-04-17 16:00:45 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Employee Details/driversReportTable"), 20): Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 16:00:48 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 16:00:48 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Employee Details/driversReportTable"), 20): Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 16:00:48 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 16:00:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Pre-Salary/Employee Details/driversReportTable"), 2): Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 16:00:49 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 16:00:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader"), 2): Object 'Object Repository/Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader' is present
+
+2019-04-17 16:00:49 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader' is present
+
+2019-04-17 16:00:49 - [TEST_STEP][PASSED] - driverCodeFromReport = getText(findTestObject("Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader")): Text of object 'Object Repository/Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader' is: '1031'
+
+2019-04-17 16:00:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader' is: '1031'
+
+2019-04-17 16:00:49 - [TEST_STEP][PASSED] - if (driverCodeFromReport != driver_Id && !(driverCodeFromReport.contains(driver_Id))): null
+
+2019-04-17 16:00:49 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Employee Details/rightSideTable"), 10): Object 'Object Repository/Pre-Salary/Employee Details/rightSideTable' is present
+
+2019-04-17 16:00:49 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/rightSideTable' is present
+
+2019-04-17 16:00:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Pre-Salary/Employee Details/rightSideTable"), 2): Object 'Object Repository/Pre-Salary/Employee Details/rightSideTable' is present
+
+2019-04-17 16:00:49 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/rightSideTable' is present
+
+2019-04-17 16:00:49 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Employee Details/rightSideTableDriversId"), 10): Object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is present
+
+2019-04-17 16:00:49 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is present
+
+2019-04-17 16:00:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Pre-Salary/Employee Details/rightSideTableDriversId"), 2): Object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is present
+
+2019-04-17 16:00:49 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is present
+
+2019-04-17 16:00:49 - [TEST_STEP][PASSED] - driversCodeFromRightSideTable = getText(findTestObject("Pre-Salary/Employee Details/rightSideTableDriversId")): Text of object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is: '1031'
+
+2019-04-17 16:00:49 - [MESSAGE][PASSED] - Text of object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is: '1031'
+
+2019-04-17 16:00:49 - [TEST_STEP][PASSED] - if (!(driversCodeFromRightSideTable.contains(driver_Id))): null
+
+2019-04-17 16:00:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-17 16:00:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pre-Salary/One Driver Calc" classname="Test Cases/Pre-Salary/One Driver Calc" status="PASSED">
+         <system-out><![CDATA[2019-04-17 16:00:49 - [TEST_CASE][PASSED] - Test Cases/Pre-Salary/One Driver Calc: Test Cases/Pre-Salary/One Driver Calc
+
+2019-04-17 16:00:49 - [TEST_STEP][PASSED] - login.c_login.logIn(site, userName, userPass): login.c_login.logIn is PASSED
+
+2019-04-17 16:00:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-17 16:01:02 - [MESSAGE][PASSED] - Browser is opened with url: 'reem.y-it.co.il'
+
+2019-04-17 16:01:03 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-17 16:01:03 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Y-IT Log In/input_ _userName'
+
+2019-04-17 16:01:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Y-IT Log In/input_ _password'
+
+2019-04-17 16:01:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Y-IT Log In/input_  _submit' is clicked on
+
+2019-04-17 16:01:03 - [MESSAGE][PASSED] - login.c_login.logIn is PASSED
+
+2019-04-17 16:01:03 - [TEST_STEP][PASSED] - date = new java.util.Date(): null
+
+2019-04-17 16:01:03 - [TEST_STEP][PASSED] - cal = Calendar.getInstance(): null
+
+2019-04-17 16:01:03 - [TEST_STEP][PASSED] - cal.setTime(date): null
+
+2019-04-17 16:01:03 - [TEST_STEP][PASSED] - month = cal.get(MONTH) + 1: null
+
+2019-04-17 16:01:03 - [TEST_STEP][PASSED] - year = cal.get(YEAR): null
+
+2019-04-17 16:01:03 - [TEST_STEP][PASSED] - dayStr = "01": null
+
+2019-04-17 16:01:03 - [TEST_STEP][PASSED] - monthStr = "": null
+
+2019-04-17 16:01:03 - [TEST_STEP][PASSED] - yearStr = year.toString(): null
+
+2019-04-17 16:01:03 - [TEST_STEP][PASSED] - if (month < 10): null
+
+2019-04-17 16:01:03 - [TEST_STEP][PASSED] - monthStr = "0" + month.toString(): null
+
+2019-04-17 16:01:03 - [TEST_STEP][PASSED] - fullDate = dayStr + monthStr + yearStr: null
+
+2019-04-17 16:01:03 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 16:01:04 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 16:01:04 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("General/mainEmptyBackground"), 15): Object 'Object Repository/General/mainEmptyBackground' is present
+
+2019-04-17 16:01:05 - [MESSAGE][PASSED] - Object 'Object Repository/General/mainEmptyBackground' is present
+
+2019-04-17 16:01:05 - [TEST_STEP][PASSED] - isPreSalaryTabOpen = waitForElementPresent(findTestObject("Pre-Salary/preSalaryTab"), 5): Object 'Object Repository/Pre-Salary/preSalaryTab' is present
+
+2019-04-17 16:01:06 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/preSalaryTab' is present
+
+2019-04-17 16:01:06 - [TEST_STEP][PASSED] - if (!(isPreSalaryTabOpen)): null
+
+2019-04-17 16:01:06 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField"), 15): Object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is present
+
+2019-04-17 16:01:07 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is present
+
+2019-04-17 16:01:07 - [TEST_STEP][PASSED] - click(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField")): Object: 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is clicked on
+
+2019-04-17 16:01:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is clicked on
+
+2019-04-17 16:01:07 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 16:01:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 16:01:08 - [TEST_STEP][PASSED] - setText(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField"), ""): Text '' is set on object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField'
+
+2019-04-17 16:01:08 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField'
+
+2019-04-17 16:01:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 16:01:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 16:01:09 - [TEST_STEP][PASSED] - setText(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField"), fullDate): Text '01042019' is set on object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField'
+
+2019-04-17 16:01:10 - [MESSAGE][PASSED] - Text '01042019' is set on object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField'
+
+2019-04-17 16:01:10 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField"), 15): Object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is present
+
+2019-04-17 16:01:10 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is present
+
+2019-04-17 16:01:10 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("Pre-Salary/Filters/Drivers Dropdown/isLoadingDropdown"), 15): Web element with id: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/isLoadingDropdown' located by 'By.cssSelector: div[id="preSalaryview"] > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(2) > span:nth-of-type(1)[class="k-icon k-i-arrow-60-down k-i-loading"]' is not present after '15' second(s)
+
+2019-04-17 16:01:10 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/isLoadingDropdown' located by 'By.cssSelector: div[id="preSalaryview"] > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(2) > span:nth-of-type(1)[class="k-icon k-i-arrow-60-down k-i-loading"]' is not present after '15' second(s)
+
+2019-04-17 16:01:10 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 16:01:11 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 16:01:11 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen' is clicked on
+
+2019-04-17 16:01:11 - [TEST_STEP][PASSED] - click(findTestObject("Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen")): Object: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen' is clicked on
+
+2019-04-17 16:01:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen' is clicked on
+
+2019-04-17 16:01:11 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 16:01:12 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 16:01:12 - [TEST_STEP][PASSED] - try: Text '846' is set on object 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSearchBox'
+
+2019-04-17 16:01:12 - [TEST_STEP][PASSED] - setText(findTestObject("Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSearchBox"), driver_Id): Text '846' is set on object 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSearchBox'
+
+2019-04-17 16:01:12 - [MESSAGE][PASSED] - Text '846' is set on object 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSearchBox'
+
+2019-04-17 16:01:12 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 16:01:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 16:01:13 - [TEST_STEP][PASSED] - click(findTestObject("Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSelectFirstDriver")): Object: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSelectFirstDriver' is clicked on
+
+2019-04-17 16:01:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSelectFirstDriver' is clicked on
+
+2019-04-17 16:01:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 16:01:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 16:01:14 - [TEST_STEP][PASSED] - click(findTestObject("Pre-Salary/Data Status/importButton")): Object: 'Object Repository/Pre-Salary/Data Status/importButton' is clicked on
+
+2019-04-17 16:01:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-Salary/Data Status/importButton' is clicked on
+
+2019-04-17 16:01:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 16:01:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 16:01:15 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable' is double clicked on
+
+2019-04-17 16:01:15 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable"), 20): Object 'Object Repository/Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable' is present
+
+2019-04-17 16:01:19 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable' is present
+
+2019-04-17 16:01:19 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable")): Object: 'Object Repository/Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable' is double clicked on
+
+2019-04-17 16:01:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable' is double clicked on
+
+2019-04-17 16:01:19 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Employee Details/driversReportTable"), 20): Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 16:01:21 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 16:01:21 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Employee Details/driversReportTable"), 20): Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 16:01:21 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 16:01:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Pre-Salary/Employee Details/driversReportTable"), 2): Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 16:01:21 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 16:01:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader"), 2): Object 'Object Repository/Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader' is present
+
+2019-04-17 16:01:21 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader' is present
+
+2019-04-17 16:01:21 - [TEST_STEP][PASSED] - driverCodeFromReport = getText(findTestObject("Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader")): Text of object 'Object Repository/Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader' is: '846'
+
+2019-04-17 16:01:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader' is: '846'
+
+2019-04-17 16:01:21 - [TEST_STEP][PASSED] - if (driverCodeFromReport != driver_Id && !(driverCodeFromReport.contains(driver_Id))): null
+
+2019-04-17 16:01:21 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Employee Details/rightSideTable"), 10): Object 'Object Repository/Pre-Salary/Employee Details/rightSideTable' is present
+
+2019-04-17 16:01:21 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/rightSideTable' is present
+
+2019-04-17 16:01:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Pre-Salary/Employee Details/rightSideTable"), 2): Object 'Object Repository/Pre-Salary/Employee Details/rightSideTable' is present
+
+2019-04-17 16:01:21 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/rightSideTable' is present
+
+2019-04-17 16:01:21 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Employee Details/rightSideTableDriversId"), 10): Object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is present
+
+2019-04-17 16:01:21 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is present
+
+2019-04-17 16:01:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Pre-Salary/Employee Details/rightSideTableDriversId"), 2): Object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is present
+
+2019-04-17 16:01:21 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is present
+
+2019-04-17 16:01:21 - [TEST_STEP][PASSED] - driversCodeFromRightSideTable = getText(findTestObject("Pre-Salary/Employee Details/rightSideTableDriversId")): Text of object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is: '846'
+
+2019-04-17 16:01:21 - [MESSAGE][PASSED] - Text of object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is: '846'
+
+2019-04-17 16:01:21 - [TEST_STEP][PASSED] - if (!(driversCodeFromRightSideTable.contains(driver_Id))): null
+
+2019-04-17 16:01:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-17 16:01:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Pre-Salary/One Driver Calc" classname="Test Cases/Pre-Salary/One Driver Calc" status="PASSED">
+         <system-out><![CDATA[2019-04-17 16:01:22 - [TEST_CASE][PASSED] - Test Cases/Pre-Salary/One Driver Calc: Test Cases/Pre-Salary/One Driver Calc
+
+2019-04-17 16:01:22 - [TEST_STEP][PASSED] - login.c_login.logIn(site, userName, userPass): login.c_login.logIn is PASSED
+
+2019-04-17 16:01:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-17 16:01:30 - [MESSAGE][PASSED] - Browser is opened with url: 'afikim.y-it.co.il'
+
+2019-04-17 16:01:31 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-17 16:01:31 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Y-IT Log In/input_ _userName'
+
+2019-04-17 16:01:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Y-IT Log In/input_ _password'
+
+2019-04-17 16:01:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Y-IT Log In/input_  _submit' is clicked on
+
+2019-04-17 16:01:31 - [MESSAGE][PASSED] - login.c_login.logIn is PASSED
+
+2019-04-17 16:01:31 - [TEST_STEP][PASSED] - date = new java.util.Date(): null
+
+2019-04-17 16:01:31 - [TEST_STEP][PASSED] - cal = Calendar.getInstance(): null
+
+2019-04-17 16:01:31 - [TEST_STEP][PASSED] - cal.setTime(date): null
+
+2019-04-17 16:01:31 - [TEST_STEP][PASSED] - month = cal.get(MONTH) + 1: null
+
+2019-04-17 16:01:31 - [TEST_STEP][PASSED] - year = cal.get(YEAR): null
+
+2019-04-17 16:01:31 - [TEST_STEP][PASSED] - dayStr = "01": null
+
+2019-04-17 16:01:31 - [TEST_STEP][PASSED] - monthStr = "": null
+
+2019-04-17 16:01:31 - [TEST_STEP][PASSED] - yearStr = year.toString(): null
+
+2019-04-17 16:01:31 - [TEST_STEP][PASSED] - if (month < 10): null
+
+2019-04-17 16:01:31 - [TEST_STEP][PASSED] - monthStr = "0" + month.toString(): null
+
+2019-04-17 16:01:31 - [TEST_STEP][PASSED] - fullDate = dayStr + monthStr + yearStr: null
+
+2019-04-17 16:01:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 16:01:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 16:01:32 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("General/mainEmptyBackground"), 15): Object 'Object Repository/General/mainEmptyBackground' is present
+
+2019-04-17 16:01:33 - [MESSAGE][PASSED] - Object 'Object Repository/General/mainEmptyBackground' is present
+
+2019-04-17 16:01:33 - [TEST_STEP][PASSED] - isPreSalaryTabOpen = waitForElementPresent(findTestObject("Pre-Salary/preSalaryTab"), 5): Object 'Object Repository/Pre-Salary/preSalaryTab' is not present after 5 second(s)
+
+2019-04-17 16:01:38 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: #preSalaryview'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-17 16:01:38 - [MESSAGE][WARNING] - Object 'Object Repository/Pre-Salary/preSalaryTab' is not present after 5 second(s)
+
+2019-04-17 16:01:38 - [TEST_STEP][PASSED] - if (!(isPreSalaryTabOpen)): Object: 'Object Repository/Nav Bar/Nav Bar Funds/preSalary' is clicked on
+
+2019-04-17 16:01:38 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Nav Bar/funds"), 15): Object 'Object Repository/Nav Bar/funds' is present
+
+2019-04-17 16:01:38 - [MESSAGE][PASSED] - Object 'Object Repository/Nav Bar/funds' is present
+
+2019-04-17 16:01:38 - [TEST_STEP][PASSED] - click(findTestObject("Nav Bar/funds")): Object: 'Object Repository/Nav Bar/funds' is clicked on
+
+2019-04-17 16:01:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav Bar/funds' is clicked on
+
+2019-04-17 16:01:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 16:01:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 16:01:39 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/Nav Bar/Nav Bar Funds/preSalary' is clicked on
+
+2019-04-17 16:01:39 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Nav Bar/Nav Bar Funds/preSalary"), 2): Object 'Object Repository/Nav Bar/Nav Bar Funds/preSalary' is present
+
+2019-04-17 16:01:39 - [MESSAGE][PASSED] - Object 'Object Repository/Nav Bar/Nav Bar Funds/preSalary' is present
+
+2019-04-17 16:01:39 - [TEST_STEP][PASSED] - click(findTestObject("Nav Bar/Nav Bar Funds/preSalary")): Object: 'Object Repository/Nav Bar/Nav Bar Funds/preSalary' is clicked on
+
+2019-04-17 16:01:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav Bar/Nav Bar Funds/preSalary' is clicked on
+
+2019-04-17 16:01:39 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField"), 15): Object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is present
+
+2019-04-17 16:01:40 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is present
+
+2019-04-17 16:01:40 - [TEST_STEP][PASSED] - click(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField")): Object: 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is clicked on
+
+2019-04-17 16:01:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is clicked on
+
+2019-04-17 16:01:40 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 16:01:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 16:01:41 - [TEST_STEP][PASSED] - setText(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField"), ""): Text '' is set on object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField'
+
+2019-04-17 16:01:41 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField'
+
+2019-04-17 16:01:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 16:01:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 16:01:42 - [TEST_STEP][PASSED] - setText(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField"), fullDate): Text '01042019' is set on object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField'
+
+2019-04-17 16:01:43 - [MESSAGE][PASSED] - Text '01042019' is set on object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField'
+
+2019-04-17 16:01:43 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Filters/Date Picker Start/datePickerInputField"), 15): Object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is present
+
+2019-04-17 16:01:43 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Filters/Date Picker Start/datePickerInputField' is present
+
+2019-04-17 16:01:43 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("Pre-Salary/Filters/Drivers Dropdown/isLoadingDropdown"), 15): Web element with id: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/isLoadingDropdown' located by 'By.cssSelector: div[id="preSalaryview"] > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(2) > span:nth-of-type(1)[class="k-icon k-i-arrow-60-down k-i-loading"]' is not present after '15' second(s)
+
+2019-04-17 16:01:43 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/isLoadingDropdown' located by 'By.cssSelector: div[id="preSalaryview"] > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(2) > span:nth-of-type(1)[class="k-icon k-i-arrow-60-down k-i-loading"]' is not present after '15' second(s)
+
+2019-04-17 16:01:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 16:01:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 16:01:44 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen' is clicked on
+
+2019-04-17 16:01:44 - [TEST_STEP][PASSED] - click(findTestObject("Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen")): Object: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen' is clicked on
+
+2019-04-17 16:01:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen' is clicked on
+
+2019-04-17 16:01:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 16:01:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 16:01:45 - [TEST_STEP][PASSED] - try: Text '7062' is set on object 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSearchBox'
+
+2019-04-17 16:01:45 - [TEST_STEP][PASSED] - setText(findTestObject("Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSearchBox"), driver_Id): Text '7062' is set on object 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSearchBox'
+
+2019-04-17 16:01:45 - [MESSAGE][PASSED] - Text '7062' is set on object 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSearchBox'
+
+2019-04-17 16:01:45 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 16:01:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 16:01:46 - [TEST_STEP][PASSED] - click(findTestObject("Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSelectFirstDriver")): Object: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSelectFirstDriver' is clicked on
+
+2019-04-17 16:01:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-Salary/Filters/Drivers Dropdown/driversListDropdownSelectFirstDriver' is clicked on
+
+2019-04-17 16:01:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 16:01:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 16:01:47 - [TEST_STEP][PASSED] - click(findTestObject("Pre-Salary/Data Status/importButton")): Object: 'Object Repository/Pre-Salary/Data Status/importButton' is clicked on
+
+2019-04-17 16:01:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-Salary/Data Status/importButton' is clicked on
+
+2019-04-17 16:01:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-17 16:01:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-17 16:01:49 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable' is double clicked on
+
+2019-04-17 16:01:49 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable"), 20): Object 'Object Repository/Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable' is present
+
+2019-04-17 16:02:00 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable' is present
+
+2019-04-17 16:02:00 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable")): Object: 'Object Repository/Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable' is double clicked on
+
+2019-04-17 16:02:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable' is double clicked on
+
+2019-04-17 16:02:00 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Employee Details/driversReportTable"), 20): Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 16:02:02 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 16:02:02 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Employee Details/driversReportTable"), 20): Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 16:02:02 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 16:02:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Pre-Salary/Employee Details/driversReportTable"), 2): Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 16:02:02 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/driversReportTable' is present
+
+2019-04-17 16:02:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader"), 2): Object 'Object Repository/Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader' is present
+
+2019-04-17 16:02:02 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader' is present
+
+2019-04-17 16:02:02 - [TEST_STEP][PASSED] - driverCodeFromReport = getText(findTestObject("Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader")): Text of object 'Object Repository/Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader' is: '7062'
+
+2019-04-17 16:02:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader' is: '7062'
+
+2019-04-17 16:02:02 - [TEST_STEP][PASSED] - if (driverCodeFromReport != driver_Id && !(driverCodeFromReport.contains(driver_Id))): null
+
+2019-04-17 16:02:02 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Employee Details/rightSideTable"), 10): Object 'Object Repository/Pre-Salary/Employee Details/rightSideTable' is present
+
+2019-04-17 16:02:02 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/rightSideTable' is present
+
+2019-04-17 16:02:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Pre-Salary/Employee Details/rightSideTable"), 2): Object 'Object Repository/Pre-Salary/Employee Details/rightSideTable' is present
+
+2019-04-17 16:02:02 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/rightSideTable' is present
+
+2019-04-17 16:02:02 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Pre-Salary/Employee Details/rightSideTableDriversId"), 10): Object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is present
+
+2019-04-17 16:02:02 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is present
+
+2019-04-17 16:02:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Pre-Salary/Employee Details/rightSideTableDriversId"), 2): Object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is present
+
+2019-04-17 16:02:02 - [MESSAGE][PASSED] - Object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is present
+
+2019-04-17 16:02:02 - [TEST_STEP][PASSED] - driversCodeFromRightSideTable = getText(findTestObject("Pre-Salary/Employee Details/rightSideTableDriversId")): Text of object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is: '7062'
+
+2019-04-17 16:02:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/Pre-Salary/Employee Details/rightSideTableDriversId' is: '7062'
+
+2019-04-17 16:02:02 - [TEST_STEP][PASSED] - if (!(driversCodeFromRightSideTable.contains(driver_Id))): null
+
+2019-04-17 16:02:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-17 16:02:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-17 15:54:38 - [TEST_SUITE][FAILED] - Pre Salary: Test Cases/Pre-Salary/One Driver Calc FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'admin' of object 'Object Repository/Y-IT Log In/input_ _userName'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at login.c_login.logIn(c_login.groovy:44)
+	at login.c_login.invokeMethod(c_login.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at One Driver Calc.run(One Driver Calc:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555505674855.run(TempTestSuite1555505674855.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-04-17 15:54:38 - [TEST_SUITE][FAILED] - Pre Salary: Test Cases/Pre-Salary/One Driver Calc FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to set text 'admin' of object 'Object Repository/Y-IT Log In/input_ _userName'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:37)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:950)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$setText$1.call(Unknown Source)
+	at login.c_login.logIn(c_login.groovy:44)
+	at login.c_login.invokeMethod(c_login.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:49)
+	at One Driver Calc.run(One Driver Calc:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555505674855.run(TempTestSuite1555505674855.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>

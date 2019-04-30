@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Kiosk Sanity Login Test</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>5</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>3a78e32b-b662-47e6-bc8a-d8a07a77a705</testSuiteGuid>
+   <testCaseLink>
+      <guid>9f63cfe9-69f1-43ed-bcee-5209ceae2c8b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/kiosk/kiosk sanity</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>76e23494-97b7-4bd1-bd44-aaec99374e6c</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/kiosk/sanityLoginTest(stage)</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>76e23494-97b7-4bd1-bd44-aaec99374e6c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>site</value>
+         <variableId>654595a4-d732-4654-a164-6bfa812729e7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>76e23494-97b7-4bd1-bd44-aaec99374e6c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>driverCode</value>
+         <variableId>ebb3f6be-2986-4428-8819-582d2996e51d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>76e23494-97b7-4bd1-bd44-aaec99374e6c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>DriverId</value>
+         <variableId>3a6a5972-bf66-4632-9272-198837193dbc</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d7d702d0-669a-40de-b321-755c2c956c05</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/kiosk/kiosk rfid</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>418f4bf1-c8d2-47aa-a72d-b14f6e4c3e70</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1</value>
+         </iterationEntity>
+         <testDataId>Data Files/kiosk/rfidTest(stage)</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>418f4bf1-c8d2-47aa-a72d-b14f6e4c3e70</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>rfidSite</value>
+         <variableId>21193b50-a679-4602-a658-5bb9dc02f2b2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>418f4bf1-c8d2-47aa-a72d-b14f6e4c3e70</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>rfidCode</value>
+         <variableId>e528c342-a059-4028-83bb-2ae596595c9a</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Working Ticket Confirmation" time="35" tests="1" failures="0" errors="0">
+   <testsuite name="Working Ticket Confirmation" tests="1" failures="0" errors="0" time="35" timestamp="2019-03-19 14:04:19" hostname="leon.b - Leon-PC.Y-it.Local" id="Test Suites/Production/Working Ticket Confirmation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\leon.b\\git\\Y-IT_TransIT\\Reports\\Production\\Working Ticket Confirmation\\20190319_135056"/>
+         <property name="logFiles" value="C:\\Users\\leon.b\\git\\Y-IT_TransIT\\Reports\\Production\\Working Ticket Confirmation\\20190319_135056\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="leon.b - Leon-PC.Y-it.Local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.10"/>
+         <property name="browser" value="Chrome 72.0.3626.121"/>
+         <property name="hostAddress" value="192.168.1.145"/>
+         <property name="sessionId" value="290df10fec37d546bb36046610ab5abe"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Working Tciket Confirmation/Working Ticket Sanity" classname="Test Cases/Working Tciket Confirmation/Working Ticket Sanity" status="PASSED">
+         <system-out><![CDATA[2019-03-19 14:04:19 - [TEST_CASE][PASSED] - Test Cases/Working Tciket Confirmation/Working Ticket Sanity: Test Cases/Working Tciket Confirmation/Working Ticket Sanity
+
+2019-03-19 14:04:20 - [TEST_STEP][PASSED] - login.c_login.logIn(site, userName, userPass): login.c_login.logIn is PASSED
+
+2019-03-19 14:04:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-19 14:04:20 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-19 14:04:28 - [MESSAGE][PASSED] - Browser is opened with url: 'afikim.y-it.co.il'
+
+2019-03-19 14:04:29 - [MESSAGE][PASSED] - Current window maximized
+
+2019-03-19 14:04:29 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Y-IT Log In/input_ _userName'
+
+2019-03-19 14:04:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Y-IT Log In/input_ _password'
+
+2019-03-19 14:04:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Y-IT Log In/input_  _submit' is clicked on
+
+2019-03-19 14:04:30 - [MESSAGE][PASSED] - login.c_login.logIn is PASSED
+
+2019-03-19 14:04:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-03-19 14:04:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-19 14:04:31 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("General/mainEmptyBackground"), 15): Object 'Object Repository/General/mainEmptyBackground' is present
+
+2019-03-19 14:04:31 - [MESSAGE][PASSED] - Object 'Object Repository/General/mainEmptyBackground' is present
+
+2019-03-19 14:04:31 - [TEST_STEP][PASSED] - isWorkingTicketOpen = waitForElementPresent(findTestObject("Nav Bar/Nav Bar Funds/workingTicketConfirmation"), 5): Object 'Object Repository/Nav Bar/Nav Bar Funds/workingTicketConfirmation' is not present after 5 second(s)
+
+2019-03-19 14:04:36 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: [id="9769e73b-c2f9-4a90-9630-62966f6a5c69"]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-03-19 14:04:36 - [MESSAGE][WARNING] - Object 'Object Repository/Nav Bar/Nav Bar Funds/workingTicketConfirmation' is not present after 5 second(s)
+
+2019-03-19 14:04:36 - [TEST_STEP][PASSED] - if (!(isWorkingTicketOpen)): Object: 'Object Repository/Nav Bar/Nav Bar Funds/workingTicketConfirmation' is clicked on
+
+2019-03-19 14:04:36 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Nav Bar/funds"), 15): Object 'Object Repository/Nav Bar/funds' is present
+
+2019-03-19 14:04:36 - [MESSAGE][PASSED] - Object 'Object Repository/Nav Bar/funds' is present
+
+2019-03-19 14:04:36 - [TEST_STEP][PASSED] - click(findTestObject("Nav Bar/funds")): Object: 'Object Repository/Nav Bar/funds' is clicked on
+
+2019-03-19 14:04:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav Bar/funds' is clicked on
+
+2019-03-19 14:04:36 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-03-19 14:04:37 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-19 14:04:37 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/Nav Bar/Nav Bar Funds/workingTicketConfirmation' is clicked on
+
+2019-03-19 14:04:37 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Nav Bar/Nav Bar Funds/workingTicketConfirmation"), 2): Object 'Object Repository/Nav Bar/Nav Bar Funds/workingTicketConfirmation' is present
+
+2019-03-19 14:04:37 - [MESSAGE][PASSED] - Object 'Object Repository/Nav Bar/Nav Bar Funds/workingTicketConfirmation' is present
+
+2019-03-19 14:04:37 - [TEST_STEP][PASSED] - click(findTestObject("Nav Bar/Nav Bar Funds/workingTicketConfirmation")): Object: 'Object Repository/Nav Bar/Nav Bar Funds/workingTicketConfirmation' is clicked on
+
+2019-03-19 14:04:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav Bar/Nav Bar Funds/workingTicketConfirmation' is clicked on
+
+2019-03-19 14:04:37 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-03-19 14:04:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-19 14:04:38 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Driver Ticket Confirmation/driverTciketView"), 15): Object 'Object Repository/Driver Ticket Confirmation/driverTciketView' is visible
+
+2019-03-19 14:04:39 - [MESSAGE][PASSED] - Object 'Object Repository/Driver Ticket Confirmation/driverTciketView' is visible
+
+2019-03-19 14:04:39 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("General/loadingBar"), 15): Web element with id: 'Object Repository/General/loadingBar' located by 'By.cssSelector: div[class="bar"][style~="width:"]' is not present after '15' second(s)
+
+2019-03-19 14:04:41 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/General/loadingBar' located by 'By.cssSelector: div[class="bar"][style~="width:"]' is not present after '15' second(s)
+
+2019-03-19 14:04:41 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Driver Ticket Confirmation/driverTciketView"), 5): Object 'Object Repository/Driver Ticket Confirmation/driverTciketView' is present and visible in viewport
+
+2019-03-19 14:04:41 - [MESSAGE][PASSED] - Object 'Object Repository/Driver Ticket Confirmation/driverTciketView' is present and visible in viewport
+
+2019-03-19 14:04:41 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("General/dropdownListSpinner"), 15): Web element with id: 'Object Repository/General/dropdownListSpinner' located by 'By.cssSelector: class="k-icon k-i-arrow-60-down k-i-loading"' is not present after '15' second(s)
+
+2019-03-19 14:04:41 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/General/dropdownListSpinner' located by 'By.cssSelector: class="k-icon k-i-arrow-60-down k-i-loading"' is not present after '15' second(s)
+
+2019-03-19 14:04:41 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("General/dropdownListSpinner"), 5): Web element with id: 'Object Repository/General/dropdownListSpinner' located by 'By.cssSelector: class="k-icon k-i-arrow-60-down k-i-loading"' is not present after '5' second(s)
+
+2019-03-19 14:04:41 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/General/dropdownListSpinner' located by 'By.cssSelector: class="k-icon k-i-arrow-60-down k-i-loading"' is not present after '5' second(s)
+
+2019-03-19 14:04:41 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("General/gridLoadingBar"), 15): Web element with id: 'Object Repository/General/gridLoadingBar' located by 'By.cssSelector: .k-loading-mask:nth-of-type(1)' is not present after '15' second(s)
+
+2019-03-19 14:04:41 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/General/gridLoadingBar' located by 'By.cssSelector: .k-loading-mask:nth-of-type(1)' is not present after '15' second(s)
+
+2019-03-19 14:04:41 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("General/gridLoadingBar"), 5): Web element with id: 'Object Repository/General/gridLoadingBar' located by 'By.cssSelector: .k-loading-mask:nth-of-type(1)' is not present after '5' second(s)
+
+2019-03-19 14:04:41 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/General/gridLoadingBar' located by 'By.cssSelector: .k-loading-mask:nth-of-type(1)' is not present after '5' second(s)
+
+2019-03-19 14:04:41 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Driver Ticket Confirmation/driversTable"), 15): Object 'Object Repository/Driver Ticket Confirmation/driversTable' is present
+
+2019-03-19 14:04:41 - [MESSAGE][PASSED] - Object 'Object Repository/Driver Ticket Confirmation/driversTable' is present
+
+2019-03-19 14:04:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Driver Ticket Confirmation/driversTable"), 5): Object 'Object Repository/Driver Ticket Confirmation/driversTable' is present
+
+2019-03-19 14:04:41 - [MESSAGE][PASSED] - Object 'Object Repository/Driver Ticket Confirmation/driversTable' is present
+
+2019-03-19 14:04:41 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Driver Ticket Confirmation/datesTable"), 15): Object 'Object Repository/Driver Ticket Confirmation/datesTable' is present
+
+2019-03-19 14:04:41 - [MESSAGE][PASSED] - Object 'Object Repository/Driver Ticket Confirmation/datesTable' is present
+
+2019-03-19 14:04:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Driver Ticket Confirmation/datesTable"), 5): Object 'Object Repository/Driver Ticket Confirmation/datesTable' is present
+
+2019-03-19 14:04:41 - [MESSAGE][PASSED] - Object 'Object Repository/Driver Ticket Confirmation/datesTable' is present
+
+2019-03-19 14:04:41 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Driver Ticket Confirmation/specificDateTable"), 15): Object 'Object Repository/Driver Ticket Confirmation/specificDateTable' is present
+
+2019-03-19 14:04:41 - [MESSAGE][PASSED] - Object 'Object Repository/Driver Ticket Confirmation/specificDateTable' is present
+
+2019-03-19 14:04:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Driver Ticket Confirmation/specificDateTable"), 5): Object 'Object Repository/Driver Ticket Confirmation/specificDateTable' is present
+
+2019-03-19 14:04:41 - [MESSAGE][PASSED] - Object 'Object Repository/Driver Ticket Confirmation/specificDateTable' is present
+
+2019-03-19 14:04:41 - [TEST_STEP][PASSED] - i = 0: null
+
+2019-03-19 14:04:41 - [TEST_STEP][PASSED] - j = 0: null
+
+2019-03-19 14:04:41 - [TEST_STEP][PASSED] - ij = 0: null
+
+2019-03-19 14:04:41 - [TEST_STEP][PASSED] - validCount = 0: null
+
+2019-03-19 14:04:41 - [TEST_STEP][PASSED] - validCountMax = 3: null
+
+2019-03-19 14:04:41 - [TEST_STEP][PASSED] - driversTableRow = new com.kms.katalon.core.testobject.TestObject(Empty): null
+
+2019-03-19 14:04:41 - [TEST_STEP][PASSED] - datesTableRow = new com.kms.katalon.core.testobject.TestObject(Empty): null
+
+2019-03-19 14:04:41 - [TEST_STEP][PASSED] - specificDateTableRow = new com.kms.katalon.core.testobject.TestObject(Empty): null
+
+2019-03-19 14:04:41 - [TEST_STEP][PASSED] - while (validCount < validCountMax && i < 20): null
+
+2019-03-19 14:04:41 - [TEST_STEP][PASSED] - j = 0: null
+
+2019-03-19 14:04:41 - [TEST_STEP][PASSED] - driversTableRow = new com.kms.katalon.core.testobject.TestObject((driversTableRow + i)): null
+
+2019-03-19 14:04:41 - [TEST_STEP][PASSED] - driversTableRow.addProperty("xpath", EQUALS, f_driver(i)): null
+
+2019-03-19 14:04:41 - [TEST_STEP][PASSED] - return ((.//*[@id='managementKioskview']//div[2]//div[1]//div[2]//div[1]//div[2]//div[1]//table//tr[ + (rowNum + 1)) + ]): null
+
+2019-03-19 14:04:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-03-19 14:04:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-19 14:04:42 - [TEST_STEP][PASSED] - scrollToElement(driversTableRow, 1): Scroll to object 'driversTableRow0' successfully
+
+2019-03-19 14:04:42 - [MESSAGE][PASSED] - Scroll to object 'driversTableRow0' successfully
+
+2019-03-19 14:04:42 - [TEST_STEP][PASSED] - click(driversTableRow): Object: 'driversTableRow0' is clicked on
+
+2019-03-19 14:04:43 - [MESSAGE][PASSED] - Object: 'driversTableRow0' is clicked on
+
+2019-03-19 14:04:43 - [TEST_STEP][PASSED] - while (validCount < validCountMax && j < 20): null
+
+2019-03-19 14:04:43 - [TEST_STEP][PASSED] - ij = 0: null
+
+2019-03-19 14:04:43 - [TEST_STEP][PASSED] - datesTableRow = new com.kms.katalon.core.testobject.TestObject((datesTableRow + j)): null
+
+2019-03-19 14:04:43 - [TEST_STEP][PASSED] - datesTableRow.addProperty("xpath", EQUALS, f_dates(j)): null
+
+2019-03-19 14:04:43 - [TEST_STEP][PASSED] - return ((.//*[@id='managementKioskview']//div[2]//div[1]//div[4]//div[1]//div[2]//table//tr[ + (rowNum + 1)) + ]): null
+
+2019-03-19 14:04:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-03-19 14:04:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-19 14:04:44 - [TEST_STEP][PASSED] - try: null
+
+2019-03-19 14:04:44 - [TEST_STEP][PASSED] - scrollToElement(datesTableRow, 1): Scroll to object 'datesTableRow0' successfully
+
+2019-03-19 14:04:44 - [MESSAGE][PASSED] - Scroll to object 'datesTableRow0' successfully
+
+2019-03-19 14:04:44 - [TEST_STEP][PASSED] - click(datesTableRow): Object: 'datesTableRow0' is clicked on
+
+2019-03-19 14:04:44 - [MESSAGE][PASSED] - Object: 'datesTableRow0' is clicked on
+
+2019-03-19 14:04:44 - [TEST_STEP][PASSED] - while (validCount < validCountMax && ij < 3): null
+
+2019-03-19 14:04:44 - [TEST_STEP][PASSED] - specificDateTableRow = new com.kms.katalon.core.testobject.TestObject((specificDateRow + ij)): null
+
+2019-03-19 14:04:44 - [TEST_STEP][PASSED] - specificDateTableRow.addProperty("xpath", EQUALS, f_specidicDate(ij)): null
+
+2019-03-19 14:04:44 - [TEST_STEP][PASSED] - return ((.//*[@id='managementKioskview']/div[1]/div[2]/div[2]/div[1]/div[3]/div[1]/div[2]//table//tr[ + (rowNum + 1)) + ]): null
+
+2019-03-19 14:04:44 - [TEST_STEP][PASSED] - try: null
+
+2019-03-19 14:04:44 - [TEST_STEP][PASSED] - elemPresent = waitForElementVisible(specificDateTableRow, 1): Object 'specificDateRow0' is visible
+
+2019-03-19 14:04:44 - [MESSAGE][PASSED] - Object 'specificDateRow0' is visible
+
+2019-03-19 14:04:44 - [TEST_STEP][PASSED] - if (elemPresent): null
+
+2019-03-19 14:04:44 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(specificDateTableRow, 1): Object 'specificDateRow0' is present and visible in viewport
+
+2019-03-19 14:04:44 - [MESSAGE][PASSED] - Object 'specificDateRow0' is present and visible in viewport
+
+2019-03-19 14:04:44 - [TEST_STEP][PASSED] - (ij++): null
+
+2019-03-19 14:04:44 - [TEST_STEP][PASSED] - if (ij == 3): null
+
+2019-03-19 14:04:44 - [TEST_STEP][PASSED] - specificDateTableRow = new com.kms.katalon.core.testobject.TestObject((specificDateRow + ij)): null
+
+2019-03-19 14:04:44 - [TEST_STEP][PASSED] - specificDateTableRow.addProperty("xpath", EQUALS, f_specidicDate(ij)): null
+
+2019-03-19 14:04:44 - [TEST_STEP][PASSED] - return ((.//*[@id='managementKioskview']/div[1]/div[2]/div[2]/div[1]/div[3]/div[1]/div[2]//table//tr[ + (rowNum + 1)) + ]): null
+
+2019-03-19 14:04:44 - [TEST_STEP][PASSED] - try: null
+
+2019-03-19 14:04:44 - [TEST_STEP][PASSED] - elemPresent = waitForElementVisible(specificDateTableRow, 1): Object 'specificDateRow1' is visible
+
+2019-03-19 14:04:44 - [MESSAGE][PASSED] - Object 'specificDateRow1' is visible
+
+2019-03-19 14:04:44 - [TEST_STEP][PASSED] - if (elemPresent): null
+
+2019-03-19 14:04:44 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(specificDateTableRow, 1): Object 'specificDateRow1' is present and visible in viewport
+
+2019-03-19 14:04:44 - [MESSAGE][PASSED] - Object 'specificDateRow1' is present and visible in viewport
+
+2019-03-19 14:04:44 - [TEST_STEP][PASSED] - (ij++): null
+
+2019-03-19 14:04:44 - [TEST_STEP][PASSED] - if (ij == 3): null
+
+2019-03-19 14:04:44 - [TEST_STEP][PASSED] - specificDateTableRow = new com.kms.katalon.core.testobject.TestObject((specificDateRow + ij)): null
+
+2019-03-19 14:04:44 - [TEST_STEP][PASSED] - specificDateTableRow.addProperty("xpath", EQUALS, f_specidicDate(ij)): null
+
+2019-03-19 14:04:44 - [TEST_STEP][PASSED] - return ((.//*[@id='managementKioskview']/div[1]/div[2]/div[2]/div[1]/div[3]/div[1]/div[2]//table//tr[ + (rowNum + 1)) + ]): null
+
+2019-03-19 14:04:44 - [TEST_STEP][PASSED] - try: null
+
+2019-03-19 14:04:44 - [TEST_STEP][PASSED] - elemPresent = waitForElementVisible(specificDateTableRow, 1): Object 'specificDateRow2' is visible
+
+2019-03-19 14:04:45 - [MESSAGE][PASSED] - Object 'specificDateRow2' is visible
+
+2019-03-19 14:04:45 - [TEST_STEP][PASSED] - if (elemPresent): null
+
+2019-03-19 14:04:45 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(specificDateTableRow, 1): Object 'specificDateRow2' is present and visible in viewport
+
+2019-03-19 14:04:45 - [MESSAGE][PASSED] - Object 'specificDateRow2' is present and visible in viewport
+
+2019-03-19 14:04:45 - [TEST_STEP][PASSED] - (ij++): null
+
+2019-03-19 14:04:45 - [TEST_STEP][PASSED] - if (ij == 3): null
+
+2019-03-19 14:04:45 - [TEST_STEP][PASSED] - (validCount++): null
+
+2019-03-19 14:04:45 - [TEST_STEP][PASSED] - break: null
+
+2019-03-19 14:04:45 - [TEST_STEP][PASSED] - Finally: null
+
+2019-03-19 14:04:45 - [TEST_STEP][PASSED] - if (ij == 3): null
+
+2019-03-19 14:04:45 - [TEST_STEP][PASSED] - break: null
+
+2019-03-19 14:04:45 - [TEST_STEP][PASSED] - (i++): null
+
+2019-03-19 14:04:45 - [TEST_STEP][PASSED] - j = 0: null
+
+2019-03-19 14:04:45 - [TEST_STEP][PASSED] - driversTableRow = new com.kms.katalon.core.testobject.TestObject((driversTableRow + i)): null
+
+2019-03-19 14:04:45 - [TEST_STEP][PASSED] - driversTableRow.addProperty("xpath", EQUALS, f_driver(i)): null
+
+2019-03-19 14:04:45 - [TEST_STEP][PASSED] - return ((.//*[@id='managementKioskview']//div[2]//div[1]//div[2]//div[1]//div[2]//div[1]//table//tr[ + (rowNum + 1)) + ]): null
+
+2019-03-19 14:04:45 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-03-19 14:04:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-19 14:04:46 - [TEST_STEP][PASSED] - scrollToElement(driversTableRow, 1): Scroll to object 'driversTableRow1' successfully
+
+2019-03-19 14:04:46 - [MESSAGE][PASSED] - Scroll to object 'driversTableRow1' successfully
+
+2019-03-19 14:04:46 - [TEST_STEP][PASSED] - click(driversTableRow): Object: 'driversTableRow1' is clicked on
+
+2019-03-19 14:04:46 - [MESSAGE][PASSED] - Object: 'driversTableRow1' is clicked on
+
+2019-03-19 14:04:46 - [TEST_STEP][PASSED] - while (validCount < validCountMax && j < 20): null
+
+2019-03-19 14:04:46 - [TEST_STEP][PASSED] - ij = 0: null
+
+2019-03-19 14:04:46 - [TEST_STEP][PASSED] - datesTableRow = new com.kms.katalon.core.testobject.TestObject((datesTableRow + j)): null
+
+2019-03-19 14:04:46 - [TEST_STEP][PASSED] - datesTableRow.addProperty("xpath", EQUALS, f_dates(j)): null
+
+2019-03-19 14:04:46 - [TEST_STEP][PASSED] - return ((.//*[@id='managementKioskview']//div[2]//div[1]//div[4]//div[1]//div[2]//table//tr[ + (rowNum + 1)) + ]): null
+
+2019-03-19 14:04:46 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-03-19 14:04:47 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-19 14:04:47 - [TEST_STEP][PASSED] - try: null
+
+2019-03-19 14:04:47 - [TEST_STEP][PASSED] - scrollToElement(datesTableRow, 1): Scroll to object 'datesTableRow0' successfully
+
+2019-03-19 14:04:47 - [MESSAGE][PASSED] - Scroll to object 'datesTableRow0' successfully
+
+2019-03-19 14:04:47 - [TEST_STEP][PASSED] - click(datesTableRow): Object: 'datesTableRow0' is clicked on
+
+2019-03-19 14:04:47 - [MESSAGE][PASSED] - Object: 'datesTableRow0' is clicked on
+
+2019-03-19 14:04:47 - [TEST_STEP][PASSED] - while (validCount < validCountMax && ij < 3): null
+
+2019-03-19 14:04:47 - [TEST_STEP][PASSED] - specificDateTableRow = new com.kms.katalon.core.testobject.TestObject((specificDateRow + ij)): null
+
+2019-03-19 14:04:47 - [TEST_STEP][PASSED] - specificDateTableRow.addProperty("xpath", EQUALS, f_specidicDate(ij)): null
+
+2019-03-19 14:04:47 - [TEST_STEP][PASSED] - return ((.//*[@id='managementKioskview']/div[1]/div[2]/div[2]/div[1]/div[3]/div[1]/div[2]//table//tr[ + (rowNum + 1)) + ]): null
+
+2019-03-19 14:04:47 - [TEST_STEP][PASSED] - try: null
+
+2019-03-19 14:04:47 - [TEST_STEP][PASSED] - elemPresent = waitForElementVisible(specificDateTableRow, 1): Object 'specificDateRow0' is visible
+
+2019-03-19 14:04:47 - [MESSAGE][PASSED] - Object 'specificDateRow0' is visible
+
+2019-03-19 14:04:47 - [TEST_STEP][PASSED] - if (elemPresent): null
+
+2019-03-19 14:04:47 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(specificDateTableRow, 1): Object 'specificDateRow0' is present and visible in viewport
+
+2019-03-19 14:04:48 - [MESSAGE][PASSED] - Object 'specificDateRow0' is present and visible in viewport
+
+2019-03-19 14:04:48 - [TEST_STEP][PASSED] - (ij++): null
+
+2019-03-19 14:04:48 - [TEST_STEP][PASSED] - if (ij == 3): null
+
+2019-03-19 14:04:48 - [TEST_STEP][PASSED] - specificDateTableRow = new com.kms.katalon.core.testobject.TestObject((specificDateRow + ij)): null
+
+2019-03-19 14:04:48 - [TEST_STEP][PASSED] - specificDateTableRow.addProperty("xpath", EQUALS, f_specidicDate(ij)): null
+
+2019-03-19 14:04:48 - [TEST_STEP][PASSED] - return ((.//*[@id='managementKioskview']/div[1]/div[2]/div[2]/div[1]/div[3]/div[1]/div[2]//table//tr[ + (rowNum + 1)) + ]): null
+
+2019-03-19 14:04:48 - [TEST_STEP][PASSED] - try: null
+
+2019-03-19 14:04:48 - [TEST_STEP][PASSED] - elemPresent = waitForElementVisible(specificDateTableRow, 1): Object 'specificDateRow1' is visible
+
+2019-03-19 14:04:48 - [MESSAGE][PASSED] - Object 'specificDateRow1' is visible
+
+2019-03-19 14:04:48 - [TEST_STEP][PASSED] - if (elemPresent): null
+
+2019-03-19 14:04:48 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(specificDateTableRow, 1): Object 'specificDateRow1' is present and visible in viewport
+
+2019-03-19 14:04:48 - [MESSAGE][PASSED] - Object 'specificDateRow1' is present and visible in viewport
+
+2019-03-19 14:04:48 - [TEST_STEP][PASSED] - (ij++): null
+
+2019-03-19 14:04:48 - [TEST_STEP][PASSED] - if (ij == 3): null
+
+2019-03-19 14:04:48 - [TEST_STEP][PASSED] - specificDateTableRow = new com.kms.katalon.core.testobject.TestObject((specificDateRow + ij)): null
+
+2019-03-19 14:04:48 - [TEST_STEP][PASSED] - specificDateTableRow.addProperty("xpath", EQUALS, f_specidicDate(ij)): null
+
+2019-03-19 14:04:48 - [TEST_STEP][PASSED] - return ((.//*[@id='managementKioskview']/div[1]/div[2]/div[2]/div[1]/div[3]/div[1]/div[2]//table//tr[ + (rowNum + 1)) + ]): null
+
+2019-03-19 14:04:48 - [TEST_STEP][PASSED] - try: null
+
+2019-03-19 14:04:48 - [TEST_STEP][PASSED] - elemPresent = waitForElementVisible(specificDateTableRow, 1): Object 'specificDateRow2' is visible
+
+2019-03-19 14:04:48 - [MESSAGE][PASSED] - Object 'specificDateRow2' is visible
+
+2019-03-19 14:04:48 - [TEST_STEP][PASSED] - if (elemPresent): null
+
+2019-03-19 14:04:48 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(specificDateTableRow, 1): Object 'specificDateRow2' is present and visible in viewport
+
+2019-03-19 14:04:48 - [MESSAGE][PASSED] - Object 'specificDateRow2' is present and visible in viewport
+
+2019-03-19 14:04:48 - [TEST_STEP][PASSED] - (ij++): null
+
+2019-03-19 14:04:48 - [TEST_STEP][PASSED] - if (ij == 3): null
+
+2019-03-19 14:04:48 - [TEST_STEP][PASSED] - (validCount++): null
+
+2019-03-19 14:04:48 - [TEST_STEP][PASSED] - break: null
+
+2019-03-19 14:04:48 - [TEST_STEP][PASSED] - Finally: null
+
+2019-03-19 14:04:48 - [TEST_STEP][PASSED] - if (ij == 3): null
+
+2019-03-19 14:04:48 - [TEST_STEP][PASSED] - break: null
+
+2019-03-19 14:04:48 - [TEST_STEP][PASSED] - (i++): null
+
+2019-03-19 14:04:48 - [TEST_STEP][PASSED] - j = 0: null
+
+2019-03-19 14:04:48 - [TEST_STEP][PASSED] - driversTableRow = new com.kms.katalon.core.testobject.TestObject((driversTableRow + i)): null
+
+2019-03-19 14:04:48 - [TEST_STEP][PASSED] - driversTableRow.addProperty("xpath", EQUALS, f_driver(i)): null
+
+2019-03-19 14:04:48 - [TEST_STEP][PASSED] - return ((.//*[@id='managementKioskview']//div[2]//div[1]//div[2]//div[1]//div[2]//div[1]//table//tr[ + (rowNum + 1)) + ]): null
+
+2019-03-19 14:04:48 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-03-19 14:04:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-19 14:04:49 - [TEST_STEP][PASSED] - scrollToElement(driversTableRow, 1): Scroll to object 'driversTableRow2' successfully
+
+2019-03-19 14:04:49 - [MESSAGE][PASSED] - Scroll to object 'driversTableRow2' successfully
+
+2019-03-19 14:04:49 - [TEST_STEP][PASSED] - click(driversTableRow): Object: 'driversTableRow2' is clicked on
+
+2019-03-19 14:04:49 - [MESSAGE][PASSED] - Object: 'driversTableRow2' is clicked on
+
+2019-03-19 14:04:49 - [TEST_STEP][PASSED] - while (validCount < validCountMax && j < 20): null
+
+2019-03-19 14:04:49 - [TEST_STEP][PASSED] - ij = 0: null
+
+2019-03-19 14:04:49 - [TEST_STEP][PASSED] - datesTableRow = new com.kms.katalon.core.testobject.TestObject((datesTableRow + j)): null
+
+2019-03-19 14:04:49 - [TEST_STEP][PASSED] - datesTableRow.addProperty("xpath", EQUALS, f_dates(j)): null
+
+2019-03-19 14:04:49 - [TEST_STEP][PASSED] - return ((.//*[@id='managementKioskview']//div[2]//div[1]//div[4]//div[1]//div[2]//table//tr[ + (rowNum + 1)) + ]): null
+
+2019-03-19 14:04:49 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-03-19 14:04:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-19 14:04:50 - [TEST_STEP][PASSED] - try: null
+
+2019-03-19 14:04:50 - [TEST_STEP][PASSED] - scrollToElement(datesTableRow, 1): Scroll to object 'datesTableRow0' successfully
+
+2019-03-19 14:04:50 - [MESSAGE][PASSED] - Scroll to object 'datesTableRow0' successfully
+
+2019-03-19 14:04:50 - [TEST_STEP][PASSED] - click(datesTableRow): Object: 'datesTableRow0' is clicked on
+
+2019-03-19 14:04:50 - [MESSAGE][PASSED] - Object: 'datesTableRow0' is clicked on
+
+2019-03-19 14:04:50 - [TEST_STEP][PASSED] - while (validCount < validCountMax && ij < 3): null
+
+2019-03-19 14:04:50 - [TEST_STEP][PASSED] - specificDateTableRow = new com.kms.katalon.core.testobject.TestObject((specificDateRow + ij)): null
+
+2019-03-19 14:04:50 - [TEST_STEP][PASSED] - specificDateTableRow.addProperty("xpath", EQUALS, f_specidicDate(ij)): null
+
+2019-03-19 14:04:50 - [TEST_STEP][PASSED] - return ((.//*[@id='managementKioskview']/div[1]/div[2]/div[2]/div[1]/div[3]/div[1]/div[2]//table//tr[ + (rowNum + 1)) + ]): null
+
+2019-03-19 14:04:50 - [TEST_STEP][PASSED] - try: null
+
+2019-03-19 14:04:50 - [TEST_STEP][PASSED] - elemPresent = waitForElementVisible(specificDateTableRow, 1): Object 'specificDateRow0' is visible
+
+2019-03-19 14:04:51 - [MESSAGE][PASSED] - Object 'specificDateRow0' is visible
+
+2019-03-19 14:04:51 - [TEST_STEP][PASSED] - if (elemPresent): null
+
+2019-03-19 14:04:51 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(specificDateTableRow, 1): Object 'specificDateRow0' is present and visible in viewport
+
+2019-03-19 14:04:51 - [MESSAGE][PASSED] - Object 'specificDateRow0' is present and visible in viewport
+
+2019-03-19 14:04:51 - [TEST_STEP][PASSED] - (ij++): null
+
+2019-03-19 14:04:51 - [TEST_STEP][PASSED] - if (ij == 3): null
+
+2019-03-19 14:04:51 - [TEST_STEP][PASSED] - specificDateTableRow = new com.kms.katalon.core.testobject.TestObject((specificDateRow + ij)): null
+
+2019-03-19 14:04:51 - [TEST_STEP][PASSED] - specificDateTableRow.addProperty("xpath", EQUALS, f_specidicDate(ij)): null
+
+2019-03-19 14:04:51 - [TEST_STEP][PASSED] - return ((.//*[@id='managementKioskview']/div[1]/div[2]/div[2]/div[1]/div[3]/div[1]/div[2]//table//tr[ + (rowNum + 1)) + ]): null
+
+2019-03-19 14:04:51 - [TEST_STEP][PASSED] - try: null
+
+2019-03-19 14:04:51 - [TEST_STEP][PASSED] - elemPresent = waitForElementVisible(specificDateTableRow, 1): Web element with id: 'specificDateRow1' located by 'By.xpath: .//*[@id='managementKioskview']/div[1]/div[2]/div[2]/div[1]/div[3]/div[1]/div[2]//table//tr[2]' not found
+
+2019-03-19 14:04:52 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: .//*[@id='managementKioskview']/div[1]/div[2]/div[2]/div[1]/div[3]/div[1]/div[2]//table//tr[2]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-03-19 14:04:52 - [MESSAGE][WARNING] - Web element with id: 'specificDateRow1' located by 'By.xpath: .//*[@id='managementKioskview']/div[1]/div[2]/div[2]/div[1]/div[3]/div[1]/div[2]//table//tr[2]' not found
+
+2019-03-19 14:04:52 - [TEST_STEP][PASSED] - if (elemPresent): null
+
+2019-03-19 14:04:52 - [TEST_STEP][PASSED] - else: null
+
+2019-03-19 14:04:52 - [TEST_STEP][PASSED] - break: null
+
+2019-03-19 14:04:52 - [TEST_STEP][PASSED] - Finally: null
+
+2019-03-19 14:04:52 - [TEST_STEP][PASSED] - if (ij == 3): null
+
+2019-03-19 14:04:52 - [TEST_STEP][PASSED] - (j++): null
+
+2019-03-19 14:04:52 - [TEST_STEP][PASSED] - ij = 0: null
+
+2019-03-19 14:04:52 - [TEST_STEP][PASSED] - datesTableRow = new com.kms.katalon.core.testobject.TestObject((datesTableRow + j)): null
+
+2019-03-19 14:04:52 - [TEST_STEP][PASSED] - datesTableRow.addProperty("xpath", EQUALS, f_dates(j)): null
+
+2019-03-19 14:04:52 - [TEST_STEP][PASSED] - return ((.//*[@id='managementKioskview']//div[2]//div[1]//div[4]//div[1]//div[2]//table//tr[ + (rowNum + 1)) + ]): null
+
+2019-03-19 14:04:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-03-19 14:04:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-03-19 14:04:53 - [TEST_STEP][PASSED] - try: null
+
+2019-03-19 14:04:53 - [TEST_STEP][PASSED] - scrollToElement(datesTableRow, 1): Scroll to object 'datesTableRow1' successfully
+
+2019-03-19 14:04:53 - [MESSAGE][PASSED] - Scroll to object 'datesTableRow1' successfully
+
+2019-03-19 14:04:53 - [TEST_STEP][PASSED] - click(datesTableRow): Object: 'datesTableRow1' is clicked on
+
+2019-03-19 14:04:53 - [MESSAGE][PASSED] - Object: 'datesTableRow1' is clicked on
+
+2019-03-19 14:04:53 - [TEST_STEP][PASSED] - while (validCount < validCountMax && ij < 3): null
+
+2019-03-19 14:04:53 - [TEST_STEP][PASSED] - specificDateTableRow = new com.kms.katalon.core.testobject.TestObject((specificDateRow + ij)): null
+
+2019-03-19 14:04:53 - [TEST_STEP][PASSED] - specificDateTableRow.addProperty("xpath", EQUALS, f_specidicDate(ij)): null
+
+2019-03-19 14:04:53 - [TEST_STEP][PASSED] - return ((.//*[@id='managementKioskview']/div[1]/div[2]/div[2]/div[1]/div[3]/div[1]/div[2]//table//tr[ + (rowNum + 1)) + ]): null
+
+2019-03-19 14:04:53 - [TEST_STEP][PASSED] - try: null
+
+2019-03-19 14:04:53 - [TEST_STEP][PASSED] - elemPresent = waitForElementVisible(specificDateTableRow, 1): Object 'specificDateRow0' is visible
+
+2019-03-19 14:04:53 - [MESSAGE][PASSED] - Object 'specificDateRow0' is visible
+
+2019-03-19 14:04:53 - [TEST_STEP][PASSED] - if (elemPresent): null
+
+2019-03-19 14:04:53 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(specificDateTableRow, 1): Object 'specificDateRow0' is present and visible in viewport
+
+2019-03-19 14:04:53 - [MESSAGE][PASSED] - Object 'specificDateRow0' is present and visible in viewport
+
+2019-03-19 14:04:53 - [TEST_STEP][PASSED] - (ij++): null
+
+2019-03-19 14:04:53 - [TEST_STEP][PASSED] - if (ij == 3): null
+
+2019-03-19 14:04:53 - [TEST_STEP][PASSED] - specificDateTableRow = new com.kms.katalon.core.testobject.TestObject((specificDateRow + ij)): null
+
+2019-03-19 14:04:53 - [TEST_STEP][PASSED] - specificDateTableRow.addProperty("xpath", EQUALS, f_specidicDate(ij)): null
+
+2019-03-19 14:04:53 - [TEST_STEP][PASSED] - return ((.//*[@id='managementKioskview']/div[1]/div[2]/div[2]/div[1]/div[3]/div[1]/div[2]//table//tr[ + (rowNum + 1)) + ]): null
+
+2019-03-19 14:04:53 - [TEST_STEP][PASSED] - try: null
+
+2019-03-19 14:04:53 - [TEST_STEP][PASSED] - elemPresent = waitForElementVisible(specificDateTableRow, 1): Object 'specificDateRow1' is visible
+
+2019-03-19 14:04:54 - [MESSAGE][PASSED] - Object 'specificDateRow1' is visible
+
+2019-03-19 14:04:54 - [TEST_STEP][PASSED] - if (elemPresent): null
+
+2019-03-19 14:04:54 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(specificDateTableRow, 1): Object 'specificDateRow1' is present and visible in viewport
+
+2019-03-19 14:04:54 - [MESSAGE][PASSED] - Object 'specificDateRow1' is present and visible in viewport
+
+2019-03-19 14:04:54 - [TEST_STEP][PASSED] - (ij++): null
+
+2019-03-19 14:04:54 - [TEST_STEP][PASSED] - if (ij == 3): null
+
+2019-03-19 14:04:54 - [TEST_STEP][PASSED] - specificDateTableRow = new com.kms.katalon.core.testobject.TestObject((specificDateRow + ij)): null
+
+2019-03-19 14:04:54 - [TEST_STEP][PASSED] - specificDateTableRow.addProperty("xpath", EQUALS, f_specidicDate(ij)): null
+
+2019-03-19 14:04:54 - [TEST_STEP][PASSED] - return ((.//*[@id='managementKioskview']/div[1]/div[2]/div[2]/div[1]/div[3]/div[1]/div[2]//table//tr[ + (rowNum + 1)) + ]): null
+
+2019-03-19 14:04:54 - [TEST_STEP][PASSED] - try: null
+
+2019-03-19 14:04:54 - [TEST_STEP][PASSED] - elemPresent = waitForElementVisible(specificDateTableRow, 1): Object 'specificDateRow2' is visible
+
+2019-03-19 14:04:54 - [MESSAGE][PASSED] - Object 'specificDateRow2' is visible
+
+2019-03-19 14:04:54 - [TEST_STEP][PASSED] - if (elemPresent): null
+
+2019-03-19 14:04:54 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(specificDateTableRow, 1): Object 'specificDateRow2' is present and visible in viewport
+
+2019-03-19 14:04:54 - [MESSAGE][PASSED] - Object 'specificDateRow2' is present and visible in viewport
+
+2019-03-19 14:04:54 - [TEST_STEP][PASSED] - (ij++): null
+
+2019-03-19 14:04:54 - [TEST_STEP][PASSED] - if (ij == 3): null
+
+2019-03-19 14:04:54 - [TEST_STEP][PASSED] - (validCount++): null
+
+2019-03-19 14:04:54 - [TEST_STEP][PASSED] - break: null
+
+2019-03-19 14:04:54 - [TEST_STEP][PASSED] - Finally: null
+
+2019-03-19 14:04:54 - [TEST_STEP][PASSED] - if (ij == 3): null
+
+2019-03-19 14:04:54 - [TEST_STEP][PASSED] - break: null
+
+2019-03-19 14:04:54 - [TEST_STEP][PASSED] - (i++): null
+
+2019-03-19 14:04:54 - [TEST_STEP][PASSED] - if (validCount < 3): null
+
+2019-03-19 14:04:54 - [TEST_STEP][PASSED] - click(findTestObject("Driver Ticket Confirmation/driversTcicketConfirmation_Close")): Object: 'Object Repository/Driver Ticket Confirmation/driversTcicketConfirmation_Close' is clicked on
+
+2019-03-19 14:04:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Driver Ticket Confirmation/driversTcicketConfirmation_Close' is clicked on
+
+2019-03-19 14:04:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-19 14:04:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-19 14:04:19 - [TEST_SUITE][PASSED] - Working Ticket Confirmation: Test Cases/Working Tciket Confirmation/Working Ticket Sanity]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

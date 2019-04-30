@@ -76,7 +76,13 @@ if (!(isPreSalaryTabOpen)) {
     } 
 }
 
+WebUI.waitForElementNotPresent(findTestObject('General/loadingBar'), 30)
+
+WebUI.waitForElementNotPresent(findTestObject('Pre-Salary/Filters/Drivers Dropdown/isLoadingDropdown'), 15)
+
 WebUI.waitForElementPresent(findTestObject('Pre-Salary/Filters/Date Picker Start/datePickerInputField'), 15)
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Pre-Salary/Filters/Date Picker Start/datePickerInputField'))
 
@@ -98,7 +104,7 @@ try {
     WebUI.click(findTestObject('Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen'))
 }
 catch (Exception err) {
-    WebUI.delay(1)
+    WebUI.delay(5)
 
     WebUI.waitForElementPresent(findTestObject('Pre-Salary/Filters/Drivers Dropdown/driversListDropdownOpen'), 10)
 
@@ -153,7 +159,7 @@ WebUI.verifyElementPresent(findTestObject('Pre-Salary/Employee Details/driversCo
 
 String driverCodeFromReport = WebUI.getText(findTestObject('Pre-Salary/Employee Details/driversCodeId_InDriversReportTableHeader'))
 
-if (driverCodeFromReport != driver_Id && !(driverCodeFromReport.contains(driver_Id))) {
+if ((driverCodeFromReport != driver_Id) && !(driverCodeFromReport.contains(driver_Id))) {
     throw new com.kms.katalon.core.exception.StepFailedException('Report driver\'s id doesn\'t match with with test\'s driver id.')
 }
 

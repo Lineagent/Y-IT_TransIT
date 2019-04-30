@@ -1,0 +1,735 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Command and Control" time="130" tests="3" failures="0" errors="0">
+   <testsuite name="Command and Control" tests="3" failures="0" errors="0" time="130" timestamp="2019-04-01 13:24:35" hostname="leon.b - Leon-PC.Y-it.Local" id="Test Suites/Production/Command and Control">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\leon.b\\git\\Y-IT_TransIT\\Reports\\Production\\Command and Control\\20190401_131540"/>
+         <property name="logFiles" value="C:\\Users\\leon.b\\git\\Y-IT_TransIT\\Reports\\Production\\Command and Control\\20190401_131540\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="leon.b - Leon-PC.Y-it.Local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.10"/>
+         <property name="browser" value="Chrome 73.0.3683.86"/>
+         <property name="hostAddress" value="192.168.1.145"/>
+         <property name="sessionId" value="928a23a0ea4f552b14f65b31bc744868"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Command and Control/Control tasks" classname="Test Cases/Command and Control/Control tasks" status="PASSED">
+         <system-out><![CDATA[2019-04-01 13:24:35 - [TEST_CASE][PASSED] - Test Cases/Command and Control/Control tasks: Test Cases/Command and Control/Control tasks
+
+2019-04-01 13:24:36 - [TEST_STEP][PASSED] - login.c_login.logIn(site, userName, userPass): login.c_login.logIn is PASSED
+
+2019-04-01 13:24:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-01 13:24:36 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-01 13:24:49 - [MESSAGE][PASSED] - Browser is opened with url: 'danbr7.y-it.co.il'
+
+2019-04-01 13:24:50 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-01 13:24:51 - [MESSAGE][PASSED] - Text 'shelly' is set on object 'Object Repository/Y-IT Log In/input_ _userName'
+
+2019-04-01 13:24:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Y-IT Log In/input_ _password'
+
+2019-04-01 13:24:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Y-IT Log In/input_  _submit' is clicked on
+
+2019-04-01 13:24:51 - [MESSAGE][PASSED] - login.c_login.logIn is PASSED
+
+2019-04-01 13:24:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-01 13:24:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-01 13:24:52 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("General/mainEmptyBackground"), 15): Object 'Object Repository/General/mainEmptyBackground' is present
+
+2019-04-01 13:24:53 - [MESSAGE][PASSED] - Object 'Object Repository/General/mainEmptyBackground' is present
+
+2019-04-01 13:24:53 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Nav Bar/commandAndControl"), 15): Object 'Object Repository/Nav Bar/commandAndControl' is present
+
+2019-04-01 13:24:54 - [MESSAGE][PASSED] - Object 'Object Repository/Nav Bar/commandAndControl' is present
+
+2019-04-01 13:24:54 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("General/loadingBar"), 15): Web element with id: 'Object Repository/General/loadingBar' located by 'By.cssSelector: div[class="bar"][style~="width:"]' is not present after '15' second(s)
+
+2019-04-01 13:24:57 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/General/loadingBar' located by 'By.cssSelector: div[class="bar"][style~="width:"]' is not present after '15' second(s)
+
+2019-04-01 13:24:57 - [TEST_STEP][PASSED] - isControldTasksOpen = waitForElementPresent(findTestObject("Command and Control/Tasks Control/taskControlView"), 15): Object 'Object Repository/Command and Control/Tasks Control/taskControlView' is not present after 15 second(s)
+
+2019-04-01 13:25:13 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: #taskControlview'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-01 13:25:13 - [MESSAGE][WARNING] - Object 'Object Repository/Command and Control/Tasks Control/taskControlView' is not present after 15 second(s)
+
+2019-04-01 13:25:13 - [TEST_STEP][PASSED] - if (!(isControldTasksOpen)): Object: 'Object Repository/Nav Bar/Nav Bar CnC/controlTasks' is clicked on
+
+2019-04-01 13:25:13 - [TEST_STEP][PASSED] - click(findTestObject("Nav Bar/commandAndControl")): Object: 'Object Repository/Nav Bar/commandAndControl' is clicked on
+
+2019-04-01 13:25:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav Bar/commandAndControl' is clicked on
+
+2019-04-01 13:25:13 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-01 13:25:14 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-01 13:25:14 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/Nav Bar/Nav Bar CnC/controlTasks' is clicked on
+
+2019-04-01 13:25:14 - [TEST_STEP][PASSED] - click(findTestObject("Nav Bar/Nav Bar CnC/controlTasks")): Object: 'Object Repository/Nav Bar/Nav Bar CnC/controlTasks' is clicked on
+
+2019-04-01 13:25:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav Bar/Nav Bar CnC/controlTasks' is clicked on
+
+2019-04-01 13:25:14 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Command and Control/Tasks Control/taskControlView"), 15): Object 'Object Repository/Command and Control/Tasks Control/taskControlView' is present
+
+2019-04-01 13:25:14 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Tasks Control/taskControlView' is present
+
+2019-04-01 13:25:14 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("General/loadingBar"), 15): Web element with id: 'Object Repository/General/loadingBar' located by 'By.cssSelector: div[class="bar"][style~="width:"]' is not present after '15' second(s)
+
+2019-04-01 13:25:14 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/General/loadingBar' located by 'By.cssSelector: div[class="bar"][style~="width:"]' is not present after '15' second(s)
+
+2019-04-01 13:25:14 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-01 13:25:15 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-01 13:25:15 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Tasks Control/dateField"), 15): Object 'Object Repository/Command and Control/Tasks Control/dateField' is visible
+
+2019-04-01 13:25:15 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Tasks Control/dateField' is visible
+
+2019-04-01 13:25:15 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Tasks Control/dateField"), 5): Object 'Object Repository/Command and Control/Tasks Control/dateField' is present and visible in viewport
+
+2019-04-01 13:25:15 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Tasks Control/dateField' is present and visible in viewport
+
+2019-04-01 13:25:15 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Tasks Control/footer"), 15): Object 'Object Repository/Command and Control/Tasks Control/footer' is visible
+
+2019-04-01 13:25:15 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Tasks Control/footer' is visible
+
+2019-04-01 13:25:15 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Tasks Control/footer"), 5): Object 'Object Repository/Command and Control/Tasks Control/footer' is present and visible in viewport
+
+2019-04-01 13:25:15 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Tasks Control/footer' is present and visible in viewport
+
+2019-04-01 13:25:15 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Tasks Control/mainTable"), 15): Object 'Object Repository/Command and Control/Tasks Control/mainTable' is visible
+
+2019-04-01 13:25:18 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Tasks Control/mainTable' is visible
+
+2019-04-01 13:25:18 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Tasks Control/mainTable"), 5): Object 'Object Repository/Command and Control/Tasks Control/mainTable' is present and visible in viewport
+
+2019-04-01 13:25:18 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Tasks Control/mainTable' is present and visible in viewport
+
+2019-04-01 13:25:18 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Tasks Control/tableFirstLine"), 15): Object 'Object Repository/Command and Control/Tasks Control/tableFirstLine' is visible
+
+2019-04-01 13:25:18 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Tasks Control/tableFirstLine' is visible
+
+2019-04-01 13:25:18 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Tasks Control/tableFirstLine"), 5): Object 'Object Repository/Command and Control/Tasks Control/tableFirstLine' is present and visible in viewport
+
+2019-04-01 13:25:18 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Tasks Control/tableFirstLine' is present and visible in viewport
+
+2019-04-01 13:25:18 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Tasks Control/upperLeftFirstLine"), 15): Object 'Object Repository/Command and Control/Tasks Control/upperLeftFirstLine' is visible
+
+2019-04-01 13:25:18 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Tasks Control/upperLeftFirstLine' is visible
+
+2019-04-01 13:25:18 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Tasks Control/upperLeftFirstLine"), 5): Object 'Object Repository/Command and Control/Tasks Control/upperLeftFirstLine' is present and visible in viewport
+
+2019-04-01 13:25:18 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Tasks Control/upperLeftFirstLine' is present and visible in viewport
+
+2019-04-01 13:25:18 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Command and Control/Tasks Control/tableFirstLine")): Object: 'Object Repository/Command and Control/Tasks Control/tableFirstLine' is double clicked on
+
+2019-04-01 13:25:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Command and Control/Tasks Control/tableFirstLine' is double clicked on
+
+2019-04-01 13:25:19 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-01 13:25:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-01 13:25:20 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("General/loadingBar"), 15): Web element with id: 'Object Repository/General/loadingBar' located by 'By.cssSelector: div[class="bar"][style~="width:"]' is not present after '15' second(s)
+
+2019-04-01 13:25:22 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/General/loadingBar' located by 'By.cssSelector: div[class="bar"][style~="width:"]' is not present after '15' second(s)
+
+2019-04-01 13:25:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Task Tracking/taskTrackingView"), 15): Object 'Object Repository/Command and Control/Task Tracking/taskTrackingView' is visible
+
+2019-04-01 13:25:22 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/taskTrackingView' is visible
+
+2019-04-01 13:25:22 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Task Tracking/taskTrackingView"), 5): Object 'Object Repository/Command and Control/Task Tracking/taskTrackingView' is present and visible in viewport
+
+2019-04-01 13:25:22 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/taskTrackingView' is present and visible in viewport
+
+2019-04-01 13:25:22 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("General/loadingBar"), 15): Web element with id: 'Object Repository/General/loadingBar' located by 'By.cssSelector: div[class="bar"][style~="width:"]' is not present after '15' second(s)
+
+2019-04-01 13:25:22 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/General/loadingBar' located by 'By.cssSelector: div[class="bar"][style~="width:"]' is not present after '15' second(s)
+
+2019-04-01 13:25:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Task Tracking/taskTrackingView"), 15): Object 'Object Repository/Command and Control/Task Tracking/taskTrackingView' is visible
+
+2019-04-01 13:25:22 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/taskTrackingView' is visible
+
+2019-04-01 13:25:22 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Task Tracking/taskTrackingView"), 5): Object 'Object Repository/Command and Control/Task Tracking/taskTrackingView' is present and visible in viewport
+
+2019-04-01 13:25:22 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/taskTrackingView' is present and visible in viewport
+
+2019-04-01 13:25:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Task Tracking/header"), 15): Object 'Object Repository/Command and Control/Task Tracking/header' is visible
+
+2019-04-01 13:25:22 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/header' is visible
+
+2019-04-01 13:25:22 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Task Tracking/header"), 5): Object 'Object Repository/Command and Control/Task Tracking/header' is present and visible in viewport
+
+2019-04-01 13:25:22 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/header' is present and visible in viewport
+
+2019-04-01 13:25:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Task Tracking/map"), 15): Object 'Object Repository/Command and Control/Task Tracking/map' is visible
+
+2019-04-01 13:25:22 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/map' is visible
+
+2019-04-01 13:25:22 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Task Tracking/map"), 5): Object 'Object Repository/Command and Control/Task Tracking/map' is present and visible in viewport
+
+2019-04-01 13:25:22 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/map' is present and visible in viewport
+
+2019-04-01 13:25:22 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Task Tracking/exeptionsTabHref"), 15): Object 'Object Repository/Command and Control/Task Tracking/exeptionsTabHref' is visible
+
+2019-04-01 13:25:22 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/exeptionsTabHref' is visible
+
+2019-04-01 13:25:22 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-01 13:25:23 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-01 13:25:23 - [TEST_STEP][PASSED] - click(findTestObject("Command and Control/Task Tracking/exeptionsTabHref"), STOP_ON_FAILURE): Object: 'Object Repository/Command and Control/Task Tracking/exeptionsTabHref' is clicked on
+
+2019-04-01 13:25:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Command and Control/Task Tracking/exeptionsTabHref' is clicked on
+
+2019-04-01 13:25:23 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-01 13:25:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-01 13:25:24 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Task Tracking/exeptionsTable"), 15): Object 'Object Repository/Command and Control/Task Tracking/exeptionsTable' is visible
+
+2019-04-01 13:25:25 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/exeptionsTable' is visible
+
+2019-04-01 13:25:25 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Task Tracking/exeptionsTable"), 5): Object 'Object Repository/Command and Control/Task Tracking/exeptionsTable' is present and visible in viewport
+
+2019-04-01 13:25:25 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/exeptionsTable' is present and visible in viewport
+
+2019-04-01 13:25:25 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Task Tracking/remarks"), 15): Object 'Object Repository/Command and Control/Task Tracking/remarks' is visible
+
+2019-04-01 13:25:25 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/remarks' is visible
+
+2019-04-01 13:25:25 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Task Tracking/remarks"), 5): Object 'Object Repository/Command and Control/Task Tracking/remarks' is present and visible in viewport
+
+2019-04-01 13:25:25 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/remarks' is present and visible in viewport
+
+2019-04-01 13:25:25 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Task Tracking/statusCheck"), 15): Object 'Object Repository/Command and Control/Task Tracking/statusCheck' is visible
+
+2019-04-01 13:25:25 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/statusCheck' is visible
+
+2019-04-01 13:25:25 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Task Tracking/statusCheck"), 5): Object 'Object Repository/Command and Control/Task Tracking/statusCheck' is present and visible in viewport
+
+2019-04-01 13:25:25 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/statusCheck' is present and visible in viewport
+
+2019-04-01 13:25:25 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Task Tracking/stationsTabHref"), 15): Object 'Object Repository/Command and Control/Task Tracking/stationsTabHref' is visible
+
+2019-04-01 13:25:25 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/stationsTabHref' is visible
+
+2019-04-01 13:25:25 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-01 13:25:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-01 13:25:26 - [TEST_STEP][PASSED] - click(findTestObject("Command and Control/Task Tracking/stationsTabHref"), STOP_ON_FAILURE): Object: 'Object Repository/Command and Control/Task Tracking/stationsTabHref' is clicked on
+
+2019-04-01 13:25:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Command and Control/Task Tracking/stationsTabHref' is clicked on
+
+2019-04-01 13:25:26 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-01 13:25:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-01 13:25:27 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Task Tracking/stationsTable"), 15): Object 'Object Repository/Command and Control/Task Tracking/stationsTable' is visible
+
+2019-04-01 13:25:27 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/stationsTable' is visible
+
+2019-04-01 13:25:27 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Task Tracking/stationsTable"), 5): Object 'Object Repository/Command and Control/Task Tracking/stationsTable' is present and visible in viewport
+
+2019-04-01 13:25:27 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/stationsTable' is present and visible in viewport
+
+2019-04-01 13:25:27 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Task Tracking/close"), 15): Object 'Object Repository/Command and Control/Task Tracking/close' is visible
+
+2019-04-01 13:25:27 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/close' is visible
+
+2019-04-01 13:25:27 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-01 13:25:28 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-01 13:25:28 - [TEST_STEP][PASSED] - click(findTestObject("Command and Control/Task Tracking/close"), STOP_ON_FAILURE): Object: 'Object Repository/Command and Control/Task Tracking/close' is clicked on
+
+2019-04-01 13:25:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Command and Control/Task Tracking/close' is clicked on
+
+2019-04-01 13:25:28 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-01 13:25:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-01 13:25:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-01 13:25:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Command and Control/Control tasks" classname="Test Cases/Command and Control/Control tasks" status="PASSED">
+         <system-out><![CDATA[2019-04-01 13:25:30 - [TEST_CASE][PASSED] - Test Cases/Command and Control/Control tasks: Test Cases/Command and Control/Control tasks
+
+2019-04-01 13:25:30 - [TEST_STEP][PASSED] - login.c_login.logIn(site, userName, userPass): login.c_login.logIn is PASSED
+
+2019-04-01 13:25:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-01 13:25:39 - [MESSAGE][PASSED] - Browser is opened with url: 'danbadarom.y-it.co.il'
+
+2019-04-01 13:25:40 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-01 13:25:40 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Y-IT Log In/input_ _userName'
+
+2019-04-01 13:25:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Y-IT Log In/input_ _password'
+
+2019-04-01 13:25:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Y-IT Log In/input_  _submit' is clicked on
+
+2019-04-01 13:25:41 - [MESSAGE][PASSED] - login.c_login.logIn is PASSED
+
+2019-04-01 13:25:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-01 13:25:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-01 13:25:42 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("General/mainEmptyBackground"), 15): Object 'Object Repository/General/mainEmptyBackground' is present
+
+2019-04-01 13:25:42 - [MESSAGE][PASSED] - Object 'Object Repository/General/mainEmptyBackground' is present
+
+2019-04-01 13:25:42 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Nav Bar/commandAndControl"), 15): Object 'Object Repository/Nav Bar/commandAndControl' is present
+
+2019-04-01 13:25:43 - [MESSAGE][PASSED] - Object 'Object Repository/Nav Bar/commandAndControl' is present
+
+2019-04-01 13:25:43 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("General/loadingBar"), 15): Web element with id: 'Object Repository/General/loadingBar' located by 'By.cssSelector: div[class="bar"][style~="width:"]' is not present after '15' second(s)
+
+2019-04-01 13:25:45 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/General/loadingBar' located by 'By.cssSelector: div[class="bar"][style~="width:"]' is not present after '15' second(s)
+
+2019-04-01 13:25:45 - [TEST_STEP][PASSED] - isControldTasksOpen = waitForElementPresent(findTestObject("Command and Control/Tasks Control/taskControlView"), 15): Object 'Object Repository/Command and Control/Tasks Control/taskControlView' is present
+
+2019-04-01 13:25:45 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Tasks Control/taskControlView' is present
+
+2019-04-01 13:25:45 - [TEST_STEP][PASSED] - if (!(isControldTasksOpen)): null
+
+2019-04-01 13:25:45 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Command and Control/Tasks Control/taskControlView"), 15): Object 'Object Repository/Command and Control/Tasks Control/taskControlView' is present
+
+2019-04-01 13:25:45 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Tasks Control/taskControlView' is present
+
+2019-04-01 13:25:45 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("General/loadingBar"), 15): Web element with id: 'Object Repository/General/loadingBar' located by 'By.cssSelector: div[class="bar"][style~="width:"]' is not present after '15' second(s)
+
+2019-04-01 13:25:45 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/General/loadingBar' located by 'By.cssSelector: div[class="bar"][style~="width:"]' is not present after '15' second(s)
+
+2019-04-01 13:25:45 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-01 13:25:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-01 13:25:46 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Tasks Control/dateField"), 15): Object 'Object Repository/Command and Control/Tasks Control/dateField' is visible
+
+2019-04-01 13:25:46 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Tasks Control/dateField' is visible
+
+2019-04-01 13:25:46 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Tasks Control/dateField"), 5): Object 'Object Repository/Command and Control/Tasks Control/dateField' is present and visible in viewport
+
+2019-04-01 13:25:46 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Tasks Control/dateField' is present and visible in viewport
+
+2019-04-01 13:25:46 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Tasks Control/footer"), 15): Object 'Object Repository/Command and Control/Tasks Control/footer' is visible
+
+2019-04-01 13:25:46 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Tasks Control/footer' is visible
+
+2019-04-01 13:25:46 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Tasks Control/footer"), 5): Object 'Object Repository/Command and Control/Tasks Control/footer' is present and visible in viewport
+
+2019-04-01 13:25:46 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Tasks Control/footer' is present and visible in viewport
+
+2019-04-01 13:25:46 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Tasks Control/mainTable"), 15): Object 'Object Repository/Command and Control/Tasks Control/mainTable' is visible
+
+2019-04-01 13:25:46 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Tasks Control/mainTable' is visible
+
+2019-04-01 13:25:46 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Tasks Control/mainTable"), 5): Object 'Object Repository/Command and Control/Tasks Control/mainTable' is present and visible in viewport
+
+2019-04-01 13:25:46 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Tasks Control/mainTable' is present and visible in viewport
+
+2019-04-01 13:25:46 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Tasks Control/tableFirstLine"), 15): Object 'Object Repository/Command and Control/Tasks Control/tableFirstLine' is visible
+
+2019-04-01 13:25:46 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Tasks Control/tableFirstLine' is visible
+
+2019-04-01 13:25:46 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Tasks Control/tableFirstLine"), 5): Object 'Object Repository/Command and Control/Tasks Control/tableFirstLine' is present and visible in viewport
+
+2019-04-01 13:25:46 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Tasks Control/tableFirstLine' is present and visible in viewport
+
+2019-04-01 13:25:46 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Tasks Control/upperLeftFirstLine"), 15): Object 'Object Repository/Command and Control/Tasks Control/upperLeftFirstLine' is visible
+
+2019-04-01 13:25:46 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Tasks Control/upperLeftFirstLine' is visible
+
+2019-04-01 13:25:46 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Tasks Control/upperLeftFirstLine"), 5): Object 'Object Repository/Command and Control/Tasks Control/upperLeftFirstLine' is present and visible in viewport
+
+2019-04-01 13:25:46 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Tasks Control/upperLeftFirstLine' is present and visible in viewport
+
+2019-04-01 13:25:46 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Command and Control/Tasks Control/tableFirstLine")): Object: 'Object Repository/Command and Control/Tasks Control/tableFirstLine' is double clicked on
+
+2019-04-01 13:25:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Command and Control/Tasks Control/tableFirstLine' is double clicked on
+
+2019-04-01 13:25:47 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-01 13:25:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-01 13:25:48 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("General/loadingBar"), 15): Web element with id: 'Object Repository/General/loadingBar' located by 'By.cssSelector: div[class="bar"][style~="width:"]' is not present after '15' second(s)
+
+2019-04-01 13:25:50 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/General/loadingBar' located by 'By.cssSelector: div[class="bar"][style~="width:"]' is not present after '15' second(s)
+
+2019-04-01 13:25:50 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Task Tracking/taskTrackingView"), 15): Object 'Object Repository/Command and Control/Task Tracking/taskTrackingView' is visible
+
+2019-04-01 13:25:50 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/taskTrackingView' is visible
+
+2019-04-01 13:25:50 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Task Tracking/taskTrackingView"), 5): Object 'Object Repository/Command and Control/Task Tracking/taskTrackingView' is present and visible in viewport
+
+2019-04-01 13:25:50 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/taskTrackingView' is present and visible in viewport
+
+2019-04-01 13:25:50 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("General/loadingBar"), 15): Web element with id: 'Object Repository/General/loadingBar' located by 'By.cssSelector: div[class="bar"][style~="width:"]' is not present after '15' second(s)
+
+2019-04-01 13:25:50 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/General/loadingBar' located by 'By.cssSelector: div[class="bar"][style~="width:"]' is not present after '15' second(s)
+
+2019-04-01 13:25:50 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Task Tracking/taskTrackingView"), 15): Object 'Object Repository/Command and Control/Task Tracking/taskTrackingView' is visible
+
+2019-04-01 13:25:50 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/taskTrackingView' is visible
+
+2019-04-01 13:25:50 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Task Tracking/taskTrackingView"), 5): Object 'Object Repository/Command and Control/Task Tracking/taskTrackingView' is present and visible in viewport
+
+2019-04-01 13:25:50 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/taskTrackingView' is present and visible in viewport
+
+2019-04-01 13:25:50 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Task Tracking/header"), 15): Object 'Object Repository/Command and Control/Task Tracking/header' is visible
+
+2019-04-01 13:25:50 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/header' is visible
+
+2019-04-01 13:25:50 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Task Tracking/header"), 5): Object 'Object Repository/Command and Control/Task Tracking/header' is present and visible in viewport
+
+2019-04-01 13:25:50 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/header' is present and visible in viewport
+
+2019-04-01 13:25:50 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Task Tracking/map"), 15): Object 'Object Repository/Command and Control/Task Tracking/map' is visible
+
+2019-04-01 13:25:50 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/map' is visible
+
+2019-04-01 13:25:50 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Task Tracking/map"), 5): Object 'Object Repository/Command and Control/Task Tracking/map' is present and visible in viewport
+
+2019-04-01 13:25:50 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/map' is present and visible in viewport
+
+2019-04-01 13:25:50 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Task Tracking/exeptionsTabHref"), 15): Object 'Object Repository/Command and Control/Task Tracking/exeptionsTabHref' is visible
+
+2019-04-01 13:25:50 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/exeptionsTabHref' is visible
+
+2019-04-01 13:25:50 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-01 13:25:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-01 13:25:51 - [TEST_STEP][PASSED] - click(findTestObject("Command and Control/Task Tracking/exeptionsTabHref"), STOP_ON_FAILURE): Object: 'Object Repository/Command and Control/Task Tracking/exeptionsTabHref' is clicked on
+
+2019-04-01 13:25:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Command and Control/Task Tracking/exeptionsTabHref' is clicked on
+
+2019-04-01 13:25:51 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-01 13:25:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-01 13:25:52 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Task Tracking/exeptionsTable"), 15): Object 'Object Repository/Command and Control/Task Tracking/exeptionsTable' is visible
+
+2019-04-01 13:25:52 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/exeptionsTable' is visible
+
+2019-04-01 13:25:52 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Task Tracking/exeptionsTable"), 5): Object 'Object Repository/Command and Control/Task Tracking/exeptionsTable' is present and visible in viewport
+
+2019-04-01 13:25:52 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/exeptionsTable' is present and visible in viewport
+
+2019-04-01 13:25:52 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Task Tracking/remarks"), 15): Object 'Object Repository/Command and Control/Task Tracking/remarks' is visible
+
+2019-04-01 13:25:52 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/remarks' is visible
+
+2019-04-01 13:25:52 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Task Tracking/remarks"), 5): Object 'Object Repository/Command and Control/Task Tracking/remarks' is present and visible in viewport
+
+2019-04-01 13:25:52 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/remarks' is present and visible in viewport
+
+2019-04-01 13:25:52 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Task Tracking/statusCheck"), 15): Object 'Object Repository/Command and Control/Task Tracking/statusCheck' is visible
+
+2019-04-01 13:25:52 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/statusCheck' is visible
+
+2019-04-01 13:25:52 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Task Tracking/statusCheck"), 5): Object 'Object Repository/Command and Control/Task Tracking/statusCheck' is present and visible in viewport
+
+2019-04-01 13:25:52 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/statusCheck' is present and visible in viewport
+
+2019-04-01 13:25:52 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Task Tracking/stationsTabHref"), 15): Object 'Object Repository/Command and Control/Task Tracking/stationsTabHref' is visible
+
+2019-04-01 13:25:52 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/stationsTabHref' is visible
+
+2019-04-01 13:25:52 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-01 13:25:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-01 13:25:53 - [TEST_STEP][PASSED] - click(findTestObject("Command and Control/Task Tracking/stationsTabHref"), STOP_ON_FAILURE): Object: 'Object Repository/Command and Control/Task Tracking/stationsTabHref' is clicked on
+
+2019-04-01 13:25:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Command and Control/Task Tracking/stationsTabHref' is clicked on
+
+2019-04-01 13:25:54 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-01 13:25:55 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-01 13:25:55 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Task Tracking/stationsTable"), 15): Object 'Object Repository/Command and Control/Task Tracking/stationsTable' is visible
+
+2019-04-01 13:25:55 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/stationsTable' is visible
+
+2019-04-01 13:25:55 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Task Tracking/stationsTable"), 5): Object 'Object Repository/Command and Control/Task Tracking/stationsTable' is present and visible in viewport
+
+2019-04-01 13:25:55 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/stationsTable' is present and visible in viewport
+
+2019-04-01 13:25:55 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Task Tracking/close"), 15): Object 'Object Repository/Command and Control/Task Tracking/close' is visible
+
+2019-04-01 13:25:55 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/close' is visible
+
+2019-04-01 13:25:55 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-01 13:25:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-01 13:25:56 - [TEST_STEP][PASSED] - click(findTestObject("Command and Control/Task Tracking/close"), STOP_ON_FAILURE): Object: 'Object Repository/Command and Control/Task Tracking/close' is clicked on
+
+2019-04-01 13:25:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Command and Control/Task Tracking/close' is clicked on
+
+2019-04-01 13:25:56 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-01 13:25:57 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-01 13:25:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-01 13:25:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Command and Control/Control tasks" classname="Test Cases/Command and Control/Control tasks" status="PASSED">
+         <system-out><![CDATA[2019-04-01 13:25:58 - [TEST_CASE][PASSED] - Test Cases/Command and Control/Control tasks: Test Cases/Command and Control/Control tasks
+
+2019-04-01 13:25:58 - [TEST_STEP][PASSED] - login.c_login.logIn(site, userName, userPass): login.c_login.logIn is PASSED
+
+2019-04-01 13:25:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-01 13:26:06 - [MESSAGE][PASSED] - Browser is opened with url: 'shasha.y-it.co.il'
+
+2019-04-01 13:26:08 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-01 13:26:08 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Y-IT Log In/input_ _userName'
+
+2019-04-01 13:26:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Y-IT Log In/input_ _password'
+
+2019-04-01 13:26:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Y-IT Log In/input_  _submit' is clicked on
+
+2019-04-01 13:26:08 - [MESSAGE][PASSED] - login.c_login.logIn is PASSED
+
+2019-04-01 13:26:08 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-01 13:26:09 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-01 13:26:09 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("General/mainEmptyBackground"), 15): Object 'Object Repository/General/mainEmptyBackground' is present
+
+2019-04-01 13:26:09 - [MESSAGE][PASSED] - Object 'Object Repository/General/mainEmptyBackground' is present
+
+2019-04-01 13:26:09 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Nav Bar/commandAndControl"), 15): Object 'Object Repository/Nav Bar/commandAndControl' is present
+
+2019-04-01 13:26:10 - [MESSAGE][PASSED] - Object 'Object Repository/Nav Bar/commandAndControl' is present
+
+2019-04-01 13:26:10 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("General/loadingBar"), 15): Web element with id: 'Object Repository/General/loadingBar' located by 'By.cssSelector: div[class="bar"][style~="width:"]' is not present after '15' second(s)
+
+2019-04-01 13:26:14 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/General/loadingBar' located by 'By.cssSelector: div[class="bar"][style~="width:"]' is not present after '15' second(s)
+
+2019-04-01 13:26:14 - [TEST_STEP][PASSED] - isControldTasksOpen = waitForElementPresent(findTestObject("Command and Control/Tasks Control/taskControlView"), 15): Object 'Object Repository/Command and Control/Tasks Control/taskControlView' is not present after 15 second(s)
+
+2019-04-01 13:26:30 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: #taskControlview'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-01 13:26:30 - [MESSAGE][WARNING] - Object 'Object Repository/Command and Control/Tasks Control/taskControlView' is not present after 15 second(s)
+
+2019-04-01 13:26:30 - [TEST_STEP][PASSED] - if (!(isControldTasksOpen)): Object: 'Object Repository/Nav Bar/Nav Bar CnC/controlTasks' is clicked on
+
+2019-04-01 13:26:30 - [TEST_STEP][PASSED] - click(findTestObject("Nav Bar/commandAndControl")): Object: 'Object Repository/Nav Bar/commandAndControl' is clicked on
+
+2019-04-01 13:26:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav Bar/commandAndControl' is clicked on
+
+2019-04-01 13:26:30 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-01 13:26:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-01 13:26:31 - [TEST_STEP][PASSED] - try: Object: 'Object Repository/Nav Bar/Nav Bar CnC/controlTasks' is clicked on
+
+2019-04-01 13:26:31 - [TEST_STEP][PASSED] - click(findTestObject("Nav Bar/Nav Bar CnC/controlTasks")): Object: 'Object Repository/Nav Bar/Nav Bar CnC/controlTasks' is clicked on
+
+2019-04-01 13:26:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Nav Bar/Nav Bar CnC/controlTasks' is clicked on
+
+2019-04-01 13:26:31 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Command and Control/Tasks Control/taskControlView"), 15): Object 'Object Repository/Command and Control/Tasks Control/taskControlView' is present
+
+2019-04-01 13:26:31 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Tasks Control/taskControlView' is present
+
+2019-04-01 13:26:31 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("General/loadingBar"), 15): Web element with id: 'Object Repository/General/loadingBar' located by 'By.cssSelector: div[class="bar"][style~="width:"]' is not present after '15' second(s)
+
+2019-04-01 13:26:31 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/General/loadingBar' located by 'By.cssSelector: div[class="bar"][style~="width:"]' is not present after '15' second(s)
+
+2019-04-01 13:26:31 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-01 13:26:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-01 13:26:32 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Tasks Control/dateField"), 15): Object 'Object Repository/Command and Control/Tasks Control/dateField' is visible
+
+2019-04-01 13:26:32 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Tasks Control/dateField' is visible
+
+2019-04-01 13:26:32 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Tasks Control/dateField"), 5): Object 'Object Repository/Command and Control/Tasks Control/dateField' is present and visible in viewport
+
+2019-04-01 13:26:32 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Tasks Control/dateField' is present and visible in viewport
+
+2019-04-01 13:26:32 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Tasks Control/footer"), 15): Object 'Object Repository/Command and Control/Tasks Control/footer' is visible
+
+2019-04-01 13:26:32 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Tasks Control/footer' is visible
+
+2019-04-01 13:26:32 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Tasks Control/footer"), 5): Object 'Object Repository/Command and Control/Tasks Control/footer' is present and visible in viewport
+
+2019-04-01 13:26:32 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Tasks Control/footer' is present and visible in viewport
+
+2019-04-01 13:26:32 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Tasks Control/mainTable"), 15): Object 'Object Repository/Command and Control/Tasks Control/mainTable' is visible
+
+2019-04-01 13:26:34 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Tasks Control/mainTable' is visible
+
+2019-04-01 13:26:34 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Tasks Control/mainTable"), 5): Object 'Object Repository/Command and Control/Tasks Control/mainTable' is present and visible in viewport
+
+2019-04-01 13:26:34 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Tasks Control/mainTable' is present and visible in viewport
+
+2019-04-01 13:26:34 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Tasks Control/tableFirstLine"), 15): Object 'Object Repository/Command and Control/Tasks Control/tableFirstLine' is visible
+
+2019-04-01 13:26:34 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Tasks Control/tableFirstLine' is visible
+
+2019-04-01 13:26:34 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Tasks Control/tableFirstLine"), 5): Object 'Object Repository/Command and Control/Tasks Control/tableFirstLine' is present and visible in viewport
+
+2019-04-01 13:26:34 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Tasks Control/tableFirstLine' is present and visible in viewport
+
+2019-04-01 13:26:34 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Tasks Control/upperLeftFirstLine"), 15): Object 'Object Repository/Command and Control/Tasks Control/upperLeftFirstLine' is visible
+
+2019-04-01 13:26:34 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Tasks Control/upperLeftFirstLine' is visible
+
+2019-04-01 13:26:34 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Tasks Control/upperLeftFirstLine"), 5): Object 'Object Repository/Command and Control/Tasks Control/upperLeftFirstLine' is present and visible in viewport
+
+2019-04-01 13:26:34 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Tasks Control/upperLeftFirstLine' is present and visible in viewport
+
+2019-04-01 13:26:34 - [TEST_STEP][PASSED] - doubleClick(findTestObject("Command and Control/Tasks Control/tableFirstLine")): Object: 'Object Repository/Command and Control/Tasks Control/tableFirstLine' is double clicked on
+
+2019-04-01 13:26:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Command and Control/Tasks Control/tableFirstLine' is double clicked on
+
+2019-04-01 13:26:35 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-01 13:26:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-01 13:26:36 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("General/loadingBar"), 15): Web element with id: 'Object Repository/General/loadingBar' located by 'By.cssSelector: div[class="bar"][style~="width:"]' is not present after '15' second(s)
+
+2019-04-01 13:26:38 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/General/loadingBar' located by 'By.cssSelector: div[class="bar"][style~="width:"]' is not present after '15' second(s)
+
+2019-04-01 13:26:38 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Task Tracking/taskTrackingView"), 15): Object 'Object Repository/Command and Control/Task Tracking/taskTrackingView' is visible
+
+2019-04-01 13:26:38 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/taskTrackingView' is visible
+
+2019-04-01 13:26:38 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Task Tracking/taskTrackingView"), 5): Object 'Object Repository/Command and Control/Task Tracking/taskTrackingView' is present and visible in viewport
+
+2019-04-01 13:26:38 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/taskTrackingView' is present and visible in viewport
+
+2019-04-01 13:26:38 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("General/loadingBar"), 15): Web element with id: 'Object Repository/General/loadingBar' located by 'By.cssSelector: div[class="bar"][style~="width:"]' is not present after '15' second(s)
+
+2019-04-01 13:26:38 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/General/loadingBar' located by 'By.cssSelector: div[class="bar"][style~="width:"]' is not present after '15' second(s)
+
+2019-04-01 13:26:38 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Task Tracking/taskTrackingView"), 15): Object 'Object Repository/Command and Control/Task Tracking/taskTrackingView' is visible
+
+2019-04-01 13:26:38 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/taskTrackingView' is visible
+
+2019-04-01 13:26:38 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Task Tracking/taskTrackingView"), 5): Object 'Object Repository/Command and Control/Task Tracking/taskTrackingView' is present and visible in viewport
+
+2019-04-01 13:26:38 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/taskTrackingView' is present and visible in viewport
+
+2019-04-01 13:26:38 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Task Tracking/header"), 15): Object 'Object Repository/Command and Control/Task Tracking/header' is visible
+
+2019-04-01 13:26:38 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/header' is visible
+
+2019-04-01 13:26:38 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Task Tracking/header"), 5): Object 'Object Repository/Command and Control/Task Tracking/header' is present and visible in viewport
+
+2019-04-01 13:26:38 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/header' is present and visible in viewport
+
+2019-04-01 13:26:38 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Task Tracking/map"), 15): Object 'Object Repository/Command and Control/Task Tracking/map' is visible
+
+2019-04-01 13:26:38 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/map' is visible
+
+2019-04-01 13:26:38 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Task Tracking/map"), 5): Object 'Object Repository/Command and Control/Task Tracking/map' is present and visible in viewport
+
+2019-04-01 13:26:38 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/map' is present and visible in viewport
+
+2019-04-01 13:26:38 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Task Tracking/exeptionsTabHref"), 15): Object 'Object Repository/Command and Control/Task Tracking/exeptionsTabHref' is visible
+
+2019-04-01 13:26:38 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/exeptionsTabHref' is visible
+
+2019-04-01 13:26:38 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-01 13:26:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-01 13:26:39 - [TEST_STEP][PASSED] - click(findTestObject("Command and Control/Task Tracking/exeptionsTabHref"), STOP_ON_FAILURE): Object: 'Object Repository/Command and Control/Task Tracking/exeptionsTabHref' is clicked on
+
+2019-04-01 13:26:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Command and Control/Task Tracking/exeptionsTabHref' is clicked on
+
+2019-04-01 13:26:39 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-01 13:26:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-01 13:26:40 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Task Tracking/exeptionsTable"), 15): Object 'Object Repository/Command and Control/Task Tracking/exeptionsTable' is visible
+
+2019-04-01 13:26:40 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/exeptionsTable' is visible
+
+2019-04-01 13:26:40 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Task Tracking/exeptionsTable"), 5): Object 'Object Repository/Command and Control/Task Tracking/exeptionsTable' is present and visible in viewport
+
+2019-04-01 13:26:40 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/exeptionsTable' is present and visible in viewport
+
+2019-04-01 13:26:40 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Task Tracking/remarks"), 15): Object 'Object Repository/Command and Control/Task Tracking/remarks' is visible
+
+2019-04-01 13:26:40 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/remarks' is visible
+
+2019-04-01 13:26:40 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Task Tracking/remarks"), 5): Object 'Object Repository/Command and Control/Task Tracking/remarks' is present and visible in viewport
+
+2019-04-01 13:26:40 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/remarks' is present and visible in viewport
+
+2019-04-01 13:26:40 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Task Tracking/statusCheck"), 15): Object 'Object Repository/Command and Control/Task Tracking/statusCheck' is visible
+
+2019-04-01 13:26:40 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/statusCheck' is visible
+
+2019-04-01 13:26:40 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Task Tracking/statusCheck"), 5): Object 'Object Repository/Command and Control/Task Tracking/statusCheck' is present and visible in viewport
+
+2019-04-01 13:26:41 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/statusCheck' is present and visible in viewport
+
+2019-04-01 13:26:41 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Task Tracking/stationsTabHref"), 15): Object 'Object Repository/Command and Control/Task Tracking/stationsTabHref' is visible
+
+2019-04-01 13:26:41 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/stationsTabHref' is visible
+
+2019-04-01 13:26:41 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-01 13:26:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-01 13:26:42 - [TEST_STEP][PASSED] - click(findTestObject("Command and Control/Task Tracking/stationsTabHref"), STOP_ON_FAILURE): Object: 'Object Repository/Command and Control/Task Tracking/stationsTabHref' is clicked on
+
+2019-04-01 13:26:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Command and Control/Task Tracking/stationsTabHref' is clicked on
+
+2019-04-01 13:26:42 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-01 13:26:43 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-01 13:26:43 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Task Tracking/stationsTable"), 15): Object 'Object Repository/Command and Control/Task Tracking/stationsTable' is visible
+
+2019-04-01 13:26:43 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/stationsTable' is visible
+
+2019-04-01 13:26:43 - [TEST_STEP][PASSED] - verifyElementVisibleInViewport(findTestObject("Command and Control/Task Tracking/stationsTable"), 5): Object 'Object Repository/Command and Control/Task Tracking/stationsTable' is present and visible in viewport
+
+2019-04-01 13:26:43 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/stationsTable' is present and visible in viewport
+
+2019-04-01 13:26:43 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Command and Control/Task Tracking/close"), 15): Object 'Object Repository/Command and Control/Task Tracking/close' is visible
+
+2019-04-01 13:26:43 - [MESSAGE][PASSED] - Object 'Object Repository/Command and Control/Task Tracking/close' is visible
+
+2019-04-01 13:26:43 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-01 13:26:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-01 13:26:44 - [TEST_STEP][PASSED] - click(findTestObject("Command and Control/Task Tracking/close"), STOP_ON_FAILURE): Object: 'Object Repository/Command and Control/Task Tracking/close' is clicked on
+
+2019-04-01 13:26:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Command and Control/Task Tracking/close' is clicked on
+
+2019-04-01 13:26:44 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-01 13:26:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-01 13:26:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-01 13:26:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-01 13:24:35 - [TEST_SUITE][PASSED] - Command and Control: Test Cases/Command and Control/Control tasks]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Pre Salary</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>15</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>094430e0-8d81-4555-812b-5f24d7e273a0</testSuiteGuid>
+   <testCaseLink>
+      <guid>74efe2a5-50bc-404d-843a-792476df082c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Pre-Salary/One Driver Calc</testCaseId>
+      <testDataLink>
+         <combinationType>MANY</combinationType>
+         <id>e094a0c2-1e52-4e4f-ad14-20062589f3d9</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value>2</value>
+         </iterationEntity>
+         <testDataId>Data Files/preSalaryTests/oneDriverCalcTest(stage)</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>e094a0c2-1e52-4e4f-ad14-20062589f3d9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>site</value>
+         <variableId>95acc41b-f0b2-467b-be78-d860cdc99c46</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e094a0c2-1e52-4e4f-ad14-20062589f3d9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>userName</value>
+         <variableId>f93d38fc-b7ff-4aa6-bc24-237335407610</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e094a0c2-1e52-4e4f-ad14-20062589f3d9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>userPass</value>
+         <variableId>a19fae4c-7c7f-43c8-87d6-9f9ccff1613c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e094a0c2-1e52-4e4f-ad14-20062589f3d9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>driver_Id</value>
+         <variableId>274de70b-9a75-4b05-9ccc-570efac81eaf</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

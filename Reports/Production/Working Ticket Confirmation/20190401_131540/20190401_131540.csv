@@ -1,0 +1,50 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Working Ticket Confirmation,Chrome 73.0.3683.86,,2019-04-01 13:30:15,2019-04-01 13:30:51,35.366s,PASSED
+,,,,,,
+Test Cases/Working Tciket Confirmation/Working Ticket Sanity,Chrome 73.0.3683.86,,2019-04-01 13:30:16,2019-04-01 13:30:51,35.032s,PASSED
+"login.c_login.logIn(site, userName, userPass)",Chrome 73.0.3683.86,,2019-04-01 13:30:16,2019-04-01 13:30:29,12.509s,PASSED
+delay(1),Chrome 73.0.3683.86,login,2019-04-01 13:30:29,2019-04-01 13:30:30,1.027s,PASSED
+"waitForElementPresent(findTestObject(""General/mainEmptyBackground""), 15)",Chrome 73.0.3683.86,enter drivers ticket confiramtion view,2019-04-01 13:30:30,2019-04-01 13:30:30,0.543s,PASSED
+"isWorkingTicketOpen = waitForElementPresent(findTestObject(""Nav Bar/Nav Bar Funds/workingTicketConfirmation""), 5)",Chrome 73.0.3683.86,,2019-04-01 13:30:30,2019-04-01 13:30:36,5.467s,PASSED
+if (!(isWorkingTicketOpen)),Chrome 73.0.3683.86,,2019-04-01 13:30:36,2019-04-01 13:30:37,1.312s,PASSED
+delay(1),Chrome 73.0.3683.86,,2019-04-01 13:30:37,2019-04-01 13:30:38,1.003s,PASSED
+"waitForElementVisible(findTestObject(""Driver Ticket Confirmation/driverTciketView""), 15)",Chrome 73.0.3683.86,wait for loading,2019-04-01 13:30:38,2019-04-01 13:30:38,0.080s,PASSED
+"waitForElementNotPresent(findTestObject(""General/loadingBar""), 15)",Chrome 73.0.3683.86,,2019-04-01 13:30:38,2019-04-01 13:30:40,1.764s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Driver Ticket Confirmation/driverTciketView""), 5)",Chrome 73.0.3683.86,,2019-04-01 13:30:40,2019-04-01 13:30:40,0.079s,PASSED
+"waitForElementNotPresent(findTestObject(""General/dropdownListSpinner""), 15)",Chrome 73.0.3683.86,,2019-04-01 13:30:40,2019-04-01 13:30:40,0.024s,PASSED
+"verifyElementNotPresent(findTestObject(""General/dropdownListSpinner""), 5)",Chrome 73.0.3683.86,,2019-04-01 13:30:40,2019-04-01 13:30:40,0.031s,PASSED
+"waitForElementNotPresent(findTestObject(""General/gridLoadingBar""), 15)",Chrome 73.0.3683.86,,2019-04-01 13:30:40,2019-04-01 13:30:40,0.024s,PASSED
+"verifyElementNotPresent(findTestObject(""General/gridLoadingBar""), 5)",Chrome 73.0.3683.86,,2019-04-01 13:30:40,2019-04-01 13:30:40,0.022s,PASSED
+"waitForElementPresent(findTestObject(""Driver Ticket Confirmation/driversTable""), 15)",Chrome 73.0.3683.86,check if tables exist,2019-04-01 13:30:40,2019-04-01 13:30:40,0.027s,PASSED
+"verifyElementPresent(findTestObject(""Driver Ticket Confirmation/driversTable""), 5)",Chrome 73.0.3683.86,,2019-04-01 13:30:40,2019-04-01 13:30:40,0.028s,PASSED
+"waitForElementPresent(findTestObject(""Driver Ticket Confirmation/datesTable""), 15)",Chrome 73.0.3683.86,,2019-04-01 13:30:40,2019-04-01 13:30:40,0.025s,PASSED
+"verifyElementPresent(findTestObject(""Driver Ticket Confirmation/datesTable""), 5)",Chrome 73.0.3683.86,,2019-04-01 13:30:40,2019-04-01 13:30:40,0.020s,PASSED
+"waitForElementPresent(findTestObject(""Driver Ticket Confirmation/specificDateTable""), 15)",Chrome 73.0.3683.86,,2019-04-01 13:30:40,2019-04-01 13:30:40,0.022s,PASSED
+"verifyElementPresent(findTestObject(""Driver Ticket Confirmation/specificDateTable""), 5)",Chrome 73.0.3683.86,,2019-04-01 13:30:40,2019-04-01 13:30:40,0.018s,PASSED
+i = 0,Chrome 73.0.3683.86,,2019-04-01 13:30:40,2019-04-01 13:30:40,0.001s,PASSED
+j = 0,Chrome 73.0.3683.86,,2019-04-01 13:30:40,2019-04-01 13:30:40,0.000s,PASSED
+ij = 0,Chrome 73.0.3683.86,,2019-04-01 13:30:40,2019-04-01 13:30:40,0.000s,PASSED
+validCount = 0,Chrome 73.0.3683.86,,2019-04-01 13:30:40,2019-04-01 13:30:40,0.001s,PASSED
+validCountMax = 3,Chrome 73.0.3683.86,,2019-04-01 13:30:40,2019-04-01 13:30:40,0.000s,PASSED
+driversTableRow = new com.kms.katalon.core.testobject.TestObject(Empty),Chrome 73.0.3683.86,,2019-04-01 13:30:40,2019-04-01 13:30:40,0.005s,PASSED
+datesTableRow = new com.kms.katalon.core.testobject.TestObject(Empty),Chrome 73.0.3683.86,,2019-04-01 13:30:40,2019-04-01 13:30:40,0.000s,PASSED
+specificDateTableRow = new com.kms.katalon.core.testobject.TestObject(Empty),Chrome 73.0.3683.86,,2019-04-01 13:30:40,2019-04-01 13:30:40,0.001s,PASSED
+while (validCount < validCountMax && i < 20),Chrome 73.0.3683.86,,2019-04-01 13:30:40,2019-04-01 13:30:40,0.008s,PASSED
+return ((.//*[@id='managementKioskview']//div[2]//div[1]//div[2]//div[1]//div[2]//div[1]//table//tr[ + (rowNum + 1)) + ]),Chrome 73.0.3683.86,,2019-04-01 13:30:40,2019-04-01 13:30:42,1.216s,PASSED
+return ((.//*[@id='managementKioskview']//div[2]//div[1]//div[4]//div[1]//div[2]//table//tr[ + (rowNum + 1)) + ]),Chrome 73.0.3683.86,,2019-04-01 13:30:42,2019-04-01 13:30:43,1.142s,PASSED
+return ((.//*[@id='managementKioskview']/div[1]/div[2]/div[2]/div[1]/div[3]/div[1]/div[2]//table//tr[ + (rowNum + 1)) + ]),Chrome 73.0.3683.86,,2019-04-01 13:30:43,2019-04-01 13:30:43,0.619s,PASSED
+return ((.//*[@id='managementKioskview']/div[1]/div[2]/div[2]/div[1]/div[3]/div[1]/div[2]//table//tr[ + (rowNum + 1)) + ]),Chrome 73.0.3683.86,,2019-04-01 13:30:43,2019-04-01 13:30:44,0.108s,PASSED
+return ((.//*[@id='managementKioskview']/div[1]/div[2]/div[2]/div[1]/div[3]/div[1]/div[2]//table//tr[ + (rowNum + 1)) + ]),Chrome 73.0.3683.86,,2019-04-01 13:30:44,2019-04-01 13:30:44,0.107s,PASSED
+return ((.//*[@id='managementKioskview']//div[2]//div[1]//div[2]//div[1]//div[2]//div[1]//table//tr[ + (rowNum + 1)) + ]),Chrome 73.0.3683.86,,2019-04-01 13:30:44,2019-04-01 13:30:45,1.199s,PASSED
+return ((.//*[@id='managementKioskview']//div[2]//div[1]//div[4]//div[1]//div[2]//table//tr[ + (rowNum + 1)) + ]),Chrome 73.0.3683.86,,2019-04-01 13:30:45,2019-04-01 13:30:46,1.124s,PASSED
+return ((.//*[@id='managementKioskview']/div[1]/div[2]/div[2]/div[1]/div[3]/div[1]/div[2]//table//tr[ + (rowNum + 1)) + ]),Chrome 73.0.3683.86,,2019-04-01 13:30:46,2019-04-01 13:30:47,0.622s,PASSED
+return ((.//*[@id='managementKioskview']/div[1]/div[2]/div[2]/div[1]/div[3]/div[1]/div[2]//table//tr[ + (rowNum + 1)) + ]),Chrome 73.0.3683.86,,2019-04-01 13:30:47,2019-04-01 13:30:47,0.088s,PASSED
+return ((.//*[@id='managementKioskview']/div[1]/div[2]/div[2]/div[1]/div[3]/div[1]/div[2]//table//tr[ + (rowNum + 1)) + ]),Chrome 73.0.3683.86,,2019-04-01 13:30:47,2019-04-01 13:30:47,0.093s,PASSED
+return ((.//*[@id='managementKioskview']//div[2]//div[1]//div[2]//div[1]//div[2]//div[1]//table//tr[ + (rowNum + 1)) + ]),Chrome 73.0.3683.86,,2019-04-01 13:30:47,2019-04-01 13:30:48,1.196s,PASSED
+return ((.//*[@id='managementKioskview']//div[2]//div[1]//div[4]//div[1]//div[2]//table//tr[ + (rowNum + 1)) + ]),Chrome 73.0.3683.86,,2019-04-01 13:30:48,2019-04-01 13:30:49,1.162s,PASSED
+return ((.//*[@id='managementKioskview']/div[1]/div[2]/div[2]/div[1]/div[3]/div[1]/div[2]//table//tr[ + (rowNum + 1)) + ]),Chrome 73.0.3683.86,,2019-04-01 13:30:49,2019-04-01 13:30:50,0.602s,PASSED
+return ((.//*[@id='managementKioskview']/div[1]/div[2]/div[2]/div[1]/div[3]/div[1]/div[2]//table//tr[ + (rowNum + 1)) + ]),Chrome 73.0.3683.86,,2019-04-01 13:30:50,2019-04-01 13:30:50,0.093s,PASSED
+return ((.//*[@id='managementKioskview']/div[1]/div[2]/div[2]/div[1]/div[3]/div[1]/div[2]//table//tr[ + (rowNum + 1)) + ]),Chrome 73.0.3683.86,,2019-04-01 13:30:50,2019-04-01 13:30:50,0.091s,PASSED
+if (validCount < 3),Chrome 73.0.3683.86,,2019-04-01 13:30:50,2019-04-01 13:30:50,0.000s,PASSED
+"click(findTestObject(""Driver Ticket Confirmation/driversTcicketConfirmation_Close""))",Chrome 73.0.3683.86,,2019-04-01 13:30:50,2019-04-01 13:30:50,0.160s,PASSED
+closeBrowser(),Chrome 73.0.3683.86,,2019-04-01 13:30:50,2019-04-01 13:30:51,0.745s,PASSED
