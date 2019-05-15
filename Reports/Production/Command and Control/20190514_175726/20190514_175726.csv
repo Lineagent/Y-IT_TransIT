@@ -1,0 +1,170 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Command and Control,Chrome 74.0.3729.131,,2019-05-14 18:14:08,2019-05-14 18:19:06,4m - 58.386s,PASSED
+,,,,,,
+Test Cases/Command and Control/Control tasks,Chrome 74.0.3729.131,,2019-05-14 18:14:08,2019-05-14 18:15:50,1m - 42.515s,PASSED
+"login.c_login.logIn(site, userName, userPass)",Chrome 74.0.3729.131,,2019-05-14 18:14:09,2019-05-14 18:14:44,35.217s,PASSED
+delay(1),Chrome 74.0.3729.131,"login
+",2019-05-14 18:14:44,2019-05-14 18:14:45,1.023s,PASSED
+"waitForElementPresent(findTestObject(""General/mainEmptyBackground""), 15)",Chrome 74.0.3729.131,,2019-05-14 18:14:45,2019-05-14 18:14:57,12.127s,PASSED
+"waitForElementPresent(findTestObject(""Nav Bar/commandAndControl""), 15)",Chrome 74.0.3729.131,,2019-05-14 18:14:57,2019-05-14 18:14:58,1.058s,PASSED
+"waitForElementNotPresent(findTestObject(""General/loadingBar""), 15)",Chrome 74.0.3729.131,,2019-05-14 18:14:58,2019-05-14 18:15:10,11.615s,PASSED
+"isControldTasksOpen = waitForElementPresent(findTestObject(""Command and Control/Tasks Control/taskControlView""), 15)",Chrome 74.0.3729.131,check if task control view is already open,2019-05-14 18:15:10,2019-05-14 18:15:25,15.521s,PASSED
+if (!(isControldTasksOpen)),Chrome 74.0.3729.131,if task control view is not open then open it,2019-05-14 18:15:25,2019-05-14 18:15:26,1.255s,PASSED
+"waitForElementPresent(findTestObject(""Command and Control/Tasks Control/taskControlView""), 15)",Chrome 74.0.3729.131,,2019-05-14 18:15:26,2019-05-14 18:15:26,0.022s,PASSED
+"waitForElementNotPresent(findTestObject(""General/loadingBar""), 15)",Chrome 74.0.3729.131,,2019-05-14 18:15:26,2019-05-14 18:15:26,0.021s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-14 18:15:26,2019-05-14 18:15:27,1.002s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Tasks Control/dateField""), 15)",Chrome 74.0.3729.131,check if date field exist,2019-05-14 18:15:27,2019-05-14 18:15:27,0.066s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Command and Control/Tasks Control/dateField""), 5)",Chrome 74.0.3729.131,,2019-05-14 18:15:27,2019-05-14 18:15:28,0.102s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Tasks Control/footer""), 15)",Chrome 74.0.3729.131,check if footer exist,2019-05-14 18:15:28,2019-05-14 18:15:28,0.043s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Command and Control/Tasks Control/footer""), 5)",Chrome 74.0.3729.131,,2019-05-14 18:15:28,2019-05-14 18:15:28,0.061s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Tasks Control/mainTable""), 15)",Chrome 74.0.3729.131,check if main table exist,2019-05-14 18:15:28,2019-05-14 18:15:38,10.571s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Command and Control/Tasks Control/mainTable""), 5)",Chrome 74.0.3729.131,,2019-05-14 18:15:38,2019-05-14 18:15:38,0.083s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Tasks Control/tableFirstLine""), 15)",Chrome 74.0.3729.131,check if first line exist in table,2019-05-14 18:15:38,2019-05-14 18:15:38,0.048s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Command and Control/Tasks Control/tableFirstLine""), 5)",Chrome 74.0.3729.131,,2019-05-14 18:15:38,2019-05-14 18:15:38,0.062s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Tasks Control/upperLeftFirstLine""), 15)",Chrome 74.0.3729.131,check if upper left elemnt has content,2019-05-14 18:15:38,2019-05-14 18:15:39,0.554s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Command and Control/Tasks Control/upperLeftFirstLine""), 5)",Chrome 74.0.3729.131,,2019-05-14 18:15:39,2019-05-14 18:15:39,0.059s,PASSED
+"doubleClick(findTestObject(""Command and Control/Tasks Control/tableFirstLine""))",Chrome 74.0.3729.131,enter a task,2019-05-14 18:15:39,2019-05-14 18:15:39,0.168s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-14 18:15:39,2019-05-14 18:15:40,1.004s,PASSED
+"waitForElementNotPresent(findTestObject(""General/loadingBar""), 15)",Chrome 74.0.3729.131,,2019-05-14 18:15:40,2019-05-14 18:15:42,1.955s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Task Tracking/taskTrackingView""), 15)",Chrome 74.0.3729.131,check task tracking view exist,2019-05-14 18:15:42,2019-05-14 18:15:42,0.044s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Command and Control/Task Tracking/taskTrackingView""), 5)",Chrome 74.0.3729.131,,2019-05-14 18:15:42,2019-05-14 18:15:42,0.054s,PASSED
+"waitForElementNotPresent(findTestObject(""General/loadingBar""), 15)",Chrome 74.0.3729.131,,2019-05-14 18:15:42,2019-05-14 18:15:42,0.019s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Task Tracking/taskTrackingView""), 15)",Chrome 74.0.3729.131,check if task tracking is open,2019-05-14 18:15:42,2019-05-14 18:15:42,0.029s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Command and Control/Task Tracking/taskTrackingView""), 5)",Chrome 74.0.3729.131,,2019-05-14 18:15:42,2019-05-14 18:15:42,0.054s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Task Tracking/header""), 15)",Chrome 74.0.3729.131,check if header exist,2019-05-14 18:15:42,2019-05-14 18:15:42,0.042s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Command and Control/Task Tracking/header""), 5)",Chrome 74.0.3729.131,,2019-05-14 18:15:42,2019-05-14 18:15:42,0.055s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Task Tracking/map""), 15)",Chrome 74.0.3729.131,check if map exist,2019-05-14 18:15:42,2019-05-14 18:15:42,0.045s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Command and Control/Task Tracking/map""), 5)",Chrome 74.0.3729.131,,2019-05-14 18:15:42,2019-05-14 18:15:43,0.056s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Task Tracking/exeptionsTabHref""), 15)",Chrome 74.0.3729.131,move to exeptions tab,2019-05-14 18:15:43,2019-05-14 18:15:43,0.047s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-14 18:15:43,2019-05-14 18:15:44,1.002s,PASSED
+"click(findTestObject(""Command and Control/Task Tracking/exeptionsTabHref""), STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-14 18:15:44,2019-05-14 18:15:44,0.162s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-14 18:15:44,2019-05-14 18:15:45,1.001s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Task Tracking/exeptionsTable""), 15)",Chrome 74.0.3729.131,check if exeptions table exist,2019-05-14 18:15:45,2019-05-14 18:15:45,0.043s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Command and Control/Task Tracking/exeptionsTable""), 5)",Chrome 74.0.3729.131,,2019-05-14 18:15:45,2019-05-14 18:15:45,0.052s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Task Tracking/remarks""), 15)",Chrome 74.0.3729.131,check if remarks exist,2019-05-14 18:15:45,2019-05-14 18:15:45,0.041s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Command and Control/Task Tracking/remarks""), 5)",Chrome 74.0.3729.131,,2019-05-14 18:15:45,2019-05-14 18:15:45,0.049s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Task Tracking/statusCheck""), 15)",Chrome 74.0.3729.131,check if status check exist,2019-05-14 18:15:45,2019-05-14 18:15:45,0.045s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Command and Control/Task Tracking/statusCheck""), 5)",Chrome 74.0.3729.131,,2019-05-14 18:15:45,2019-05-14 18:15:45,0.055s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Task Tracking/stationsTabHref""), 15)",Chrome 74.0.3729.131,move to stations tab,2019-05-14 18:15:45,2019-05-14 18:15:45,0.044s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-14 18:15:45,2019-05-14 18:15:46,1.003s,PASSED
+"click(findTestObject(""Command and Control/Task Tracking/stationsTabHref""), STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-14 18:15:46,2019-05-14 18:15:46,0.139s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-14 18:15:46,2019-05-14 18:15:47,1.003s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Task Tracking/stationsTable""), 15)",Chrome 74.0.3729.131,check if status check exist,2019-05-14 18:15:47,2019-05-14 18:15:47,0.055s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Command and Control/Task Tracking/stationsTable""), 5)",Chrome 74.0.3729.131,,2019-05-14 18:15:47,2019-05-14 18:15:47,0.058s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Task Tracking/close""), 15)",Chrome 74.0.3729.131,close task tracking,2019-05-14 18:15:47,2019-05-14 18:15:47,0.043s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-14 18:15:47,2019-05-14 18:15:48,1.003s,PASSED
+"click(findTestObject(""Command and Control/Task Tracking/close""), STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-14 18:15:48,2019-05-14 18:15:49,0.171s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-14 18:15:49,2019-05-14 18:15:50,1.004s,PASSED
+closeBrowser(),Chrome 74.0.3729.131,,2019-05-14 18:15:50,2019-05-14 18:15:50,0.792s,PASSED
+,,,,,,
+Test Cases/Command and Control/Control tasks,Chrome 74.0.3729.131,,2019-05-14 18:15:50,2019-05-14 18:17:58,2m - 8.065s,PASSED
+"login.c_login.logIn(site, userName, userPass)",Chrome 74.0.3729.131,,2019-05-14 18:15:50,2019-05-14 18:17:07,1m - 16.234s,PASSED
+delay(1),Chrome 74.0.3729.131,"login
+",2019-05-14 18:17:07,2019-05-14 18:17:08,1.003s,PASSED
+"waitForElementPresent(findTestObject(""General/mainEmptyBackground""), 15)",Chrome 74.0.3729.131,,2019-05-14 18:17:08,2019-05-14 18:17:23,15.491s,PASSED
+"waitForElementPresent(findTestObject(""Nav Bar/commandAndControl""), 15)",Chrome 74.0.3729.131,,2019-05-14 18:17:23,2019-05-14 18:17:25,2.084s,PASSED
+"waitForElementNotPresent(findTestObject(""General/loadingBar""), 15)",Chrome 74.0.3729.131,,2019-05-14 18:17:25,2019-05-14 18:17:34,8.281s,PASSED
+"isControldTasksOpen = waitForElementPresent(findTestObject(""Command and Control/Tasks Control/taskControlView""), 15)",Chrome 74.0.3729.131,check if task control view is already open,2019-05-14 18:17:34,2019-05-14 18:17:34,0.034s,PASSED
+if (!(isControldTasksOpen)),Chrome 74.0.3729.131,if task control view is not open then open it,2019-05-14 18:17:34,2019-05-14 18:17:34,0.000s,PASSED
+"waitForElementPresent(findTestObject(""Command and Control/Tasks Control/taskControlView""), 15)",Chrome 74.0.3729.131,,2019-05-14 18:17:34,2019-05-14 18:17:34,0.017s,PASSED
+"waitForElementNotPresent(findTestObject(""General/loadingBar""), 15)",Chrome 74.0.3729.131,,2019-05-14 18:17:34,2019-05-14 18:17:34,0.017s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-14 18:17:34,2019-05-14 18:17:35,1.002s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Tasks Control/dateField""), 15)",Chrome 74.0.3729.131,check if date field exist,2019-05-14 18:17:35,2019-05-14 18:17:35,0.061s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Command and Control/Tasks Control/dateField""), 5)",Chrome 74.0.3729.131,,2019-05-14 18:17:35,2019-05-14 18:17:35,0.061s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Tasks Control/footer""), 15)",Chrome 74.0.3729.131,check if footer exist,2019-05-14 18:17:35,2019-05-14 18:17:35,0.040s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Command and Control/Tasks Control/footer""), 5)",Chrome 74.0.3729.131,,2019-05-14 18:17:35,2019-05-14 18:17:35,0.059s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Tasks Control/mainTable""), 15)",Chrome 74.0.3729.131,check if main table exist,2019-05-14 18:17:35,2019-05-14 18:17:35,0.040s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Command and Control/Tasks Control/mainTable""), 5)",Chrome 74.0.3729.131,,2019-05-14 18:17:35,2019-05-14 18:17:35,0.053s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Tasks Control/tableFirstLine""), 15)",Chrome 74.0.3729.131,check if first line exist in table,2019-05-14 18:17:35,2019-05-14 18:17:35,0.038s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Command and Control/Tasks Control/tableFirstLine""), 5)",Chrome 74.0.3729.131,,2019-05-14 18:17:35,2019-05-14 18:17:35,0.048s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Tasks Control/upperLeftFirstLine""), 15)",Chrome 74.0.3729.131,check if upper left elemnt has content,2019-05-14 18:17:35,2019-05-14 18:17:47,11.922s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Command and Control/Tasks Control/upperLeftFirstLine""), 5)",Chrome 74.0.3729.131,,2019-05-14 18:17:47,2019-05-14 18:17:47,0.049s,PASSED
+"doubleClick(findTestObject(""Command and Control/Tasks Control/tableFirstLine""))",Chrome 74.0.3729.131,enter a task,2019-05-14 18:17:47,2019-05-14 18:17:47,0.159s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-14 18:17:47,2019-05-14 18:17:48,1.001s,PASSED
+"waitForElementNotPresent(findTestObject(""General/loadingBar""), 15)",Chrome 74.0.3729.131,,2019-05-14 18:17:48,2019-05-14 18:17:50,2.201s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Task Tracking/taskTrackingView""), 15)",Chrome 74.0.3729.131,check task tracking view exist,2019-05-14 18:17:50,2019-05-14 18:17:50,0.041s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Command and Control/Task Tracking/taskTrackingView""), 5)",Chrome 74.0.3729.131,,2019-05-14 18:17:50,2019-05-14 18:17:50,0.057s,PASSED
+"waitForElementNotPresent(findTestObject(""General/loadingBar""), 15)",Chrome 74.0.3729.131,,2019-05-14 18:17:50,2019-05-14 18:17:50,0.019s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Task Tracking/taskTrackingView""), 15)",Chrome 74.0.3729.131,check if task tracking is open,2019-05-14 18:17:50,2019-05-14 18:17:51,0.027s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Command and Control/Task Tracking/taskTrackingView""), 5)",Chrome 74.0.3729.131,,2019-05-14 18:17:51,2019-05-14 18:17:51,0.047s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Task Tracking/header""), 15)",Chrome 74.0.3729.131,check if header exist,2019-05-14 18:17:51,2019-05-14 18:17:51,0.041s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Command and Control/Task Tracking/header""), 5)",Chrome 74.0.3729.131,,2019-05-14 18:17:51,2019-05-14 18:17:51,0.053s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Task Tracking/map""), 15)",Chrome 74.0.3729.131,check if map exist,2019-05-14 18:17:51,2019-05-14 18:17:51,0.042s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Command and Control/Task Tracking/map""), 5)",Chrome 74.0.3729.131,,2019-05-14 18:17:51,2019-05-14 18:17:51,0.053s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Task Tracking/exeptionsTabHref""), 15)",Chrome 74.0.3729.131,move to exeptions tab,2019-05-14 18:17:51,2019-05-14 18:17:51,0.044s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-14 18:17:51,2019-05-14 18:17:52,1.002s,PASSED
+"click(findTestObject(""Command and Control/Task Tracking/exeptionsTabHref""), STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-14 18:17:52,2019-05-14 18:17:52,0.143s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-14 18:17:52,2019-05-14 18:17:53,1.001s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Task Tracking/exeptionsTable""), 15)",Chrome 74.0.3729.131,check if exeptions table exist,2019-05-14 18:17:53,2019-05-14 18:17:53,0.051s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Command and Control/Task Tracking/exeptionsTable""), 5)",Chrome 74.0.3729.131,,2019-05-14 18:17:53,2019-05-14 18:17:53,0.051s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Task Tracking/remarks""), 15)",Chrome 74.0.3729.131,check if remarks exist,2019-05-14 18:17:53,2019-05-14 18:17:53,0.036s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Command and Control/Task Tracking/remarks""), 5)",Chrome 74.0.3729.131,,2019-05-14 18:17:53,2019-05-14 18:17:53,0.061s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Task Tracking/statusCheck""), 15)",Chrome 74.0.3729.131,check if status check exist,2019-05-14 18:17:53,2019-05-14 18:17:53,0.036s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Command and Control/Task Tracking/statusCheck""), 5)",Chrome 74.0.3729.131,,2019-05-14 18:17:53,2019-05-14 18:17:53,0.049s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Task Tracking/stationsTabHref""), 15)",Chrome 74.0.3729.131,move to stations tab,2019-05-14 18:17:53,2019-05-14 18:17:53,0.036s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-14 18:17:53,2019-05-14 18:17:54,1.002s,PASSED
+"click(findTestObject(""Command and Control/Task Tracking/stationsTabHref""), STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-14 18:17:54,2019-05-14 18:17:54,0.124s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-14 18:17:54,2019-05-14 18:17:55,1.002s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Task Tracking/stationsTable""), 15)",Chrome 74.0.3729.131,check if status check exist,2019-05-14 18:17:55,2019-05-14 18:17:55,0.052s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Command and Control/Task Tracking/stationsTable""), 5)",Chrome 74.0.3729.131,,2019-05-14 18:17:55,2019-05-14 18:17:55,0.050s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Task Tracking/close""), 15)",Chrome 74.0.3729.131,close task tracking,2019-05-14 18:17:55,2019-05-14 18:17:56,0.035s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-14 18:17:56,2019-05-14 18:17:57,1.001s,PASSED
+"click(findTestObject(""Command and Control/Task Tracking/close""), STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-14 18:17:57,2019-05-14 18:17:57,0.205s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-14 18:17:57,2019-05-14 18:17:58,1.001s,PASSED
+closeBrowser(),Chrome 74.0.3729.131,,2019-05-14 18:17:58,2019-05-14 18:17:58,0.710s,PASSED
+,,,,,,
+Test Cases/Command and Control/Control tasks,Chrome 74.0.3729.131,,2019-05-14 18:17:58,2019-05-14 18:19:06,1m - 7.413s,PASSED
+"login.c_login.logIn(site, userName, userPass)",Chrome 74.0.3729.131,,2019-05-14 18:17:58,2019-05-14 18:18:20,21.651s,PASSED
+delay(1),Chrome 74.0.3729.131,"login
+",2019-05-14 18:18:20,2019-05-14 18:18:21,1.001s,PASSED
+"waitForElementPresent(findTestObject(""General/mainEmptyBackground""), 15)",Chrome 74.0.3729.131,,2019-05-14 18:18:21,2019-05-14 18:18:25,4.161s,PASSED
+"waitForElementPresent(findTestObject(""Nav Bar/commandAndControl""), 15)",Chrome 74.0.3729.131,,2019-05-14 18:18:25,2019-05-14 18:18:26,0.538s,PASSED
+"waitForElementNotPresent(findTestObject(""General/loadingBar""), 15)",Chrome 74.0.3729.131,,2019-05-14 18:18:26,2019-05-14 18:18:34,7.844s,PASSED
+"isControldTasksOpen = waitForElementPresent(findTestObject(""Command and Control/Tasks Control/taskControlView""), 15)",Chrome 74.0.3729.131,check if task control view is already open,2019-05-14 18:18:34,2019-05-14 18:18:49,15.507s,PASSED
+if (!(isControldTasksOpen)),Chrome 74.0.3729.131,if task control view is not open then open it,2019-05-14 18:18:49,2019-05-14 18:18:50,1.255s,PASSED
+"waitForElementPresent(findTestObject(""Command and Control/Tasks Control/taskControlView""), 15)",Chrome 74.0.3729.131,,2019-05-14 18:18:50,2019-05-14 18:18:50,0.022s,PASSED
+"waitForElementNotPresent(findTestObject(""General/loadingBar""), 15)",Chrome 74.0.3729.131,,2019-05-14 18:18:50,2019-05-14 18:18:50,0.021s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-14 18:18:50,2019-05-14 18:18:51,1.002s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Tasks Control/dateField""), 15)",Chrome 74.0.3729.131,check if date field exist,2019-05-14 18:18:51,2019-05-14 18:18:52,0.040s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Command and Control/Tasks Control/dateField""), 5)",Chrome 74.0.3729.131,,2019-05-14 18:18:52,2019-05-14 18:18:52,0.066s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Tasks Control/footer""), 15)",Chrome 74.0.3729.131,check if footer exist,2019-05-14 18:18:52,2019-05-14 18:18:52,0.039s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Command and Control/Tasks Control/footer""), 5)",Chrome 74.0.3729.131,,2019-05-14 18:18:52,2019-05-14 18:18:52,0.048s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Tasks Control/mainTable""), 15)",Chrome 74.0.3729.131,check if main table exist,2019-05-14 18:18:52,2019-05-14 18:18:55,3.073s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Command and Control/Tasks Control/mainTable""), 5)",Chrome 74.0.3729.131,,2019-05-14 18:18:55,2019-05-14 18:18:55,0.046s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Tasks Control/tableFirstLine""), 15)",Chrome 74.0.3729.131,check if first line exist in table,2019-05-14 18:18:55,2019-05-14 18:18:55,0.035s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Command and Control/Tasks Control/tableFirstLine""), 5)",Chrome 74.0.3729.131,,2019-05-14 18:18:55,2019-05-14 18:18:55,0.047s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Tasks Control/upperLeftFirstLine""), 15)",Chrome 74.0.3729.131,check if upper left elemnt has content,2019-05-14 18:18:55,2019-05-14 18:18:55,0.035s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Command and Control/Tasks Control/upperLeftFirstLine""), 5)",Chrome 74.0.3729.131,,2019-05-14 18:18:55,2019-05-14 18:18:55,0.052s,PASSED
+"doubleClick(findTestObject(""Command and Control/Tasks Control/tableFirstLine""))",Chrome 74.0.3729.131,enter a task,2019-05-14 18:18:55,2019-05-14 18:18:55,0.207s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-14 18:18:55,2019-05-14 18:18:56,1.002s,PASSED
+"waitForElementNotPresent(findTestObject(""General/loadingBar""), 15)",Chrome 74.0.3729.131,,2019-05-14 18:18:56,2019-05-14 18:18:58,1.611s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Task Tracking/taskTrackingView""), 15)",Chrome 74.0.3729.131,check task tracking view exist,2019-05-14 18:18:58,2019-05-14 18:18:58,0.035s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Command and Control/Task Tracking/taskTrackingView""), 5)",Chrome 74.0.3729.131,,2019-05-14 18:18:58,2019-05-14 18:18:58,0.058s,PASSED
+"waitForElementNotPresent(findTestObject(""General/loadingBar""), 15)",Chrome 74.0.3729.131,,2019-05-14 18:18:58,2019-05-14 18:18:58,0.017s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Task Tracking/taskTrackingView""), 15)",Chrome 74.0.3729.131,check if task tracking is open,2019-05-14 18:18:58,2019-05-14 18:18:58,0.030s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Command and Control/Task Tracking/taskTrackingView""), 5)",Chrome 74.0.3729.131,,2019-05-14 18:18:58,2019-05-14 18:18:58,0.058s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Task Tracking/header""), 15)",Chrome 74.0.3729.131,check if header exist,2019-05-14 18:18:58,2019-05-14 18:18:58,0.037s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Command and Control/Task Tracking/header""), 5)",Chrome 74.0.3729.131,,2019-05-14 18:18:58,2019-05-14 18:18:58,0.049s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Task Tracking/map""), 15)",Chrome 74.0.3729.131,check if map exist,2019-05-14 18:18:58,2019-05-14 18:18:58,0.036s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Command and Control/Task Tracking/map""), 5)",Chrome 74.0.3729.131,,2019-05-14 18:18:58,2019-05-14 18:18:58,0.054s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Task Tracking/exeptionsTabHref""), 15)",Chrome 74.0.3729.131,move to exeptions tab,2019-05-14 18:18:58,2019-05-14 18:18:58,0.035s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-14 18:18:58,2019-05-14 18:18:59,1.002s,PASSED
+"click(findTestObject(""Command and Control/Task Tracking/exeptionsTabHref""), STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-14 18:18:59,2019-05-14 18:18:59,0.122s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-14 18:18:59,2019-05-14 18:19:00,1.002s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Task Tracking/exeptionsTable""), 15)",Chrome 74.0.3729.131,check if exeptions table exist,2019-05-14 18:19:00,2019-05-14 18:19:00,0.058s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Command and Control/Task Tracking/exeptionsTable""), 5)",Chrome 74.0.3729.131,,2019-05-14 18:19:00,2019-05-14 18:19:00,0.046s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Task Tracking/remarks""), 15)",Chrome 74.0.3729.131,check if remarks exist,2019-05-14 18:19:00,2019-05-14 18:19:00,0.038s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Command and Control/Task Tracking/remarks""), 5)",Chrome 74.0.3729.131,,2019-05-14 18:19:00,2019-05-14 18:19:01,0.052s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Task Tracking/statusCheck""), 15)",Chrome 74.0.3729.131,check if status check exist,2019-05-14 18:19:01,2019-05-14 18:19:01,0.038s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Command and Control/Task Tracking/statusCheck""), 5)",Chrome 74.0.3729.131,,2019-05-14 18:19:01,2019-05-14 18:19:01,0.047s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Task Tracking/stationsTabHref""), 15)",Chrome 74.0.3729.131,move to stations tab,2019-05-14 18:19:01,2019-05-14 18:19:01,0.034s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-14 18:19:01,2019-05-14 18:19:02,1.001s,PASSED
+"click(findTestObject(""Command and Control/Task Tracking/stationsTabHref""), STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-14 18:19:02,2019-05-14 18:19:02,0.135s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-14 18:19:02,2019-05-14 18:19:03,1.002s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Task Tracking/stationsTable""), 15)",Chrome 74.0.3729.131,check if status check exist,2019-05-14 18:19:03,2019-05-14 18:19:03,0.064s,PASSED
+"verifyElementVisibleInViewport(findTestObject(""Command and Control/Task Tracking/stationsTable""), 5)",Chrome 74.0.3729.131,,2019-05-14 18:19:03,2019-05-14 18:19:03,0.052s,PASSED
+"waitForElementVisible(findTestObject(""Command and Control/Task Tracking/close""), 15)",Chrome 74.0.3729.131,close task tracking,2019-05-14 18:19:03,2019-05-14 18:19:03,0.035s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-14 18:19:03,2019-05-14 18:19:04,1.003s,PASSED
+"click(findTestObject(""Command and Control/Task Tracking/close""), STOP_ON_FAILURE)",Chrome 74.0.3729.131,,2019-05-14 18:19:04,2019-05-14 18:19:04,0.197s,PASSED
+delay(1),Chrome 74.0.3729.131,,2019-05-14 18:19:04,2019-05-14 18:19:05,1.002s,PASSED
+closeBrowser(),Chrome 74.0.3729.131,,2019-05-14 18:19:05,2019-05-14 18:19:06,0.718s,PASSED

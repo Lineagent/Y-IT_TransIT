@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Working Ticket Confirmation,Chrome 74.0.3729.131,,2019-05-14 18:21:40,2019-05-14 18:22:12,31.998s,FAILED
+,,,,,,
+Test Cases/Working Tciket Confirmation/Working Ticket Sanity,Chrome 74.0.3729.131,,2019-05-14 18:21:41,2019-05-14 18:22:12,30.968s,FAILED
+"login.c_login.logIn(site, userName, userPass)",Chrome 74.0.3729.131,,2019-05-14 18:21:41,2019-05-14 18:22:12,30.235s,FAILED

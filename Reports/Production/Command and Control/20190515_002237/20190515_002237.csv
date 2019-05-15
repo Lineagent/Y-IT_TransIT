@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Command and Control,Chrome 74.0.3729.131,,2019-05-15 00:34:16,2019-05-15 00:35:20,1m - 3.980s,FAILED
+,,,,,,
+Test Cases/Command and Control/Control tasks,Chrome 74.0.3729.131,,2019-05-15 00:34:16,2019-05-15 00:34:38,21.890s,FAILED
+"login.c_login.logIn(site, userName, userPass)",Chrome 74.0.3729.131,,2019-05-15 00:34:17,2019-05-15 00:34:38,21.215s,FAILED
+,,,,,,
+Test Cases/Command and Control/Control tasks,Chrome 74.0.3729.131,,2019-05-15 00:34:38,2019-05-15 00:34:59,20.635s,FAILED
+"login.c_login.logIn(site, userName, userPass)",Chrome 74.0.3729.131,,2019-05-15 00:34:38,2019-05-15 00:34:59,20.518s,FAILED
+,,,,,,
+Test Cases/Command and Control/Control tasks,Chrome 74.0.3729.131,,2019-05-15 00:34:59,2019-05-15 00:35:19,20.408s,FAILED
+"login.c_login.logIn(site, userName, userPass)",Chrome 74.0.3729.131,,2019-05-15 00:34:59,2019-05-15 00:35:19,20.383s,FAILED
