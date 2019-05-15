@@ -141,6 +141,10 @@ catch (Exception err) {
     WebUI.waitForElementPresent(findTestObject('Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable'), 20)
 
     WebUI.waitForElementPresent(findTestObject('Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable'), 20)
+	
+	if ((GlobalVariable.site.toString().contains('ebstage'))) {
+		WebUI.waitForElementPresent(findTestObject('Pre-Salary/Calculation Summary/firstDriverInCalculationSummeryTable'), 120)
+	}
 
     WebUI.verifyElementPresent(findTestObject('Pre-Salary/Calculation Summary/calculationSummeyTable'), 2)
 
